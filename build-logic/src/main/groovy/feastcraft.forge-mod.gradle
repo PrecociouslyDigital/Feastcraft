@@ -6,6 +6,14 @@ plugins {
     id 'net.neoforged.moddev.legacyforge'
 }
 
+// Every pack mod gets a `harness` run: a client that also loads the harness mod, which lets an agent
+// play it headlessly (see tools/harness). The harness is itself built with this plugin.
+def harnessPath = ':tools:harness'
+def harnessProject = project.path == harnessPath ? null : project(harnessPath)
+if (harnessProject != null) {
+    evaluationDependsOn(harnessPath)
+}
+
 version = mod_version
 group = mod_group_id
 base.archivesName = mod_id
@@ -19,6 +27,17 @@ legacyForge {
     parchment {
         mappingsVersion = parchment_mappings_version
         minecraftVersion = parchment_minecraft_version
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet sourceSets.main
+        }
+        if (harnessProject != null) {
+            "${harnessProject.mod_id}" {
+                sourceSet harnessProject.sourceSets.main
+            }
+        }
     }
 
     runs {
@@ -38,15 +57,48 @@ legacyForge {
                     '--output', file('src/generated/resources/').absolutePath,
                     '--existing', file('src/main/resources/').absolutePath
         }
+        if (harnessProject != null) {
+            harness {
+                client()
+                gameDirectory = file('run-harness')
+                systemProperty 'feastcraft.harness.port', '25580'
+                // Where the caller will find run-harness, which differs from this path inside a container.
+                systemProperty 'feastcraft.harness.hostGameDir',
+                        providers.environmentVariable('HARNESS_HOST_GAME_DIR').getOrElse(file('run-harness').absolutePath)
+                programArguments.addAll '--width', '1280', '--height', '720', '--username', 'Harness'
+            }
+        }
         configureEach {
             systemProperty 'forge.enabledGameTestNamespaces', mod_id
             logLevel = org.slf4j.event.Level.INFO
+            loadedMods = name == 'harness'
+                    ? [mods[mod_id], mods[harnessProject.mod_id]]
+                    : [mods[mod_id]]
         }
     }
+}
 
-    mods {
-        "${mod_id}" {
-            sourceSet sourceSets.main
+if (harnessProject != null) {
+    def copyHarnessTemplate = tasks.register('copyHarnessTemplate', Copy) {
+        from harnessProject.file('run-template')
+        into file('run-harness')
+    }
+    legacyForge.runs.harness.taskBefore copyHarnessTemplate
+
+    // Mojang's 1.20.1 manifest has no linux-arm64 natives, which an arm64 container (Docker on Apple
+    // silicon) needs. 3.3.1 is the LWJGL version Minecraft 1.20.1 pins.
+    if (System.getProperty('os.name') == 'Linux' && System.getProperty('os.arch') == 'aarch64') {
+        // Gradle fetches a module's files only from the repository that had its metadata, and
+        // Mojang's library repository has LWJGL without these natives.
+        repositories {
+            exclusiveContent {
+                forRepository { mavenCentral() }
+                filter { includeGroup 'org.lwjgl' }
+            }
+        }
+        def nativesConfiguration = legacyForge.runs.harness.additionalRuntimeClasspathConfiguration.name
+        ['lwjgl', 'lwjgl-glfw', 'lwjgl-openal', 'lwjgl-opengl', 'lwjgl-stb', 'lwjgl-jemalloc', 'lwjgl-tinyfd'].each {
+            dependencies.add(nativesConfiguration, "org.lwjgl:${it}:3.3.1:natives-linux-arm64")
         }
     }
 }

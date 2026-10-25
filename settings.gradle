@@ -9,3 +9,4 @@ plugins {
 rootProject.name = 'feastcraft'
 
 file('mods').eachDir { include ":mods:${it.name}" }
+include ':tools:harness'
