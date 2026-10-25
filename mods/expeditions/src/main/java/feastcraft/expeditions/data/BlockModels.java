@@ -19,6 +19,8 @@ final class BlockModels extends BlockStateProvider {
     protected void registerStatesAndModels() {
         withItem(ExpeditionsRegistry.HEARTH.get(), models().cubeBottomTop("hearth",
                 vanilla("blast_furnace_front_on"), vanilla("smooth_stone"), vanilla("blast_furnace_top")));
+        withItem(ExpeditionsRegistry.DEPARTURE_GATE.get(), models().cubeBottomTop("departure_gate",
+                vanilla("crying_obsidian"), vanilla("respawn_anchor_bottom"), vanilla("respawn_anchor_top")));
     }
 
     private void withItem(Block block, ModelFile model) {

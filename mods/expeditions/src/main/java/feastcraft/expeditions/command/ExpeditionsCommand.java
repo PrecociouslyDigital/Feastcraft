@@ -9,6 +9,7 @@ import feastcraft.expeditions.TickTime;
 import feastcraft.expeditions.base.BaseDimension;
 import feastcraft.expeditions.base.BaseFuel;
 import feastcraft.expeditions.base.FuelTank;
+import feastcraft.expeditions.expedition.Deployment;
 import feastcraft.expeditions.expedition.Expedition;
 import feastcraft.expeditions.expedition.RaidLedger;
 import java.util.function.UnaryOperator;
@@ -37,6 +38,7 @@ public final class ExpeditionsCommand {
     static void onRegisterCommands(RegisterCommandsEvent event) {
         event.getDispatcher().register(Commands.literal("expeditions")
                 .requires(source -> source.hasPermission(Commands.LEVEL_GAMEMASTERS))
+                .then(forPlayer("deploy", ExpeditionsCommand::deploy))
                 .then(forPlayer("recall", ExpeditionsCommand::recall))
                 .then(Commands.literal("raid").then(forPlayer("info", ExpeditionsCommand::raidInfo)))
                 .then(Commands.literal("fuel")
@@ -53,6 +55,16 @@ public final class ExpeditionsCommand {
                 .executes(context -> action.run(context, context.getSource().getPlayerOrException()))
                 .then(Commands.argument("player", EntityArgument.player())
                         .executes(context -> action.run(context, EntityArgument.getPlayer(context, "player"))));
+    }
+
+    private static int deploy(CommandContext<CommandSourceStack> context, ServerPlayer player) {
+        if (!Deployment.start(player)) {
+            context.getSource().sendFailure(Component.translatable("commands.feastcraft_expeditions.deploy.busy", player.getDisplayName()));
+            return 0;
+        }
+        context.getSource().sendSuccess(() -> Component.translatable(
+                "commands.feastcraft_expeditions.deploy", player.getDisplayName()), true);
+        return 1;
     }
 
     private static int recall(CommandContext<CommandSourceStack> context, ServerPlayer player) {

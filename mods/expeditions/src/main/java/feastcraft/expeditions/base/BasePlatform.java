@@ -38,6 +38,7 @@ public final class BasePlatform extends SavedData {
             }
         }
         base.setBlockAndUpdate(BaseDimension.SPAWN.east(2), ExpeditionsRegistry.HEARTH.get().defaultBlockState());
+        base.setBlockAndUpdate(BaseDimension.SPAWN.west(2), ExpeditionsRegistry.DEPARTURE_GATE.get().defaultBlockState());
     }
 
     private static BasePlatform load(CompoundTag tag) {

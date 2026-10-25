@@ -1,6 +1,7 @@
 package feastcraft.expeditions;
 
 import feastcraft.expeditions.base.HearthBlock;
+import feastcraft.expeditions.expedition.DepartureGateBlock;
 import java.util.function.Supplier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -20,6 +21,7 @@ public final class ExpeditionsRegistry {
     private static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Expeditions.MOD_ID);
 
     public static final RegistryObject<HearthBlock> HEARTH = block("hearth", HearthBlock::new);
+    public static final RegistryObject<DepartureGateBlock> DEPARTURE_GATE = block("departure_gate", DepartureGateBlock::new);
 
     static {
         TABS.register("main", () -> CreativeModeTab.builder()
