@@ -1,7 +1,11 @@
-// 1.20.1	2026-10-25T13:21:58.613833	Block States: feastcraft_expeditions
+// 1.20.1	2026-10-25T13:28:59.638898	Block States: feastcraft_expeditions
 22ebf0806675d5f07e4d61c3ac96d7f3b3fdfe12 assets/feastcraft_expeditions/blockstates/departure_gate.json
+c28734efe620db89095fbead44d1835bcbeba1d2 assets/feastcraft_expeditions/blockstates/exfil_beacon.json
 63997b42a2c55f695a9ad216567c0d06342c690a assets/feastcraft_expeditions/blockstates/hearth.json
 007478c0b9bcc2f537e718f611b8f91fe07ca06e assets/feastcraft_expeditions/models/block/departure_gate.json
+69a2c023d99f598988d15ab9e8b7463567da21b1 assets/feastcraft_expeditions/models/block/exfil_beacon.json
+d75b0692eaf9bfcf5f09a1143e94c190bd041ba5 assets/feastcraft_expeditions/models/block/exfil_beacon_spent.json
 3731534786cc26f975c777adfd5adbd3071ce817 assets/feastcraft_expeditions/models/block/hearth.json
 c351a2d0e11b0467e17d5c8d7b2fa5f3c93c700b assets/feastcraft_expeditions/models/item/departure_gate.json
+5032ba0a1520097962b48a69eff551a27c9cc335 assets/feastcraft_expeditions/models/item/exfil_beacon.json
 8d1e8f96aed12093c81fffbbadc966d3b6346644 assets/feastcraft_expeditions/models/item/hearth.json

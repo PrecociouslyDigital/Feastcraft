@@ -1,9 +1,12 @@
 package feastcraft.expeditions.expedition;
 
+import feastcraft.expeditions.ExpeditionsRegistry;
 import feastcraft.expeditions.base.BaseDimension;
+import feastcraft.expeditions.exfil.ExfilCompassItem;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.phys.Vec3;
 
 /**
@@ -27,8 +30,13 @@ public final class Expedition {
         RaidLedger ledger = RaidLedger.get(player.server);
         ledger.begin(player.getUUID(), new Raid(drop, overworld.getGameTime()));
         teleportToDrop(player, drop);
-        // Roll back the raid if the travel check vetoed the teleport.
-        if (player.level() != overworld) {
+        if (player.level() == overworld) {
+            ItemStack compass = ExfilCompassItem.pointingFrom(new ItemStack(ExpeditionsRegistry.EXFIL_COMPASS.get()), overworld, drop);
+            if (!player.getInventory().add(compass)) {
+                player.drop(compass, false);
+            }
+        } else {
+            // Roll back the raid if the travel check vetoed the teleport.
             ledger.end(player.getUUID());
         }
     }

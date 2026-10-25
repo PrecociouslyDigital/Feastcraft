@@ -1,10 +1,12 @@
 package feastcraft.expeditions.gametest;
 
+import static feastcraft.expeditions.gametest.TestFixtures.PLENTY_OF_FUEL;
+import static feastcraft.expeditions.gametest.TestFixtures.base;
+import static feastcraft.expeditions.gametest.TestFixtures.setFuel;
+
 import feastcraft.expeditions.Expeditions;
 import feastcraft.expeditions.base.BaseBounds;
 import feastcraft.expeditions.base.BaseDimension;
-import feastcraft.expeditions.base.BaseFuel;
-import feastcraft.expeditions.base.FuelTank;
 import java.util.UUID;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -39,7 +41,6 @@ import net.minecraftforge.gametest.PrefixGameTestTemplate;
 @GameTestHolder(Expeditions.MOD_ID)
 @PrefixGameTestTemplate(false)
 public final class StasisTests {
-    private static final long PLENTY = 1_000_000;
     private static final UUID TEST_TICKETS = UUID.nameUUIDFromBytes("feastcraft_expeditions:stasis_tests".getBytes());
 
     private StasisTests() {
@@ -57,7 +58,7 @@ public final class StasisTests {
                 .thenIdle(250)
                 .thenExecute(() -> {
                     helper.assertTrue(furnace.getItem(2).isEmpty(), "a frozen base's furnace smelted");
-                    setFuel(base, PLENTY);
+                    setFuel(base, PLENTY_OF_FUEL);
                 })
                 .thenWaitUntil(() -> helper.assertTrue(furnace.getItem(2).is(Items.IRON_INGOT), "the fueled furnace has not smelted yet"))
                 .thenExecute(() -> {
@@ -85,7 +86,7 @@ public final class StasisTests {
                 .thenIdle(100)
                 .thenExecute(() -> {
                     helper.assertTrue(base.getBlockState(crop).getValue(CropBlock.AGE) == 0, "wheat grew in a frozen base");
-                    setFuel(base, PLENTY);
+                    setFuel(base, PLENTY_OF_FUEL);
                 })
                 .thenWaitUntil(() -> helper.assertTrue(base.getBlockState(crop).getValue(CropBlock.AGE) > 0, "the fueled wheat has not grown yet"))
                 .thenExecute(() -> {
@@ -133,7 +134,7 @@ public final class StasisTests {
         BaseBounds bounds = BaseDimension.bounds();
         int far = bounds.widthInChunks() * 16 - 1;
         BlockPos corner = new BlockPos(bounds.minBlockX() + far, 100, bounds.minBlockZ() + far);
-        setFuel(base, PLENTY);
+        setFuel(base, PLENTY_OF_FUEL);
         FurnaceBlockEntity furnace = placeLoadedFurnace(base, corner);
 
         helper.assertTrue(base.players().isEmpty(), "a player is in the base");
@@ -170,17 +171,9 @@ public final class StasisTests {
         helper.succeed();
     }
 
-    private static ServerLevel base(GameTestHelper helper) {
-        return BaseDimension.level(helper.getLevel().getServer());
-    }
-
     /** Random ticks without a player nearby need a Forge ticking ticket; a vanilla forced chunk does not get them. */
     private static void forceTicking(ServerLevel base, BlockPos pos, boolean add) {
         ForgeChunkManager.forceChunk(base, Expeditions.MOD_ID, TEST_TICKETS, pos.getX() >> 4, pos.getZ() >> 4, add, true);
-    }
-
-    private static void setFuel(ServerLevel base, long ticks) {
-        BaseFuel.get(base).update(base, tank -> new FuelTank(ticks));
     }
 
     private static FurnaceBlockEntity placeLoadedFurnace(Level level, BlockPos pos) {

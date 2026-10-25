@@ -21,7 +21,9 @@ public final class ExpeditionsData {
         ExistingFileHelper existingFiles = event.getExistingFileHelper();
 
         generator.addProvider(event.includeClient(), new BlockModels(output, existingFiles));
+        generator.addProvider(event.includeClient(), new ItemModels(output, existingFiles));
         generator.addProvider(event.includeClient(), new EnglishLang(output));
-        generator.addProvider(event.includeServer(), new StructureTemplates(output, List.of(StructureTemplates.EMPTY)));
+        generator.addProvider(event.includeServer(), new StructureTemplates(output,
+                List.of(StructureTemplates.EMPTY, StructureTemplates.ARENA, StructureTemplates.EXFIL_BEACON)));
     }
 }

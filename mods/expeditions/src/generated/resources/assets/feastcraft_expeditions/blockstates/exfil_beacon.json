@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "spent=false": {
+      "model": "feastcraft_expeditions:block/exfil_beacon"
+    },
+    "spent=true": {
+      "model": "feastcraft_expeditions:block/exfil_beacon_spent"
+    }
+  }
+}

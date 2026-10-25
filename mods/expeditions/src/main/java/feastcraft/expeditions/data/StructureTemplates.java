@@ -2,13 +2,16 @@ package feastcraft.expeditions.data;
 
 import com.google.common.hash.Hashing;
 import feastcraft.expeditions.Expeditions;
+import feastcraft.expeditions.ExpeditionsRegistry;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.UncheckedIOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.CompletableFuture;
+import javax.annotation.Nullable;
 import net.minecraft.SharedConstants;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Vec3i;
@@ -20,6 +23,7 @@ import net.minecraft.nbt.IntTag;
 import net.minecraft.nbt.ListTag;
 import net.minecraft.nbt.NbtIo;
 import net.minecraft.nbt.NbtUtils;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 
 /** Writes structure templates from layouts declared in code, so no hand-built NBT is committed. */
@@ -28,6 +32,37 @@ final class StructureTemplates implements DataProvider {
     }
 
     static final Layout EMPTY = new Layout("empty", new Vec3i(1, 1, 1), Map.of());
+
+    /** A dark pad with the beacon at its center and cleared air above, so terrain never buries it. */
+    static final Layout EXFIL_BEACON = layout("exfil_beacon", new Vec3i(5, 4, 5), (x, y, z) -> {
+        if (y == 0) {
+            return Blocks.POLISHED_BLACKSTONE_BRICKS.defaultBlockState();
+        }
+        return x == 2 && y == 1 && z == 2
+                ? ExpeditionsRegistry.EXFIL_BEACON.get().defaultBlockState()
+                : Blocks.AIR.defaultBlockState();
+    });
+
+    /** Open floor for GameTests that need room around a beacon. */
+    static final Layout ARENA = layout("arena", new Vec3i(24, 4, 24), (x, y, z) ->
+            y == 0 ? Blocks.STONE.defaultBlockState() : null);
+
+    @FunctionalInterface
+    interface BlockAt {
+        @Nullable
+        BlockState at(int x, int y, int z);
+    }
+
+    private static Layout layout(String name, Vec3i size, BlockAt blockAt) {
+        var blocks = new HashMap<BlockPos, BlockState>();
+        BlockPos.betweenClosed(BlockPos.ZERO, new BlockPos(size).offset(-1, -1, -1)).forEach(pos -> {
+            BlockState state = blockAt.at(pos.getX(), pos.getY(), pos.getZ());
+            if (state != null) {
+                blocks.put(pos.immutable(), state);
+            }
+        });
+        return new Layout(name, size, Map.copyOf(blocks));
+    }
 
     private final PackOutput output;
     private final List<Layout> layouts;

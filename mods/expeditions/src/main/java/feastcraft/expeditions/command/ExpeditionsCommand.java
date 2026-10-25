@@ -9,13 +9,17 @@ import feastcraft.expeditions.TickTime;
 import feastcraft.expeditions.base.BaseDimension;
 import feastcraft.expeditions.base.BaseFuel;
 import feastcraft.expeditions.base.FuelTank;
+import feastcraft.expeditions.exfil.ExfilBeacons;
 import feastcraft.expeditions.expedition.Deployment;
 import feastcraft.expeditions.expedition.Expedition;
 import feastcraft.expeditions.expedition.RaidLedger;
+import java.util.Optional;
 import java.util.function.UnaryOperator;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
 import net.minecraft.commands.arguments.EntityArgument;
+import net.minecraft.commands.arguments.coordinates.BlockPosArgument;
+import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
@@ -26,6 +30,8 @@ import net.minecraftforge.fml.common.Mod;
 /** Operator tools. Each subcommand goes through the same code path as its in-world counterpart. */
 @Mod.EventBusSubscriber(modid = Expeditions.MOD_ID)
 public final class ExpeditionsCommand {
+    private static final int NEAREST_BEACON_SEARCH = 4096;
+
     private ExpeditionsCommand() {
     }
 
@@ -41,6 +47,10 @@ public final class ExpeditionsCommand {
                 .then(forPlayer("deploy", ExpeditionsCommand::deploy))
                 .then(forPlayer("recall", ExpeditionsCommand::recall))
                 .then(Commands.literal("raid").then(forPlayer("info", ExpeditionsCommand::raidInfo)))
+                .then(Commands.literal("beacon")
+                        .then(Commands.literal("reset")
+                                .then(Commands.argument("pos", BlockPosArgument.blockPos()).executes(ExpeditionsCommand::resetBeacon)))
+                        .then(Commands.literal("nearest").executes(ExpeditionsCommand::nearestBeacon)))
                 .then(Commands.literal("fuel")
                         .then(Commands.literal("get").executes(context -> changeFuel(context, UnaryOperator.identity())))
                         .then(Commands.literal("add").then(Commands.argument("ticks", LongArgumentType.longArg(0))
@@ -82,6 +92,24 @@ public final class ExpeditionsCommand {
         context.getSource().sendSuccess(() -> Component.translatable(
                 "commands.feastcraft_expeditions.fuel", TickTime.format(ticks), ticks), false);
         return (int) Math.min(Integer.MAX_VALUE, ticks);
+    }
+
+    private static int resetBeacon(CommandContext<CommandSourceStack> context) throws CommandSyntaxException {
+        BlockPos pos = BlockPosArgument.getLoadedBlockPos(context, "pos");
+        ExfilBeacons.reset(context.getSource().getLevel(), pos);
+        context.getSource().sendSuccess(() -> Component.translatable(
+                "commands.feastcraft_expeditions.beacon.reset", pos.toShortString()), true);
+        return 1;
+    }
+
+    private static int nearestBeacon(CommandContext<CommandSourceStack> context) {
+        BlockPos from = BlockPos.containing(context.getSource().getPosition());
+        Optional<BlockPos> beacon = ExfilBeacons.nearestUnspent(context.getSource().getLevel(), from, NEAREST_BEACON_SEARCH);
+        context.getSource().sendSuccess(() -> beacon
+                .map(pos -> Component.translatable("commands.feastcraft_expeditions.beacon.nearest",
+                        pos.getX(), pos.getZ(), (int) ExfilBeacons.horizontalDistance(from, pos)))
+                .orElseGet(() -> Component.translatable("commands.feastcraft_expeditions.beacon.none")), false);
+        return beacon.isPresent() ? 1 : 0;
     }
 
     private static int raidInfo(CommandContext<CommandSourceStack> context, ServerPlayer player) {

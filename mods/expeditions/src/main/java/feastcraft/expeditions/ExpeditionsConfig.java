@@ -7,6 +7,9 @@ public final class ExpeditionsConfig {
     public static final ForgeConfigSpec.IntValue BASE_RADIUS_CHUNKS;
     public static final ForgeConfigSpec.IntValue DROP_MIN_DISTANCE;
     public static final ForgeConfigSpec.IntValue DROP_MAX_DISTANCE;
+    public static final ForgeConfigSpec.IntValue BEACON_MIN_DISTANCE;
+    public static final ForgeConfigSpec.IntValue BEACON_MAX_DISTANCE;
+    public static final ForgeConfigSpec.IntValue EXFIL_COUNTDOWN_TICKS;
 
     static {
         var builder = new ForgeConfigSpec.Builder();
@@ -25,6 +28,18 @@ public final class ExpeditionsConfig {
         DROP_MAX_DISTANCE = builder
                 .comment("Farthest a deployment lands from world spawn, in blocks. Drops are spread evenly by area in between.")
                 .defineInRange("dropMaxDistance", 10_000, 0, 29_000_000);
+        BEACON_MIN_DISTANCE = builder
+                .comment("A drop needs an unspent exfil beacon at least this far away, in blocks.")
+                .defineInRange("beaconMinDistance", 150, 0, 100_000);
+        BEACON_MAX_DISTANCE = builder
+                .comment("A drop also needs one no farther than this, in blocks, so nobody lands where every nearby beacon is spent.")
+                .defineInRange("beaconMaxDistance", 800, 0, 100_000);
+        builder.pop();
+
+        builder.push("exfil");
+        EXFIL_COUNTDOWN_TICKS = builder
+                .comment("Ticks between calling a beacon and departure. Everyone in its zone when it ends goes home.")
+                .defineInRange("countdownTicks", 2_400, 1, 72_000);
         builder.pop();
 
         SPEC = builder.build();

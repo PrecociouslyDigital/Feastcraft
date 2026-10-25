@@ -15,6 +15,8 @@ final class EnglishLang extends LanguageProvider {
         add("itemGroup.feastcraft_expeditions", "Feastcraft Expeditions");
         add(ExpeditionsRegistry.HEARTH.get(), "Hearth");
         add(ExpeditionsRegistry.DEPARTURE_GATE.get(), "Departure Gate");
+        add(ExpeditionsRegistry.EXFIL_BEACON.get(), "Exfil Beacon");
+        add(ExpeditionsRegistry.EXFIL_COMPASS.get(), "Exfil Compass");
 
         add("feastcraft_expeditions.base.running", "The hearth roars to life. The base is running again.");
         add("feastcraft_expeditions.base.frozen", "The hearth has gone out. Plants and machines in the base have stopped.");
@@ -27,6 +29,16 @@ final class EnglishLang extends LanguageProvider {
         add("feastcraft_expeditions.deploy.busy", "A deployment is already underway.");
         add("feastcraft_expeditions.deploy.failed", "No safe drop point was found. Try the gate again.");
 
+        add("feastcraft_expeditions.exfil.called", "Extraction called. Be in the zone when the countdown ends.");
+        add("feastcraft_expeditions.exfil.not_raiding", "Only a raider can call extraction.");
+        add("feastcraft_expeditions.exfil.spent", "This beacon is spent.");
+        add("feastcraft_expeditions.exfil.refused", "The beacon does not answer.");
+        add("feastcraft_expeditions.exfil.countdown", "Extraction in %s");
+        add("feastcraft_expeditions.exfil.held", "Extraction held");
+
+        add("commands.feastcraft_expeditions.beacon.reset", "Reset the exfil beacon at %s");
+        add("commands.feastcraft_expeditions.beacon.nearest", "Nearest unspent exfil beacon: around %s, %s (%s blocks)");
+        add("commands.feastcraft_expeditions.beacon.none", "No unspent exfil beacon within range");
         add("commands.feastcraft_expeditions.deploy", "Deploying %s");
         add("commands.feastcraft_expeditions.deploy.busy", "%s is already deploying or on a raid");
         add("commands.feastcraft_expeditions.recall", "Recalled %s to the base");

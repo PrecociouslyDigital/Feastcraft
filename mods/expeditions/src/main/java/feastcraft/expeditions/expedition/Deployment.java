@@ -2,6 +2,7 @@ package feastcraft.expeditions.expedition;
 
 import feastcraft.expeditions.Expeditions;
 import feastcraft.expeditions.ExpeditionsConfig;
+import feastcraft.expeditions.exfil.ExfilBeacons;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
@@ -125,7 +126,17 @@ public final class Deployment {
         BlockPos spawn = overworld.getSharedSpawnPos();
         int x = spawn.getX() + (int) Math.floor(offset.x());
         int z = spawn.getZ() + (int) Math.floor(offset.z());
-        return LandCheck.isDryLand(overworld, x, z) ? new BlockPos(x, 0, z) : null;
+        BlockPos candidate = new BlockPos(x, overworld.getSeaLevel(), z);
+        return LandCheck.isDryLand(overworld, x, z) && hasBeaconInReach(overworld, candidate) ? candidate : null;
+    }
+
+    /** Spent beacons stay spent, so a drop must have a usable one within walking distance. */
+    private static boolean hasBeaconInReach(ServerLevel overworld, BlockPos candidate) {
+        int min = ExpeditionsConfig.BEACON_MIN_DISTANCE.get();
+        int max = Math.max(min, ExpeditionsConfig.BEACON_MAX_DISTANCE.get());
+        return ExfilBeacons.nearestUnspent(overworld, candidate, max)
+                .filter(beacon -> ExfilBeacons.horizontalDistance(candidate, beacon) >= min)
+                .isPresent();
     }
 
     /** The column in the chunk nearest the candidate where a player can stand on solid, dry ground. */

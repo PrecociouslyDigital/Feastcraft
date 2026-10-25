@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "feastcraft_expeditions:exfil_beacon",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 12,
+    "salt": 1650734229
+  }
+}
