@@ -1,0 +1,62 @@
+package feastcraft.expeditions.command;
+
+import com.mojang.brigadier.builder.LiteralArgumentBuilder;
+import com.mojang.brigadier.context.CommandContext;
+import com.mojang.brigadier.exceptions.CommandSyntaxException;
+import feastcraft.expeditions.Expeditions;
+import feastcraft.expeditions.expedition.Expedition;
+import feastcraft.expeditions.expedition.RaidLedger;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.Commands;
+import net.minecraft.commands.arguments.EntityArgument;
+import net.minecraft.network.chat.Component;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraftforge.event.RegisterCommandsEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+
+/** Operator tools. Each subcommand goes through the same code path as its in-world counterpart. */
+@Mod.EventBusSubscriber(modid = Expeditions.MOD_ID)
+public final class ExpeditionsCommand {
+    private ExpeditionsCommand() {
+    }
+
+    @FunctionalInterface
+    private interface PlayerAction {
+        int run(CommandContext<CommandSourceStack> context, ServerPlayer player) throws CommandSyntaxException;
+    }
+
+    @SubscribeEvent
+    static void onRegisterCommands(RegisterCommandsEvent event) {
+        event.getDispatcher().register(Commands.literal("expeditions")
+                .requires(source -> source.hasPermission(Commands.LEVEL_GAMEMASTERS))
+                .then(forPlayer("recall", ExpeditionsCommand::recall))
+                .then(Commands.literal("raid").then(forPlayer("info", ExpeditionsCommand::raidInfo))));
+    }
+
+    /** {@code <name> [player]}, where the player defaults to whoever runs the command. */
+    private static LiteralArgumentBuilder<CommandSourceStack> forPlayer(String name, PlayerAction action) {
+        return Commands.literal(name)
+                .executes(context -> action.run(context, context.getSource().getPlayerOrException()))
+                .then(Commands.argument("player", EntityArgument.player())
+                        .executes(context -> action.run(context, EntityArgument.getPlayer(context, "player"))));
+    }
+
+    private static int recall(CommandContext<CommandSourceStack> context, ServerPlayer player) {
+        Expedition.extract(player);
+        context.getSource().sendSuccess(() -> Component.translatable(
+                "commands.feastcraft_expeditions.recall", player.getDisplayName()), true);
+        return 1;
+    }
+
+    private static int raidInfo(CommandContext<CommandSourceStack> context, ServerPlayer player) {
+        long now = player.server.overworld().getGameTime();
+        Component message = RaidLedger.get(player.server).raidOf(player.getUUID())
+                .map(raid -> Component.translatable("commands.feastcraft_expeditions.raid.info",
+                        player.getDisplayName(), raid.drop().toShortString(), (now - raid.startedAt()) / 20))
+                .orElseGet(() -> Component.translatable(
+                        "commands.feastcraft_expeditions.raid.none", player.getDisplayName()));
+        context.getSource().sendSuccess(() -> message, false);
+        return 1;
+    }
+}

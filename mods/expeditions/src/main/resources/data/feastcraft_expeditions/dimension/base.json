@@ -1,0 +1,13 @@
+{
+  "type": "feastcraft_expeditions:base",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "feastcraft_expeditions:base",
+      "layers": [],
+      "lakes": false,
+      "features": false,
+      "structure_overrides": []
+    }
+  }
+}

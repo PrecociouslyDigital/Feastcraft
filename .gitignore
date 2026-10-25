@@ -22,3 +22,6 @@ build
 run
 runs
 run-data
+
+# jqwik
+.jqwik-database
