@@ -1,0 +1,95 @@
+#!/usr/bin/env bash
+# Runs a headless Minecraft client in Docker and drives it through the harness control API.
+# See tools/harness/README.md.
+#
+#   harness up [mod=expeditions]       start the client in a fresh world and wait until it's in it
+#   harness call <endpoint> [k=v ...]  call one endpoint and print its JSON
+#   harness logs                       follow the client's output
+#   harness down                       quit the client and remove the container
+set -euo pipefail
+
+repo=$(cd "$(dirname "$0")/.." && pwd)
+image=feastcraft-harness
+container=feastcraft-harness
+port=25580
+api="http://127.0.0.1:$port"
+# A cold Gradle volume downloads and decompiles Minecraft first.
+ready_timeout_seconds=1800
+
+die() {
+    echo "harness: $*" >&2
+    exit 1
+}
+
+call() {
+    local endpoint=${1:?usage: harness call <endpoint> [k=v ...]}
+    shift
+    local args=()
+    for pair in "$@"; do
+        args+=(--data-urlencode "$pair")
+    done
+    curl -sS --fail-with-body -G "${args[@]}" "$api/$endpoint"
+    echo
+}
+
+running() {
+    [[ $(docker inspect -f '{{.State.Running}}' "$container" 2>/dev/null) == true ]]
+}
+
+up() {
+    local mod=expeditions
+    for pair in "$@"; do
+        case $pair in
+            mod=*) mod=${pair#mod=} ;;
+            *) die "unknown argument $pair" ;;
+        esac
+    done
+    [[ -d $repo/mods/$mod ]] || die "no mod named $mod in mods/"
+
+    docker image inspect "$image" >/dev/null 2>&1 || docker build -t "$image" "$repo/tools/harness/docker"
+    docker rm -f "$container" >/dev/null 2>&1 || true
+
+    # The container builds from its own copy of the repo, so its builds never write into the host's
+    # build directories. Only screenshots come back out.
+    local game_dir=$repo/mods/$mod/run-harness
+    mkdir -p "$game_dir/screenshots"
+    docker run -d --name "$container" \
+        -v "$repo:/src:ro" \
+        -v feastcraft-harness-work:/work \
+        -v feastcraft-harness-gradle:/gradle \
+        -v "$game_dir/screenshots:/work/mods/$mod/run-harness/screenshots" \
+        -e HARNESS_HOST_GAME_DIR="$game_dir" \
+        -p "127.0.0.1:$port:$port" \
+        "$image" bash -c "
+            rsync -a --delete --exclude .git --exclude .gradle --exclude build --exclude run --exclude run-harness /src/ /work/ &&
+            { Xvfb :1 -screen 0 1280x720x24 -nolisten tcp & } &&
+            until [ -e /tmp/.X11-unix/X1 ]; do sleep 0.2; done &&
+            DISPLAY=:1 exec ./gradlew --no-daemon :mods:$mod:runHarness" >/dev/null
+
+    local deadline=$((SECONDS + ready_timeout_seconds))
+    until curl -sf "$api/status" 2>/dev/null | jq -e '.inWorld and .screen == null' >/dev/null; do
+        running || die "the client exited before reaching a world; see: docker logs $container"
+        ((SECONDS < deadline)) || die "the client did not reach a world within ${ready_timeout_seconds}s"
+        sleep 2
+    done
+    echo ready
+}
+
+down() {
+    if running; then
+        curl -sf "$api/quit" >/dev/null 2>&1 || true
+        for _ in $(seq 60); do
+            running || break
+            sleep 1
+        done
+    fi
+    docker rm -f "$container" >/dev/null 2>&1 || true
+}
+
+case ${1:-} in
+    up) shift; up "$@" ;;
+    down) down ;;
+    call) shift; call "$@" ;;
+    logs) docker logs -f --tail 200 "$container" ;;
+    *) die "usage: harness up [mod=<mod>] | down | call <endpoint> [k=v ...] | logs" ;;
+esac
