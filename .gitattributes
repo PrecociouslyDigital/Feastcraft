@@ -1,0 +1,3 @@
+# Datagen always writes LF; keep git from flagging line-ending-only changes.
+**/src/generated/**/.cache/cache text eol=lf
+**/src/generated/**/*.json text eol=lf
