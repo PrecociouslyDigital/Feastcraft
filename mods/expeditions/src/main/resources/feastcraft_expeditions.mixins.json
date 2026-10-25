@@ -6,6 +6,8 @@
   "refmap": "feastcraft_expeditions.refmap.json",
   "mixins": [
     "DelegateBorderChangeListenerAccessor",
+    "LevelMixin",
+    "ServerLevelMixin",
     "WorldBorderAccessor"
   ],
   "injectors": {

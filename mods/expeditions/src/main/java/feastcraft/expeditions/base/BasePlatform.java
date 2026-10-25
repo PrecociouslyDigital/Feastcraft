@@ -1,6 +1,7 @@
 package feastcraft.expeditions.base;
 
 import feastcraft.expeditions.Expeditions;
+import feastcraft.expeditions.ExpeditionsRegistry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.server.level.ServerLevel;
@@ -36,6 +37,7 @@ public final class BasePlatform extends SavedData {
                 base.setBlockAndUpdate(center.offset(dx, 0, dz), Blocks.STONE.defaultBlockState());
             }
         }
+        base.setBlockAndUpdate(BaseDimension.SPAWN.east(2), ExpeditionsRegistry.HEARTH.get().defaultBlockState());
     }
 
     private static BasePlatform load(CompoundTag tag) {
