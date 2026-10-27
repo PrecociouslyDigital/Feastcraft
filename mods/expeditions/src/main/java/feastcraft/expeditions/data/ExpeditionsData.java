@@ -24,6 +24,6 @@ public final class ExpeditionsData {
         generator.addProvider(event.includeClient(), new ItemModels(output, existingFiles));
         generator.addProvider(event.includeClient(), new EnglishLang(output));
         generator.addProvider(event.includeServer(), new StructureTemplates(output,
-                List.of(StructureTemplates.EMPTY, StructureTemplates.ARENA, StructureTemplates.EXFIL_BEACON)));
+                List.of(StructureTemplates.ARENA, StructureTemplates.EXFIL_BEACON)));
     }
 }
