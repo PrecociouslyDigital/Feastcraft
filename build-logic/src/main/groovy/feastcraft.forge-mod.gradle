@@ -143,6 +143,16 @@ legacyForge.ideSyncTask generateModMetadata
 
 repositories {
     mavenCentral()
+    // Other mods we build against: maven.modrinth:<slug>:<version id> from Modrinth, and
+    // curse.maven:<slug>-<project id>:<file id> for mods only on CurseForge.
+    exclusiveContent {
+        forRepository { maven { url = 'https://api.modrinth.com/maven' } }
+        filter { includeGroup 'maven.modrinth' }
+    }
+    exclusiveContent {
+        forRepository { maven { url = 'https://cursemaven.com' } }
+        filter { includeGroup 'curse.maven' }
+    }
 }
 
 dependencies {
