@@ -105,6 +105,36 @@ if (harnessProject != null) {
 
 sourceSets.main.resources.srcDir 'src/generated/resources'
 
+// Writes `<mod_id>:empty`, a 1x1x1 structure with no blocks, as a template for GameTests. Generating
+// it here keeps binary NBT out of every mod's repo and the generator out of every mod's code.
+def generateEmptyTemplate = tasks.register('generateEmptyTemplate') {
+    def output = layout.buildDirectory.dir('generated/sources/emptyTemplate')
+    def dataVersion = minecraft_data_version as int
+    def modId = mod_id
+    inputs.property 'dataVersion', dataVersion
+    inputs.property 'modId', modId
+    outputs.dir output
+    doLast {
+        def file = output.get().file("data/${modId}/structures/empty.nbt").asFile
+        file.parentFile.mkdirs()
+        new DataOutputStream(new java.util.zip.GZIPOutputStream(new FileOutputStream(file))).withCloseable { nbt ->
+            def tag = { int type, String name -> nbt.writeByte(type); nbt.writeUTF(name) }
+            def emptyList = { String name -> tag(9, name); nbt.writeByte(0); nbt.writeInt(0) }
+            tag(10, '')
+            tag(3, 'DataVersion')
+            nbt.writeInt(dataVersion)
+            tag(9, 'size')
+            nbt.writeByte(3)
+            nbt.writeInt(3)
+            3.times { nbt.writeInt(1) }
+            ['palette', 'blocks', 'entities'].each(emptyList)
+            nbt.writeByte(0)
+        }
+    }
+}
+sourceSets.main.resources.srcDir generateEmptyTemplate
+legacyForge.ideSyncTask generateEmptyTemplate
+
 def mixinConfig = "${mod_id}.mixins.json"
 if (file("src/main/resources/${mixinConfig}").exists()) {
     mixin {
@@ -132,6 +162,8 @@ def generateModMetadata = tasks.register('generateModMetadata', ProcessResources
             mod_version            : mod_version,
             mod_authors            : mod_authors,
             mod_description        : mod_description,
+            // A mod lists dependencies beyond Forge and Minecraft in its own dependencies.toml, appended to mods.toml.
+            mod_dependencies       : file('dependencies.toml').with { it.exists() ? it.text : '' },
     ]
     inputs.properties replaceProperties
     expand replaceProperties
@@ -143,6 +175,16 @@ legacyForge.ideSyncTask generateModMetadata
 
 repositories {
     mavenCentral()
+    // Other mods we build against: maven.modrinth:<slug>:<version id> from Modrinth, and
+    // curse.maven:<slug>-<project id>:<file id> for mods only on CurseForge.
+    exclusiveContent {
+        forRepository { maven { url = 'https://api.modrinth.com/maven' } }
+        filter { includeGroup 'maven.modrinth' }
+    }
+    exclusiveContent {
+        forRepository { maven { url = 'https://cursemaven.com' } }
+        filter { includeGroup 'curse.maven' }
+    }
 }
 
 dependencies {

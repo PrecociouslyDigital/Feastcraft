@@ -1,0 +1,32 @@
+{
+  "parent": "feastcraft_food_advancements:eaten_10",
+  "criteria": {
+    "eaten": {
+      "conditions": {
+        "count": 20
+      },
+      "trigger": "feastcraft_food_advancements:foods_eaten"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.feastcraft_food_advancements.eaten_20.description"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:baked_potato"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.feastcraft_food_advancements.eaten_20.title"
+    }
+  },
+  "requirements": [
+    [
+      "eaten"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

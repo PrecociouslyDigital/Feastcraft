@@ -79,6 +79,7 @@ final class Observations {
         JsonObject status = new JsonObject();
         Screen screen = minecraft.screen;
         status.addProperty("screen", screen == null ? null : screen.getClass().getSimpleName());
+        status.addProperty("screenClass", screen == null ? null : screen.getClass().getName());
         status.add("buttons", buttons(screen));
         LocalPlayer player = minecraft.player;
         status.addProperty("inWorld", player != null && minecraft.level != null);

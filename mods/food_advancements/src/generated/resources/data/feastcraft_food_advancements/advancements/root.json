@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "eaten": {
+      "conditions": {
+        "count": 1
+      },
+      "trigger": "feastcraft_food_advancements:foods_eaten"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png",
+    "description": {
+      "translate": "advancements.feastcraft_food_advancements.root.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:golden_carrot"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.feastcraft_food_advancements.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "eaten"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

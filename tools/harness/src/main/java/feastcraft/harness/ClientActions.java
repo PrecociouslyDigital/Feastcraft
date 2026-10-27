@@ -59,8 +59,20 @@ final class ClientActions {
         return replyTo(player -> player.connection.sendCommand(withoutSlash));
     }
 
+    /** Clicks use. With {@code hold}, keeps it down for that many ticks, long enough to eat or drink. */
     static CompletableFuture<JsonElement> use(Params params) {
-        return replyTo(player -> KeyMapping.click(minecraft().options.keyUse.getKey()));
+        KeyMapping use = minecraft().options.keyUse;
+        if (!params.has("hold")) {
+            return replyTo(player -> KeyMapping.click(use.getKey()));
+        }
+        int ticks = params.integer("hold", 1, MAX_WAIT_TICKS);
+        // The click starts using the item; staying down keeps it going.
+        return thenStatus(player -> {
+            KeyMapping.click(use.getKey());
+            use.setDown(true);
+        })
+                .thenCompose(pressed -> ClientTicks.afterTicks(ticks))
+                .thenCompose(held -> thenStatus(player -> use.setDown(false)));
     }
 
     static CompletableFuture<JsonElement> attack(Params params) {

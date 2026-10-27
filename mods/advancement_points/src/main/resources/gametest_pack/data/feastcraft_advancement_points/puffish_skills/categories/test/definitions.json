@@ -1,0 +1,8 @@
+{
+  "node": {
+    "title": "Node",
+    "icon": {"type": "item", "data": {"item": "minecraft:stick"}},
+    "frame": {"type": "advancement", "data": {"frame": "task"}},
+    "rewards": []
+  }
+}

@@ -31,8 +31,6 @@ final class StructureTemplates implements DataProvider {
     record Layout(String name, Vec3i size, Map<BlockPos, BlockState> blocks) {
     }
 
-    static final Layout EMPTY = new Layout("empty", new Vec3i(1, 1, 1), Map.of());
-
     /** A dark pad with the beacon at its center and cleared air above, so terrain never buries it. */
     static final Layout EXFIL_BEACON = layout("exfil_beacon", new Vec3i(5, 4, 5), (x, y, z) -> {
         if (y == 0) {

@@ -1,0 +1,13 @@
+plugins {
+    id 'feastcraft.forge-mod'
+}
+
+dependencies {
+    // Spice of Life: Carrot Edition 1.15.1 for 1.20.1, which is only on CurseForge.
+    modImplementation 'curse.maven:spice-of-life-carrot-edition-277616:4888575'
+}
+
+// Unit tests parse advancement JSON with Gson, which Minecraft doesn't put on their classpath. 2.10 is the version 1.20.1 ships.
+dependencies {
+    testImplementation 'com.google.code.gson:gson:2.10'
+}

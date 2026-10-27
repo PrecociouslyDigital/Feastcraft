@@ -1,0 +1,6 @@
+[[dependencies.feastcraft_food_advancements]]
+    modId="solcarrot"
+    mandatory=true
+    versionRange="[1.15,)"
+    ordering="AFTER"
+    side="BOTH"

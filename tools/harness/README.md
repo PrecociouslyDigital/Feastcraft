@@ -56,9 +56,10 @@ real press.
 
 | Endpoint | Arguments | Does |
 | --- | --- | --- |
-| `status` | | Reports the open screen and its buttons, and whether the client is in a world. In a world, it also reports the dimension, position, rotation, game mode, health, the block or entity under the crosshair (with block state), the hotbar (with NBT), and boss bar names and progress. |
+| `status` | | Reports the open screen (`screen`, and its full class name as `screenClass`) and its buttons, and whether the client is in a world. In a world, it also reports the dimension, position, rotation, game mode, health, the block or entity under the crosshair (with block state), the hotbar (with NBT), and boss bar names and progress. |
 | `command` | `c` | Runs a command as the player. Returns the chat and action-bar lines that come back. |
-| `use`, `attack` | | Clicks the use or attack key. Returns the chat and action-bar lines that come back. |
+| `use` | `hold` | Clicks the use key and returns the chat and action-bar lines that come back. With `hold`, keeps it down for that many ticks, as eating needs, and returns the status. |
+| `attack` | | Clicks the attack key. Returns the chat and action-bar lines that come back. |
 | `look` | `yaw`, `pitch` or `x`, `y`, `z` | Turns to that rotation in degrees, or to face that point. Returns the status. |
 | `find` | `block`, `radius` | Returns the nearest blocks of that id, at most 8, within `radius` (64 at most) horizontally, as far as the client has them loaded. |
 | `sneak` | `down` | Holds (`true`) or releases (`false`) the sneak key. Returns the status. |

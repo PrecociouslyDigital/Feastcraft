@@ -1,0 +1,32 @@
+{
+  "parent": "feastcraft_food_advancements:root",
+  "criteria": {
+    "eaten": {
+      "conditions": {
+        "count": 10
+      },
+      "trigger": "feastcraft_food_advancements:foods_eaten"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.feastcraft_food_advancements.eaten_10.description"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:bread"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.feastcraft_food_advancements.eaten_10.title"
+    }
+  },
+  "requirements": [
+    [
+      "eaten"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

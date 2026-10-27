@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "feastcraft.foodbooks.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "feastcraft_food_books.refmap.json",
+  "client": [
+    "CarrotFoodBookScreenMixin",
+    "OnionFoodBookScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
