@@ -1,0 +1,6 @@
+// 1.20.1	2026-10-27T19:57:24.987167489	Tags for minecraft:item mod id feastcraft_food_advancements
+f2ef28dd440720afe55fcd4f4de67b9881c4bebe data/feastcraft_food_advancements/tags/items/cooked_meats.json
+c573efc219c198638b6916e5de42b196f8267a1e data/feastcraft_food_advancements/tags/items/golden_foods.json
+946ae46378a62491d3109476eecdf83f1826d985 data/feastcraft_food_advancements/tags/items/risky_foods.json
+902b5f3d4c9e7ab4797bf10b06867f1be2695f67 data/feastcraft_food_advancements/tags/items/soups.json
+c65ebfceae7861076ef7b246a179c3481284f1b5 data/feastcraft_food_advancements/tags/items/sweets.json

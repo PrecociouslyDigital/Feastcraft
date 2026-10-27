@@ -1,0 +1,35 @@
+{
+  "parent": "feastcraft_food_advancements:root",
+  "criteria": {
+    "eaten": {
+      "conditions": {
+        "count": "all",
+        "foods": {
+          "tag": "feastcraft_food_advancements:sweets"
+        }
+      },
+      "trigger": "feastcraft_food_advancements:foods_eaten"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.feastcraft_food_advancements.every_sweet.description"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:cookie"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.feastcraft_food_advancements.every_sweet.title"
+    }
+  },
+  "requirements": [
+    [
+      "eaten"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

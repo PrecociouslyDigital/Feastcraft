@@ -162,6 +162,8 @@ def generateModMetadata = tasks.register('generateModMetadata', ProcessResources
             mod_version            : mod_version,
             mod_authors            : mod_authors,
             mod_description        : mod_description,
+            // A mod lists dependencies beyond Forge and Minecraft in its own dependencies.toml, appended to mods.toml.
+            mod_dependencies       : file('dependencies.toml').with { it.exists() ? it.text : '' },
     ]
     inputs.properties replaceProperties
     expand replaceProperties
