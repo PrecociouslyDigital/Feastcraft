@@ -1,0 +1,7 @@
+plugins {
+    id 'feastcraft.forge-mod'
+}
+
+dependencies {
+    modImplementation 'maven.modrinth:skills:zfbPzmtb'
+}

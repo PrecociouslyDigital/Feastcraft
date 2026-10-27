@@ -1,0 +1,5 @@
+{
+  "category": "feastcraft_advancement_points:test",
+  "advancements": ["minecraft:story/root"],
+  "points": 10
+}

@@ -1,0 +1,6 @@
+[[dependencies.feastcraft_advancement_points]]
+    modId="puffish_skills"
+    mandatory=true
+    versionRange="[0.19,)"
+    ordering="AFTER"
+    side="BOTH"

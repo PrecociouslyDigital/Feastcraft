@@ -1,0 +1,6 @@
+{
+  "unlocked_by_default": true,
+  "title": "GameTest",
+  "icon": {"type": "item", "data": {"item": "minecraft:stick"}},
+  "background": "textures/gui/advancements/backgrounds/stone.png"
+}
