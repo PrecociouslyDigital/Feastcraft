@@ -1,0 +1,10 @@
+plugins {
+    id 'feastcraft.forge-mod'
+}
+
+dependencies {
+    // Spice of Life: Carrot Edition 1.15.1 for 1.20.1, which is only on CurseForge.
+    modImplementation 'curse.maven:spice-of-life-carrot-edition-277616:4888575'
+    modImplementation 'maven.modrinth:spice-of-life-onion:kMmavFVY'
+    modImplementation 'maven.modrinth:creativecore:ChKayKur'
+}

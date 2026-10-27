@@ -1,0 +1,13 @@
+[[dependencies.feastcraft_food_books]]
+    modId="solcarrot"
+    mandatory=true
+    versionRange="[1.15,)"
+    ordering="AFTER"
+    side="CLIENT"
+
+[[dependencies.feastcraft_food_books]]
+    modId="solonion"
+    mandatory=true
+    versionRange="[1.4,)"
+    ordering="AFTER"
+    side="CLIENT"
