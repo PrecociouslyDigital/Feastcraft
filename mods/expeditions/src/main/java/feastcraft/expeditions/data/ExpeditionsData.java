@@ -22,6 +22,7 @@ public final class ExpeditionsData {
 
         generator.addProvider(event.includeClient(), new BlockModels(output, existingFiles));
         generator.addProvider(event.includeClient(), new ItemModels(output, existingFiles));
+        generator.addProvider(event.includeClient(), new EmberCharcoalTexture(output, existingFiles));
         generator.addProvider(event.includeClient(), new EnglishLang(output));
         generator.addProvider(event.includeServer(), new StructureTemplates(output,
                 List.of(StructureTemplates.ARENA, StructureTemplates.EXFIL_BEACON)));

@@ -41,14 +41,14 @@ expect "looking at the hearth" '.lookingAt.block == "feastcraft_expeditions:hear
 expect "feeding it shows the fuel left" 'any(.lines[]; .kind == "actionbar" and (.text | startswith("Fuel remaining")))' "$(call use)"
 
 step "Frozen crops"
-run "/expeditions fuel set 0" >/dev/null
+run "/expeditions fuel 2 65 0 set 0" >/dev/null
 run "/setblock 0 64 2 minecraft:farmland" >/dev/null
 run "/setblock 0 65 2 minecraft:wheat" >/dev/null
 # About 200 random ticks for the crop, so a fuelled base can't fail to grow it by chance.
 run "/gamerule randomTickSpeed 4096" >/dev/null
 call wait ticks=200 >/dev/null
 expect_reply "a crop doesn't grow while the base is frozen" "/execute if block 0 65 2 minecraft:wheat[age=0]" "Test passed"
-run "/expeditions fuel add 72000" >/dev/null
+run "/expeditions fuel 2 65 0 add 72000" >/dev/null
 call wait ticks=200 >/dev/null
 expect_reply "and grows once the hearth burns" "/execute unless block 0 65 2 minecraft:wheat[age=0]" "Test passed"
 run "/gamerule randomTickSpeed 3" >/dev/null

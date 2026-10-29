@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "feastcraft_expeditions:item/ember_charcoal"
+  }
+}

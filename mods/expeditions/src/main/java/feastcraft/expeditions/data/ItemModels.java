@@ -19,6 +19,13 @@ final class ItemModels extends ItemModelProvider {
     @Override
     protected void registerModels() {
         exfilCompass();
+        emberCharcoal();
+    }
+
+    /** Borrows vanilla charcoal's shape, recolored to ember reds by the texture provider. */
+    private void emberCharcoal() {
+        withExistingParent(ExpeditionsRegistry.EMBER_CHARCOAL.getId().getPath(), mcLoc("item/generated"))
+                .texture("layer0", Expeditions.id("item/ember_charcoal"));
     }
 
     /**

@@ -2,7 +2,8 @@ package feastcraft.expeditions.gametest;
 
 import static feastcraft.expeditions.gametest.TestFixtures.PLENTY_OF_FUEL;
 import static feastcraft.expeditions.gametest.TestFixtures.base;
-import static feastcraft.expeditions.gametest.TestFixtures.setFuel;
+import static feastcraft.expeditions.gametest.TestFixtures.placeHearth;
+import static feastcraft.expeditions.gametest.TestFixtures.unfuelAll;
 
 import feastcraft.expeditions.Expeditions;
 import feastcraft.expeditions.base.BaseBounds;
@@ -50,21 +51,23 @@ public final class StasisTests {
     public static void furnaceStallsWhileFrozenAndSmeltsOnceFueled(GameTestHelper helper) {
         ServerLevel base = base(helper);
         BlockPos pos = new BlockPos(40, 100, 40);
-        setFuel(base, 0);
+        BlockPos hearthPos = pos.west();
+        unfuelAll(base);
         forceTicking(base, pos, true);
         FurnaceBlockEntity furnace = placeLoadedFurnace(base, pos);
 
         helper.startSequence()
                 .thenIdle(250)
                 .thenExecute(() -> {
-                    helper.assertTrue(furnace.getItem(2).isEmpty(), "a frozen base's furnace smelted");
-                    setFuel(base, PLENTY_OF_FUEL);
+                    helper.assertTrue(furnace.getItem(2).isEmpty(), "a frozen chunk's furnace smelted");
+                    placeHearth(base, hearthPos, PLENTY_OF_FUEL);
                 })
                 .thenWaitUntil(() -> helper.assertTrue(furnace.getItem(2).is(Items.IRON_INGOT), "the fueled furnace has not smelted yet"))
                 .thenExecute(() -> {
                     base.removeBlock(pos, false);
+                    base.removeBlock(hearthPos, false);
                     forceTicking(base, pos, false);
-                    setFuel(base, 0);
+                    unfuelAll(base);
                 })
                 .thenSucceed();
     }
@@ -76,7 +79,8 @@ public final class StasisTests {
         GameRules.IntegerValue randomTickSpeed = server.getGameRules().getRule(GameRules.RULE_RANDOMTICKING);
         int previousSpeed = randomTickSpeed.get();
         BlockPos crop = new BlockPos(-40, 101, 40);
-        setFuel(base, 0);
+        BlockPos hearthPos = crop.west();
+        unfuelAll(base);
         forceTicking(base, crop, true);
         base.setBlockAndUpdate(crop.below(), Blocks.FARMLAND.defaultBlockState());
         base.setBlockAndUpdate(crop, Blocks.WHEAT.defaultBlockState());
@@ -85,16 +89,17 @@ public final class StasisTests {
         helper.startSequence()
                 .thenIdle(100)
                 .thenExecute(() -> {
-                    helper.assertTrue(base.getBlockState(crop).getValue(CropBlock.AGE) == 0, "wheat grew in a frozen base");
-                    setFuel(base, PLENTY_OF_FUEL);
+                    helper.assertTrue(base.getBlockState(crop).getValue(CropBlock.AGE) == 0, "wheat grew in a frozen chunk");
+                    placeHearth(base, hearthPos, PLENTY_OF_FUEL);
                 })
                 .thenWaitUntil(() -> helper.assertTrue(base.getBlockState(crop).getValue(CropBlock.AGE) > 0, "the fueled wheat has not grown yet"))
                 .thenExecute(() -> {
                     randomTickSpeed.set(previousSpeed, server);
                     base.removeBlock(crop, false);
                     base.removeBlock(crop.below(), false);
+                    base.removeBlock(hearthPos, false);
                     forceTicking(base, crop, false);
-                    setFuel(base, 0);
+                    unfuelAll(base);
                 })
                 .thenSucceed();
     }
@@ -102,7 +107,7 @@ public final class StasisTests {
     @GameTest(template = "empty", batch = "stasis_interaction")
     public static void buildingCraftingAndStorageWorkWhileFrozen(GameTestHelper helper) {
         ServerLevel base = base(helper);
-        setFuel(base, 0);
+        unfuelAll(base);
         FakePlayer player = FakePlayerFactory.getMinecraft(base);
         BlockPos table = new BlockPos(40, 100, -40);
         BlockPos chest = table.east(2);
@@ -128,47 +133,59 @@ public final class StasisTests {
         helper.succeed();
     }
 
-    @GameTest(template = "empty", batch = "stasis_border", timeoutTicks = 600)
-    public static void fueledBaseRunsToItsBorderCornerWithNoPlayerThere(GameTestHelper helper) {
+    @GameTest(template = "empty", batch = "stasis_bounds", timeoutTicks = 600)
+    public static void fueledBaseRunsToItsBoundsCornerWithNoPlayerThere(GameTestHelper helper) {
         ServerLevel base = base(helper);
         BaseBounds bounds = BaseDimension.bounds();
         int far = bounds.widthInChunks() * 16 - 1;
         BlockPos corner = new BlockPos(bounds.minBlockX() + far, 100, bounds.minBlockZ() + far);
-        setFuel(base, PLENTY_OF_FUEL);
-        FurnaceBlockEntity furnace = placeLoadedFurnace(base, corner);
+        unfuelAll(base);
+        placeHearth(base, corner, PLENTY_OF_FUEL);
+        FurnaceBlockEntity furnace = placeLoadedFurnace(base, corner.west());
 
         helper.assertTrue(base.players().isEmpty(), "a player is in the base");
         helper.startSequence()
                 .thenWaitUntil(() -> helper.assertTrue(furnace.getItem(2).is(Items.IRON_INGOT), "the corner furnace has not smelted yet"))
                 .thenExecute(() -> {
+                    base.removeBlock(corner.west(), false);
                     base.removeBlock(corner, false);
-                    setFuel(base, 0);
+                    unfuelAll(base);
+                })
+                .thenSucceed();
+    }
+
+    @GameTest(template = "empty", batch = "stasis_hearth", timeoutTicks = 800)
+    public static void unfueledHearthKeepsItsChunkFrozen(GameTestHelper helper) {
+        ServerLevel base = base(helper);
+        BlockPos pos = new BlockPos(8, 100, -8);
+        BlockPos hearthPos = pos.above();
+        unfuelAll(base);
+        forceTicking(base, pos, true);
+        placeHearth(base, hearthPos, 0);
+        FurnaceBlockEntity furnace = placeLoadedFurnace(base, pos);
+
+        helper.startSequence()
+                .thenIdle(250)
+                .thenExecute(() -> {
+                    helper.assertTrue(furnace.getItem(2).isEmpty(), "an unfueled hearth let its chunk run");
+                    placeHearth(base, hearthPos, PLENTY_OF_FUEL);
+                })
+                .thenWaitUntil(() -> helper.assertTrue(furnace.getItem(2).is(Items.IRON_INGOT), "the fueled hearth did not wake its chunk"))
+                .thenExecute(() -> {
+                    base.removeBlock(pos, false);
+                    base.removeBlock(hearthPos, false);
+                    forceTicking(base, pos, false);
+                    unfuelAll(base);
                 })
                 .thenSucceed();
     }
 
     @GameTest(template = "empty", batch = "stasis_elsewhere", timeoutTicks = 600)
     public static void frozenBaseLeavesOtherDimensionsAlone(GameTestHelper helper) {
-        setFuel(base(helper), 0);
+        unfuelAll(base(helper));
         BlockPos pos = helper.absolutePos(BlockPos.ZERO);
         FurnaceBlockEntity furnace = placeLoadedFurnace(helper.getLevel(), pos);
         helper.succeedWhen(() -> helper.assertTrue(furnace.getItem(2).is(Items.IRON_INGOT), "the overworld furnace has not smelted yet"));
-    }
-
-    @GameTest(template = "empty", batch = "stasis_world_border")
-    public static void overworldBorderChangeLeavesTheBaseBorderAlone(GameTestHelper helper) {
-        MinecraftServer server = helper.getLevel().getServer();
-        ServerLevel base = base(helper);
-        BaseBounds bounds = BaseDimension.bounds();
-        double previousSize = server.overworld().getWorldBorder().getSize();
-
-        server.getCommands().performPrefixedCommand(server.createCommandSourceStack().withSuppressedOutput(), "worldborder set 1000");
-        helper.assertTrue(server.overworld().getWorldBorder().getSize() == 1000, "the overworld border did not change");
-        helper.assertTrue(base.getWorldBorder().getSize() == bounds.borderSize(), "the base border followed the overworld");
-        helper.assertTrue(base.getWorldBorder().getCenterX() == bounds.borderCenterX(), "the base border moved");
-
-        server.overworld().getWorldBorder().setSize(previousSize);
-        helper.succeed();
     }
 
     /** Random ticks without a player nearby need a Forge ticking ticket; a vanilla forced chunk does not get them. */

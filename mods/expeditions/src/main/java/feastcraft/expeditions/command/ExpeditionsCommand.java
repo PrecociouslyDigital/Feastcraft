@@ -1,13 +1,14 @@
 package feastcraft.expeditions.command;
 
 import com.mojang.brigadier.arguments.LongArgumentType;
+import com.mojang.brigadier.builder.ArgumentBuilder;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import feastcraft.expeditions.Expeditions;
 import feastcraft.expeditions.TickTime;
 import feastcraft.expeditions.base.BaseDimension;
-import feastcraft.expeditions.base.BaseFuel;
+import feastcraft.expeditions.base.HearthBlockEntity;
 import feastcraft.expeditions.base.FuelTank;
 import feastcraft.expeditions.exfil.ExfilBeacons;
 import feastcraft.expeditions.expedition.Deployment;
@@ -51,12 +52,7 @@ public final class ExpeditionsCommand {
                         .then(Commands.literal("reset")
                                 .then(Commands.argument("pos", BlockPosArgument.blockPos()).executes(ExpeditionsCommand::resetBeacon)))
                         .then(Commands.literal("nearest").executes(ExpeditionsCommand::nearestBeacon)))
-                .then(Commands.literal("fuel")
-                        .then(Commands.literal("get").executes(context -> changeFuel(context, UnaryOperator.identity())))
-                        .then(Commands.literal("add").then(Commands.argument("ticks", LongArgumentType.longArg(0))
-                                .executes(context -> changeFuel(context, tank -> tank.add(LongArgumentType.getLong(context, "ticks"))))))
-                        .then(Commands.literal("set").then(Commands.argument("ticks", LongArgumentType.longArg(0))
-                                .executes(context -> changeFuel(context, tank -> new FuelTank(LongArgumentType.getLong(context, "ticks"))))))));
+                .then(Commands.literal("fuel").then(fuelCommands())));
     }
 
     /** {@code <name> [player]}, where the player defaults to whoever runs the command. */
@@ -84,11 +80,25 @@ public final class ExpeditionsCommand {
         return 1;
     }
 
-    private static int changeFuel(CommandContext<CommandSourceStack> context, UnaryOperator<FuelTank> change) {
-        ServerLevel base = BaseDimension.level(context.getSource().getServer());
-        BaseFuel fuel = BaseFuel.get(base);
-        fuel.update(base, change);
-        long ticks = fuel.tank().ticksRemaining();
+    /** {@code fuel <pos> <get|add|set>} targets the hearth's own tank at the given position. */
+    private static ArgumentBuilder<CommandSourceStack, ?> fuelCommands() {
+        return Commands.argument("pos", BlockPosArgument.blockPos())
+                .then(Commands.literal("get").executes(context -> changeFuel(context, UnaryOperator.identity())))
+                .then(Commands.literal("add").then(Commands.argument("ticks", LongArgumentType.longArg(0))
+                        .executes(context -> changeFuel(context, tank -> tank.add(LongArgumentType.getLong(context, "ticks"))))))
+                .then(Commands.literal("set").then(Commands.argument("ticks", LongArgumentType.longArg(0))
+                        .executes(context -> changeFuel(context, tank -> new FuelTank(LongArgumentType.getLong(context, "ticks"))))));
+    }
+
+    private static int changeFuel(CommandContext<CommandSourceStack> context, UnaryOperator<FuelTank> change) throws CommandSyntaxException {
+        BlockPos pos = BlockPosArgument.getLoadedBlockPos(context, "pos");
+        ServerLevel level = context.getSource().getLevel();
+        if (!(level.getBlockEntity(pos) instanceof HearthBlockEntity hearth)) {
+            context.getSource().sendFailure(Component.translatable("commands.feastcraft_expeditions.fuel.no_hearth"));
+            return 0;
+        }
+        hearth.setFuel(change.apply(hearth.tank()));
+        long ticks = hearth.tank().ticksRemaining();
         context.getSource().sendSuccess(() -> Component.translatable(
                 "commands.feastcraft_expeditions.fuel", TickTime.format(ticks), ticks), false);
         return (int) Math.min(Integer.MAX_VALUE, ticks);

@@ -14,6 +14,7 @@ abstract class LevelMixin {
     @Redirect(method = "tickBlockEntities", at = @At(value = "INVOKE",
             target = "Lnet/minecraft/world/level/Level;shouldTickBlocksAt(Lnet/minecraft/core/BlockPos;)Z"))
     private boolean feastcraft$stopBlockEntitiesInFrozenBase(Level level, BlockPos pos) {
-        return !BaseStasis.isFrozen(level) && level.shouldTickBlocksAt(pos);
+        // Each hearth powers only its own chunk; block entities elsewhere in the base stay frozen.
+        return !BaseStasis.isFrozen(level, pos) && level.shouldTickBlocksAt(pos);
     }
 }

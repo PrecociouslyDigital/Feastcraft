@@ -1,6 +1,6 @@
 package feastcraft.expeditions;
 
-import feastcraft.expeditions.base.BaseChunkLoading;
+import feastcraft.expeditions.base.HearthIndex;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
@@ -13,8 +13,9 @@ public final class Expeditions {
 
     public Expeditions(FMLJavaModLoadingContext context) {
         context.registerConfig(ModConfig.Type.SERVER, ExpeditionsConfig.SPEC);
+        context.registerConfig(ModConfig.Type.COMMON, ExpeditionsConfig.COMMON_SPEC);
         ExpeditionsRegistry.register(context.getModEventBus());
-        context.getModEventBus().addListener((FMLCommonSetupEvent event) -> BaseChunkLoading.registerTicketValidation());
+        context.getModEventBus().addListener((FMLCommonSetupEvent event) -> HearthIndex.registerTicketValidation());
     }
 
     public static ResourceLocation id(String path) {

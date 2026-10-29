@@ -5,10 +5,8 @@
   "compatibilityLevel": "JAVA_17",
   "refmap": "feastcraft_expeditions.refmap.json",
   "mixins": [
-    "DelegateBorderChangeListenerAccessor",
     "LevelMixin",
-    "ServerLevelMixin",
-    "WorldBorderAccessor"
+    "ServerLevelMixin"
   ],
   "injectors": {
     "defaultRequire": 1

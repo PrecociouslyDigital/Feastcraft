@@ -17,12 +17,14 @@ final class EnglishLang extends LanguageProvider {
         add(ExpeditionsRegistry.DEPARTURE_GATE.get(), "Departure Gate");
         add(ExpeditionsRegistry.EXFIL_BEACON.get(), "Exfil Beacon");
         add(ExpeditionsRegistry.EXFIL_COMPASS.get(), "Exfil Compass");
+        add(ExpeditionsRegistry.EMBER_CHARCOAL.get(), "Ember Charcoal");
 
-        add("feastcraft_expeditions.base.running", "The hearth roars to life. The base is running again.");
-        add("feastcraft_expeditions.base.frozen", "The hearth has gone out. Plants and machines in the base have stopped.");
+        add("feastcraft_expeditions.hearth.lit", "A hearth roars to life. Its chunk is running.");
+        add("feastcraft_expeditions.hearth.died", "A hearth has gone out. Its chunk's plants and machines have stopped.");
         add("feastcraft_expeditions.hearth.not_in_base", "A hearth only burns in the base.");
         add("feastcraft_expeditions.hearth.remaining", "Fuel remaining: %s");
-        add("feastcraft_expeditions.hearth.empty", "The hearth is cold. Feed it fuel to run the base.");
+        add("feastcraft_expeditions.hearth.empty", "The hearth is cold. Feed it fuel to run its chunk.");
+        add("feastcraft_expeditions.hearth.disabled", "The hearth rests. (Ember charcoal is disabled in the config.)");
 
         add("feastcraft_expeditions.gate.not_in_base", "The gate only opens from the base.");
         add("feastcraft_expeditions.deploy.searching", "Plotting a drop point...");
@@ -44,6 +46,7 @@ final class EnglishLang extends LanguageProvider {
         add("commands.feastcraft_expeditions.recall", "Recalled %s to the base");
         add("commands.feastcraft_expeditions.raid.info", "%s is raiding: dropped at %s, %s seconds ago");
         add("commands.feastcraft_expeditions.raid.none", "%s is at the base");
-        add("commands.feastcraft_expeditions.fuel", "Base fuel: %s (%s ticks)");
+        add("commands.feastcraft_expeditions.fuel", "Hearth fuel at %s: %s (%s ticks)");
+        add("commands.feastcraft_expeditions.fuel.no_hearth", "There is no hearth at %s");
     }
 }

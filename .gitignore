@@ -26,3 +26,6 @@ run-harness
 
 # jqwik
 .jqwik-database
+
+# pi agent session state
+.pi/

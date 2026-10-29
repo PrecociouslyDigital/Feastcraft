@@ -2,7 +2,7 @@ package feastcraft.expeditions.gametest;
 
 import static feastcraft.expeditions.gametest.TestFixtures.PLENTY_OF_FUEL;
 import static feastcraft.expeditions.gametest.TestFixtures.base;
-import static feastcraft.expeditions.gametest.TestFixtures.setFuel;
+import static feastcraft.expeditions.gametest.TestFixtures.fuelBase;
 
 import com.mojang.authlib.GameProfile;
 import feastcraft.expeditions.Expeditions;
@@ -44,7 +44,7 @@ public final class BeaconTests {
     public static void departureCarriesTheZoneHomeAndSpendsTheBeacon(GameTestHelper helper) {
         ServerLevel level = helper.getLevel();
         ServerLevel base = base(helper);
-        setFuel(base, PLENTY_OF_FUEL);
+        fuelBase(base, PLENTY_OF_FUEL);
         BlockPos beacon = placeBeacon(helper);
         Cow inside = stillCow(helper, IN_ZONE);
         Cow outside = stillCow(helper, OUT_OF_ZONE);
@@ -58,7 +58,7 @@ public final class BeaconTests {
                 .thenExecute(() -> {
                     helper.assertTrue(outside.isAlive() && outside.level() == level, "the cow outside the zone left");
                     base.getEntity(inside.getUUID()).discard();
-                    setFuel(base, 0);
+                    fuelBase(base, 0);
                 })
                 .thenSucceed();
     }
@@ -67,7 +67,7 @@ public final class BeaconTests {
     public static void cancellingDepartureHoldsTheCountdownAtZero(GameTestHelper helper) {
         ServerLevel level = helper.getLevel();
         ServerLevel base = base(helper);
-        setFuel(base, PLENTY_OF_FUEL);
+        fuelBase(base, PLENTY_OF_FUEL);
         BlockPos beacon = placeBeacon(helper);
         Cow cow = stillCow(helper, IN_ZONE);
         HoldDeparture hold = new HoldDeparture(beacon);
@@ -85,7 +85,7 @@ public final class BeaconTests {
                 .thenWaitUntil(() -> helper.assertTrue(base.getEntity(cow.getUUID()) != null, "the cow did not leave once the veto lifted"))
                 .thenExecute(() -> {
                     base.getEntity(cow.getUUID()).discard();
-                    setFuel(base, 0);
+                    fuelBase(base, 0);
                 })
                 .thenSucceed();
     }
