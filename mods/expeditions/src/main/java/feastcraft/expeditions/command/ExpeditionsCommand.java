@@ -100,7 +100,7 @@ public final class ExpeditionsCommand {
         hearth.setFuel(change.apply(hearth.tank()));
         long ticks = hearth.tank().ticksRemaining();
         context.getSource().sendSuccess(() -> Component.translatable(
-                "commands.feastcraft_expeditions.fuel", TickTime.format(ticks), ticks), false);
+                "commands.feastcraft_expeditions.fuel", pos.toShortString(), TickTime.format(ticks), ticks), false);
         return (int) Math.min(Integer.MAX_VALUE, ticks);
     }
 
