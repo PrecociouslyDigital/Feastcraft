@@ -1,0 +1,28 @@
+{
+  "type": "origins:conditioned_attribute",
+  "hidden": true,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:exposed_to_sky"
+      },
+      {
+        "type": "origins:daytime"
+      }
+    ]
+  },
+  "tick_rate": 10,
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_base",
+      "value": -0.25
+    },
+    {
+      "attribute": "puffish_attributes:melee_damage",
+      "operation": "multiply_base",
+      "value": -0.3
+    }
+  ]
+}

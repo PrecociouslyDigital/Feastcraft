@@ -1,0 +1,8 @@
+{
+  "type": "origins:modify_projectile_damage",
+  "hidden": true,
+  "modifier": {
+    "operation": "apoli:multiply_total_multiplicative",
+    "value": -1
+  }
+}

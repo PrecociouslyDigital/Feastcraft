@@ -1,0 +1,9 @@
+{
+  "type": "origins:action_when_damage_taken",
+  "hidden": true,
+  "cooldown": 1,
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "xp add @s -10 points"
+  }
+}

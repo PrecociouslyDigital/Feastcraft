@@ -1,0 +1,35 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "hidden": true,
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": [
+        {
+          "tag": "minecraft:swords"
+        },
+        {
+          "tag": "minecraft:axes"
+        },
+        {
+          "tag": "forge:tools/swords"
+        },
+        {
+          "tag": "forge:tools/axes"
+        },
+        {
+          "tag": "forge:tools/tridents"
+        },
+        {
+          "tag": "tconstruct:modifiable/melee/weapon"
+        }
+      ]
+    }
+  },
+  "modifier": {
+    "operation": "apoli:multiply_total_multiplicative",
+    "value": -1
+  }
+}

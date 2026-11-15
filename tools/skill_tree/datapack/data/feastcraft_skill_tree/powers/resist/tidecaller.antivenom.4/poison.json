@@ -1,0 +1,16 @@
+{
+  "type": "origins:modify_damage_taken",
+  "hidden": true,
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "magic"
+  },
+  "modifier": {
+    "operation": "apoli:multiply_base_additive",
+    "value": -0.08
+  },
+  "condition": {
+    "type": "origins:status_effect",
+    "effect": "minecraft:poison"
+  }
+}

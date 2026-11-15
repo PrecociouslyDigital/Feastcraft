@@ -1,0 +1,25 @@
+{
+  "title": "Feastcraft",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:cake"
+    }
+  },
+  "background": {
+    "texture": "minecraft:textures/block/dark_oak_planks.png",
+    "width": 16,
+    "height": 16,
+    "position": "tile"
+  },
+  "unlocked_by_default": true,
+  "starting_points": 0,
+  "colors": {
+    "connections": {
+      "excluded": {
+        "fill": "#00000000",
+        "stroke": "#00000000"
+      }
+    }
+  }
+}

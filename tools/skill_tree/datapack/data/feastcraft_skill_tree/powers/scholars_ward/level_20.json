@@ -1,0 +1,13 @@
+{
+  "type": "origins:modify_damage_taken",
+  "hidden": true,
+  "condition": {
+    "type": "origins:xp_levels",
+    "comparison": ">=",
+    "compare_to": 20
+  },
+  "modifier": {
+    "operation": "apoli:multiply_base_additive",
+    "value": -0.06
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "origins:modify_break_speed",
+  "hidden": true,
+  "condition": {
+    "type": "origins:exposed_to_sky",
+    "inverted": true
+  },
+  "modifier": {
+    "operation": "apoli:multiply_base_additive",
+    "value": 1.0
+  }
+}

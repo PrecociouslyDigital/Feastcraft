@@ -1,0 +1,13 @@
+{
+  "type": "origins:modify_projectile_damage",
+  "hidden": true,
+  "bientity_condition": {
+    "type": "origins:distance",
+    "comparison": "<=",
+    "compare_to": 5
+  },
+  "modifier": {
+    "operation": "apoli:multiply_base_additive",
+    "value": 0.15
+  }
+}

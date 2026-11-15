@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "enabled": true,
+  "origins": [
+    "origins:human"
+  ],
+  "auto_choose": true,
+  "hidden": true
+}

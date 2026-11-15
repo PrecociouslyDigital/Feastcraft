@@ -1,0 +1,13 @@
+{
+  "type": "origins:conditioned_restrict_armor",
+  "hidden": true,
+  "head": {
+    "type": "origins:empty",
+    "inverted": true
+  },
+  "chest": {
+    "type": "origins:empty",
+    "inverted": true
+  },
+  "tick_rate": 20
+}

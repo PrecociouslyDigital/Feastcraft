@@ -1,0 +1,12 @@
+{
+  "type": "origins:modify_damage_taken",
+  "hidden": true,
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "wither"
+  },
+  "modifier": {
+    "operation": "apoli:multiply_base_additive",
+    "value": -0.08
+  }
+}

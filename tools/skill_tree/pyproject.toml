@@ -1,0 +1,9 @@
+[project]
+name = "skilltree"
+version = "0.1.0"
+description = "Generates the Feastcraft skill tree datapack"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.mypy]
+strict = true

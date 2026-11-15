@@ -1,0 +1,19 @@
+{
+  "type": "origins:conditioned_attribute",
+  "hidden": true,
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:empty"
+    }
+  },
+  "tick_rate": 5,
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "addition",
+      "value": 6
+    }
+  ]
+}
