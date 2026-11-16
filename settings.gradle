@@ -10,3 +10,4 @@ rootProject.name = 'feastcraft'
 
 file('mods').eachDir { include ":mods:${it.name}" }
 include ':tools:harness'
+include ':tools:datapack_export'

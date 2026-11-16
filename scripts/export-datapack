@@ -1,0 +1,62 @@
+#!/usr/bin/env bash
+# Exports the data an ATLauncher instance's fresh world would load, merged across every mod and
+# datapack. See tools/datapack_export/README.md.
+#
+#   export-datapack [instance=Feastcraft3] [out=build/datapack-export]
+#
+# ATLAUNCHER_DIR is the launcher's own directory, the one holding ATLauncher.jar and instances/.
+set -euo pipefail
+
+repo=$(cd "$(dirname "$0")/.." && pwd)
+launcher=${ATLAUNCHER_DIR:-/Applications/ATLauncher.app/Contents/Java}
+instance=Feastcraft3
+out=$repo/build/datapack-export
+# Time allowed for the pack to reach the title screen.
+timeout_seconds=900
+
+die() {
+    echo "export-datapack: $*" >&2
+    exit 1
+}
+
+for pair in "$@"; do
+    case $pair in
+        instance=*) instance=${pair#instance=} ;;
+        out=*) out=$(mkdir -p "${pair#out=}" && cd "${pair#out=}" && pwd) ;;
+        *) die "unknown argument $pair" ;;
+    esac
+done
+
+game_dir=$launcher/instances/$instance
+[[ -d $game_dir/mods ]] || die "no instance at $game_dir"
+
+game_running() {
+    pgrep -f "gameDir.*instances/$instance" >/dev/null
+}
+game_running && die "$instance is already running"
+
+"$repo/gradlew" -p "$repo" -q :tools:datapack_export:jar
+jar=$(ls "$repo"/tools/datapack_export/build/libs/*.jar)
+installed=$game_dir/mods/$(basename "$jar")
+cp "$jar" "$installed"
+trap 'rm -f "$installed"' EXIT
+
+rm -rf "$out"
+(
+    cd "$launcher"
+    FEASTCRAFT_DATAPACK_EXPORT=$out nohup java -cp "$launcher/*" "-Duser.dir=$launcher" com.atlauncher.App \
+        --launch "$instance" --close-launcher --no-console --no-launcher-update >/dev/null 2>&1 &
+)
+
+deadline=$((SECONDS + timeout_seconds))
+until game_running; do
+    ((SECONDS < deadline)) || die "$instance did not start"
+    sleep 1
+done
+while game_running; do
+    ((SECONDS < deadline)) || die "$instance did not finish within ${timeout_seconds}s; it is still running"
+    sleep 2
+done
+
+[[ -f $out/sources.tsv ]] || die "the game exited before finishing the export; see $game_dir/logs/latest.log"
+echo "$(wc -l <"$out/sources.tsv" | tr -d ' ') files from $(wc -l <"$out/packs.txt" | tr -d ' ') packs in $out"

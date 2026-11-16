@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "feastcraft.datapackexport.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "feastcraft_datapack_export.refmap.json",
+  "mixins": [
+    "FolderPackAccessor",
+    "ZipPackAccessor"
+  ]
+}
