@@ -1,0 +1,26 @@
+
+[base]
+	#Chunks from the center chunk to the base's edge. The base is (2r+1)x(2r+1) chunks;
+	#its fuel-powered chunk loading covers exactly that square.
+	#Range: 0 ~ 32
+	baseRadiusChunks = 4
+
+[deployment]
+	#Closest a deployment lands to world spawn, in blocks.
+	#Range: 0 ~ 29000000
+	dropMinDistance = 1000
+	#Farthest a deployment lands from world spawn, in blocks. Drops are spread evenly by area in between.
+	#Range: 0 ~ 29000000
+	dropMaxDistance = 10000
+	#A drop needs an unspent exfil beacon at least this far away, in blocks.
+	#Range: 0 ~ 100000
+	beaconMinDistance = 150
+	#A drop also needs one no farther than this, in blocks, so nobody lands where every nearby beacon is spent.
+	#Range: 0 ~ 100000
+	beaconMaxDistance = 800
+
+[exfil]
+	#Ticks between calling a beacon and departure. Everyone in its zone when it ends goes home.
+	#Range: 1 ~ 72000
+	countdownTicks = 2400
+

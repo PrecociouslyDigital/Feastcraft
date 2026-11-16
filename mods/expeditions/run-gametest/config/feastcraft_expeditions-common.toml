@@ -1,0 +1,7 @@
+
+[ember]
+	#Master switch for ember charcoal and per-hearth fuel. When off, ember charcoal stops
+	#appearing in loot, every chunk of the base runs without fuel, and hearths are inert.
+	#Flip this off if the fuel loop turns out not to be fun.
+	enabled = true
+

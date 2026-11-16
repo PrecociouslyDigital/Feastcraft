@@ -1,0 +1,709 @@
+[15Nov2026 22:02:07.796] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgegametestserveruserdev, --gameDir, ., --fml.forgeVersion, 47.4.28, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mixin.config, feastcraft_expeditions.mixins.json]
+[15Nov2026 22:02:07.797] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.20.1 by Eclipse Adoptium; OS Mac OS X arch aarch64 version 26.6.2
+[15Nov2026 22:02:07.833] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgegametestserveruserdev
+[15Nov2026 22:02:07.850] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/Users/skye/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23141!/ Service=ModLauncher Env=SERVER
+[15Nov2026 22:02:07.926] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/skye/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.20.1-47.4.28/99808794b6f9f27ca527ad9db1203409fb8552f8/fmlcore-1.20.1-47.4.28.jar is missing mods.toml file
+[15Nov2026 22:02:07.927] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/skye/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.20.1-47.4.28/2f0765ea31561e9dfaf8eb8b54ac0548cd857559/javafmllanguage-1.20.1-47.4.28.jar is missing mods.toml file
+[15Nov2026 22:02:07.927] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/skye/.gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.20.1-47.4.28/4e54a5f415a61888bd9c5d61b140ae5f86bf665f/lowcodelanguage-1.20.1-47.4.28.jar is missing mods.toml file
+[15Nov2026 22:02:07.928] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/skye/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.20.1-47.4.28/4d3efb7da0466927cc5b1e4487c3d3c33ba842d0/mclanguage-1.20.1-47.4.28.jar is missing mods.toml file
+[15Nov2026 22:02:07.970] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[15Nov2026 22:02:08.705] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[15Nov2026 22:02:08.708] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgegametestserveruserdev' with arguments [--gameDir, .]
+[15Nov2026 22:02:08.721] [main/WARN] [mixin/]: Reference map 'feastcraft_expeditions.refmap.json' for feastcraft_expeditions.mixins.json could not be read. If this is a development environment you can ignore this message
+[15Nov2026 22:02:09.001] [main/INFO] [mixin/]: Remapping refMap attributeslib.refmap.json using /Users/skye/workbench/Feastcraft/mods/expeditions/build/moddev/artifacts/intermediateToNamed.srg
+[15Nov2026 22:02:09.004] [main/INFO] [mixin/]: Remapping refMap apotheosis.refmap.json using /Users/skye/workbench/Feastcraft/mods/expeditions/build/moddev/artifacts/intermediateToNamed.srg
+[15Nov2026 22:02:09.005] [main/INFO] [mixin/]: Remapping refMap placebo.refmap.json using /Users/skye/workbench/Feastcraft/mods/expeditions/build/moddev/artifacts/intermediateToNamed.srg
+[15Nov2026 22:02:09.081] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[15Nov2026 22:02:09.097] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[15Nov2026 22:02:09.197] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[15Nov2026 22:02:09.206] [main/WARN] [mixin/]: Error loading class: org/violetmoon/quark/content/tweaks/module/GoldToolsHaveFortuneModule (java.lang.ClassNotFoundException: org.violetmoon.quark.content.tweaks.module.GoldToolsHaveFortuneModule)
+[15Nov2026 22:02:09.207] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[15Nov2026 22:02:09.207] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[15Nov2026 22:02:09.212] [main/WARN] [mixin/]: Error loading class: com/hollingsworth/arsnouveau/common/items/SpellCrossbow (java.lang.ClassNotFoundException: com.hollingsworth.arsnouveau.common.items.SpellCrossbow)
+[15Nov2026 22:02:09.264] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[15Nov2026 22:02:09.265] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[15Nov2026 22:02:09.265] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[15Nov2026 22:02:09.321] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@30c3ae63
+[15Nov2026 22:02:09.402] [main/WARN] [oshi.util.platform.mac.SysctlUtil/]: Failed sysctl call: hw.cpufrequency, Error code: 2
+[15Nov2026 22:02:09.403] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@30c3ae63
+[15Nov2026 22:02:09.711] [main/DEBUG] [mixin/]: Mixing BlockMixin from apotheosis.mixins.json into net.minecraft.world.level.block.Block
+[15Nov2026 22:02:09.773] [main/DEBUG] [mixin/]: Mixing EntityMixin from attributeslib.mixins.json into net.minecraft.world.entity.Entity
+[15Nov2026 22:02:09.805] [main/DEBUG] [mixin/]: Mixing IForgeEntityMixin from attributeslib.mixins.json into net.minecraftforge.common.extensions.IForgeEntity
+[15Nov2026 22:02:09.813] [main/DEBUG] [mixin/]: Mixing LivingEntityMixin from attributeslib.mixins.json into net.minecraft.world.entity.LivingEntity
+[15Nov2026 22:02:09.815] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[15Nov2026 22:02:09.819] [main/DEBUG] [mixin/]: Mixing LivingEntityInvoker from apotheosis.mixins.json into net.minecraft.world.entity.LivingEntity
+[15Nov2026 22:02:09.839] [main/DEBUG] [mixin/]: Mixing LivingEntityMixin from apotheosis.mixins.json into net.minecraft.world.entity.LivingEntity
+[15Nov2026 22:02:09.842] [main/DEBUG] [mixin/]: Mixing MHFMixinLivingEntity from apotheosis.mixins.json into net.minecraft.world.entity.LivingEntity
+[15Nov2026 22:02:09.845] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/EntityType
+[15Nov2026 22:02:09.998] [main/DEBUG] [mixin/]: Mixing LevelMixin from feastcraft_expeditions.mixins.json into net.minecraft.world.level.Level
+[15Nov2026 22:02:10.008] [main/DEBUG] [mixin/]: Mixing ServerLevelMixin from feastcraft_expeditions.mixins.json into net.minecraft.server.level.ServerLevel
+[15Nov2026 22:02:10.018] [main/DEBUG] [mixin/]: Mixing PlayerMixin from attributeslib.mixins.json into net.minecraft.world.entity.player.Player
+[15Nov2026 22:02:10.047] [main/DEBUG] [mixin/]: Mixing ItemMixin from apotheosis.mixins.json into net.minecraft.world.item.Item
+[15Nov2026 22:02:10.054] [main/DEBUG] [mixin/]: Mixing IForgeItemMixin from attributeslib.mixins.json into net.minecraftforge.common.extensions.IForgeItem
+[15Nov2026 22:02:10.058] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/EntityType
+[15Nov2026 22:02:10.074] [main/DEBUG] [mixin/]: Mixing EnchantmentMixin from apotheosis.mixins.json into net.minecraft.world.item.enchantment.Enchantment
+[15Nov2026 22:02:10.074] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$apoth_modifyEnchColorForAboveMaxLevel$0(Lnet/minecraft/network/chat/Style;)Lnet/minecraft/network/chat/Style; to md808033$lambda$apoth_modifyEnchColorForAboveMaxLevel$0$0 in apotheosis.mixins.json:EnchantmentMixin
+[15Nov2026 22:02:10.084] [main/DEBUG] [mixin/]: Mixing AttributeMixin from attributeslib.mixins.json into net.minecraft.world.entity.ai.attributes.Attribute
+[15Nov2026 22:02:10.096] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/CreativeModeTabs
+[15Nov2026 22:02:10.128] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/CreativeModeTabs
+[15Nov2026 22:02:10.179] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[15Nov2026 22:02:10.190] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
+[15Nov2026 22:02:10.210] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[15Nov2026 22:02:10.213] [main/DEBUG] [mixin/]: Mixing AnvilBlockMixin from placebo.mixins.json into net.minecraft.world.level.block.AnvilBlock
+[15Nov2026 22:02:10.238] [main/DEBUG] [mixin/]: Mixing CandleBlockMixin from apotheosis.mixins.json into net.minecraft.world.level.block.CandleBlock
+[15Nov2026 22:02:10.301] [main/DEBUG] [mixin/]: Mixing FallingBlockEntityMixin from apotheosis.mixins.json into net.minecraft.world.entity.item.FallingBlockEntity
+[15Nov2026 22:02:10.442] [main/DEBUG] [mixin/]: Mixing AbstractContainerMenuInvoker from placebo.mixins.json into net.minecraft.world.inventory.AbstractContainerMenu
+[15Nov2026 22:02:10.468] [main/DEBUG] [mixin/]: Mixing MobMixin from feastcraft_expeditions.mixins.json into net.minecraft.world.entity.Mob
+[15Nov2026 22:02:10.491] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[15Nov2026 22:02:10.491] [main/DEBUG] [mixin/]: Mixing ItemStackMixin from apotheosis.mixins.json into net.minecraft.world.item.ItemStack
+[15Nov2026 22:02:10.491] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$swapDura$2(DD)D to md808033$lambda$swapDura$2$0 in apotheosis.mixins.json:ItemStackMixin
+[15Nov2026 22:02:10.491] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$swapDura$1(Lnet/minecraft/server/level/ServerPlayer;Ldev/shadowsoffire/apotheosis/adventure/affix/AffixInstance;)D to md808033$lambda$swapDura$1$1 in apotheosis.mixins.json:ItemStackMixin
+[15Nov2026 22:02:10.491] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$apoth_affixItemName$0(Ldev/shadowsoffire/placebo/reload/DynamicHolder;Lnet/minecraft/network/chat/Style;)Lnet/minecraft/network/chat/Style; to md808033$lambda$apoth_affixItemName$0$2 in apotheosis.mixins.json:ItemStackMixin
+[15Nov2026 22:02:10.500] [main/DEBUG] [mixin/]: Mixing ItemStackMixin from attributeslib.mixins.json into net.minecraft.world.item.ItemStack
+[15Nov2026 22:02:10.500] [main/DEBUG] [mixin/]: Mixing ItemStackMixin from placebo.mixins.json into net.minecraft.world.item.ItemStack
+[15Nov2026 22:02:10.500] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$getOrCreate$0(Ljava/util/function/Function;Ljava/util/function/ToIntFunction;Lnet/minecraft/resources/ResourceLocation;)Ldev/shadowsoffire/placebo/util/CachedObject; to md808033$lambda$getOrCreate$0$3 in placebo.mixins.json:ItemStackMixin
+[15Nov2026 22:02:10.537] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming getEnchantmentLevel with desc (Lnet/minecraft/world/item/enchantment/Enchantment;)I
+[15Nov2026 22:02:10.537] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[15Nov2026 22:02:10.538] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming getAllEnchantments with desc ()Ljava/util/Map;
+[15Nov2026 22:02:10.538] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[15Nov2026 22:02:10.538] [main/DEBUG] [mixin/]: Mixing IForgeItemStackMixin from apotheosis.mixins.json into net.minecraftforge.common.extensions.IForgeItemStack
+[15Nov2026 22:02:10.561] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/inventory/AnvilMenu
+[15Nov2026 22:02:10.569] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[15Nov2026 22:02:10.569] [main/DEBUG] [mixin/]: Mixing AnvilMenuMixin from apotheosis.mixins.json into net.minecraft.world.inventory.AnvilMenu
+[15Nov2026 22:02:10.730] [main/DEBUG] [mixin/]: Mixing SmithingMenuMixin from apotheosis.mixins.json into net.minecraft.world.inventory.SmithingMenu
+[15Nov2026 22:02:10.821] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/frog/Tadpole
+[15Nov2026 22:02:10.832] [main/DEBUG] [mixin/]: Mixing ArrowItemMixin from apotheosis.mixins.json into net.minecraft.world.item.ArrowItem
+[15Nov2026 22:02:10.837] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[15Nov2026 22:02:10.841] [main/DEBUG] [mixin/]: Mixing ShearsItemMixin from apotheosis.mixins.json into net.minecraft.world.item.ShearsItem
+[15Nov2026 22:02:10.849] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/EnchantedBookItem
+[15Nov2026 22:02:10.853] [main/DEBUG] [mixin/]: Mixing TridentItemMixin from apotheosis.mixins.json into net.minecraft.world.item.TridentItem
+[15Nov2026 22:02:10.855] [main/DEBUG] [mixin/]: Mixing CrossbowItemMixin from apotheosis.mixins.json into net.minecraft.world.item.CrossbowItem
+[15Nov2026 22:02:11.078] [main/DEBUG] [mixin/]: Mixing TemptGoalMixin from apotheosis.mixins.json into net.minecraft.world.entity.ai.goal.TemptGoal
+[15Nov2026 22:02:11.084] [main/DEBUG] [mixin/]: Mixing NearestAttackableTargetGoalMixin from attributeslib.mixins.json into net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal
+[15Nov2026 22:02:11.102] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Spider
+[15Nov2026 22:02:11.116] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Zombie
+[15Nov2026 22:02:11.128] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/ZombieVillager
+[15Nov2026 22:02:11.136] [main/DEBUG] [mixin/]: Mixing ThrownTridentMixin from attributeslib.mixins.json into net.minecraft.world.entity.projectile.ThrownTrident
+[15Nov2026 22:02:11.137] [main/DEBUG] [mixin/]: Mixing ThrownTridentMixin from apotheosis.mixins.json into net.minecraft.world.entity.projectile.ThrownTrident
+[15Nov2026 22:02:11.163] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal
+[15Nov2026 22:02:11.184] [main/DEBUG] [mixin/]: Mixing SlimeMixin from apotheosis.mixins.json into net.minecraft.world.entity.monster.Slime
+[15Nov2026 22:02:11.209] [main/DEBUG] [mixin/]: Mixing SheepMixin from apotheosis.mixins.json into net.minecraft.world.entity.animal.Sheep
+[15Nov2026 22:02:11.218] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/horse/SkeletonTrapGoal
+[15Nov2026 22:02:11.223] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Strider
+[15Nov2026 22:02:11.257] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/Villager
+[15Nov2026 22:02:11.282] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming catchingFish with desc (Lnet/minecraft/core/BlockPos;)V
+[15Nov2026 22:02:11.285] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching FishingHook#catchingFish
+[15Nov2026 22:02:11.292] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[15Nov2026 22:02:11.367] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[15Nov2026 22:02:11.378] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[15Nov2026 22:02:11.378] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isDiscoverable() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[15Nov2026 22:02:11.437] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/Structure
+[15Nov2026 22:02:11.448] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece
+[15Nov2026 22:02:11.453] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece
+[15Nov2026 22:02:11.458] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece
+[15Nov2026 22:02:11.464] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece
+[15Nov2026 22:02:11.494] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
+[15Nov2026 22:02:11.568] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[15Nov2026 22:02:11.568] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 17
+[15Nov2026 22:02:11.568] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[15Nov2026 22:02:11.568] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[15Nov2026 22:02:11.569] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[15Nov2026 22:02:11.569] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[15Nov2026 22:02:11.569] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:288) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:282) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.20.1-47.4.28.jar:?]
+	at net.minecraftforge.network.NetworkHooks.init(NetworkHooks.java:52) ~[forge-1.20.1-47.4.28.jar:?]
+	at net.minecraft.server.Bootstrap.bootStrap(Bootstrap.java:65) ~[forge-1.20.1-47.4.28.jar:?]
+	at net.minecraft.server.Main.main(Main.java:121) ~[forge-1.20.1-47.4.28.jar:?]
+	at net.minecraftforge.gametest.GameTestMain.main(GameTestMain.java:16) ~[forge-1.20.1-47.4.28.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.ForgeGametestUserdevLaunchHandler.devService(ForgeGametestUserdevLaunchHandler.java:16) ~[fmlloader-1.20.1-47.4.28.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.4.28.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.neoforged.devlaunch.Main.main(Main.java:57) ~[?:?]
+[15Nov2026 22:02:11.571] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[15Nov2026 22:02:11.571] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 (in module io.netty.common) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.common
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:561) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:410) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:401) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.82.Final.jar:4.1.82.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:34) ~[forge-1.20.1-47.4.28.jar:?]
+	at net.minecraftforge.network.NetworkHooks.init(NetworkHooks.java:52) ~[forge-1.20.1-47.4.28.jar:?]
+	at net.minecraft.server.Bootstrap.bootStrap(Bootstrap.java:65) ~[forge-1.20.1-47.4.28.jar:?]
+	at net.minecraft.server.Main.main(Main.java:121) ~[forge-1.20.1-47.4.28.jar:?]
+	at net.minecraftforge.gametest.GameTestMain.main(GameTestMain.java:16) ~[forge-1.20.1-47.4.28.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.ForgeGametestUserdevLaunchHandler.devService(ForgeGametestUserdevLaunchHandler.java:16) ~[fmlloader-1.20.1-47.4.28.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.4.28.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.neoforged.devlaunch.Main.main(Main.java:57) ~[?:?]
+[15Nov2026 22:02:11.571] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[15Nov2026 22:02:11.571] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[15Nov2026 22:02:11.572] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 6442450944 bytes (maybe)
+[15Nov2026 22:02:11.572] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: /var/folders/_1/x1nrt_gd7ws6s996srz8vbhm0000gn/T (java.io.tmpdir)
+[15Nov2026 22:02:11.572] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[15Nov2026 22:02:11.572] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: MacOS
+[15Nov2026 22:02:11.572] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[15Nov2026 22:02:11.572] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[15Nov2026 22:02:11.572] [main/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[15Nov2026 22:02:11.572] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[15Nov2026 22:02:11.589] [main/DEBUG] [net.minecraftforge.network.NetworkHooks/]: Loading Network data for FML net version: FML3
+[15Nov2026 22:02:11.601] [main/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 6434
+[15Nov2026 22:02:11.606] [main/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 10 threads for parallel mod-loading
+[15Nov2026 22:02:11.607] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@30c3ae63 - got cpw.mods.cl.ModuleClassLoader@27ead29e
+[15Nov2026 22:02:11.608] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for dev.shadowsoffire.attributeslib.AttributesLib
+[15Nov2026 22:02:11.609] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@30c3ae63 - got cpw.mods.cl.ModuleClassLoader@27ead29e
+[15Nov2026 22:02:11.609] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+[15Nov2026 22:02:11.610] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@30c3ae63 - got cpw.mods.cl.ModuleClassLoader@27ead29e
+[15Nov2026 22:02:11.610] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for dev.shadowsoffire.apotheosis.Apotheosis
+[15Nov2026 22:02:11.611] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@30c3ae63 - got cpw.mods.cl.ModuleClassLoader@27ead29e
+[15Nov2026 22:02:11.611] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for feastcraft.expeditions.Expeditions
+[15Nov2026 22:02:11.611] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@30c3ae63 - got cpw.mods.cl.ModuleClassLoader@27ead29e
+[15Nov2026 22:02:11.611] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for dev.shadowsoffire.placebo.Placebo
+[15Nov2026 22:02:11.625] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 47.4 from cpw.mods.modlauncher.TransformingClassLoader@30c3ae63
+[15Nov2026 22:02:11.625] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 47.4.28
+[15Nov2026 22:02:11.625] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 47.4
+[15Nov2026 22:02:11.625] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[15Nov2026 22:02:11.625] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file feastcraft_expeditions-server.toml for feastcraft_expeditions tracking
+[15Nov2026 22:02:11.625] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file feastcraft_expeditions-common.toml for feastcraft_expeditions tracking
+[15Nov2026 22:02:11.625] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.20.1 from cpw.mods.modlauncher.TransformingClassLoader@30c3ae63
+[15Nov2026 22:02:11.625] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.20.1
+[15Nov2026 22:02:11.625] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20230612.114412
+[15Nov2026 22:02:11.626] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.28, for MC 1.20.1 with MCP 20230612.114412
+[15Nov2026 22:02:11.626] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.28 Initialized
+[15Nov2026 22:02:11.627] [modloading-worker-0/DEBUG] [mixin/]: Mixing GameTypeMixin from attributeslib.mixins.json into net.minecraft.world.level.GameType
+[15Nov2026 22:02:11.627] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for placebo
+[15Nov2026 22:02:11.637] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing dev.shadowsoffire.placebo.util.PlaceboTaskQueue to FORGE
+[15Nov2026 22:02:11.637] [modloading-worker-0/DEBUG] [mixin/]: Mixing ServerResourcesMixin from placebo.mixins.json into net.minecraft.server.ReloadableServerResources
+[15Nov2026 22:02:11.645] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for feastcraft_expeditions
+[15Nov2026 22:02:11.645] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing feastcraft.expeditions.expedition.Deployment to FORGE
+[15Nov2026 22:02:11.648] [modloading-worker-0/DEBUG] [mixin/]: Mixing DamageSourceMixin from apotheosis.mixins.json into net.minecraft.world.damagesource.DamageSource
+[15Nov2026 22:02:11.654] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing feastcraft.expeditions.expedition.ResidencyEvents to FORGE
+[15Nov2026 22:02:11.655] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[15Nov2026 22:02:11.655] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[15Nov2026 22:02:11.655] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.ModLoadingContext/]: Attempted to register an empty config for type COMMON on mod forge
+[15Nov2026 22:02:11.663] [modloading-worker-0/DEBUG] [mixin/]: Mixing AttributeInstanceAccessor from attributeslib.mixins.json into net.minecraft.world.entity.ai.attributes.AttributeInstance
+[15Nov2026 22:02:11.669] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing feastcraft.expeditions.exfil.ExfilWaves to FORGE
+[15Nov2026 22:02:11.671] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing feastcraft.expeditions.exfil.ActiveExfils to FORGE
+[15Nov2026 22:02:11.673] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing feastcraft.expeditions.exfil.WavePlans to FORGE
+[15Nov2026 22:02:11.673] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for attributeslib
+[15Nov2026 22:02:11.674] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing feastcraft.expeditions.command.ExpeditionsCommand to FORGE
+[15Nov2026 22:02:11.675] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[15Nov2026 22:02:11.675] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+[15Nov2026 22:02:11.675] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing feastcraft.expeditions.data.ExpeditionsData to MOD
+[15Nov2026 22:02:11.676] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing feastcraft.expeditions.base.BasePlatform to FORGE
+[15Nov2026 22:02:11.677] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing feastcraft.expeditions.base.HearthBlock to FORGE
+[15Nov2026 22:02:11.680] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing feastcraft.expeditions.base.HearthIndex to FORGE
+[15Nov2026 22:02:11.681] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing feastcraft.expeditions.base.FuelValues to FORGE
+[15Nov2026 22:02:11.691] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for apotheosis
+[15Nov2026 22:02:11.691] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing dev.shadowsoffire.apotheosis.village.wanderer.WandererReplacements to MOD
+[15Nov2026 22:02:11.692] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing dev.shadowsoffire.apotheosis.adventure.loot.ShieldBreakerTest to FORGE
+[15Nov2026 22:02:11.708] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/energy/IEnergyStorage;
+[15Nov2026 22:02:11.709] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandler;
+[15Nov2026 22:02:11.709] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandlerItem;
+[15Nov2026 22:02:11.709] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/items/IItemHandler;
+[15Nov2026 22:02:11.743] [main/DEBUG] [mixin/]: Mixing AttributeMapMixin from attributeslib.mixins.json into net.minecraft.world.entity.ai.attributes.AttributeMap
+[15Nov2026 22:02:11.744] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$setAttributesUpdating$0(Lnet/minecraft/world/entity/ai/attributes/Attribute;Lcom/mojang/datafixers/util/Pair;)V to md808033$lambda$setAttributesUpdating$0$0 in attributeslib.mixins.json:AttributeMapMixin
+[15Nov2026 22:02:11.759] [main/DEBUG] [placebo/]: Registered 5 recipe types.
+[15Nov2026 22:02:11.773] [main/DEBUG] [mixin/]: Mixing ForgeHooksMixin from apotheosis.mixins.json into net.minecraftforge.common.ForgeHooks
+[15Nov2026 22:02:11.800] [main/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[15Nov2026 22:02:11.800] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for /Users/skye/workbench/Feastcraft/mods/expeditions/run-gametest/config/feastcraft_expeditions-common.toml
+[15Nov2026 22:02:11.801] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file /Users/skye/workbench/Feastcraft/mods/expeditions/run-gametest/config/feastcraft_expeditions-common.toml
+[15Nov2026 22:02:11.803] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file /Users/skye/workbench/Feastcraft/mods/expeditions/run-gametest/config/feastcraft_expeditions-common.toml for changes
+[15Nov2026 22:02:11.854] [main/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue COMMON_SETUP: 8 jobs
+[15Nov2026 22:02:11.860] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[15Nov2026 22:02:11.871] [main/DEBUG] [mixin/]: Mixing LootTablesMixin from placebo.mixins.json into net.minecraft.world.level.storage.loot.LootDataManager
+[15Nov2026 22:02:11.872] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$apply$0(Lnet/minecraft/world/level/storage/loot/LootDataId;Lnet/minecraft/world/level/storage/loot/LootTable;)V to md808033$lambda$apply$0$0 in placebo.mixins.json:LootTablesMixin
+[15Nov2026 22:02:11.911] [main/DEBUG] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 55.67 ms
+[15Nov2026 22:02:12.100] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+{
+  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.4.29",
+    "1.2.3-latest": "1.4.1.64",
+    "1.2.4-latest": "2.0.0.68",
+    "1.2.5-latest": "3.4.9.171",
+    "1.3.2-latest": "4.3.5.318",
+    "1.4.0-latest": "5.0.0.326",
+    "1.4.1-latest": "6.0.0.329",
+    "1.4.2-latest": "6.0.1.355",
+    "1.4.3-latest": "6.2.1.358",
+    "1.4.4-latest": "6.3.0.378",
+    "1.4.5-latest": "6.4.2.448",
+    "1.4.6-latest": "6.5.0.489",
+    "1.4.7-latest": "6.6.2.534",
+    "1.5-latest": "7.7.0.598",
+    "1.5.1-latest": "7.7.2.682",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.738",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.2-latest": "10.12.2.1161",
+    "1.7.2-recommended": "10.12.2.1161",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-recommended": "10.13.4.1614",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.2318",
+    "1.9-latest": "12.16.1.1938",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2317",
+    "1.9.4-recommended": "12.17.0.2317",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2511",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2588",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2864",
+    "1.12.2-recommended": "14.23.5.2859",
+    "1.13.2-latest": "25.0.223",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.30",
+    "1.14.4-recommended": "28.2.26",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.62",
+    "1.15.2-recommended": "31.2.57",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.2.42",
+    "1.16.5-recommended": "36.2.34",
+    "1.17.1-latest": "37.1.1",
+    "1.17.1-recommended": "37.1.1",
+    "1.18-latest": "38.0.17",
+    "1.18.1-latest": "39.1.2",
+    "1.18.1-recommended": "39.1.0",
+    "1.18.2-recommended": "40.3.0",
+    "1.18.2-latest": "40.3.12",
+    "1.19-latest": "41.1.0",
+    "1.19-recommended": "41.1.0",
+    "1.19.1-latest": "42.0.9",
+    "1.19.2-recommended": "43.5.0",
+    "1.19.2-latest": "43.5.2",
+    "1.19.3-latest": "44.1.23",
+    "1.19.3-recommended": "44.1.0",
+    "1.19.4-recommended": "45.4.0",
+    "1.19.4-latest": "45.4.5",
+    "1.20-latest": "46.0.14",
+    "1.20.1-recommended": "47.4.28",
+    "1.20.1-latest": "47.4.29",
+    "1.20.2-latest": "48.1.0",
+    "1.20.2-recommended": "48.1.0",
+    "1.20.3-latest": "49.0.2",
+    "1.20.4-latest": "49.2.13",
+    "1.20.4-recommended": "49.2.13",
+    "1.20.6-latest": "50.2.15",
+    "1.20.6-recommended": "50.2.14",
+    "1.21-latest": "51.0.33",
+    "1.21.1-latest": "52.1.21",
+    "1.21.1-recommended": "52.1.20",
+    "1.21.3-latest": "53.1.16",
+    "1.21.3-recommended": "53.1.16",
+    "1.21.4-latest": "54.1.22",
+    "1.21.4-recommended": "54.1.22",
+    "1.21.5-latest": "55.1.18",
+    "1.21.5-recommended": "55.1.18",
+    "1.21.6-latest": "56.0.9",
+    "1.21.7-latest": "57.0.3",
+    "1.21.8-latest": "58.1.26",
+    "1.21.8-recommended": "58.1.26",
+    "1.21.9-latest": "59.0.5",
+    "1.21.10-latest": "60.1.18",
+    "1.21.10-recommended": "60.1.18",
+    "1.21.11-latest": "61.2.5",
+    "1.21.11-recommended": "61.2.4",
+    "26.1-latest": "62.0.9",
+    "26.1.1-latest": "63.0.2",
+    "26.1.2-latest": "64.1.6",
+    "26.1.2-recommended": "64.1.5",
+    "26.2-latest": "65.1.6",
+    "26.2-recommended": "65.1.5",
+    "26.3-latest": "66.1.8",
+    "26.3-recommended": "66.1.8"
+  }
+}
+[15Nov2026 22:02:12.101] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.28 Target: null
+[15Nov2026 22:02:12.377] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15Nov2026 22:02:12.394] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/skye/workbench/Feastcraft/mods/expeditions/build/moddev/artifacts/forge-1.20.1-47.4.28.jar%23143!/assets/.mcassetsroot' uses unexpected schema
+[15Nov2026 22:02:12.395] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/skye/workbench/Feastcraft/mods/expeditions/build/moddev/artifacts/forge-1.20.1-47.4.28.jar%23143!/data/.mcassetsroot' uses unexpected schema
+[15Nov2026 22:02:12.409] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:attributeslib for mod file /Users/skye/.gradle/caches/8.14.5/transforms/02597f6ce31fd7fff515ada293e252c8/transformed/apothic-attributes-898963-5634071.jar
+[15Nov2026 22:02:12.410] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file /
+[15Nov2026 22:02:12.410] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:apotheosis for mod file /Users/skye/.gradle/caches/8.14.5/transforms/07062f88cd56c40b8db5ed3f452426cb/transformed/apotheosis-313970-6461960.jar
+[15Nov2026 22:02:12.410] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:feastcraft_expeditions for mod file /Users/skye/workbench/Feastcraft/mods/expeditions/build/classes/java/main
+[15Nov2026 22:02:12.410] [main/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:placebo for mod file /Users/skye/.gradle/caches/8.14.5/transforms/e2012208ca9b4a6aa9a596860f3a17c6/transformed/placebo-283644-6274231.jar
+[15Nov2026 22:02:12.632] [main/ERROR] [net.minecraft.server.dedicated.DedicatedServerProperties/]: No key layers in MapLike[{}]
+[15Nov2026 22:02:12.676] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/server/commands/EnchantCommand
+[15Nov2026 22:02:12.679] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/server/commands/EnchantCommand
+[15Nov2026 22:02:12.696] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/server/commands/SummonCommand
+[15Nov2026 22:02:12.799] [Worker-Main-9/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/raid/Raid
+[15Nov2026 22:02:12.805] [Thread-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file feastcraft_expeditions-common.toml changed, sending notifies
+[15Nov2026 22:02:12.846] [Worker-Main-9/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:apotheosis:book
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
+	at net.minecraft.util.GsonHelper.lambda$convertToItem$0(GsonHelper.java:140) ~[forge-1.20.1-47.4.28.jar%23143!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.convertToItem(GsonHelper.java:139) ~[forge-1.20.1-47.4.28.jar%23143!/:?]
+	at net.minecraft.util.GsonHelper.getAsItem(GsonHelper.java:149) ~[forge-1.20.1-47.4.28.jar%23143!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.deserialize(LootItem.java:58) ~[forge-1.20.1-47.4.28.jar%23143!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.deserialize(LootItem.java:46) ~[forge-1.20.1-47.4.28.jar%23143!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.deserializeCustom(LootPoolSingletonContainer.java:162) ~[forge-1.20.1-47.4.28.jar%23143!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.deserializeCustom(LootPoolSingletonContainer.java:142) ~[forge-1.20.1-47.4.28.jar%23143!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.deserialize(LootPoolEntryContainer.java:95) ~[forge-1.20.1-47.4.28.jar%23143!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.deserialize(LootPoolEntryContainer.java:78) ~[forge-1.20.1-47.4.28.jar%23143!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:110) ~[forge-1.20.1-47.4.28.jar%23143!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2375!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2375!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2375!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2375!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2375!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2375!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2375!/:?]
+	at net.minecraft.util.GsonHelper.convertToObject(GsonHelper.java:455) ~[forge-1.20.1-47.4.28.jar%23143!/:?]
+	at net.minecraft.util.GsonHelper.getAsObject(GsonHelper.java:463) ~[forge-1.20.1-47.4.28.jar%23143!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:200) ~[forge-1.20.1-47.4.28.jar%23143!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:197) ~[forge-1.20.1-47.4.28.jar%23143!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2375!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2375!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2375!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2375!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2375!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2375!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2375!/:?]
+	at net.minecraft.util.GsonHelper.convertToObject(GsonHelper.java:455) ~[forge-1.20.1-47.4.28.jar%23143!/:?]
+	at net.minecraft.util.GsonHelper.getAsObject(GsonHelper.java:472) ~[forge-1.20.1-47.4.28.jar%23143!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:309) ~[forge-1.20.1-47.4.28.jar%23143!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:306) ~[forge-1.20.1-47.4.28.jar%23143!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2375!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2375!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2375!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2375!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:874) ~[forge-1.20.1-47.4.28.jar%23142%23149!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:851) ~[forge-1.20.1-47.4.28.jar%23142%23149!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[forge-1.20.1-47.4.28.jar%23143!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[forge-1.20.1-47.4.28.jar%23143!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$5(LootDataManager.java:55) ~[forge-1.20.1-47.4.28.jar%23143!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[15Nov2026 22:02:12.875] [main/INFO] [placebo/]: Registered 34 additional loot tables.
+[15Nov2026 22:02:12.877] [main/DEBUG] [mixin/]: Mixing PotionUtilsMixin from attributeslib.mixins.json into net.minecraft.world.item.alchemy.PotionUtils
+[15Nov2026 22:02:12.899] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 12 recipes
+[15Nov2026 22:02:12.930] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1324 advancements
+[15Nov2026 22:02:12.932] [main/INFO] [placebo/]: Registered 26 additional recipes.
+[15Nov2026 22:02:12.933] [main/ERROR] [net.minecraftforge.common.loot.LootModifierManager/]: Couldn't read global loot modifier list forge:loot_modifiers/global_loot_modifiers.json in data pack main
+com.google.gson.JsonSyntaxException: Expected a com.google.gson.JsonObject but was com.google.gson.JsonArray; at path $
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1010) ~[gson-2.10.jar:?]
+	at net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:509) ~[forge-1.20.1-47.4.28.jar:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:516) ~[forge-1.20.1-47.4.28.jar:?]
+	at net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:568) ~[forge-1.20.1-47.4.28.jar:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:59) ~[forge-1.20.1-47.4.28.jar:?]
+	at net.minecraftforge.common.loot.LootModifierManager.apply(LootModifierManager.java:38) ~[forge-1.20.1-47.4.28.jar:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:12) ~[forge-1.20.1-47.4.28.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:65) ~[forge-1.20.1-47.4.28.jar:?]
+	at net.minecraft.Util.blockUntilDone(Util.java:786) ~[forge-1.20.1-47.4.28.jar:?]
+	at net.minecraft.Util.blockUntilDone(Util.java:775) ~[forge-1.20.1-47.4.28.jar:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[forge-1.20.1-47.4.28.jar:?]
+	at net.minecraftforge.gametest.GameTestMain.main(GameTestMain.java:16) ~[forge-1.20.1-47.4.28.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.ForgeGametestUserdevLaunchHandler.devService(ForgeGametestUserdevLaunchHandler.java:16) ~[fmlloader-1.20.1-47.4.28.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.4.28.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.neoforged.devlaunch.Main.main(Main.java:57) ~[?:?]
+[15Nov2026 22:02:12.951] [main/INFO] [placebo/]: Registered 16 gear_sets.
+[15Nov2026 22:02:12.953] [main/INFO] [Apotheosis : Enchantment/]: Registered 29 enchanting_stats.
+[15Nov2026 22:02:12.954] [main/INFO] [Apotheosis : Adventure/]: Registered 6 rarities.
+[15Nov2026 22:02:12.959] [main/INFO] [Apotheosis : Adventure/]: Registered 81 affixes.
+[15Nov2026 22:02:12.961] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:mythic for category helmetRequired: 3; Provided: 2
+[15Nov2026 22:02:12.961] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:mythic for category bootsRequired: 3; Provided: 2
+[15Nov2026 22:02:12.961] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category bowRequired: 5; Provided: 4
+[15Nov2026 22:02:12.961] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category crossbowRequired: 5; Provided: 4
+[15Nov2026 22:02:12.961] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category pickaxeRequired: 5; Provided: 4
+[15Nov2026 22:02:12.961] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category shovelRequired: 5; Provided: 4
+[15Nov2026 22:02:12.961] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category shieldRequired: 5; Provided: 4
+[15Nov2026 22:02:12.962] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category helmetRequired: 4; Provided: 2
+[15Nov2026 22:02:12.962] [main/WARN] [Apotheosis : Adventure/]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category bootsRequired: 4; Provided: 2
+[15Nov2026 22:02:12.966] [main/INFO] [Apotheosis : Adventure/]: Registered 19 gems.
+[15Nov2026 22:02:12.969] [main/INFO] [Apotheosis : Adventure/]: Registered 67 affix_loot_entries.
+[15Nov2026 22:02:12.971] [main/INFO] [Apotheosis : Adventure/]: Registered 17 bosses.
+[15Nov2026 22:02:12.974] [main/INFO] [Apotheosis : Adventure/]: Registered 8 rogue_spawners.
+[15Nov2026 22:02:12.975] [main/INFO] [Apotheosis : Adventure/]: Registered 5 minibosses.
+[15Nov2026 22:02:12.977] [main/INFO] [Apotheosis : Village/]: Registered 28 wanderer_trades.
+[15Nov2026 22:02:13.163] [main/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[15Nov2026 22:02:13.173] [main/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[15Nov2026 22:02:13.181] [main/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [feastcraft_expeditions]
+[15Nov2026 22:02:13.195] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[15Nov2026 22:02:13.195] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for ./world/serverconfig/feastcraft_expeditions-server.toml
+[15Nov2026 22:02:13.195] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file ./world/serverconfig/feastcraft_expeditions-server.toml
+[15Nov2026 22:02:13.195] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file ./world/serverconfig/feastcraft_expeditions-server.toml for changes
+[15Nov2026 22:02:13.195] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/feastcraft_expeditions-server.toml is not correct. Correcting
+[15Nov2026 22:02:13.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key base was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Nov2026 22:02:13.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key base.baseRadiusChunks was corrected from null to its default, 4. 
+[15Nov2026 22:02:13.196] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key base.baseRadiusChunks does not match the spec. This may create a backup.
+[15Nov2026 22:02:13.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key deployment was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Nov2026 22:02:13.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key deployment.dropMinDistance was corrected from null to its default, 1000. 
+[15Nov2026 22:02:13.196] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key deployment.dropMinDistance does not match the spec. This may create a backup.
+[15Nov2026 22:02:13.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key deployment.dropMaxDistance was corrected from null to its default, 10000. 
+[15Nov2026 22:02:13.196] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key deployment.dropMaxDistance does not match the spec. This may create a backup.
+[15Nov2026 22:02:13.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key deployment.beaconMinDistance was corrected from null to its default, 150. 
+[15Nov2026 22:02:13.196] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key deployment.beaconMinDistance does not match the spec. This may create a backup.
+[15Nov2026 22:02:13.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key deployment.beaconMaxDistance was corrected from null to its default, 800. 
+[15Nov2026 22:02:13.196] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key deployment.beaconMaxDistance does not match the spec. This may create a backup.
+[15Nov2026 22:02:13.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exfil was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Nov2026 22:02:13.196] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key exfil.countdownTicks was corrected from null to its default, 2400. 
+[15Nov2026 22:02:13.196] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key exfil.countdownTicks does not match the spec. This may create a backup.
+[15Nov2026 22:02:13.197] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for ./world/serverconfig/forge-server.toml
+[15Nov2026 22:02:13.197] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file ./world/serverconfig/forge-server.toml
+[15Nov2026 22:02:13.197] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file ./world/serverconfig/forge-server.toml for changes
+[15Nov2026 22:02:13.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+[15Nov2026 22:02:13.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[15Nov2026 22:02:13.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[15Nov2026 22:02:13.197] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.removeErroringBlockEntities does not match the spec. This may create a backup.
+[15Nov2026 22:02:13.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[15Nov2026 22:02:13.197] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.removeErroringEntities does not match the spec. This may create a backup.
+[15Nov2026 22:02:13.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[15Nov2026 22:02:13.197] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.fullBoundingBoxLadders does not match the spec. This may create a backup.
+[15Nov2026 22:02:13.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[15Nov2026 22:02:13.197] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.zombieBaseSummonChance does not match the spec. This may create a backup.
+[15Nov2026 22:02:13.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[15Nov2026 22:02:13.197] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.zombieBabyChance does not match the spec. This may create a backup.
+[15Nov2026 22:02:13.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[15Nov2026 22:02:13.197] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.permissionHandler does not match the spec. This may create a backup.
+[15Nov2026 22:02:13.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[15Nov2026 22:02:13.197] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.advertiseDedicatedServerToLan does not match the spec. This may create a backup.
+[15Nov2026 22:02:13.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.useItemWithDurationZero was corrected from null to its default, false. 
+[15Nov2026 22:02:13.197] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.useItemWithDurationZero does not match the spec. This may create a backup.
+[15Nov2026 22:02:13.197] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server does not match the spec. This may create a backup.
+[15Nov2026 22:02:13.198] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
+[15Nov2026 22:02:13.204] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[15Nov2026 22:02:13.207] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[15Nov2026 22:02:13.208] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTreasureOnly() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[15Nov2026 22:02:13.208] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTradeable() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[15Nov2026 22:02:13.211] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PhantomSpawner
+[15Nov2026 22:02:13.215] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PatrolSpawner
+[15Nov2026 22:02:13.216] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/CatSpawner
+[15Nov2026 22:02:13.218] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/ai/village/VillageSiege
+[15Nov2026 22:02:13.221] [Server thread/DEBUG] [mixin/]: Mixing WandererSpawnerMixin from apotheosis.mixins.json into net.minecraft.world.entity.npc.WanderingTraderSpawner
+[15Nov2026 22:02:13.222] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/NaturalSpawner
+[15Nov2026 22:02:13.341] [Worker-Main-5/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate
+[15Nov2026 22:02:13.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[15Nov2026 22:02:13.952] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[15Nov2026 22:02:14.075] [Worker-Main-8/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[15Nov2026 22:02:14.075] [Worker-Main-8/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[15Nov2026 22:02:14.075] [Worker-Main-8/DEBUG] [io.netty.util.internal.ThreadLocalRandom/]: -Dio.netty.initialSeedUniquifier: 0x1a5fb5bec26ab1bd
+[15Nov2026 22:02:14.198] [Thread-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-server.toml changed, sending notifies
+[15Nov2026 22:02:14.199] [Thread-1/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[15Nov2026 22:02:14.199] [Thread-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file feastcraft_expeditions-server.toml changed, sending notifies
+[15Nov2026 22:02:14.216] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[15Nov2026 22:02:14.639] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
+[15Nov2026 22:02:14.971] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1333 ms
+[15Nov2026 22:02:14.971] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: Started game test server
+[15Nov2026 22:02:14.974] [Server thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 1397
+[15Nov2026 22:02:14.975] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[15Nov2026 22:02:15.188] [Server thread/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[15Nov2026 22:02:15.188] [Server thread/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[15Nov2026 22:02:15.188] [Server thread/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3bbcb720
+[15Nov2026 22:02:15.200] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/NaturalSpawner
+[15Nov2026 22:02:15.228] [Server thread/DEBUG] [mixin/]: Mixing EnchantmentHelperMixin from apotheosis.mixins.json into net.minecraft.world.item.enchantment.EnchantmentHelper
+[15Nov2026 22:02:15.342] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestBatchRunner/]: Running test batch 'waves_departure:1' (1 tests)...
+[15Nov2026 22:02:15.377] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: 12 tests are now running!
+[15Nov2026 22:02:15.925] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [_           ]
+[15Nov2026 22:02:16.048] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestBatchRunner/]: Running test batch 'waves_spawn:1' (1 tests)...
+[15Nov2026 22:02:16.103] [Server thread/DEBUG] [mixin/]: Mixing AbilitiesMixin from attributeslib.mixins.json into net.minecraft.world.entity.player.Abilities
+[15Nov2026 22:02:16.259] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestBatchRunner/]: Running test batch 'stasis_bounds:1' (1 tests)...
+[15Nov2026 22:02:16.961] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_         ]
+[15Nov2026 22:02:17.035] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_         ]
+[15Nov2026 22:02:17.081] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_         ]
+[15Nov2026 22:02:17.130] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_         ]
+[15Nov2026 22:02:17.185] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_         ]
+[15Nov2026 22:02:17.216] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_         ]
+[15Nov2026 22:02:17.243] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_         ]
+[15Nov2026 22:02:17.280] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_         ]
+[15Nov2026 22:02:17.314] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_         ]
+[15Nov2026 22:02:17.353] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++_         ]
+[15Nov2026 22:02:17.369] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestBatchRunner/]: Running test batch 'stasis_interaction:1' (1 tests)...
+[15Nov2026 22:02:17.408] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestBatchRunner/]: Running test batch 'beacon_departure:1' (1 tests)...
+[15Nov2026 22:02:17.486] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++_       ]
+[15Nov2026 22:02:17.510] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestBatchRunner/]: Running test batch 'stasis_furnace:1' (1 tests)...
+[15Nov2026 22:02:17.540] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++_      ]
+[15Nov2026 22:02:17.580] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++_      ]
+[15Nov2026 22:02:17.618] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++_      ]
+[15Nov2026 22:02:17.644] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++_      ]
+[15Nov2026 22:02:17.672] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++_      ]
+[15Nov2026 22:02:17.693] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++_      ]
+[15Nov2026 22:02:17.715] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++_      ]
+[15Nov2026 22:02:17.735] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++_      ]
+[15Nov2026 22:02:17.754] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++_      ]
+[15Nov2026 22:02:17.774] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++_      ]
+[15Nov2026 22:02:17.792] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++_      ]
+[15Nov2026 22:02:17.809] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++_      ]
+[15Nov2026 22:02:17.830] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++_      ]
+[15Nov2026 22:02:17.852] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++_      ]
+[15Nov2026 22:02:17.870] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++_      ]
+[15Nov2026 22:02:17.890] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++_      ]
+[15Nov2026 22:02:17.909] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++_      ]
+[15Nov2026 22:02:17.927] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++_      ]
+[15Nov2026 22:02:17.947] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++_      ]
+[15Nov2026 22:02:17.963] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++_      ]
+[15Nov2026 22:02:17.982] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++_      ]
+[15Nov2026 22:02:18.004] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++_      ]
+[15Nov2026 22:02:18.043] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestBatchRunner/]: Running test batch 'beacon_player:1' (1 tests)...
+[15Nov2026 22:02:18.066] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++_     ]
+[15Nov2026 22:02:18.528] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestBatchRunner/]: Running test batch 'beacon_veto:1' (1 tests)...
+[15Nov2026 22:02:18.590] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++     ]
+[15Nov2026 22:02:18.851] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++_    ]
+[15Nov2026 22:02:18.904] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++_    ]
+[15Nov2026 22:02:18.950] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++_    ]
+[15Nov2026 22:02:18.975] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestBatchRunner/]: Running test batch 'stasis_wheat:1' (1 tests)...
+[15Nov2026 22:02:19.078] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++_   ]
+[15Nov2026 22:02:19.125] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++_   ]
+[15Nov2026 22:02:19.172] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++_   ]
+[15Nov2026 22:02:19.215] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++_   ]
+[15Nov2026 22:02:19.253] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++_   ]
+[15Nov2026 22:02:19.266] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestBatchRunner/]: Running test batch 'stasis_elsewhere:1' (1 tests)...
+[15Nov2026 22:02:19.395] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++++_  ]
+[15Nov2026 22:02:19.426] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++++_  ]
+[15Nov2026 22:02:19.458] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++++_  ]
+[15Nov2026 22:02:19.493] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++++_  ]
+[15Nov2026 22:02:19.541] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++++_  ]
+[15Nov2026 22:02:19.591] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++++_  ]
+[15Nov2026 22:02:19.638] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++++_  ]
+[15Nov2026 22:02:19.694] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++++_  ]
+[15Nov2026 22:02:19.747] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++++_  ]
+[15Nov2026 22:02:19.787] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++++_  ]
+[15Nov2026 22:02:19.799] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestBatchRunner/]: Running test batch 'stasis_hearth:1' (1 tests)...
+[15Nov2026 22:02:19.975] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++_ ]
+[15Nov2026 22:02:20.032] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++_ ]
+[15Nov2026 22:02:20.074] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++_ ]
+[15Nov2026 22:02:20.117] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++_ ]
+[15Nov2026 22:02:20.158] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++_ ]
+[15Nov2026 22:02:20.198] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++_ ]
+[15Nov2026 22:02:20.237] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++_ ]
+[15Nov2026 22:02:20.278] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++_ ]
+[15Nov2026 22:02:20.322] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++_ ]
+[15Nov2026 22:02:20.364] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++_ ]
+[15Nov2026 22:02:20.406] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++_ ]
+[15Nov2026 22:02:20.454] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++_ ]
+[15Nov2026 22:02:20.501] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++_ ]
+[15Nov2026 22:02:20.549] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++_ ]
+[15Nov2026 22:02:20.593] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++_ ]
+[15Nov2026 22:02:20.648] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++_ ]
+[15Nov2026 22:02:20.693] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++_ ]
+[15Nov2026 22:02:20.747] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++_ ]
+[15Nov2026 22:02:20.801] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++_ ]
+[15Nov2026 22:02:20.844] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++_ ]
+[15Nov2026 22:02:20.892] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++_ ]
+[15Nov2026 22:02:20.942] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++_ ]
+[15Nov2026 22:02:21.004] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestBatchRunner/]: Running test batch 'waves_sun:1' (1 tests)...
+[15Nov2026 22:02:21.083] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++++++_]
+[15Nov2026 22:02:21.127] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++++++_]
+[15Nov2026 22:02:21.168] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++++++_]
+[15Nov2026 22:02:21.207] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++++++_]
+[15Nov2026 22:02:21.244] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++++++_]
+[15Nov2026 22:02:21.289] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++++++_]
+[15Nov2026 22:02:21.342] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++++++_]
+[15Nov2026 22:02:21.379] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++++++_]
+[15Nov2026 22:02:21.414] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++++++_]
+[15Nov2026 22:02:21.451] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++++++_]
+[15Nov2026 22:02:21.485] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [+++++++++++_]
+[15Nov2026 22:02:21.504] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: [++++++++++++]
+[15Nov2026 22:02:21.504] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: ========= 12 GAME TESTS COMPLETE ======================
+[15Nov2026 22:02:21.505] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: All 12 required tests passed :)
+[15Nov2026 22:02:21.505] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: ====================================================
+[15Nov2026 22:02:21.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[15Nov2026 22:02:21.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[15Nov2026 22:02:21.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[15Nov2026 22:02:21.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15Nov2026 22:02:21.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/feastcraft_expeditions:base
+[15Nov2026 22:02:21.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[15Nov2026 22:02:21.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[15Nov2026 22:02:21.857] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[15Nov2026 22:02:21.860] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[15Nov2026 22:02:21.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15Nov2026 22:02:21.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (base): All chunks are saved
+[15Nov2026 22:02:21.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15Nov2026 22:02:21.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15Nov2026 22:02:21.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15Nov2026 22:02:22.142] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
+[15Nov2026 22:02:22.143] [Server thread/INFO] [net.minecraft.gametest.framework.GameTestServer/]: Game test server shutting down

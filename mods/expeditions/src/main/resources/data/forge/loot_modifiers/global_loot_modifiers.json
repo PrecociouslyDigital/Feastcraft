@@ -1,4 +1,7 @@
-[
-  "feastcraft_expeditions:ember_charcoal_chests",
-  "feastcraft_expeditions:ember_charcoal_hostiles"
-]
+{
+  "replace": false,
+  "entries": [
+    "feastcraft_expeditions:ember_charcoal_chests",
+    "feastcraft_expeditions:ember_charcoal_hostiles"
+  ]
+}
