@@ -22,6 +22,8 @@ opens, and quits. A run takes about as long as the pack takes to start. The game
 - `sources.tsv` has a line per file naming the packs that supply it, lowest first:
   `origins:origin_layers/origin.json	origins-forge-1.20.1-1.10.0.9-all.jar < data/feastcraft_skill_tree`.
 - `packs.txt` lists the packs, lowest first.
+- `items.tsv` lists every registered item, with hunger points and saturation modifier for foods, so
+  a recipe audit can tell which results are food and which ingredients don't exist.
 
 The export is the files, not what the game makes of them. A recipe behind an unmet
 `forge:conditional` is still there, and a recipe a KubeJS script removes at load is too.

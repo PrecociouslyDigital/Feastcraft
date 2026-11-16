@@ -30,6 +30,7 @@ public final class DatapackExportMod {
                 Minecraft minecraft = Minecraft.getInstance();
                 // Every mod has finished loading by now.
                 minecraft.tell(() -> {
+                    ItemList.write(directory);
                     MergedData.write(directory);
                     minecraft.stop();
                 });

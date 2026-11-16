@@ -41,6 +41,12 @@ installed=$game_dir/mods/$(basename "$jar")
 cp "$jar" "$installed"
 trap 'rm -f "$installed"' EXIT
 
+# The game can't open its window while a Mac's display is asleep.
+if command -v caffeinate >/dev/null; then
+    caffeinate -u -t 5
+    caffeinate -d -w $$ &
+fi
+
 rm -rf "$out"
 (
     cd "$launcher"
