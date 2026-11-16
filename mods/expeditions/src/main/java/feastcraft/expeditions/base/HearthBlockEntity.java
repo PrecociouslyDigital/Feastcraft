@@ -72,7 +72,7 @@ public final class HearthBlockEntity extends BlockEntity {
     @Override
     public void setRemoved() {
         if (level instanceof ServerLevel server) {
-            HearthIndex.onUnloaded(server, this);
+            HearthIndex.onStopped(server, this);
         }
         super.setRemoved();
     }
@@ -80,7 +80,7 @@ public final class HearthBlockEntity extends BlockEntity {
     @Override
     public void onChunkUnloaded() {
         if (level instanceof ServerLevel server) {
-            HearthIndex.onUnloaded(server, this);
+            HearthIndex.onChunkUnloaded(server, this);
         }
         super.onChunkUnloaded();
     }

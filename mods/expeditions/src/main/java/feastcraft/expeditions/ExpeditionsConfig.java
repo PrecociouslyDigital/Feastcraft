@@ -6,7 +6,6 @@ public final class ExpeditionsConfig {
     public static final ForgeConfigSpec SPEC;
     public static final ForgeConfigSpec COMMON_SPEC;
     public static final ForgeConfigSpec.BooleanValue EMBER_ENABLED;
-    public static final ForgeConfigSpec.IntValue BASE_RADIUS_CHUNKS;
     public static final ForgeConfigSpec.IntValue DROP_MIN_DISTANCE;
     public static final ForgeConfigSpec.IntValue DROP_MAX_DISTANCE;
     public static final ForgeConfigSpec.IntValue BEACON_MIN_DISTANCE;
@@ -15,13 +14,6 @@ public final class ExpeditionsConfig {
 
     static {
         var builder = new ForgeConfigSpec.Builder();
-
-        builder.push("base");
-        BASE_RADIUS_CHUNKS = builder
-                .comment("Chunks from the center chunk to the base's edge. The base is (2r+1)x(2r+1) chunks;",
-                        "its fuel-powered chunk loading covers exactly that square.")
-                .defineInRange("baseRadiusChunks", 4, 0, 32);
-        builder.pop();
 
         builder.push("deployment");
         DROP_MIN_DISTANCE = builder

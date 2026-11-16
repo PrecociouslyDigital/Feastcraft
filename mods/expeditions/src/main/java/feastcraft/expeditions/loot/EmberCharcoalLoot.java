@@ -17,12 +17,15 @@ import net.minecraftforge.common.loot.LootModifier;
 
 /**
  * Puts ember charcoal into the world's loot without editing any vanilla tables. Chests get it at
- * roughly the rate iron shows up, and monsters drop it at wither-skull rarity.
+ * roughly the rate iron shows up, and monsters drop it at wither-skull rarity. Chests also hold the
+ * occasional hearth, which is the only way to run more chunks of the base.
  */
 public final class EmberCharcoalLoot {
     /** Per-chest chance, in the band where iron ingots land across vanilla chest tables. */
     private static final LootItemCondition CHEST_CHANCE =
             LootItemRandomChanceCondition.randomChance(0.15F).build();
+    private static final LootItemCondition CHEST_HEARTH_CHANCE =
+            LootItemRandomChanceCondition.randomChance(0.02F).build();
     /** Wither-skeleton skull rarity, plus the same per-Looting bonus skulls get. */
     private static final LootItemCondition HOSTILE_CHANCE =
             LootItemRandomChanceWithLootingCondition.randomChanceAndLootingBoost(0.025F, 0.01F).build();
@@ -35,7 +38,7 @@ public final class EmberCharcoalLoot {
         return new ItemStack(ExpeditionsRegistry.EMBER_CHARCOAL.get());
     }
 
-    /** Adds ember charcoal to every vanilla chest loot table. */
+    /** Adds ember charcoal, and rarely a hearth, to every vanilla chest loot table. */
     public static final class Chests extends LootModifier {
         public static final Codec<Chests> CODEC = RecordCodecBuilder.create(
                 instance -> codecStart(instance).apply(instance, Chests::new));
@@ -55,9 +58,13 @@ public final class EmberCharcoalLoot {
                 return loot;
             }
             var table = context.getQueriedLootTableId();
-            if (table.getNamespace().equals("minecraft") && table.getPath().startsWith(CHEST_FOLDER)
-                    && CHEST_CHANCE.test(context)) {
-                loot.add(emberCharcoal());
+            if (table.getNamespace().equals("minecraft") && table.getPath().startsWith(CHEST_FOLDER)) {
+                if (CHEST_CHANCE.test(context)) {
+                    loot.add(emberCharcoal());
+                }
+                if (CHEST_HEARTH_CHANCE.test(context)) {
+                    loot.add(new ItemStack(ExpeditionsRegistry.HEARTH.get()));
+                }
             }
             return loot;
         }

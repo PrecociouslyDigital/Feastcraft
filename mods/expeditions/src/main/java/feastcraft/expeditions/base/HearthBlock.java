@@ -40,8 +40,7 @@ public final class HearthBlock extends Block implements EntityBlock {
     public HearthBlock() {
         super(Properties.of()
                 .mapColor(MapColor.STONE)
-                .strength(-1.0F, 3_600_000.0F)
-                .noLootTable()
+                .strength(3.5F, 3_600_000.0F)
                 .lightLevel(state -> 13)
                 .sound(SoundType.STONE)
                 .pushReaction(PushReaction.BLOCK));

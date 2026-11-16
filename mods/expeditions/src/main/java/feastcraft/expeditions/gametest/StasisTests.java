@@ -6,7 +6,6 @@ import static feastcraft.expeditions.gametest.TestFixtures.placeHearth;
 import static feastcraft.expeditions.gametest.TestFixtures.unfuelAll;
 
 import feastcraft.expeditions.Expeditions;
-import feastcraft.expeditions.base.BaseBounds;
 import feastcraft.expeditions.base.BaseDimension;
 import java.util.UUID;
 import net.minecraft.core.BlockPos;
@@ -134,21 +133,19 @@ public final class StasisTests {
     }
 
     @GameTest(template = "empty", batch = "stasis_bounds", timeoutTicks = 600)
-    public static void fueledBaseRunsToItsBoundsCornerWithNoPlayerThere(GameTestHelper helper) {
+    public static void hearthRunsItsChunkFarFromSpawnWithNoPlayerThere(GameTestHelper helper) {
         ServerLevel base = base(helper);
-        BaseBounds bounds = BaseDimension.bounds();
-        int far = bounds.widthInChunks() * 16 - 1;
-        BlockPos corner = new BlockPos(bounds.minBlockX() + far, 100, bounds.minBlockZ() + far);
+        BlockPos far = new BlockPos(5_000, 100, -5_000);
         unfuelAll(base);
-        placeHearth(base, corner, PLENTY_OF_FUEL);
-        FurnaceBlockEntity furnace = placeLoadedFurnace(base, corner.west());
+        placeHearth(base, far, PLENTY_OF_FUEL);
+        FurnaceBlockEntity furnace = placeLoadedFurnace(base, far.west());
 
         helper.assertTrue(base.players().isEmpty(), "a player is in the base");
         helper.startSequence()
-                .thenWaitUntil(() -> helper.assertTrue(furnace.getItem(2).is(Items.IRON_INGOT), "the corner furnace has not smelted yet"))
+                .thenWaitUntil(() -> helper.assertTrue(furnace.getItem(2).is(Items.IRON_INGOT), "the far furnace has not smelted yet"))
                 .thenExecute(() -> {
-                    base.removeBlock(corner.west(), false);
-                    base.removeBlock(corner, false);
+                    base.removeBlock(far.west(), false);
+                    base.removeBlock(far, false);
                     unfuelAll(base);
                 })
                 .thenSucceed();

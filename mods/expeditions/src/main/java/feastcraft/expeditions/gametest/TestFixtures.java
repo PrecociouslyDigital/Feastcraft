@@ -1,13 +1,15 @@
 package feastcraft.expeditions.gametest;
 
 import feastcraft.expeditions.ExpeditionsRegistry;
-import feastcraft.expeditions.base.BaseBounds;
 import feastcraft.expeditions.base.BaseDimension;
 import feastcraft.expeditions.base.FuelTank;
 import feastcraft.expeditions.base.HearthBlockEntity;
+import feastcraft.expeditions.base.HearthIndex;
+import java.util.List;
 import net.minecraft.core.BlockPos;
 import net.minecraft.gametest.framework.GameTestHelper;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.level.ChunkPos;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.chunk.ChunkStatus;
 import net.minecraft.world.level.chunk.LevelChunk;
@@ -25,14 +27,10 @@ final class TestFixtures {
         return BaseDimension.level(helper.getLevel().getServer());
     }
 
-    /** Cools every hearth inside the base bounds, so each test starts from full stasis. */
+    /** Cools every burning hearth, so each test starts from full stasis. */
     static void unfuelAll(ServerLevel base) {
-        for (BaseBounds.Chunk chunk : BaseDimension.bounds().chunks()) {
-            LevelChunk loaded = base.getChunk(chunk.x(), chunk.z());
-            if (loaded == null) {
-                continue;
-            }
-            for (BlockEntity entity : loaded.getBlockEntities().values()) {
+        for (ChunkPos chunk : HearthIndex.fueledChunks()) {
+            for (BlockEntity entity : List.copyOf(base.getChunk(chunk.x, chunk.z).getBlockEntities().values())) {
                 if (entity instanceof HearthBlockEntity hearth) {
                     hearth.setFuel(FuelTank.EMPTY);
                 }

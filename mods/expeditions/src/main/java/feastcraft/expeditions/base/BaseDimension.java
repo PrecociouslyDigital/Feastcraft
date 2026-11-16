@@ -34,13 +34,6 @@ public final class BaseDimension {
         return Objects.requireNonNull(server.getLevel(BASE), "the base dimension is missing from the datapacks");
     }
 
-    public static BaseBounds bounds() {
-        return new BaseBounds(
-                SectionPos.blockToSectionCoord(SPAWN.getX()),
-                SectionPos.blockToSectionCoord(SPAWN.getZ()),
-                ExpeditionsConfig.BASE_RADIUS_CHUNKS.get());
-    }
-
     /**
      * Respawns are forced to the base spawn, so without a floor there every respawn would fall into
      * the void and die again.
