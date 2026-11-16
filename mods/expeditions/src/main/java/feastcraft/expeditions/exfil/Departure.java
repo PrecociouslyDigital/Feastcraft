@@ -17,7 +17,8 @@ import net.minecraft.world.phys.AABB;
 
 /**
  * Who rides out when an exfil departs: everyone in the zone at that moment, whoever called it.
- * That means every raiding player and every mob not tagged {@code not_extractable}.
+ * That means every raiding player and every mob not tagged {@code not_extractable}, except the
+ * waves that attacked the beacon.
  */
 final class Departure {
     static final TagKey<EntityType<?>> NOT_EXTRACTABLE = TagKey.create(Registries.ENTITY_TYPE, Expeditions.id("not_extractable"));
@@ -39,7 +40,7 @@ final class Departure {
         if (entity instanceof ServerPlayer player) {
             return player.isAlive() && Expedition.isBound(player) && Expedition.hasRaid(player);
         }
-        return entity instanceof Mob mob && mob.isAlive() && !mob.getType().is(NOT_EXTRACTABLE);
+        return entity instanceof Mob mob && mob.isAlive() && !mob.getType().is(NOT_EXTRACTABLE) && !ExfilWaves.isWaveMob(mob);
     }
 
     /** Players go first so that leashed mobs find their holder already waiting in the base. */

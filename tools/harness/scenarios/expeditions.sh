@@ -15,6 +15,14 @@ land_near() {
     expect_reply "landed near $1, $2" "/spreadplayers $1 $2 0 8 false @s" "Spread 1 player"
 }
 
+# look_at_nearest <selector>: turns to face the one entity the selector picks.
+look_at_nearest() {
+    local x y z
+    read -r x y z < <(run "/data get entity $1 Pos" |
+        jq -r 'first(.lines[].text | capture("\\[(?<x>-?[0-9.]+)d, (?<y>-?[0-9.]+)d, (?<z>-?[0-9.]+)d\\]")) | "\(.x) \(.y) \(.z)"')
+    call look x="$x" y="$(jq -n "$y + 1")" z="$z" >/dev/null
+}
+
 # compass_target: {x, z} of where the exfil compass in the hotbar points.
 compass_target() {
     call status | jq --arg compass "$compass" \
@@ -84,7 +92,11 @@ shot compass
 
 step "Extraction"
 run "/tp @s $((bx + 2)) $by $bz" >/dev/null
-run "/summon minecraft:sheep $((bx + 3)) $by $((bz + 2)) {NoAI:1b}" >/dev/null
+# Waves attack the countdown, so it runs at noon and above peaceful, with the raider and sheep unhurt.
+run "/time set noon" >/dev/null
+run "/difficulty normal" >/dev/null
+run "/effect give @s minecraft:resistance infinite 4 true" >/dev/null
+run "/summon minecraft:sheep $((bx + 3)) $by $((bz + 2)) {NoAI:1b,Invulnerable:1b}" >/dev/null
 run "/give @s minecraft:lead" >/dev/null
 call select slot="$(hotbar_slot minecraft:lead)" >/dev/null
 call wait ticks=10 >/dev/null
@@ -100,9 +112,28 @@ expect "a countdown boss bar shows" 'any(.bossBars[]; .name | startswith("Extrac
 call look yaw=90 pitch=-30 >/dev/null
 call wait ticks=20 >/dev/null
 shot countdown
+
+step "Waves"
+expect_reply "the first wave arrives in daylight" "/execute if entity @e[type=minecraft:zombie,distance=..32]" "Test passed"
+look_at_nearest '@e[limit=1,sort=nearest,type=minecraft:zombie]'
+shot wave
+boss='@e[limit=1,sort=nearest,distance=..40,nbt={ForgeData:{"apoth.boss":1b}}]'
+# Polled in small steps: the boss comes 30 ticks before departure, which leaves little time to look.
+waited=0
+until run "/execute if entity $boss" | jq -e 'any(.lines[]; .text | contains("Test passed"))' >/dev/null; do
+    ((waited < 200)) || expect "an Apotheosis boss arrives with the last wave" false '{}'
+    call wait ticks=2 >/dev/null
+    waited=$((waited + 2))
+done
+echo "ok   an Apotheosis boss arrives with the last wave"
+look_at_nearest "$boss"
+shot boss
 wait_until "the countdown ends in the base" ".dimension == \"$base\"" 400
 expect_reply "the raid is over" "/expeditions raid info" "is at the base"
 expect_reply "the sheep came too" "/execute if entity @e[type=minecraft:sheep,distance=..8]" "Test passed"
+expect_reply "the attackers stayed behind" "/execute unless entity @e[type=minecraft:zombie]" "Test passed"
+run "/difficulty peaceful" >/dev/null
+run "/effect clear @s" >/dev/null
 
 step "Spent beacon"
 run "/expeditions deploy" >/dev/null

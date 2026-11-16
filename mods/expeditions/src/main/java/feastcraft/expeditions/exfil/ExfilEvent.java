@@ -46,11 +46,25 @@ public abstract class ExfilEvent extends Event {
 
     /** Posted every tick of a countdown, including while it is held at zero. */
     public static final class Countdown extends ExfilEvent {
+        private final long key;
+        private final int duration;
         private final int ticksLeft;
 
-        public Countdown(ServerLevel level, BlockPos beacon, int ticksLeft) {
+        public Countdown(ServerLevel level, BlockPos beacon, long key, int duration, int ticksLeft) {
             super(level, beacon);
+            this.key = key;
+            this.duration = duration;
             this.ticksLeft = ticksLeft;
+        }
+
+        /** The beacon's {@link ExfilBeacons#key}. */
+        public long getKey() {
+            return key;
+        }
+
+        /** Ticks the countdown started with. */
+        public int getDuration() {
+            return duration;
         }
 
         public int getTicksLeft() {

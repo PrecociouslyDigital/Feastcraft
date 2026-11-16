@@ -50,6 +50,8 @@ legacyForge {
         }
         gameTestServer {
             type = 'gameTestServer'
+            // Not `run`, so its flat world stays apart from the one `runServer` plays in.
+            gameDirectory = file('run-gametest')
         }
         data {
             data()
@@ -77,6 +79,21 @@ legacyForge {
         }
     }
 }
+
+// Forge's GameTest server builds its world from server.properties like a dedicated server, so
+// without this the arenas land under real terrain. Tests start fresh from a flat world each run.
+def prepareGameTestWorld = tasks.register('prepareGameTestWorld') {
+    def gameDir = file('run-gametest')
+    outputs.upToDateWhen { false }
+    doLast {
+        project.delete(new File(gameDir, 'world'))
+        def properties = new File(gameDir, 'server.properties')
+        def lines = properties.exists() ? properties.readLines().findAll { !it.startsWith('level-type=') } : []
+        gameDir.mkdirs()
+        properties.text = (lines + 'level-type=minecraft\\:flat').join('\n') + '\n'
+    }
+}
+legacyForge.runs.gameTestServer.taskBefore prepareGameTestWorld
 
 if (harnessProject != null) {
     def copyHarnessTemplate = tasks.register('copyHarnessTemplate', Copy) {

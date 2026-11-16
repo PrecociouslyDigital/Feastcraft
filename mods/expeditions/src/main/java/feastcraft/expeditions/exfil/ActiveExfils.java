@@ -75,7 +75,7 @@ public final class ActiveExfils extends SavedData {
             if (exfil == null) {
                 continue;
             }
-            MinecraftForge.EVENT_BUS.post(new ExfilEvent.Countdown(level, exfil.beacon(), exfil.countdown().ticksLeft()));
+            MinecraftForge.EVENT_BUS.post(new ExfilEvent.Countdown(level, exfil.beacon(), key, exfil.duration(), exfil.countdown().ticksLeft()));
 
             List<Entity> passengers = List.of();
             boolean vetoed = false;

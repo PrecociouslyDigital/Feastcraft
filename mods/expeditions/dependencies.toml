@@ -1,0 +1,6 @@
+[[dependencies.feastcraft_expeditions]]
+    modId="apotheosis"
+    mandatory=true
+    versionRange="[7.4,)"
+    ordering="AFTER"
+    side="BOTH"
