@@ -10,9 +10,9 @@ scripts/export-datapack instance=Feastcraft2 out=/tmp/fc2
 ```
 
 The script builds a dev-only mod (`feastcraft_datapack_export`), drops it into the ATLauncher
-instance, launches the instance, and removes the mod again when the game exits. The mod asks the
-game for its data packs the way the Create World screen does, writes them out when the title screen
-opens, and quits. A run takes about as long as the pack takes to start. The game window does open.
+instance, launches the instance, and removes the mod again when the game exits. When the title
+screen opens, the mod loads data the way the Create World screen does, writes it out, and quits. A
+run takes about as long as the pack takes to start. The game window does open.
 
 ## What comes out
 
@@ -24,9 +24,10 @@ opens, and quits. A run takes about as long as the pack takes to start. The game
 - `packs.txt` lists the packs, lowest first.
 - `items.tsv` lists every registered item, with hunger points and saturation modifier for foods, so
   a recipe audit can tell which results are food and which ingredients don't exist.
-
-The export is the files, not what the game makes of them. A recipe behind an unmet
-`forge:conditional` is still there, and a recipe a KubeJS script removes at load is too.
+- `recipes.tsv` lists the recipes the game is left with once it has loaded those files: id,
+  serializer, result item and count. Conditions have been applied, and so has anything a mod does
+  to the loaded recipes, such as Cookbook of Babel withdrawing other mods' recipes for food it makes.
+  A recipe file in `data/` can therefore have no line here.
 
 ## Things that bite
 

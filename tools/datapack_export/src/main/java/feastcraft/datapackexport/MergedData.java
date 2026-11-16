@@ -24,8 +24,12 @@ import java.util.Optional;
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
+import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import net.minecraft.Util;
+import net.minecraft.client.Minecraft;
+import net.minecraft.commands.Commands;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.WorldLoader;
 import net.minecraft.server.packs.PackResources;
@@ -34,6 +38,7 @@ import net.minecraft.server.packs.repository.PackRepository;
 import net.minecraft.server.packs.repository.ServerPacksSource;
 import net.minecraft.server.packs.resources.CloseableResourceManager;
 import net.minecraft.server.packs.resources.Resource;
+import net.minecraft.util.Unit;
 import net.minecraft.world.level.WorldDataConfiguration;
 import net.minecraftforge.event.AddPackFindersEvent;
 import net.minecraftforge.fml.ModList;
@@ -47,6 +52,7 @@ import net.minecraftforge.forgespi.language.IModFileInfo;
  * every pack's entries merged.
  * <li>{@code sources.tsv} names the packs that supply each file, lowest first.
  * <li>{@code packs.txt} lists the packs, lowest first.
+ * <li>{@code recipes.tsv} lists the recipes the game is left with after loading those files.
  * </ul>
  */
 final class MergedData {
@@ -57,40 +63,56 @@ final class MergedData {
 
     /** Writes the export to {@code output}, finishing with {@code sources.tsv}. */
     static void write(Path output) {
+        Minecraft minecraft = Minecraft.getInstance();
         PackRepository repository = new PackRepository(new ServerPacksSource());
         ModLoader.get().postEvent(new AddPackFindersEvent(PackType.SERVER_DATA, repository::addPackFinder));
+        // The load the Create World screen does before there is a world.
         WorldLoader.PackConfig freshWorld = new WorldLoader.PackConfig(repository, WorldDataConfiguration.DEFAULT, false, true);
-        try (CloseableResourceManager resources = freshWorld.createResourceManager().getSecond()) {
-            Files.createDirectories(output);
-            List<PackResources> packs = resources.listPacks().toList();
-            Files.write(output.resolve("packs.txt"), packs.stream().map(PackResources::packId).toList());
-
-            Map<ResourceLocation, List<Resource>> stacks = new TreeMap<>();
-            for (String directory : topLevelDirectories(packs)) {
-                // This mod's own jar is a pack too.
-                stacks.putAll(resources.listResourceStacks(directory, file -> !file.getNamespace().equals(DatapackExportMod.MOD_ID)));
-            }
-            // Written last: the script treats its presence as a finished export.
-            try (BufferedWriter sources = Files.newBufferedWriter(output.resolve("sources.tsv"))) {
-                for (Map.Entry<ResourceLocation, List<Resource>> entry : stacks.entrySet()) {
-                    ResourceLocation file = entry.getKey();
-                    List<Resource> stack = entry.getValue();
-                    Path target = output.resolve("data").resolve(file.getNamespace()).resolve(file.getPath());
-                    Files.createDirectories(target.getParent());
-                    Optional<String> listKey = mergedListKey(file);
-                    if (listKey.isPresent()) {
-                        Files.writeString(target, GSON.toJson(mergeLists(stack, listKey.get())));
-                    } else {
-                        try (InputStream content = stack.get(stack.size() - 1).open()) {
-                            Files.copy(content, target);
-                        }
+        WorldLoader.InitConfig load = new WorldLoader.InitConfig(freshWorld, Commands.CommandSelection.INTEGRATED, 2);
+        CompletableFuture<Unit> written = WorldLoader.load(load,
+                context -> new WorldLoader.DataLoadOutput<>(Unit.INSTANCE, context.datapackDimensions()),
+                (resources, serverResources, registries, unit) -> {
+                    try (resources) {
+                        Files.createDirectories(output);
+                        RecipeList.write(output, serverResources.getRecipeManager(), registries.compositeAccess());
+                        writeFiles(output, resources);
+                    } catch (IOException e) {
+                        throw new UncheckedIOException(e);
                     }
-                    sources.write(file + "\t" + stack.stream().map(Resource::sourcePackId).collect(Collectors.joining(" < ")));
-                    sources.newLine();
+                    return unit;
+                }, Util.backgroundExecutor(), minecraft);
+        // The load finishes on this thread, so it has to keep running its tasks while it waits.
+        minecraft.managedBlock(written::isDone);
+        written.join();
+    }
+
+    private static void writeFiles(Path output, CloseableResourceManager resources) throws IOException {
+        List<PackResources> packs = resources.listPacks().toList();
+        Files.write(output.resolve("packs.txt"), packs.stream().map(PackResources::packId).toList());
+
+        Map<ResourceLocation, List<Resource>> stacks = new TreeMap<>();
+        for (String directory : topLevelDirectories(packs)) {
+            // This mod's own jar is a pack too.
+            stacks.putAll(resources.listResourceStacks(directory, file -> !file.getNamespace().equals(DatapackExportMod.MOD_ID)));
+        }
+        // Written last: the script treats its presence as a finished export.
+        try (BufferedWriter sources = Files.newBufferedWriter(output.resolve("sources.tsv"))) {
+            for (Map.Entry<ResourceLocation, List<Resource>> entry : stacks.entrySet()) {
+                ResourceLocation file = entry.getKey();
+                List<Resource> stack = entry.getValue();
+                Path target = output.resolve("data").resolve(file.getNamespace()).resolve(file.getPath());
+                Files.createDirectories(target.getParent());
+                Optional<String> listKey = mergedListKey(file);
+                if (listKey.isPresent()) {
+                    Files.writeString(target, GSON.toJson(mergeLists(stack, listKey.get())));
+                } else {
+                    try (InputStream content = stack.get(stack.size() - 1).open()) {
+                        Files.copy(content, target);
+                    }
                 }
+                sources.write(file + "\t" + stack.stream().map(Resource::sourcePackId).collect(Collectors.joining(" < ")));
+                sources.newLine();
             }
-        } catch (IOException e) {
-            throw new UncheckedIOException(e);
         }
     }
 
