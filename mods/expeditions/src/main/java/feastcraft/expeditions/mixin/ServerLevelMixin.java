@@ -4,6 +4,7 @@ import feastcraft.expeditions.base.BaseStasis;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.RandomSource;
+import net.minecraft.world.level.GameRules;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.material.FluidState;
@@ -13,6 +14,16 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 
 @Mixin(ServerLevel.class)
 abstract class ServerLevelMixin {
+    // Vanilla reads a sleeping percentage above 100 as "the night cannot be skipped". Beds still
+    // work and reset the phantom timer.
+    private static final int NIGHT_CANNOT_BE_SKIPPED = 101;
+
+    @Redirect(method = {"tick", "canSleepThroughNights"}, require = 2, at = @At(value = "INVOKE",
+            target = "Lnet/minecraft/world/level/GameRules;getInt(Lnet/minecraft/world/level/GameRules$Key;)I"))
+    private int feastcraft$stopSleepSkippingTheNight(GameRules rules, GameRules.Key<GameRules.IntegerValue> rule) {
+        return rule == GameRules.RULE_PLAYERS_SLEEPING_PERCENTAGE ? NIGHT_CANNOT_BE_SKIPPED : rules.getInt(rule);
+    }
+
     // Redirecting the per-position randomTick calls (rather than zeroing the speed argument) makes
     // the gate per-chunk: a chunk random-ticks only while a fueled hearth powers it. The two calls
     // cover the same loop as the old randomTickSpeed argument, block ticks and fluid ticks alike.
