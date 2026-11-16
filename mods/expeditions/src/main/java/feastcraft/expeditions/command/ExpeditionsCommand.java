@@ -94,7 +94,7 @@ public final class ExpeditionsCommand {
         BlockPos pos = BlockPosArgument.getLoadedBlockPos(context, "pos");
         ServerLevel level = context.getSource().getLevel();
         if (!(level.getBlockEntity(pos) instanceof HearthBlockEntity hearth)) {
-            context.getSource().sendFailure(Component.translatable("commands.feastcraft_expeditions.fuel.no_hearth"));
+            context.getSource().sendFailure(Component.translatable("commands.feastcraft_expeditions.fuel.no_hearth", pos.toShortString()));
             return 0;
         }
         hearth.setFuel(change.apply(hearth.tank()));
