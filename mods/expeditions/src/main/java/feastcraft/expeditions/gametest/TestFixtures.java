@@ -5,9 +5,12 @@ import feastcraft.expeditions.base.BaseBounds;
 import feastcraft.expeditions.base.BaseDimension;
 import feastcraft.expeditions.base.FuelTank;
 import feastcraft.expeditions.base.HearthBlockEntity;
+import feastcraft.expeditions.exfil.ExfilBeacons;
 import net.minecraft.core.BlockPos;
 import net.minecraft.gametest.framework.GameTestHelper;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.Mob;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.chunk.ChunkStatus;
 import net.minecraft.world.level.chunk.LevelChunk;
@@ -53,5 +56,19 @@ final class TestFixtures {
         } else {
             unfuelAll(base);
         }
+    }
+
+    /** Places a beacon and resets it, since batches share a spot. */
+    static BlockPos placeBeacon(GameTestHelper helper, BlockPos at) {
+        BlockPos beacon = helper.absolutePos(at);
+        helper.getLevel().setBlockAndUpdate(beacon, ExpeditionsRegistry.EXFIL_BEACON.get().defaultBlockState());
+        ExfilBeacons.reset(helper.getLevel(), beacon);
+        return beacon;
+    }
+
+    static <T extends Mob> T still(GameTestHelper helper, EntityType<T> type, BlockPos at) {
+        T mob = helper.spawn(type, at);
+        mob.setNoAi(true);
+        return mob;
     }
 }

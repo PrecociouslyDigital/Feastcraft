@@ -1,0 +1,23 @@
+{
+  "weight": 10,
+  "dimensions": ["minecraft:overworld"],
+  "waves": [
+    { "at": 0.0, "spawns": [
+      { "type": "entity", "entity": "minecraft:zombie", "count": [2, 3], "per_raider": true } ] },
+    { "at": 0.2, "spawns": [
+      { "type": "entity", "entity": "minecraft:zombie", "count": [1, 2], "per_raider": true },
+      { "type": "entity", "entity": "minecraft:spider", "count": [1, 2], "per_raider": true } ] },
+    { "at": 0.4, "spawns": [
+      { "type": "entity", "entity": "minecraft:skeleton", "count": [2, 3], "per_raider": true },
+      { "type": "entity", "entity": "minecraft:zombie", "count": [1, 2], "per_raider": true,
+        "effects": [{ "effect": "minecraft:speed", "amplifier": 0 }] } ] },
+    { "at": 0.6, "spawns": [
+      { "type": "entity", "entity": "minecraft:skeleton", "count": [2, 4], "per_raider": true, "miniboss_chance": 0.25 },
+      { "type": "entity", "entity": "minecraft:vindicator", "count": [1, 2], "per_raider": true, "miniboss_chance": 0.25 } ] },
+    { "at": 0.85, "spawns": [
+      { "type": "apotheosis:boss" },
+      { "type": "entity", "entity": "minecraft:zombie", "count": [2, 3], "per_raider": true,
+        "effects": [{ "effect": "minecraft:strength", "amplifier": 0 }] },
+      { "type": "entity", "entity": "minecraft:wither", "chance": 0.05, "nbt": { "Invul": 220 } } ] }
+  ]
+}

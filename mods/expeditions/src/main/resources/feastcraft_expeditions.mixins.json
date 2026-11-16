@@ -6,6 +6,7 @@
   "refmap": "feastcraft_expeditions.refmap.json",
   "mixins": [
     "LevelMixin",
+    "MobMixin",
     "ServerLevelMixin"
   ],
   "injectors": {

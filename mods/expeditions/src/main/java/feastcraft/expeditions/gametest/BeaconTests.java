@@ -3,6 +3,7 @@ package feastcraft.expeditions.gametest;
 import static feastcraft.expeditions.gametest.TestFixtures.PLENTY_OF_FUEL;
 import static feastcraft.expeditions.gametest.TestFixtures.base;
 import static feastcraft.expeditions.gametest.TestFixtures.fuelBase;
+import static feastcraft.expeditions.gametest.TestFixtures.still;
 
 import com.mojang.authlib.GameProfile;
 import feastcraft.expeditions.Expeditions;
@@ -46,8 +47,8 @@ public final class BeaconTests {
         ServerLevel base = base(helper);
         fuelBase(base, PLENTY_OF_FUEL);
         BlockPos beacon = placeBeacon(helper);
-        Cow inside = stillCow(helper, IN_ZONE);
-        Cow outside = stillCow(helper, OUT_OF_ZONE);
+        Cow inside = still(helper, EntityType.COW, IN_ZONE);
+        Cow outside = still(helper, EntityType.COW, OUT_OF_ZONE);
 
         helper.assertTrue(ExfilBeacons.ignite(level, beacon, SHORT_COUNTDOWN), "a fresh beacon refused to ignite");
         helper.assertTrue(level.getBlockState(beacon).getValue(ExfilBeaconBlock.SPENT), "the called beacon does not look spent");
@@ -69,7 +70,7 @@ public final class BeaconTests {
         ServerLevel base = base(helper);
         fuelBase(base, PLENTY_OF_FUEL);
         BlockPos beacon = placeBeacon(helper);
-        Cow cow = stillCow(helper, IN_ZONE);
+        Cow cow = still(helper, EntityType.COW, IN_ZONE);
         HoldDeparture hold = new HoldDeparture(beacon);
         MinecraftForge.EVENT_BUS.register(hold);
         ExfilBeacons.ignite(level, beacon, SHORT_COUNTDOWN);
@@ -137,15 +138,6 @@ public final class BeaconTests {
     }
 
     private static BlockPos placeBeacon(GameTestHelper helper) {
-        BlockPos beacon = helper.absolutePos(BEACON);
-        helper.getLevel().setBlockAndUpdate(beacon, ExpeditionsRegistry.EXFIL_BEACON.get().defaultBlockState());
-        ExfilBeacons.reset(helper.getLevel(), beacon);
-        return beacon;
-    }
-
-    private static Cow stillCow(GameTestHelper helper, BlockPos at) {
-        Cow cow = helper.spawn(EntityType.COW, at);
-        cow.setNoAi(true);
-        return cow;
+        return TestFixtures.placeBeacon(helper, BEACON);
     }
 }
