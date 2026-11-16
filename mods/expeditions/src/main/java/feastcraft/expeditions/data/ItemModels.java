@@ -30,8 +30,8 @@ final class ItemModels extends ItemModelProvider {
 
     /**
      * Borrows the vanilla compass's 32 needle frames. Overrides are not inherited from a parent model,
-     * so the angle table from vanilla's compass.json is repeated here. Frame 16 is the needle pointing
-     * straight up, and each frame covers the angles centered on its index over 32.
+     * so the angle table from vanilla's compass.json is repeated here. Vanilla has no compass_16 model:
+     * that frame is compass.json itself.
      */
     private void exfilCompass() {
         ItemModelBuilder compass = withExistingParent(ExpeditionsRegistry.EXFIL_COMPASS.getId().getPath(), mcLoc("item/generated"))
@@ -40,8 +40,12 @@ final class ItemModels extends ItemModelProvider {
             float angle = i == 0 ? 0.0F : (i - 0.5F) / COMPASS_FRAMES;
             compass.override()
                     .predicate(ResourceLocation.withDefaultNamespace("angle"), angle)
-                    .model(new ModelFile.UncheckedModelFile(mcLoc(String.format("item/compass_%02d", (i + 16) % COMPASS_FRAMES))))
+                    .model(new ModelFile.UncheckedModelFile(mcLoc(frameModel((i + 16) % COMPASS_FRAMES))))
                     .end();
         }
+    }
+
+    private static String frameModel(int frame) {
+        return frame == 16 ? "item/compass" : String.format("item/compass_%02d", frame);
     }
 }
