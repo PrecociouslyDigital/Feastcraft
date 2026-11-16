@@ -35,8 +35,8 @@ call wait ticks=40 >/dev/null
 shot platform
 
 step "Fuel"
-run "/give @s minecraft:coal 4" >/dev/null
-call select slot="$(hotbar_slot minecraft:coal)" >/dev/null
+run "/give @s feastcraft_expeditions:ember_charcoal 4" >/dev/null
+call select slot="$(hotbar_slot feastcraft_expeditions:ember_charcoal)" >/dev/null
 expect "looking at the hearth" '.lookingAt.block == "feastcraft_expeditions:hearth"' "$(call look x=2.5 y=65.5 z=0.5)"
 expect "feeding it shows the fuel left" 'any(.lines[]; .kind == "actionbar" and (.text | startswith("Fuel remaining")))' "$(call use)"
 
