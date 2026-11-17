@@ -24,10 +24,17 @@ run takes about as long as the pack takes to start. The game window does open.
 - `packs.txt` lists the packs, lowest first.
 - `items.tsv` lists every registered item, with hunger points and saturation modifier for foods, so
   a recipe audit can tell which results are food and which ingredients don't exist.
+- `blocks.tsv` lists every registered block and the item that places it.
+- `entities.tsv` lists every entity type, its spawn category, and `living` if it has attributes,
+  which picks out the mobs.
+- `aspects.tsv` lists the Thaumcraft aspects TC Modern Lib gives items, blocks and mobs:
+  `item	minecraft:iron_ingot	metallum:4`. Aspects that datapacks add through it are left out.
 - `recipes.tsv` lists the recipes the game is left with once it has loaded those files: id,
-  serializer, result item and count. Conditions have been applied, and so has anything a mod does
-  to the loaded recipes, such as Cookbook of Babel withdrawing other mods' recipes for food it makes.
-  A recipe file in `data/` can therefore have no line here.
+  serializer, result item and count, then the ingredients. Each ingredient lists the items that fit
+  it with `|` between them, tags already expanded, and ingredients are space separated.
+  Conditions have been applied, and so has anything a mod does to the loaded recipes, such as
+  Cookbook of Babel withdrawing other mods' recipes for food it makes. A recipe file in `data/` can
+  therefore have no line here.
 
 ## Things that bite
 

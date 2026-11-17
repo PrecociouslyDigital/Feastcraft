@@ -1,13 +1,14 @@
 package feastcraft.datapackexport;
 
-import feastcraft.datapackexport.mixin.FolderPackAccessor;
-import feastcraft.datapackexport.mixin.ZipPackAccessor;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParseException;
 import com.google.gson.JsonParser;
+import feastcraft.datapackexport.mixin.FolderPackAccessor;
+import feastcraft.datapackexport.mixin.ServerResourcesAccessor;
+import feastcraft.datapackexport.mixin.ZipPackAccessor;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -17,6 +18,7 @@ import java.nio.file.FileSystem;
 import java.nio.file.FileSystems;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.HashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
@@ -30,7 +32,11 @@ import java.util.stream.Stream;
 import net.minecraft.Util;
 import net.minecraft.client.Minecraft;
 import net.minecraft.commands.Commands;
+import net.minecraft.core.Holder;
+import net.minecraft.core.RegistryAccess;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.ReloadableServerResources;
 import net.minecraft.server.WorldLoader;
 import net.minecraft.server.packs.PackResources;
 import net.minecraft.server.packs.PackType;
@@ -38,6 +44,8 @@ import net.minecraft.server.packs.repository.PackRepository;
 import net.minecraft.server.packs.repository.ServerPacksSource;
 import net.minecraft.server.packs.resources.CloseableResourceManager;
 import net.minecraft.server.packs.resources.Resource;
+import net.minecraft.tags.TagKey;
+import net.minecraft.tags.TagManager;
 import net.minecraft.util.Unit;
 import net.minecraft.world.level.WorldDataConfiguration;
 import net.minecraftforge.event.AddPackFindersEvent;
@@ -74,6 +82,7 @@ final class MergedData {
                 (resources, serverResources, registries, unit) -> {
                     try (resources) {
                         Files.createDirectories(output);
+                        bindItemTags(serverResources, registries.compositeAccess());
                         RecipeList.write(output, serverResources.getRecipeManager(), registries.compositeAccess());
                         writeFiles(output, resources);
                     } catch (IOException e) {
@@ -84,6 +93,22 @@ final class MergedData {
         // The load finishes on this thread, so it has to keep running its tasks while it waits.
         minecraft.managedBlock(written::isDone);
         written.join();
+    }
+
+    /**
+     * Binds item tags so recipe ingredients that name a tag aren't empty; a server would do this as
+     * it starts. Item tags only, because Slice and Dice hooks binding all tags and throws here.
+     */
+    private static void bindItemTags(ReloadableServerResources serverResources, RegistryAccess registries) {
+        ((ServerResourcesAccessor) serverResources).feastcraft_datapack_export$tagManager().getResult().stream()
+                .filter(result -> result.key().equals(Registries.ITEM))
+                .forEach(result -> bind(registries, result));
+    }
+
+    private static <T> void bind(RegistryAccess registries, TagManager.LoadResult<T> result) {
+        Map<TagKey<T>, List<Holder<T>>> tags = new HashMap<>();
+        result.tags().forEach((id, members) -> tags.put(TagKey.create(result.key(), id), List.copyOf(members)));
+        registries.registryOrThrow(result.key()).bindTags(tags);
     }
 
     private static void writeFiles(Path output, CloseableResourceManager resources) throws IOException {

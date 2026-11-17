@@ -6,6 +6,7 @@ import net.minecraft.client.gui.screens.TitleScreen;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.ScreenEvent;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.loading.FMLEnvironment;
 
@@ -31,6 +32,11 @@ public final class DatapackExportMod {
                 // Every mod has finished loading by now.
                 minecraft.tell(() -> {
                     ItemList.write(directory);
+                    BlockList.write(directory);
+                    EntityList.write(directory);
+                    if (ModList.get().isLoaded("tcmodernlib")) {
+                        AspectList.write(directory);
+                    }
                     MergedData.write(directory);
                     minecraft.stop();
                 });

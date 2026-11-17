@@ -6,6 +6,7 @@
   "refmap": "feastcraft_datapack_export.refmap.json",
   "mixins": [
     "FolderPackAccessor",
+    "ServerResourcesAccessor",
     "ZipPackAccessor"
   ]
 }
