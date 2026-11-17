@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "minecraft:honeycomb"
+  },
+  "cast_consumed": true,
+  "cooling_time": 20,
+  "fluid": {
+    "amount": 1000,
+    "fluid": "brewinandchewin:flaxen_cheese"
+  },
+  "result": {
+    "item": "brewinandchewin:unripe_flaxen_cheese_wheel"
+  }
+}

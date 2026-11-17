@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:bibimbap_step_6\"}"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/hammers"
+  },
+  "result": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:bibimbap_step_7"
+      }
+    }
+  ]
+}

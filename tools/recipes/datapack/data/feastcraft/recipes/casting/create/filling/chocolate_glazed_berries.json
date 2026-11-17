@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "minecraft:sweet_berries"
+  },
+  "cast_consumed": true,
+  "cooling_time": 20,
+  "fluid": {
+    "amount": 250,
+    "fluid": "create:chocolate"
+  },
+  "result": {
+    "item": "create:chocolate_glazed_berries"
+  }
+}

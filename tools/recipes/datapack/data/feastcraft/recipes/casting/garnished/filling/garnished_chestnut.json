@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "garnished:ungarnished_chestnut"
+  },
+  "cast_consumed": true,
+  "cooling_time": 20,
+  "fluid": {
+    "amount": 250,
+    "fluid": "garnished:garnish"
+  },
+  "result": {
+    "item": "garnished:chestnut"
+  }
+}

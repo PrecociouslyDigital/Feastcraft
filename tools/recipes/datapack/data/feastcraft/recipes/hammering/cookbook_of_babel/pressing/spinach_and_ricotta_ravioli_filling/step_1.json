@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "cookbook_of_babel:substance",
+      "nbt": "{substance:\"cookbook_of_babel:spinach_dry\"}"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/hammers"
+  },
+  "result": [
+    {
+      "count": 2,
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:spinach_and_ricotta_ravioli_filling_step_1"
+      }
+    }
+  ]
+}

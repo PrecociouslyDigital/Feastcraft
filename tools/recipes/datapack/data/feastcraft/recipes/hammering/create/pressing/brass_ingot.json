@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/brass"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/hammers"
+  },
+  "result": [
+    {
+      "item": "create:brass_sheet"
+    }
+  ]
+}

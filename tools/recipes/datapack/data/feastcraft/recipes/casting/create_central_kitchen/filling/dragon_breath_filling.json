@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cast_consumed": true,
+  "cooling_time": 20,
+  "fluid": {
+    "amount": 250,
+    "fluid": "create_central_kitchen:dragon_breath"
+  },
+  "result": {
+    "item": "minecraft:dragon_breath"
+  }
+}

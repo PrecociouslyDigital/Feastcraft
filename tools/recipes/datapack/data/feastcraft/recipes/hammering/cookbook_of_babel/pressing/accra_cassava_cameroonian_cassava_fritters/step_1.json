@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "cookbook_of_babel:ingredients/cassava_dry"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/hammers"
+  },
+  "result": [
+    {
+      "item": "cookbook_of_babel:substance",
+      "nbt": {
+        "substance": "cookbook_of_babel:accra_cassava_cameroonian_cassava_fritters_step_1"
+      }
+    }
+  ]
+}

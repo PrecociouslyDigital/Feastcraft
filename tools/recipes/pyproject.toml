@@ -1,0 +1,13 @@
+[project]
+name = "recipes"
+version = "0.1.0"
+description = "Generates Feastcraft's recipe datapack"
+requires-python = ">=3.11"
+dependencies = ["packexport"]
+
+[tool.uv.sources]
+packexport = { path = "../pack_export", editable = true }
+
+[tool.mypy]
+strict = true
+mypy_path = "../pack_export"

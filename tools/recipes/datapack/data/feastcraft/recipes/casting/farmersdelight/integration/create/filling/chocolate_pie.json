@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "farmersdelight:pie_crust"
+  },
+  "cast_consumed": true,
+  "cooling_time": 20,
+  "fluid": {
+    "amount": 500,
+    "tag": "forge:chocolate"
+  },
+  "result": {
+    "item": "farmersdelight:chocolate_pie"
+  }
+}

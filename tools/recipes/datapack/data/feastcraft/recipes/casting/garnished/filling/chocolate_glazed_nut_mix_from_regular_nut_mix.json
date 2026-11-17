@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "garnished:nut_mix"
+  },
+  "cast_consumed": true,
+  "cooling_time": 20,
+  "fluid": {
+    "amount": 250,
+    "fluid": "create:chocolate"
+  },
+  "result": {
+    "item": "garnished:chocolate_glazed_nut_mix"
+  }
+}

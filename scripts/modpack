@@ -52,6 +52,7 @@ case $command in
             --datapack "feastcraft_skill_tree=$repo/tools/skill_tree/datapack" \
             --datapack "feastcraft_thaumcraft_compat=$repo/tools/thaumcraft_compat/datapack" \
             --datapack "feastcraft_bounties=$repo/tools/bounties/datapack" \
+            --datapack "feastcraft_recipes=$repo/tools/recipes/datapack" \
             "${jars[@]}"
         ;;
     server)

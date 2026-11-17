@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "createbb:white_stuff_tray"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/hammers"
+  },
+  "result": [
+    {
+      "item": "createbb:white_stuff"
+    },
+    {
+      "item": "createbb:tray"
+    }
+  ]
+}

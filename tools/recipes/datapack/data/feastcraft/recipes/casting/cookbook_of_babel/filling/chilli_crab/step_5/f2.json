@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "type": "forge:partial_nbt",
+    "item": "cookbook_of_babel:substance",
+    "nbt": "{substance:\"cookbook_of_babel:chilli_crab_step_4\"}"
+  },
+  "cast_consumed": true,
+  "cooling_time": 20,
+  "fluid": {
+    "amount": 206,
+    "fluid": "minecraft:water"
+  },
+  "result": {
+    "item": "cookbook_of_babel:substance",
+    "nbt": {
+      "substance": "cookbook_of_babel:chilli_crab_step_5"
+    }
+  }
+}
