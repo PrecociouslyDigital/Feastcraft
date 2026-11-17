@@ -17,6 +17,10 @@ OBJECTIVES = "feastcraft_objs"
 REWARDS = "feastcraft_rews"
 # Bountiful only loads a decree or pool when every mod it requires is loaded.
 NEVER_LOADED = "feastcraft_bounties_turned_off"
+# Expeditions freezes block entities in unfueled base chunks unless tagged here. A board only
+# fills and refreshes from its tick.
+TICKS_IN_STASIS = Path("data/feastcraft_expeditions/tags/block_entity_type/ticks_in_stasis.json")
+BOARD = "bountiful:board-be"
 
 
 def _write(path: Path, data: object) -> None:
@@ -59,6 +63,7 @@ def write(datapack: Path, rules: Bounties, objectives: list[Entry], rewards: lis
     _write(data / NAMESPACE / "bounty_decrees" / NAMESPACE / "market.json", decree)
     _write(data / NAMESPACE / "bounty_pools" / NAMESPACE / f"{OBJECTIVES}.json", _pool(objectives, "obj"))
     _write(data / NAMESPACE / "bounty_pools" / NAMESPACE / f"{REWARDS}.json", _pool(rewards, "rew"))
+    _write(datapack / TICKS_IN_STASIS, {"replace": False, "values": [BOARD]})
     for location in stock:
         namespace, _, path = location.partition(":")
         turned_off: dict[str, Any] = {"requires": [NEVER_LOADED]}
