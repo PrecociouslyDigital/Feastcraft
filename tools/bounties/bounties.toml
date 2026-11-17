@@ -70,6 +70,8 @@ deny = [
     "cookbook_of_babel:*", "minecraft:golden_apple", "minecraft:enchanted_golden_apple", "*_slice", "*:*_seeds",
     # Edible building blocks and fishing gear.
     "*_stairs", "*_slab", "*_wall", "*_door", "*_trapdoor", "*_bricks", "*_brick", "*_bobber", "*lunchbox",
+    # Water in a bottle, which Pam's counts as food.
+    "*freshwater*",
 ]
 weight = 4
 

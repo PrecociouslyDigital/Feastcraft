@@ -96,6 +96,8 @@ ids = [
     "hexerei:mugwort_*", "hexerei:yellow_dock_*", "garnished:prickly_pear", "yungscavebiomes:prickly_peach",
     "atmospheric:yucca_fruit", "atmospheric:blood_orange", "atmospheric:aloe_leaves", "forestry:honey_drop", "forestry:bee_comb_*",
 ]
+# Garnished tags its candied nuts as nuts.
+deny = ["garnished:chocolate_glazed_*", "garnished:honeyed_*", "garnished:sweetened_*"]
 value = 30
 
 [raw.logs]
