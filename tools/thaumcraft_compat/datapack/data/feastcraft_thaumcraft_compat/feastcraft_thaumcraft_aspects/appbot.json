@@ -1,10 +1,15 @@
 [
   {"item": "appbot:creative_mana_cell", "aspects": {"fabrico": 2, "machina": 3, "potentia": 3, "praecantatio": 3}},
-  {"item": "appbot:mana_cell_housing", "aspects": {"fabrico": 4, "metallum": 6, "potentia": 4, "praecantatio": 4, "spiritus": 6, "victus": 6}},
+  {"item": "appbot:mana_cell_housing", "aspects": {"fabrico": 12, "machina": 4, "metallum": 18, "ordo": 12, "potentia": 4, "praecantatio": 4, "spiritus": 6, "victus": 6}},
   {"item": "appbot:mana_p2p_tunnel", "aspects": {"fabrico": 2, "machina": 3, "potentia": 2, "praecantatio": 2}},
-  {"item": "appbot:mana_storage_cell_16k", "aspects": {"fabrico": 51, "lux": 4, "machina": 28, "metallum": 4, "potentia": 36, "praecantatio": 3, "sensus": 2, "spiritus": 4, "victus": 4}},
-  {"item": "appbot:mana_storage_cell_1k", "aspects": {"fabrico": 13, "machina": 3, "metallum": 4, "potentia": 7, "praecantatio": 3, "spiritus": 4, "victus": 4}},
-  {"item": "appbot:mana_storage_cell_256k", "aspects": {"fabrico": 51, "lux": 31, "machina": 48, "metallum": 4, "potentia": 51, "praecantatio": 3, "sensus": 15, "spiritus": 4, "terra": 2, "victus": 4}},
-  {"item": "appbot:mana_storage_cell_4k", "aspects": {"fabrico": 31, "machina": 12, "metallum": 4, "potentia": 18, "praecantatio": 3, "spiritus": 4, "victus": 4}},
-  {"item": "appbot:mana_storage_cell_64k", "aspects": {"fabrico": 51, "lux": 14, "machina": 48, "metallum": 4, "potentia": 51, "praecantatio": 3, "sensus": 6, "spiritus": 4, "victus": 4}}
+  {"item": "appbot:mana_storage_cell_16k", "aspects": {"fabrico": 57, "lux": 4, "machina": 51, "metallum": 61, "ordo": 57, "potentia": 36, "praecantatio": 3, "sensus": 2, "spiritus": 4, "victus": 4}},
+  {"item": "appbot:mana_storage_cell_1k", "aspects": {"fabrico": 30, "machina": 15, "metallum": 33, "ordo": 29, "potentia": 7, "praecantatio": 3, "spiritus": 4, "victus": 4}},
+  {"item": "appbot:mana_storage_cell_256k", "aspects": {"fabrico": 57, "lux": 31, "machina": 51, "metallum": 61, "ordo": 57, "potentia": 51, "praecantatio": 3, "sensus": 15, "spiritus": 4, "terra": 2, "victus": 4}},
+  {"item": "appbot:mana_storage_cell_4k", "aspects": {"fabrico": 57, "machina": 39, "metallum": 61, "ordo": 57, "potentia": 18, "praecantatio": 3, "spiritus": 4, "victus": 4}},
+  {"item": "appbot:mana_storage_cell_64k", "aspects": {"fabrico": 57, "lux": 14, "machina": 51, "metallum": 61, "ordo": 57, "potentia": 51, "praecantatio": 3, "sensus": 6, "spiritus": 4, "victus": 4}},
+  {"item": "appbot:portable_mana_storage_cell_16k", "aspects": {"fabrico": 64, "lux": 4, "machina": 63, "metallum": 64, "ordo": 64, "potentia": 36, "praecantatio": 3, "sensus": 2, "spiritus": 4, "victus": 4}},
+  {"item": "appbot:portable_mana_storage_cell_1k", "aspects": {"fabrico": 64, "machina": 28, "metallum": 64, "ordo": 64, "potentia": 7, "praecantatio": 3, "spiritus": 4, "victus": 4}},
+  {"item": "appbot:portable_mana_storage_cell_256k", "aspects": {"fabrico": 64, "lux": 31, "machina": 63, "metallum": 64, "ordo": 64, "potentia": 51, "praecantatio": 3, "sensus": 15, "spiritus": 4, "terra": 2, "victus": 4}},
+  {"item": "appbot:portable_mana_storage_cell_4k", "aspects": {"fabrico": 64, "machina": 51, "metallum": 64, "ordo": 64, "potentia": 18, "praecantatio": 3, "spiritus": 4, "victus": 4}},
+  {"item": "appbot:portable_mana_storage_cell_64k", "aspects": {"fabrico": 64, "lux": 14, "machina": 63, "metallum": 64, "ordo": 64, "potentia": 51, "praecantatio": 3, "sensus": 6, "spiritus": 4, "victus": 4}}
 ]

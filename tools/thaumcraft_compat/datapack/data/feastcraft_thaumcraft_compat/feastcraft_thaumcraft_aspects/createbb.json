@@ -1,5 +1,5 @@
 [
-  {"item": "createbb:acetic_anhydride_bucket", "aspects": {"aqua": 1, "permutatio": 2, "sensus": 1, "vacuos": 1}},
+  {"item": "createbb:acetic_anhydride_bucket", "aspects": {"aqua": 3, "metallum": 3, "vacuos": 4, "venenum": 2}},
   {"item": "createbb:aluminosilicate_bit", "aspects": {"aqua": 2, "terra": 2}},
   {"item": "createbb:aluminosilicate_catalyst", "aspects": {"aqua": 36, "terra": 36}},
   {"item": "createbb:aluminosilicate_chunk", "aspects": {"aqua": 12, "terra": 12}},
@@ -19,8 +19,8 @@
   {"item": "createbb:methylamine_bucket", "aspects": {"aqua": 3, "sensus": 1, "vacuos": 2, "venenum": 2}},
   {"item": "createbb:nitrogen", "aspects": {"fames": 3, "victus": 3}},
   {"item": "createbb:oxygen_bucket", "aspects": {"aer": 3, "vacuos": 2, "victus": 1}},
-  {"item": "createbb:phenylacetic_acid_bucket", "aspects": {"aqua": 1, "sensus": 1, "vacuos": 1, "venenum": 1}},
-  {"item": "createbb:phenylacetone_bucket", "aspects": {"aqua": 1, "permutatio": 1, "sensus": 1, "vacuos": 1}},
+  {"item": "createbb:phenylacetic_acid_bucket", "aspects": {"aqua": 3, "metallum": 3, "vacuos": 3, "venenum": 3}},
+  {"item": "createbb:phenylacetone_bucket", "aspects": {"aqua": 3, "metallum": 3, "vacuos": 3, "venenum": 2}},
   {"item": "createbb:pseudophedrine", "aspects": {"herba": 3}},
   {"item": "createbb:sudafed", "aspects": {"herba": 2}},
   {"item": "createbb:sudafed_box", "aspects": {"herba": 6}},

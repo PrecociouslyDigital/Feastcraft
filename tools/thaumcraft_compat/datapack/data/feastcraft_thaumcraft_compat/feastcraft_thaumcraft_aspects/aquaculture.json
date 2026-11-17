@@ -91,7 +91,7 @@
   {"item": "aquaculture:jungle_fish_mount", "aspects": {"arbor": 3, "metallum": 2}},
   {"item": "aquaculture:leech", "aspects": {"aqua": 3, "bestia": 3, "corpus": 3, "motus": 2}},
   {"item": "aquaculture:light_hook", "aspects": {"aer": 3, "metallum": 2, "volatus": 6}},
-  {"item": "aquaculture:lockbox", "aspects": {"fabrico": 1, "vacuos": 2}},
+  {"item": "aquaculture:lockbox", "aspects": {"arbor": 2, "fabrico": 3, "vacuos": 3}},
   {"item": "aquaculture:message_in_a_bottle", "aspects": {"aqua": 3, "cognitio": 3, "fabrico": 1, "vacuos": 3}},
   {"item": "aquaculture:minnow", "parent": "minecraft:cod"},
   {"item": "aquaculture:minnow_bucket", "aspects": {"aqua": 4, "bestia": 3, "vacuos": 2, "victus": 3}},

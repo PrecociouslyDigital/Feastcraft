@@ -1,6 +1,6 @@
 [
-  {"item": "verdantvibes:bracket_mushroom", "aspects": {"herba": 2}},
-  {"block": "verdantvibes:bracket_mushroom", "aspects": {"herba": 2}},
+  {"item": "verdantvibes:bracket_mushroom", "aspects": {"arbor": 1, "herba": 4}},
+  {"block": "verdantvibes:bracket_mushroom", "aspects": {"arbor": 1, "herba": 4}},
   {"item": "verdantvibes:cattails", "aspects": {"aqua": 1, "herba": 3}},
   {"block": "verdantvibes:cattails", "aspects": {"aqua": 1, "herba": 3}},
   {"item": "verdantvibes:dragon_tree", "aspects": {"arbor": 2, "herba": 2}},

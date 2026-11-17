@@ -1,5 +1,5 @@
 [
-  {"entity": "astikorcartsredux:postilion", "aspects": {"humanus": 1}},
+  {"entity": "astikorcartsredux:postilion", "aspects": {"corpus": 2, "humanus": 2, "motus": 2, "victus": 2}},
   {"item": "astikorcartsredux:acacia_animal_cart", "aspects": {"arbor": 14}},
   {"item": "astikorcartsredux:acacia_hand_cart", "aspects": {"arbor": 15, "vacuos": 3}},
   {"item": "astikorcartsredux:acacia_plow", "aspects": {"arbor": 14}},

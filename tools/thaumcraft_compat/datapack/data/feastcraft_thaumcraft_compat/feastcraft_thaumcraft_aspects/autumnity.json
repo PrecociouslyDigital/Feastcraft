@@ -12,8 +12,9 @@
   {"item": "autumnity:maple_leaf_banner_pattern", "aspects": {"arbor": 1, "fabrico": 2, "herba": 3, "pannus": 3}},
   {"item": "autumnity:snail_goo", "aspects": {"aqua": 2, "limus": 3}},
   {"block": "autumnity:snail_goo", "aspects": {"aqua": 2, "limus": 3}},
-  {"item": "autumnity:snail_shell_chestplate", "aspects": {"bestia": 6, "tutamen": 6}},
-  {"item": "autumnity:snail_shell_piece", "aspects": {"bestia": 1, "tutamen": 1}},
+  {"item": "autumnity:snail_shell_chestplate", "aspects": {"bestia": 18, "limus": 6, "perditio": 12, "terra": 6}},
+  {"item": "autumnity:snail_shell_piece", "aspects": {"bestia": 3, "limus": 1, "perditio": 2, "terra": 1}},
+  {"item": "autumnity:swirl_banner_pattern", "aspects": {"bestia": 2, "perditio": 1}},
   {"item": "autumnity:turkey", "aspects": {"bestia": 3, "corpus": 3, "fames": 4, "victus": 2}},
   {"block": "autumnity:turkey", "aspects": {"bestia": 3, "corpus": 3, "fames": 4, "victus": 2}},
   {"item": "autumnity:turkey_egg", "aspects": {"bestia": 2, "corpus": 1, "fames": 4, "victus": 1}}

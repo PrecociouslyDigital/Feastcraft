@@ -1,14 +1,14 @@
 [
-  {"item": "endersdelight:amberveil", "aspects": {"alienis": 1, "herba": 1, "praecantatio": 1, "sensus": 1}},
-  {"block": "endersdelight:amberveil_mushroom", "aspects": {"alienis": 1, "herba": 1, "praecantatio": 1, "sensus": 1}},
-  {"item": "endersdelight:amberveil_stew", "aspects": {"alienis": 2, "herba": 4, "sensus": 2}},
+  {"item": "endersdelight:amberveil", "aspects": {"alienis": 1, "fames": 1, "herba": 1}},
+  {"block": "endersdelight:amberveil_mushroom", "aspects": {"alienis": 1, "fames": 1, "herba": 1}},
+  {"item": "endersdelight:amberveil_stew", "aspects": {"alienis": 2, "herba": 4, "sensus": 1}},
   {"item": "endersdelight:amberveiled_curry", "aspects": {"alienis": 1, "herba": 3}},
   {"item": "endersdelight:chicken_curry", "aspects": {"messis": 1}},
   {"item": "endersdelight:chorus_juice", "aspects": {"fames": 1, "victus": 1}},
   {"item": "endersdelight:chorus_pie_slice", "aspects": {"fames": 1, "messis": 1}},
   {"item": "endersdelight:chorus_stew", "aspects": {"herba": 1, "victus": 1}},
-  {"item": "endersdelight:chorusflame", "aspects": {"ignis": 2, "lux": 1}},
-  {"block": "endersdelight:chorus_flame_block", "aspects": {"ignis": 2, "lux": 1}},
+  {"item": "endersdelight:chorusflame", "aspects": {"alienis": 3, "ignis": 4, "lux": 2}},
+  {"block": "endersdelight:chorus_flame_block", "aspects": {"alienis": 3, "ignis": 4, "lux": 2}},
   {"item": "endersdelight:crawling_sandwich", "aspects": {"alienis": 2, "bestia": 2, "corpus": 2, "fames": 6, "messis": 3, "victus": 1}},
   {"item": "endersdelight:crushed_voidpepper", "aspects": {"alienis": 1, "herba": 1}},
   {"item": "endersdelight:ender_paella", "aspects": {"alienis": 4, "bestia": 2, "corpus": 2, "fames": 3, "herba": 1, "messis": 1, "sensus": 1}},
@@ -25,7 +25,7 @@
   {"item": "endersdelight:strange_eclair", "aspects": {"alienis": 2, "fames": 2, "iter": 2, "messis": 3, "sensus": 3}},
   {"item": "endersdelight:stuffed_shulker_bowl", "aspects": {"alienis": 3, "fames": 4, "sensus": 2, "vacuos": 2}},
   {"item": "endersdelight:uncanny_cookies", "aspects": {"fames": 3, "messis": 3}},
-  {"item": "endersdelight:veil_of_flames_risotto", "aspects": {"alienis": 1, "herba": 3, "sensus": 2}},
+  {"item": "endersdelight:veil_of_flames_risotto", "aspects": {"alienis": 1, "herba": 3, "sensus": 1}},
   {"item": "endersdelight:voidpepper", "aspects": {"alienis": 3, "herba": 3, "vacuos": 2, "victus": 1}},
   {"block": "endersdelight:voidpepper_block", "aspects": {"alienis": 3, "herba": 3, "vacuos": 2, "victus": 1}}
 ]

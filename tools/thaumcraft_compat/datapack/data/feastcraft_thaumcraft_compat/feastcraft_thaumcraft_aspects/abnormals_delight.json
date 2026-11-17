@@ -7,7 +7,7 @@
   {"item": "abnormals_delight:duck_fillet", "aspects": {"bestia": 1, "corpus": 1, "fames": 1}},
   {"item": "abnormals_delight:duck_noodles", "aspects": {"fames": 4, "herba": 1, "messis": 2}},
   {"item": "abnormals_delight:dune_platter", "aspects": {"aqua": 1, "fames": 4, "herba": 6, "messis": 1, "sano": 1, "terra": 1, "victus": 4}},
-  {"item": "abnormals_delight:escargot", "aspects": {"aqua": 3, "fames": 1, "herba": 1, "limus": 4}},
+  {"item": "abnormals_delight:escargot", "aspects": {"aqua": 3, "fames": 1, "herba": 1, "limus": 4, "metallum": 1}},
   {"item": "abnormals_delight:maple_glazed_bacon", "aspects": {"bestia": 1, "corpus": 2, "fames": 2}},
   {"item": "abnormals_delight:necromium_knife", "aspects": {"fabrico": 2, "instrumentum": 3, "metallum": 3, "telum": 2}},
   {"item": "abnormals_delight:passion_aloe_nectar", "aspects": {"aqua": 1, "fames": 3, "herba": 2, "messis": 3, "sano": 1}},

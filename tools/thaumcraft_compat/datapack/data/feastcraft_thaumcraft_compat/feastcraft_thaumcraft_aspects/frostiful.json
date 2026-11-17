@@ -23,7 +23,7 @@
   {"item": "frostiful:fur_padded_chainmail_helmet", "aspects": {"bestia": 2, "fabrico": 1, "metallum": 3, "tutamen": 4}},
   {"item": "frostiful:fur_padded_chainmail_leggings", "aspects": {"bestia": 1, "fabrico": 2, "metallum": 2, "tutamen": 3}},
   {"item": "frostiful:fur_padding", "aspects": {"bestia": 6, "tutamen": 6}},
-  {"item": "frostiful:fur_upgrade_template", "aspects": {"fabrico": 2, "instrumentum": 1, "metallum": 1, "ordo": 1}},
+  {"item": "frostiful:fur_upgrade_template", "aspects": {"bestia": 1, "fabrico": 3, "gelum": 2, "ordo": 1}},
   {"item": "frostiful:hot_sun_lichen", "aspects": {"herba": 3, "ignis": 3, "lux": 1}},
   {"block": "frostiful:hot_sun_lichen", "aspects": {"herba": 3, "ignis": 3, "lux": 1}},
   {"item": "frostiful:ice_skate_upgrade_template", "aspects": {"fabrico": 2, "gelum": 1, "motus": 1}},

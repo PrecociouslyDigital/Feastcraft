@@ -1,7 +1,7 @@
 [
   {"entity": "conjurer_illager:conjurer", "aspects": {"corpus": 2, "humanus": 3, "motus": 2, "praecantatio": 4}},
   {"item": "conjurer_illager:conjurer_hat", "aspects": {"fabrico": 2, "pannus": 2, "praecantatio": 3, "tutamen": 2}},
-  {"item": "conjurer_illager:music_disc_delve_deeper", "aspects": {"cognitio": 1, "fabrico": 1, "praecantatio": 1, "tenebrae": 1}},
+  {"item": "conjurer_illager:music_disc_delve_deeper", "aspects": {"fabrico": 2, "metallum": 2, "praecantatio": 1, "sensus": 1}},
   {"item": "conjurer_illager:throwable_ball", "aspects": {"limus": 2, "motus": 3, "telum": 1}},
   {"item": "conjurer_illager:throwing_card", "aspects": {"fabrico": 1, "instrumentum": 1, "motus": 2, "telum": 3}}
 ]

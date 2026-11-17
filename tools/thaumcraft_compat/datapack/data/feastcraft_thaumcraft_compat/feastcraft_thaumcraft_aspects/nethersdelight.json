@@ -21,7 +21,7 @@
   {"item": "nethersdelight:rich_soul_soil", "aspects": {"ignis": 1, "praecantatio": 1, "spiritus": 2, "terra": 3}},
   {"block": "nethersdelight:rich_soul_soil", "aspects": {"ignis": 1, "praecantatio": 1, "spiritus": 2, "terra": 3}},
   {"item": "nethersdelight:strider_slice", "aspects": {"bestia": 2, "corpus": 3, "fames": 4, "victus": 2}},
-  {"item": "nethersdelight:warped_fungus_colony", "aspects": {"alienis": 2, "herba": 2, "terra": 1, "victus": 1}},
-  {"block": "nethersdelight:warped_fungus_colony", "aspects": {"alienis": 2, "herba": 2, "terra": 1, "victus": 1}},
+  {"item": "nethersdelight:warped_fungus_colony", "aspects": {"alienis": 3, "herba": 4, "victus": 2, "vitium": 1}},
+  {"block": "nethersdelight:warped_fungus_colony", "aspects": {"alienis": 3, "herba": 4, "victus": 2, "vitium": 1}},
   {"item": "nethersdelight:warped_moldy_meat", "aspects": {"bestia": 1, "corpus": 2, "fames": 2, "herba": 3}}
 ]

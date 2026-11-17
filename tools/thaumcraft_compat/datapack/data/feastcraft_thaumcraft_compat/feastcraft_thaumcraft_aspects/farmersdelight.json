@@ -2,7 +2,7 @@
   {"item": "farmersdelight:apple_cider", "aspects": {"fames": 2, "messis": 3}},
   {"item": "farmersdelight:apple_pie_slice", "aspects": {"fames": 1, "messis": 2}},
   {"item": "farmersdelight:bacon_and_eggs", "aspects": {"bestia": 3, "corpus": 4, "fames": 6}},
-  {"item": "farmersdelight:bacon_sandwich", "aspects": {"fames": 4, "messis": 5}},
+  {"item": "farmersdelight:bacon_sandwich", "aspects": {"bestia": 1, "corpus": 2, "fames": 6, "messis": 5}},
   {"item": "farmersdelight:baked_cod_stew", "aspects": {"corpus": 2, "fames": 3, "messis": 2}},
   {"item": "farmersdelight:barbecue_stick", "aspects": {"fames": 3, "herba": 1, "messis": 2}},
   {"item": "farmersdelight:beef_stew", "aspects": {"corpus": 3, "fames": 1, "messis": 1, "victus": 1}},
