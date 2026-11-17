@@ -1197,7 +1197,7 @@
         "max": 64
       },
       "unitWorth": 22.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_abnormals_delight_cooked_duck_fillet": {
       "type": "item",
@@ -1208,7 +1208,7 @@
         "max": 64
       },
       "unitWorth": 73.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_abnormals_delight_cooked_venison_shanks": {
       "type": "item",
@@ -1219,7 +1219,7 @@
         "max": 64
       },
       "unitWorth": 73.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_abnormals_delight_duck_noodles": {
       "type": "item",
@@ -1230,7 +1230,7 @@
         "max": 64
       },
       "unitWorth": 265.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_abnormals_delight_escargot": {
       "type": "item",
@@ -1241,7 +1241,7 @@
         "max": 64
       },
       "unitWorth": 144.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_abnormals_delight_maple_cookie": {
       "type": "item",
@@ -1252,7 +1252,7 @@
         "max": 64
       },
       "unitWorth": 16.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_abnormals_delight_mulberry_cookie": {
       "type": "item",
@@ -1263,7 +1263,7 @@
         "max": 64
       },
       "unitWorth": 22.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_abnormals_delight_passion_fruit_glazed_duck": {
       "type": "item",
@@ -1274,7 +1274,7 @@
         "max": 64
       },
       "unitWorth": 330.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_abnormals_delight_seared_venison": {
       "type": "item",
@@ -1285,7 +1285,7 @@
         "max": 64
       },
       "unitWorth": 293.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_abnormals_delight_slabdish": {
       "type": "item",
@@ -1296,7 +1296,7 @@
         "max": 64
       },
       "unitWorth": 133.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_abnormals_delight_venison_with_bamboo_shoots": {
       "type": "item",
@@ -1307,7 +1307,7 @@
         "max": 64
       },
       "unitWorth": 157.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_alex_meal": {
       "type": "item",
@@ -1318,7 +1318,7 @@
         "max": 64
       },
       "unitWorth": 413.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_block_of_frosting": {
       "type": "item",
@@ -1329,7 +1329,7 @@
         "max": 64
       },
       "unitWorth": 165.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_block_of_vanilla_frosting": {
       "type": "item",
@@ -1340,7 +1340,7 @@
         "max": 64
       },
       "unitWorth": 272.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_candy_cane_block": {
       "type": "item",
@@ -1351,7 +1351,7 @@
         "max": 64
       },
       "unitWorth": 165.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_candy_cane_pole": {
       "type": "item",
@@ -1362,7 +1362,7 @@
         "max": 64
       },
       "unitWorth": 125.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_caramel_apple": {
       "type": "item",
@@ -1373,7 +1373,7 @@
         "max": 64
       },
       "unitWorth": 373.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_chiseled_candy_cane_block": {
       "type": "item",
@@ -1384,7 +1384,7 @@
         "max": 64
       },
       "unitWorth": 1173.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_chocolate_ice_cream": {
       "type": "item",
@@ -1395,7 +1395,7 @@
         "max": 64
       },
       "unitWorth": 165.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_cooked_lanternfish": {
       "type": "item",
@@ -1406,7 +1406,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_cooked_radgill": {
       "type": "item",
@@ -1417,7 +1417,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_cooked_trilocaris_tail": {
       "type": "item",
@@ -1428,7 +1428,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_cooked_tripodfish": {
       "type": "item",
@@ -1439,7 +1439,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_cookie_block": {
       "type": "item",
@@ -1450,7 +1450,7 @@
         "max": 64
       },
       "unitWorth": 149.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_darkened_apple": {
       "type": "item",
@@ -1461,7 +1461,7 @@
         "max": 64
       },
       "unitWorth": 213.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_deep_sea_sushi_roll": {
       "type": "item",
@@ -1472,7 +1472,7 @@
         "max": 64
       },
       "unitWorth": 115.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_dinosaur_nugget": {
       "type": "item",
@@ -1483,7 +1483,7 @@
         "max": 64
       },
       "unitWorth": 11.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_frosted_gingerbread_block": {
       "type": "item",
@@ -1494,7 +1494,7 @@
         "max": 64
       },
       "unitWorth": 704.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_frostmint": {
       "type": "item",
@@ -1505,7 +1505,7 @@
         "max": 64
       },
       "unitWorth": 65.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_gingerbarrel": {
       "type": "item",
@@ -1516,7 +1516,7 @@
         "max": 64
       },
       "unitWorth": 325.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_gingerbread_block": {
       "type": "item",
@@ -1527,7 +1527,7 @@
         "max": 64
       },
       "unitWorth": 165.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_gummy_ring_red": {
       "type": "item",
@@ -1538,7 +1538,7 @@
         "max": 64
       },
       "unitWorth": 111.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_large_peppermint": {
       "type": "item",
@@ -1549,7 +1549,7 @@
         "max": 64
       },
       "unitWorth": 365.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_peppermint_powder": {
       "type": "item",
@@ -1560,7 +1560,7 @@
         "max": 64
       },
       "unitWorth": 25.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_rock_candy_black": {
       "type": "item",
@@ -1571,7 +1571,7 @@
         "max": 64
       },
       "unitWorth": 72.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_rock_candy_blue": {
       "type": "item",
@@ -1582,7 +1582,7 @@
         "max": 64
       },
       "unitWorth": 72.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_rock_candy_brown": {
       "type": "item",
@@ -1593,7 +1593,7 @@
         "max": 64
       },
       "unitWorth": 80.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_rock_candy_cyan": {
       "type": "item",
@@ -1604,7 +1604,7 @@
         "max": 64
       },
       "unitWorth": 71.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_rock_candy_gray": {
       "type": "item",
@@ -1615,7 +1615,7 @@
         "max": 64
       },
       "unitWorth": 72.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_rock_candy_green": {
       "type": "item",
@@ -1626,7 +1626,7 @@
         "max": 64
       },
       "unitWorth": 72.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_rock_candy_light_blue": {
       "type": "item",
@@ -1637,7 +1637,7 @@
         "max": 64
       },
       "unitWorth": 72.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_rock_candy_light_gray": {
       "type": "item",
@@ -1648,7 +1648,7 @@
         "max": 64
       },
       "unitWorth": 72.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_rock_candy_lime": {
       "type": "item",
@@ -1659,7 +1659,7 @@
         "max": 64
       },
       "unitWorth": 72.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_rock_candy_magenta": {
       "type": "item",
@@ -1670,7 +1670,7 @@
         "max": 64
       },
       "unitWorth": 72.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_rock_candy_orange": {
       "type": "item",
@@ -1681,7 +1681,7 @@
         "max": 64
       },
       "unitWorth": 72.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_rock_candy_pink": {
       "type": "item",
@@ -1692,7 +1692,7 @@
         "max": 64
       },
       "unitWorth": 72.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_rock_candy_purple": {
       "type": "item",
@@ -1703,7 +1703,7 @@
         "max": 64
       },
       "unitWorth": 72.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_rock_candy_red": {
       "type": "item",
@@ -1714,7 +1714,7 @@
         "max": 64
       },
       "unitWorth": 72.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_rock_candy_white": {
       "type": "item",
@@ -1725,7 +1725,7 @@
         "max": 64
       },
       "unitWorth": 72.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_rock_candy_yellow": {
       "type": "item",
@@ -1736,7 +1736,7 @@
         "max": 64
       },
       "unitWorth": 72.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_small_peppermint": {
       "type": "item",
@@ -1747,7 +1747,7 @@
         "max": 64
       },
       "unitWorth": 165.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_stripped_candy_cane_block": {
       "type": "item",
@@ -1758,7 +1758,7 @@
         "max": 64
       },
       "unitWorth": 269.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_sugar_glass": {
       "type": "item",
@@ -1769,7 +1769,7 @@
         "max": 64
       },
       "unitWorth": 133.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_sundae": {
       "type": "item",
@@ -1780,7 +1780,7 @@
         "max": 64
       },
       "unitWorth": 280.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_sundrop": {
       "type": "item",
@@ -1791,7 +1791,7 @@
         "max": 64
       },
       "unitWorth": 185.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_sweetberry_ice_cream": {
       "type": "item",
@@ -1802,7 +1802,7 @@
         "max": 64
       },
       "unitWorth": 165.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_vanilla_ice_cream": {
       "type": "item",
@@ -1813,7 +1813,7 @@
         "max": 64
       },
       "unitWorth": 165.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexscaves_wafer_cookie_block": {
       "type": "item",
@@ -1824,7 +1824,7 @@
         "max": 64
       },
       "unitWorth": 244.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsdelight_acacia_blossom_soup": {
       "type": "item",
@@ -1835,7 +1835,7 @@
         "max": 64
       },
       "unitWorth": 203.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsdelight_bison_burger": {
       "type": "item",
@@ -1846,7 +1846,7 @@
         "max": 64
       },
       "unitWorth": 327.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsdelight_bison_mince": {
       "type": "item",
@@ -1857,7 +1857,7 @@
         "max": 64
       },
       "unitWorth": 25.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsdelight_bison_patty": {
       "type": "item",
@@ -1868,7 +1868,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsdelight_cooked_bison": {
       "type": "item",
@@ -1879,7 +1879,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsdelight_cooked_bunfungus": {
       "type": "item",
@@ -1890,7 +1890,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsdelight_cooked_bunfungus_drumstick": {
       "type": "item",
@@ -1901,7 +1901,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsdelight_cooked_centipede_leg": {
       "type": "item",
@@ -1912,7 +1912,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsdelight_cooked_kangaroo_shank": {
       "type": "item",
@@ -1923,7 +1923,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsdelight_cooked_loose_moose_rib": {
       "type": "item",
@@ -1934,7 +1934,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsdelight_kangaroo_pasta": {
       "type": "item",
@@ -1945,7 +1945,7 @@
         "max": 64
       },
       "unitWorth": 219.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsdelight_kangaroo_shank": {
       "type": "item",
@@ -1956,7 +1956,7 @@
         "max": 64
       },
       "unitWorth": 25.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsdelight_kangaroo_stew": {
       "type": "item",
@@ -1967,7 +1967,7 @@
         "max": 64
       },
       "unitWorth": 173.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsdelight_lobster_pasta": {
       "type": "item",
@@ -1978,7 +1978,7 @@
         "max": 64
       },
       "unitWorth": 187.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsdelight_loose_moose_rib": {
       "type": "item",
@@ -1989,7 +1989,7 @@
         "max": 64
       },
       "unitWorth": 25.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsdelight_maggot_salad": {
       "type": "item",
@@ -2000,7 +2000,7 @@
         "max": 64
       },
       "unitWorth": 264.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsdelight_raw_bunfungus_drumstick": {
       "type": "item",
@@ -2011,7 +2011,7 @@
         "max": 64
       },
       "unitWorth": 25.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsmobs_boiled_emu_egg": {
       "type": "item",
@@ -2022,7 +2022,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsmobs_cooked_catfish": {
       "type": "item",
@@ -2033,7 +2033,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsmobs_cooked_kangaroo_meat": {
       "type": "item",
@@ -2044,7 +2044,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsmobs_cooked_lobster_tail": {
       "type": "item",
@@ -2055,7 +2055,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsmobs_cooked_moose_ribs": {
       "type": "item",
@@ -2066,7 +2066,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsmobs_fish_oil": {
       "type": "item",
@@ -2077,7 +2077,7 @@
         "max": 64
       },
       "unitWorth": 1232.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_alexsmobs_kangaroo_burger": {
       "type": "item",
@@ -2088,7 +2088,7 @@
         "max": 64
       },
       "unitWorth": 351.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_aquaculture_turtle_soup": {
       "type": "item",
@@ -2099,7 +2099,7 @@
         "max": 64
       },
       "unitWorth": 76.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_atmospheric_aloe_gel_bottle": {
       "type": "item",
@@ -2110,7 +2110,7 @@
         "max": 64
       },
       "unitWorth": 404.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_atmospheric_candied_orange_slices": {
       "type": "item",
@@ -2121,7 +2121,7 @@
         "max": 64
       },
       "unitWorth": 77.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_atmospheric_currant_muffin": {
       "type": "item",
@@ -2132,7 +2132,7 @@
         "max": 64
       },
       "unitWorth": 221.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_atmospheric_golden_dragon_fruit": {
       "type": "item",
@@ -2143,7 +2143,7 @@
         "max": 64
       },
       "unitWorth": 1311.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_atmospheric_orange_pudding": {
       "type": "item",
@@ -2154,7 +2154,7 @@
         "max": 64
       },
       "unitWorth": 208.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_atmospheric_orange_sorbet": {
       "type": "item",
@@ -2165,7 +2165,7 @@
         "max": 64
       },
       "unitWorth": 114.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_atmospheric_passion_fruit_sorbet": {
       "type": "item",
@@ -2176,7 +2176,7 @@
         "max": 64
       },
       "unitWorth": 114.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_atmospheric_passion_fruit_tart": {
       "type": "item",
@@ -2187,7 +2187,7 @@
         "max": 64
       },
       "unitWorth": 59.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_atmospheric_roasted_yucca_fruit": {
       "type": "item",
@@ -2198,7 +2198,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_atmospheric_shimmering_passion_fruit": {
       "type": "item",
@@ -2209,7 +2209,7 @@
         "max": 64
       },
       "unitWorth": 230.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_autumnity_cooked_turkey_piece": {
       "type": "item",
@@ -2220,7 +2220,7 @@
         "max": 64
       },
       "unitWorth": 32.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_autumnity_pumpkin_bread": {
       "type": "item",
@@ -2231,7 +2231,7 @@
         "max": 64
       },
       "unitWorth": 65.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_berry_good_glowgurt": {
       "type": "item",
@@ -2242,7 +2242,7 @@
         "max": 64
       },
       "unitWorth": 164.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_berry_good_sweet_berry_meatballs": {
       "type": "item",
@@ -2253,7 +2253,7 @@
         "max": 64
       },
       "unitWorth": 217.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_berry_good_sweet_berry_mince": {
       "type": "item",
@@ -2264,7 +2264,7 @@
         "max": 64
       },
       "unitWorth": 133.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_biomeswevegone_allium_oddion_soup": {
       "type": "item",
@@ -2275,7 +2275,7 @@
         "max": 64
       },
       "unitWorth": 202.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_biomeswevegone_blooming_oddion": {
       "type": "item",
@@ -2286,7 +2286,7 @@
         "max": 64
       },
       "unitWorth": 233.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_biomeswevegone_cooked_oddion_bulb": {
       "type": "item",
@@ -2297,7 +2297,18 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
+    },
+    "meals_obj_biomeswevegone_green_apple_pie": {
+      "type": "item",
+      "content": "biomeswevegone:green_apple_pie",
+      "rarity": "COMMON",
+      "amount": {
+        "min": 1,
+        "max": 64
+      },
+      "unitWorth": 1037.0,
+      "weightMult": 0.005181
     },
     "meals_obj_botania_mana_bottle": {
       "type": "item",
@@ -2308,7 +2319,7 @@
         "max": 64
       },
       "unitWorth": 20.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_botania_mana_cookie": {
       "type": "item",
@@ -2319,7 +2330,7 @@
         "max": 64
       },
       "unitWorth": 41.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_bloody_mary": {
       "type": "item",
@@ -2330,7 +2341,7 @@
         "max": 64
       },
       "unitWorth": 67.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_cheesy_pasta": {
       "type": "item",
@@ -2341,7 +2352,7 @@
         "max": 64
       },
       "unitWorth": 325.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_cocoa_fudge": {
       "type": "item",
@@ -2352,7 +2363,7 @@
         "max": 64
       },
       "unitWorth": 125.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_creamy_onion_soup": {
       "type": "item",
@@ -2363,7 +2374,7 @@
         "max": 64
       },
       "unitWorth": 293.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_dread_nog": {
       "type": "item",
@@ -2374,7 +2385,7 @@
         "max": 64
       },
       "unitWorth": 67.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_egg_grog": {
       "type": "item",
@@ -2385,7 +2396,7 @@
         "max": 64
       },
       "unitWorth": 67.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_flaxen_cheese_wedge": {
       "type": "item",
@@ -2396,7 +2407,7 @@
         "max": 64
       },
       "unitWorth": 31.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_glittering_grenadine": {
       "type": "item",
@@ -2407,7 +2418,7 @@
         "max": 64
       },
       "unitWorth": 67.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_ham_and_cheese_sandwich": {
       "type": "item",
@@ -2418,7 +2429,7 @@
         "max": 64
       },
       "unitWorth": 278.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_horror_lasagna": {
       "type": "item",
@@ -2429,7 +2440,7 @@
         "max": 64
       },
       "unitWorth": 367.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_jerky": {
       "type": "item",
@@ -2440,7 +2451,7 @@
         "max": 64
       },
       "unitWorth": 13.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_kippers": {
       "type": "item",
@@ -2451,7 +2462,7 @@
         "max": 64
       },
       "unitWorth": 95.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_kombucha": {
       "type": "item",
@@ -2462,7 +2473,7 @@
         "max": 64
       },
       "unitWorth": 67.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_mead": {
       "type": "item",
@@ -2473,7 +2484,7 @@
         "max": 64
       },
       "unitWorth": 67.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_pale_jane": {
       "type": "item",
@@ -2484,7 +2495,7 @@
         "max": 64
       },
       "unitWorth": 67.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_pickled_pickles": {
       "type": "item",
@@ -2495,7 +2506,7 @@
         "max": 64
       },
       "unitWorth": 77.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_red_rum": {
       "type": "item",
@@ -2506,7 +2517,7 @@
         "max": 64
       },
       "unitWorth": 67.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_saccharine_rum": {
       "type": "item",
@@ -2517,7 +2528,7 @@
         "max": 64
       },
       "unitWorth": 67.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_salty_folly": {
       "type": "item",
@@ -2528,7 +2539,7 @@
         "max": 64
       },
       "unitWorth": 67.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_scarlet_cheese_wedge": {
       "type": "item",
@@ -2539,7 +2550,7 @@
         "max": 64
       },
       "unitWorth": 57.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_scarlet_pierogi": {
       "type": "item",
@@ -2550,7 +2561,7 @@
         "max": 64
       },
       "unitWorth": 429.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_steel_toe_stout": {
       "type": "item",
@@ -2561,7 +2572,7 @@
         "max": 64
       },
       "unitWorth": 67.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_strongroot_ale": {
       "type": "item",
@@ -2572,7 +2583,7 @@
         "max": 64
       },
       "unitWorth": 67.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_vegetable_omelet": {
       "type": "item",
@@ -2583,7 +2594,7 @@
         "max": 64
       },
       "unitWorth": 247.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_vodka": {
       "type": "item",
@@ -2594,7 +2605,7 @@
         "max": 64
       },
       "unitWorth": 67.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_brewinandchewin_withering_dross": {
       "type": "item",
@@ -2605,7 +2616,7 @@
         "max": 64
       },
       "unitWorth": 67.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_buzzier_bees_glazed_porkchop": {
       "type": "item",
@@ -2616,7 +2627,7 @@
         "max": 64
       },
       "unitWorth": 173.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_buzzier_bees_honey_apple": {
       "type": "item",
@@ -2627,7 +2638,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_buzzier_bees_honey_bread": {
       "type": "item",
@@ -2638,7 +2649,7 @@
         "max": 64
       },
       "unitWorth": 179.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_cavebiomesdelight_cooked_ice_cube": {
       "type": "item",
@@ -2649,7 +2660,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_cavebiomesdelight_cut_cooked_ice_cube": {
       "type": "item",
@@ -2660,7 +2671,7 @@
         "max": 64
       },
       "unitWorth": 41.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_cavebiomesdelight_cut_ice_cube": {
       "type": "item",
@@ -2671,7 +2682,7 @@
         "max": 64
       },
       "unitWorth": 25.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_cavebiomesdelight_prickly_peach_bun": {
       "type": "item",
@@ -2682,7 +2693,7 @@
         "max": 64
       },
       "unitWorth": 195.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_cavebiomesdelight_prickly_peach_cookie": {
       "type": "item",
@@ -2693,7 +2704,7 @@
         "max": 64
       },
       "unitWorth": 101.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_cavebiomesdelight_prickly_peach_pie": {
       "type": "item",
@@ -2704,7 +2715,7 @@
         "max": 64
       },
       "unitWorth": 427.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_cavebiomesdelight_prickly_peach_porridge": {
       "type": "item",
@@ -2715,7 +2726,7 @@
         "max": 64
       },
       "unitWorth": 197.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_caverns_and_chasms_bejeweled_apple": {
       "type": "item",
@@ -2726,7 +2737,7 @@
         "max": 64
       },
       "unitWorth": 1214.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_createbb_cyanide": {
       "type": "item",
@@ -2737,7 +2748,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_ajvar": {
       "type": "item",
@@ -2748,7 +2759,7 @@
         "max": 64
       },
       "unitWorth": 916.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_ajvar_toast": {
       "type": "item",
@@ -2759,7 +2770,7 @@
         "max": 64
       },
       "unitWorth": 1593.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_almond_brittle": {
       "type": "item",
@@ -2770,7 +2781,7 @@
         "max": 64
       },
       "unitWorth": 77.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_anchovy_pizza": {
       "type": "item",
@@ -2781,7 +2792,7 @@
         "max": 64
       },
       "unitWorth": 330.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_apple_pie": {
       "type": "item",
@@ -2792,7 +2803,7 @@
         "max": 64
       },
       "unitWorth": 255.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_artichoke_dip": {
       "type": "item",
@@ -2803,7 +2814,7 @@
         "max": 64
       },
       "unitWorth": 166.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_avocado_toast": {
       "type": "item",
@@ -2814,7 +2825,7 @@
         "max": 64
       },
       "unitWorth": 174.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_baked_crepes": {
       "type": "item",
@@ -2825,7 +2836,7 @@
         "max": 64
       },
       "unitWorth": 309.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_baked_yam": {
       "type": "item",
@@ -2836,7 +2847,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_banana_cream_pie": {
       "type": "item",
@@ -2847,7 +2858,7 @@
         "max": 64
       },
       "unitWorth": 173.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_banana_nut_bread": {
       "type": "item",
@@ -2858,7 +2869,7 @@
         "max": 64
       },
       "unitWorth": 112.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_beef_stew": {
       "type": "item",
@@ -2869,7 +2880,7 @@
         "max": 64
       },
       "unitWorth": 275.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_beef_wellington": {
       "type": "item",
@@ -2880,7 +2891,7 @@
         "max": 64
       },
       "unitWorth": 371.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_beetroot_salad": {
       "type": "item",
@@ -2891,7 +2902,7 @@
         "max": 64
       },
       "unitWorth": 358.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_buttered_green_beans": {
       "type": "item",
@@ -2902,7 +2913,7 @@
         "max": 64
       },
       "unitWorth": 249.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_buttered_toast": {
       "type": "item",
@@ -2913,7 +2924,7 @@
         "max": 64
       },
       "unitWorth": 174.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_cabbage_roll": {
       "type": "item",
@@ -2924,7 +2935,7 @@
         "max": 64
       },
       "unitWorth": 219.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_caesar_salad": {
       "type": "item",
@@ -2935,7 +2946,7 @@
         "max": 64
       },
       "unitWorth": 298.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_candied_kumquats": {
       "type": "item",
@@ -2946,7 +2957,7 @@
         "max": 64
       },
       "unitWorth": 64.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_candied_nuts": {
       "type": "item",
@@ -2957,7 +2968,7 @@
         "max": 64
       },
       "unitWorth": 41.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_candy_corn": {
       "type": "item",
@@ -2968,7 +2979,7 @@
         "max": 64
       },
       "unitWorth": 101.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_cheese": {
       "type": "item",
@@ -2979,7 +2990,7 @@
         "max": 64
       },
       "unitWorth": 71.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_cheese_pizza": {
       "type": "item",
@@ -2990,7 +3001,7 @@
         "max": 64
       },
       "unitWorth": 364.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_cheeseburger": {
       "type": "item",
@@ -3001,7 +3012,7 @@
         "max": 64
       },
       "unitWorth": 341.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_cheesy_asparagus": {
       "type": "item",
@@ -3012,7 +3023,7 @@
         "max": 64
       },
       "unitWorth": 881.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_cherry_pie": {
       "type": "item",
@@ -3023,7 +3034,7 @@
         "max": 64
       },
       "unitWorth": 255.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_chicken_and_rice": {
       "type": "item",
@@ -3034,7 +3045,7 @@
         "max": 64
       },
       "unitWorth": 823.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_chili_relleno": {
       "type": "item",
@@ -3045,7 +3056,7 @@
         "max": 64
       },
       "unitWorth": 866.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_cooked_anchovy": {
       "type": "item",
@@ -3056,7 +3067,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_cooked_calamari": {
       "type": "item",
@@ -3067,7 +3078,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_cooked_shrimp": {
       "type": "item",
@@ -3078,7 +3089,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_cooked_tuna": {
       "type": "item",
@@ -3089,7 +3100,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_corn_bread": {
       "type": "item",
@@ -3100,7 +3111,7 @@
         "max": 64
       },
       "unitWorth": 149.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_crab_legs": {
       "type": "item",
@@ -3111,7 +3122,7 @@
         "max": 64
       },
       "unitWorth": 183.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_crema": {
       "type": "item",
@@ -3122,7 +3133,7 @@
         "max": 64
       },
       "unitWorth": 33.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_croque_madame": {
       "type": "item",
@@ -3133,7 +3144,7 @@
         "max": 64
       },
       "unitWorth": 483.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_cucumber_salad": {
       "type": "item",
@@ -3144,7 +3155,7 @@
         "max": 64
       },
       "unitWorth": 176.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_dauphine_potatoes": {
       "type": "item",
@@ -3155,7 +3166,7 @@
         "max": 64
       },
       "unitWorth": 766.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_deep_fried_shrimp": {
       "type": "item",
@@ -3166,7 +3177,7 @@
         "max": 64
       },
       "unitWorth": 220.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_doughnut": {
       "type": "item",
@@ -3177,7 +3188,7 @@
         "max": 64
       },
       "unitWorth": 135.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_eton_mess": {
       "type": "item",
@@ -3188,7 +3199,7 @@
         "max": 64
       },
       "unitWorth": 24.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_fajitas": {
       "type": "item",
@@ -3199,7 +3210,7 @@
         "max": 64
       },
       "unitWorth": 173.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_fruit_salad": {
       "type": "item",
@@ -3210,7 +3221,7 @@
         "max": 64
       },
       "unitWorth": 224.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_grilled_cheese": {
       "type": "item",
@@ -3221,7 +3232,7 @@
         "max": 64
       },
       "unitWorth": 261.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_grilled_oysters": {
       "type": "item",
@@ -3232,7 +3243,7 @@
         "max": 64
       },
       "unitWorth": 216.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_ground_pork": {
       "type": "item",
@@ -3243,7 +3254,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_ham_sandwich": {
       "type": "item",
@@ -3254,7 +3265,7 @@
         "max": 64
       },
       "unitWorth": 397.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_horchata": {
       "type": "item",
@@ -3265,7 +3276,7 @@
         "max": 64
       },
       "unitWorth": 200.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_kale_chips": {
       "type": "item",
@@ -3276,7 +3287,7 @@
         "max": 64
       },
       "unitWorth": 772.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_kiwi_sorbet": {
       "type": "item",
@@ -3287,7 +3298,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_leafy_salad": {
       "type": "item",
@@ -3298,7 +3309,7 @@
         "max": 64
       },
       "unitWorth": 176.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_lemon_chicken": {
       "type": "item",
@@ -3309,7 +3320,7 @@
         "max": 64
       },
       "unitWorth": 229.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_lemon_coconut_bar": {
       "type": "item",
@@ -3320,7 +3331,7 @@
         "max": 64
       },
       "unitWorth": 136.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_lemonade": {
       "type": "item",
@@ -3331,7 +3342,7 @@
         "max": 64
       },
       "unitWorth": 32.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_limeade": {
       "type": "item",
@@ -3342,7 +3353,7 @@
         "max": 64
       },
       "unitWorth": 116.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_macaron": {
       "type": "item",
@@ -3353,7 +3364,7 @@
         "max": 64
       },
       "unitWorth": 101.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_mango_ice_cream": {
       "type": "item",
@@ -3364,7 +3375,7 @@
         "max": 64
       },
       "unitWorth": 138.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_mead": {
       "type": "item",
@@ -3375,7 +3386,7 @@
         "max": 64
       },
       "unitWorth": 55.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_nether_wart_stew": {
       "type": "item",
@@ -3386,7 +3397,7 @@
         "max": 64
       },
       "unitWorth": 531.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_nougat": {
       "type": "item",
@@ -3397,7 +3408,7 @@
         "max": 64
       },
       "unitWorth": 77.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_nutty_cookie": {
       "type": "item",
@@ -3408,7 +3419,7 @@
         "max": 64
       },
       "unitWorth": 46.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_peanut_butter": {
       "type": "item",
@@ -3419,7 +3430,7 @@
         "max": 64
       },
       "unitWorth": 38.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_peanut_butter_with_celery": {
       "type": "item",
@@ -3430,7 +3441,7 @@
         "max": 64
       },
       "unitWorth": 114.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_pecan_ice_cream": {
       "type": "item",
@@ -3441,7 +3452,7 @@
         "max": 64
       },
       "unitWorth": 138.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_pizza": {
       "type": "item",
@@ -3452,7 +3463,7 @@
         "max": 64
       },
       "unitWorth": 250.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_pork_jerky": {
       "type": "item",
@@ -3463,7 +3474,7 @@
         "max": 64
       },
       "unitWorth": 54.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_pumpkin_bars": {
       "type": "item",
@@ -3474,7 +3485,7 @@
         "max": 64
       },
       "unitWorth": 142.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_quiche": {
       "type": "item",
@@ -3485,7 +3496,7 @@
         "max": 64
       },
       "unitWorth": 195.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_raisins": {
       "type": "item",
@@ -3496,7 +3507,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_rhubarb_crisp": {
       "type": "item",
@@ -3507,7 +3518,7 @@
         "max": 64
       },
       "unitWorth": 295.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_roasted_asparagus": {
       "type": "item",
@@ -3518,7 +3529,7 @@
         "max": 64
       },
       "unitWorth": 436.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_roasted_nuts": {
       "type": "item",
@@ -3529,7 +3540,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_roasted_radishes": {
       "type": "item",
@@ -3540,7 +3551,7 @@
         "max": 64
       },
       "unitWorth": 436.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_roasted_squash": {
       "type": "item",
@@ -3551,7 +3562,7 @@
         "max": 64
       },
       "unitWorth": 436.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_roasted_turnips": {
       "type": "item",
@@ -3562,7 +3573,7 @@
         "max": 64
       },
       "unitWorth": 436.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_rum": {
       "type": "item",
@@ -3573,7 +3584,7 @@
         "max": 64
       },
       "unitWorth": 32.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_rum_raisin_ice_cream": {
       "type": "item",
@@ -3584,7 +3595,7 @@
         "max": 64
       },
       "unitWorth": 227.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_salsa": {
       "type": "item",
@@ -3595,7 +3606,7 @@
         "max": 64
       },
       "unitWorth": 179.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_scones": {
       "type": "item",
@@ -3606,7 +3617,7 @@
         "max": 64
       },
       "unitWorth": 138.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_scrambled_eggs": {
       "type": "item",
@@ -3617,7 +3628,7 @@
         "max": 64
       },
       "unitWorth": 166.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_spaghetti_squash": {
       "type": "item",
@@ -3628,7 +3639,7 @@
         "max": 64
       },
       "unitWorth": 767.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_steamed_broccoli": {
       "type": "item",
@@ -3639,7 +3650,7 @@
         "max": 64
       },
       "unitWorth": 104.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_steamed_clams": {
       "type": "item",
@@ -3650,7 +3661,7 @@
         "max": 64
       },
       "unitWorth": 183.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_steamed_crab": {
       "type": "item",
@@ -3661,7 +3672,7 @@
         "max": 64
       },
       "unitWorth": 88.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_steamed_green_beans": {
       "type": "item",
@@ -3672,7 +3683,7 @@
         "max": 64
       },
       "unitWorth": 54.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_steamed_rice": {
       "type": "item",
@@ -3683,7 +3694,7 @@
         "max": 64
       },
       "unitWorth": 6.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_sticky_toffee_pudding": {
       "type": "item",
@@ -3694,7 +3705,7 @@
         "max": 64
       },
       "unitWorth": 319.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_stir_fry": {
       "type": "item",
@@ -3705,7 +3716,7 @@
         "max": 64
       },
       "unitWorth": 911.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_strawberry_ice_cream": {
       "type": "item",
@@ -3716,7 +3727,7 @@
         "max": 64
       },
       "unitWorth": 138.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_stuffed_artichoke": {
       "type": "item",
@@ -3727,7 +3738,7 @@
         "max": 64
       },
       "unitWorth": 1124.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_sunny_side_eggs": {
       "type": "item",
@@ -3738,7 +3749,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_supreme_pizza": {
       "type": "item",
@@ -3749,7 +3760,7 @@
         "max": 64
       },
       "unitWorth": 426.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_sushi": {
       "type": "item",
@@ -3760,7 +3771,7 @@
         "max": 64
       },
       "unitWorth": 117.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_sweet_crepes": {
       "type": "item",
@@ -3771,7 +3782,7 @@
         "max": 64
       },
       "unitWorth": 123.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_sweet_potato_fries": {
       "type": "item",
@@ -3782,7 +3793,7 @@
         "max": 64
       },
       "unitWorth": 772.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_tamales": {
       "type": "item",
@@ -3793,7 +3804,7 @@
         "max": 64
       },
       "unitWorth": 165.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_tea": {
       "type": "item",
@@ -3804,7 +3815,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_toast": {
       "type": "item",
@@ -3815,7 +3826,7 @@
         "max": 64
       },
       "unitWorth": 76.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_treacle_tart": {
       "type": "item",
@@ -3826,7 +3837,7 @@
         "max": 64
       },
       "unitWorth": 188.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_tuna_roll": {
       "type": "item",
@@ -3837,7 +3848,7 @@
         "max": 64
       },
       "unitWorth": 91.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_vanilla_ice_cream": {
       "type": "item",
@@ -3848,7 +3859,7 @@
         "max": 64
       },
       "unitWorth": 45.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_croptopia_yoghurt": {
       "type": "item",
@@ -3859,7 +3870,7 @@
         "max": 64
       },
       "unitWorth": 12.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_endersdelight_chorus_stew": {
       "type": "item",
@@ -3870,7 +3881,7 @@
         "max": 64
       },
       "unitWorth": 595.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_endersdelight_pearl_pasta": {
       "type": "item",
@@ -3881,7 +3892,7 @@
         "max": 64
       },
       "unitWorth": 745.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_endersdelight_strange_eclair": {
       "type": "item",
@@ -3892,7 +3903,7 @@
         "max": 64
       },
       "unitWorth": 261.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_environmental_cooked_duck": {
       "type": "item",
@@ -3903,7 +3914,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_environmental_cooked_venison": {
       "type": "item",
@@ -3914,7 +3925,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_estrogen_horse_urine_bottle": {
       "type": "item",
@@ -3925,7 +3936,7 @@
         "max": 64
       },
       "unitWorth": 20.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_bacon_and_eggs": {
       "type": "item",
@@ -3936,7 +3947,7 @@
         "max": 64
       },
       "unitWorth": 474.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_bacon_sandwich": {
       "type": "item",
@@ -3947,7 +3958,7 @@
         "max": 64
       },
       "unitWorth": 343.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_baked_cod_stew": {
       "type": "item",
@@ -3958,7 +3969,7 @@
         "max": 64
       },
       "unitWorth": 229.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_barbecue_stick": {
       "type": "item",
@@ -3969,7 +3980,7 @@
         "max": 64
       },
       "unitWorth": 166.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_beef_patty": {
       "type": "item",
@@ -3980,7 +3991,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_beef_stew": {
       "type": "item",
@@ -3991,7 +4002,7 @@
         "max": 64
       },
       "unitWorth": 181.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_bone_broth": {
       "type": "item",
@@ -4002,7 +4013,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_cabbage_rolls": {
       "type": "item",
@@ -4013,7 +4024,7 @@
         "max": 64
       },
       "unitWorth": 77.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_chicken_sandwich": {
       "type": "item",
@@ -4024,7 +4035,7 @@
         "max": 64
       },
       "unitWorth": 324.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_chicken_soup": {
       "type": "item",
@@ -4035,7 +4046,7 @@
         "max": 64
       },
       "unitWorth": 193.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_cod_roll": {
       "type": "item",
@@ -4046,7 +4057,7 @@
         "max": 64
       },
       "unitWorth": 100.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_cooked_bacon": {
       "type": "item",
@@ -4057,7 +4068,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_cooked_chicken_cuts": {
       "type": "item",
@@ -4068,7 +4079,7 @@
         "max": 64
       },
       "unitWorth": 73.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_cooked_mutton_chops": {
       "type": "item",
@@ -4079,7 +4090,7 @@
         "max": 64
       },
       "unitWorth": 73.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_cooked_rice": {
       "type": "item",
@@ -4090,7 +4101,7 @@
         "max": 64
       },
       "unitWorth": 19.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_dog_food": {
       "type": "item",
@@ -4101,7 +4112,7 @@
         "max": 64
       },
       "unitWorth": 141.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_dumplings": {
       "type": "item",
@@ -4112,7 +4123,7 @@
         "max": 64
       },
       "unitWorth": 119.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_egg_sandwich": {
       "type": "item",
@@ -4123,7 +4134,7 @@
         "max": 64
       },
       "unitWorth": 316.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_fish_stew": {
       "type": "item",
@@ -4134,7 +4145,7 @@
         "max": 64
       },
       "unitWorth": 133.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_fried_rice": {
       "type": "item",
@@ -4145,7 +4156,7 @@
         "max": 64
       },
       "unitWorth": 173.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_fruit_salad": {
       "type": "item",
@@ -4156,7 +4167,7 @@
         "max": 64
       },
       "unitWorth": 300.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_glow_berry_custard": {
       "type": "item",
@@ -4167,7 +4178,7 @@
         "max": 64
       },
       "unitWorth": 125.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_grilled_salmon": {
       "type": "item",
@@ -4178,7 +4189,7 @@
         "max": 64
       },
       "unitWorth": 293.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_honey_cookie": {
       "type": "item",
@@ -4189,7 +4200,7 @@
         "max": 64
       },
       "unitWorth": 16.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_kelp_roll": {
       "type": "item",
@@ -4200,7 +4211,7 @@
         "max": 64
       },
       "unitWorth": 177.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_melon_popsicle": {
       "type": "item",
@@ -4211,7 +4222,7 @@
         "max": 64
       },
       "unitWorth": 230.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_mixed_salad": {
       "type": "item",
@@ -4222,7 +4233,7 @@
         "max": 64
       },
       "unitWorth": 141.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_mushroom_rice": {
       "type": "item",
@@ -4233,7 +4244,7 @@
         "max": 64
       },
       "unitWorth": 173.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_mutton_wrap": {
       "type": "item",
@@ -4244,7 +4255,7 @@
         "max": 64
       },
       "unitWorth": 324.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_nether_salad": {
       "type": "item",
@@ -4255,7 +4266,7 @@
         "max": 64
       },
       "unitWorth": 352.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_noodle_soup": {
       "type": "item",
@@ -4266,7 +4277,7 @@
         "max": 64
       },
       "unitWorth": 238.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_onion_soup": {
       "type": "item",
@@ -4277,7 +4288,7 @@
         "max": 64
       },
       "unitWorth": 243.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_pasta_with_meatballs": {
       "type": "item",
@@ -4288,7 +4299,7 @@
         "max": 64
       },
       "unitWorth": 169.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_pasta_with_mutton_chop": {
       "type": "item",
@@ -4299,7 +4310,7 @@
         "max": 64
       },
       "unitWorth": 169.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_pie_crust": {
       "type": "item",
@@ -4310,7 +4321,7 @@
         "max": 64
       },
       "unitWorth": 144.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_ratatouille": {
       "type": "item",
@@ -4321,7 +4332,7 @@
         "max": 64
       },
       "unitWorth": 197.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_raw_pasta": {
       "type": "item",
@@ -4332,7 +4343,7 @@
         "max": 64
       },
       "unitWorth": 88.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_roasted_mutton_chops": {
       "type": "item",
@@ -4343,7 +4354,7 @@
         "max": 64
       },
       "unitWorth": 276.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_salmon_roll": {
       "type": "item",
@@ -4354,7 +4365,7 @@
         "max": 64
       },
       "unitWorth": 100.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_smoked_ham": {
       "type": "item",
@@ -4365,7 +4376,7 @@
         "max": 64
       },
       "unitWorth": 133.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_squid_ink_pasta": {
       "type": "item",
@@ -4376,7 +4387,7 @@
         "max": 64
       },
       "unitWorth": 257.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_steak_and_potatoes": {
       "type": "item",
@@ -4387,7 +4398,7 @@
         "max": 64
       },
       "unitWorth": 332.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_stuffed_potato": {
       "type": "item",
@@ -4398,7 +4409,7 @@
         "max": 64
       },
       "unitWorth": 237.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_sweet_berry_cookie": {
       "type": "item",
@@ -4409,7 +4420,7 @@
         "max": 64
       },
       "unitWorth": 22.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_tomato_sauce": {
       "type": "item",
@@ -4420,7 +4431,7 @@
         "max": 64
       },
       "unitWorth": 101.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_vegetable_noodles": {
       "type": "item",
@@ -4431,7 +4442,7 @@
         "max": 64
       },
       "unitWorth": 222.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersdelight_wheat_dough": {
       "type": "item",
@@ -4442,7 +4453,7 @@
         "max": 64
       },
       "unitWorth": 52.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersrespite_long_coffee": {
       "type": "item",
@@ -4453,7 +4464,7 @@
         "max": 64
       },
       "unitWorth": 20.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersrespite_nether_wart_sourdough": {
       "type": "item",
@@ -4464,7 +4475,7 @@
         "max": 64
       },
       "unitWorth": 421.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_farmersrespite_strong_coffee": {
       "type": "item",
@@ -4475,7 +4486,7 @@
         "max": 64
       },
       "unitWorth": 20.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_baked_pear": {
       "type": "item",
@@ -4486,7 +4497,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_bayberry_cookie": {
       "type": "item",
@@ -4497,7 +4508,7 @@
         "max": 64
       },
       "unitWorth": 23.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_bayberry_soup": {
       "type": "item",
@@ -4508,7 +4519,7 @@
         "max": 64
       },
       "unitWorth": 197.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_bellini_cocktail": {
       "type": "item",
@@ -4519,7 +4530,7 @@
         "max": 64
       },
       "unitWorth": 128.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_blueberry_custard": {
       "type": "item",
@@ -4530,7 +4541,7 @@
         "max": 64
       },
       "unitWorth": 173.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_blueberry_muffin": {
       "type": "item",
@@ -4541,7 +4552,7 @@
         "max": 64
       },
       "unitWorth": 131.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_cranberry_cookie": {
       "type": "item",
@@ -4552,7 +4563,7 @@
         "max": 64
       },
       "unitWorth": 23.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_cranberry_muffin": {
       "type": "item",
@@ -4563,7 +4574,7 @@
         "max": 64
       },
       "unitWorth": 131.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_dried_persimmon": {
       "type": "item",
@@ -4574,7 +4585,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_fig_chicken_stew": {
       "type": "item",
@@ -4585,7 +4596,7 @@
         "max": 64
       },
       "unitWorth": 181.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_fig_tart": {
       "type": "item",
@@ -4596,7 +4607,7 @@
         "max": 64
       },
       "unitWorth": 180.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_hawberry_roll": {
       "type": "item",
@@ -4607,7 +4618,7 @@
         "max": 64
       },
       "unitWorth": 484.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_hawberry_sheet": {
       "type": "item",
@@ -4618,7 +4629,7 @@
         "max": 64
       },
       "unitWorth": 173.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_hawberry_stick": {
       "type": "item",
@@ -4629,7 +4640,7 @@
         "max": 64
       },
       "unitWorth": 211.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_jelly_bread": {
       "type": "item",
@@ -4640,7 +4651,7 @@
         "max": 64
       },
       "unitWorth": 349.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_kiwi_popsicle": {
       "type": "item",
@@ -4651,7 +4662,7 @@
         "max": 64
       },
       "unitWorth": 217.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_lemon_cookie": {
       "type": "item",
@@ -4662,7 +4673,7 @@
         "max": 64
       },
       "unitWorth": 27.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_lemon_tart": {
       "type": "item",
@@ -4673,7 +4684,7 @@
         "max": 64
       },
       "unitWorth": 180.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_lychee_chicken": {
       "type": "item",
@@ -4684,7 +4695,7 @@
         "max": 64
       },
       "unitWorth": 325.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_mango_milkshake": {
       "type": "item",
@@ -4695,7 +4706,7 @@
         "max": 64
       },
       "unitWorth": 77.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_mango_salad": {
       "type": "item",
@@ -4706,7 +4717,7 @@
         "max": 64
       },
       "unitWorth": 283.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_mangosteen_cake": {
       "type": "item",
@@ -4717,7 +4728,7 @@
         "max": 64
       },
       "unitWorth": 245.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_orange_chicken": {
       "type": "item",
@@ -4728,7 +4739,7 @@
         "max": 64
       },
       "unitWorth": 217.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_orange_marinated_pork": {
       "type": "item",
@@ -4739,7 +4750,7 @@
         "max": 64
       },
       "unitWorth": 241.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_pear_with_rock_sugar": {
       "type": "item",
@@ -4750,7 +4761,7 @@
         "max": 64
       },
       "unitWorth": 197.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_persimmon_cookie": {
       "type": "item",
@@ -4761,7 +4772,7 @@
         "max": 64
       },
       "unitWorth": 27.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_pineapple_marinated_pork": {
       "type": "item",
@@ -4772,7 +4783,7 @@
         "max": 64
       },
       "unitWorth": 203.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_fruitsdelight_pineapple_pie": {
       "type": "item",
@@ -4783,7 +4794,7 @@
         "max": 64
       },
       "unitWorth": 174.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_aching_tenebrous_clump": {
       "type": "item",
@@ -4794,7 +4805,7 @@
         "max": 64
       },
       "unitWorth": 237.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_bamboo_clod": {
       "type": "item",
@@ -4805,7 +4816,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_blazing_delight": {
       "type": "item",
@@ -4816,7 +4827,7 @@
         "max": 64
       },
       "unitWorth": 574.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_boarded_pulp": {
       "type": "item",
@@ -4827,7 +4838,7 @@
         "max": 64
       },
       "unitWorth": 166.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_bottled_malodorous_mixture": {
       "type": "item",
@@ -4838,7 +4849,7 @@
         "max": 64
       },
       "unitWorth": 575.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_cashew_sorbet_delight": {
       "type": "item",
@@ -4849,7 +4860,7 @@
         "max": 64
       },
       "unitWorth": 478.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_cashew_sorbet_scoop": {
       "type": "item",
@@ -4860,7 +4871,7 @@
         "max": 64
       },
       "unitWorth": 54.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_chilled_apple": {
       "type": "item",
@@ -4871,7 +4882,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_cooked_polar_bear_meat": {
       "type": "item",
@@ -4882,7 +4893,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_cooked_tenebrous_meat": {
       "type": "item",
@@ -4893,7 +4904,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_dusty_regale": {
       "type": "item",
@@ -4904,7 +4915,7 @@
         "max": 64
       },
       "unitWorth": 676.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_fishy_surprise": {
       "type": "item",
@@ -4915,7 +4926,7 @@
         "max": 64
       },
       "unitWorth": 437.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_ghandercken": {
       "type": "item",
@@ -4926,7 +4937,7 @@
         "max": 64
       },
       "unitWorth": 296.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_gloomy_gathering": {
       "type": "item",
@@ -4937,7 +4948,7 @@
         "max": 64
       },
       "unitWorth": 453.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_glow_ink_roll": {
       "type": "item",
@@ -4948,7 +4959,7 @@
         "max": 64
       },
       "unitWorth": 225.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_grim_stew": {
       "type": "item",
@@ -4959,7 +4970,7 @@
         "max": 64
       },
       "unitWorth": 277.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_icy_mastic_chunk": {
       "type": "item",
@@ -4970,7 +4981,7 @@
         "max": 64
       },
       "unitWorth": 288.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_illuminating_cocktail": {
       "type": "item",
@@ -4981,7 +4992,7 @@
         "max": 64
       },
       "unitWorth": 292.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_incendiary_stew": {
       "type": "item",
@@ -4992,7 +5003,7 @@
         "max": 64
       },
       "unitWorth": 388.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_mastic_paste": {
       "type": "item",
@@ -5003,7 +5014,7 @@
         "max": 64
       },
       "unitWorth": 269.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_mastic_paste_black": {
       "type": "item",
@@ -5014,7 +5025,7 @@
         "max": 64
       },
       "unitWorth": 292.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_mastic_paste_blue": {
       "type": "item",
@@ -5025,7 +5036,7 @@
         "max": 64
       },
       "unitWorth": 288.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_mastic_paste_brown": {
       "type": "item",
@@ -5036,7 +5047,7 @@
         "max": 64
       },
       "unitWorth": 343.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_mastic_paste_cyan": {
       "type": "item",
@@ -5047,7 +5058,7 @@
         "max": 64
       },
       "unitWorth": 286.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_mastic_paste_gray": {
       "type": "item",
@@ -5058,7 +5069,7 @@
         "max": 64
       },
       "unitWorth": 292.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_mastic_paste_green": {
       "type": "item",
@@ -5069,7 +5080,7 @@
         "max": 64
       },
       "unitWorth": 292.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_mastic_paste_light_blue": {
       "type": "item",
@@ -5080,7 +5091,7 @@
         "max": 64
       },
       "unitWorth": 288.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_mastic_paste_light_gray": {
       "type": "item",
@@ -5091,7 +5102,7 @@
         "max": 64
       },
       "unitWorth": 288.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_mastic_paste_lime": {
       "type": "item",
@@ -5102,7 +5113,7 @@
         "max": 64
       },
       "unitWorth": 292.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_mastic_paste_magenta": {
       "type": "item",
@@ -5113,7 +5124,7 @@
         "max": 64
       },
       "unitWorth": 288.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_mastic_paste_orange": {
       "type": "item",
@@ -5124,7 +5135,7 @@
         "max": 64
       },
       "unitWorth": 288.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_mastic_paste_pink": {
       "type": "item",
@@ -5135,7 +5146,7 @@
         "max": 64
       },
       "unitWorth": 288.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_mastic_paste_purple": {
       "type": "item",
@@ -5146,7 +5157,7 @@
         "max": 64
       },
       "unitWorth": 288.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_mastic_paste_red": {
       "type": "item",
@@ -5157,7 +5168,7 @@
         "max": 64
       },
       "unitWorth": 288.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_mastic_paste_white": {
       "type": "item",
@@ -5168,7 +5179,7 @@
         "max": 64
       },
       "unitWorth": 288.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_mastic_paste_yellow": {
       "type": "item",
@@ -5179,7 +5190,7 @@
         "max": 64
       },
       "unitWorth": 288.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_molten_stew": {
       "type": "item",
@@ -5190,7 +5201,7 @@
         "max": 64
       },
       "unitWorth": 416.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_mud_pie": {
       "type": "item",
@@ -5201,7 +5212,7 @@
         "max": 64
       },
       "unitWorth": 70.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_mulch": {
       "type": "item",
@@ -5212,7 +5223,7 @@
         "max": 64
       },
       "unitWorth": 37.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_nut_mix": {
       "type": "item",
@@ -5223,7 +5234,7 @@
         "max": 64
       },
       "unitWorth": 149.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_nut_nacho": {
       "type": "item",
@@ -5234,7 +5245,7 @@
         "max": 64
       },
       "unitWorth": 66.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_nut_nacho_bowl": {
       "type": "item",
@@ -5245,7 +5256,7 @@
         "max": 64
       },
       "unitWorth": 523.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_omniscient_stew": {
       "type": "item",
@@ -5256,7 +5267,7 @@
         "max": 64
       },
       "unitWorth": 169.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_overgrown_brew": {
       "type": "item",
@@ -5267,7 +5278,7 @@
         "max": 64
       },
       "unitWorth": 185.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_porkchop_and_graze": {
       "type": "item",
@@ -5278,7 +5289,7 @@
         "max": 64
       },
       "unitWorth": 718.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_putrid_stew": {
       "type": "item",
@@ -5289,7 +5300,7 @@
         "max": 64
       },
       "unitWorth": 181.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_rosy_cocktail": {
       "type": "item",
@@ -5300,7 +5311,7 @@
         "max": 64
       },
       "unitWorth": 874.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_sinopia_rock_sweet": {
       "type": "item",
@@ -5311,7 +5322,7 @@
         "max": 64
       },
       "unitWorth": 244.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_slime_drop": {
       "type": "item",
@@ -5322,7 +5333,7 @@
         "max": 64
       },
       "unitWorth": 47.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_slime_drop_blue": {
       "type": "item",
@@ -5333,7 +5344,7 @@
         "max": 64
       },
       "unitWorth": 543.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_slime_drop_green": {
       "type": "item",
@@ -5344,7 +5355,7 @@
         "max": 64
       },
       "unitWorth": 548.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_slime_drop_orange": {
       "type": "item",
@@ -5355,7 +5366,7 @@
         "max": 64
       },
       "unitWorth": 543.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_slime_drop_purple": {
       "type": "item",
@@ -5366,7 +5377,7 @@
         "max": 64
       },
       "unitWorth": 543.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_slime_drop_red": {
       "type": "item",
@@ -5377,7 +5388,7 @@
         "max": 64
       },
       "unitWorth": 543.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_slime_drop_yellow": {
       "type": "item",
@@ -5388,7 +5399,7 @@
         "max": 64
       },
       "unitWorth": 543.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_sweetened_almond": {
       "type": "item",
@@ -5399,7 +5410,7 @@
         "max": 64
       },
       "unitWorth": 77.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_sweetened_cashew": {
       "type": "item",
@@ -5410,7 +5421,7 @@
         "max": 64
       },
       "unitWorth": 77.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_sweetened_chestnut": {
       "type": "item",
@@ -5421,7 +5432,7 @@
         "max": 64
       },
       "unitWorth": 77.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_sweetened_hazelnut": {
       "type": "item",
@@ -5432,7 +5443,7 @@
         "max": 64
       },
       "unitWorth": 77.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_sweetened_macadamia": {
       "type": "item",
@@ -5443,7 +5454,7 @@
         "max": 64
       },
       "unitWorth": 77.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_sweetened_nut_mix": {
       "type": "item",
@@ -5454,7 +5465,7 @@
         "max": 64
       },
       "unitWorth": 291.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_sweetened_peanut": {
       "type": "item",
@@ -5465,7 +5476,7 @@
         "max": 64
       },
       "unitWorth": 77.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_sweetened_pecan": {
       "type": "item",
@@ -5476,7 +5487,7 @@
         "max": 64
       },
       "unitWorth": 77.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_sweetened_pistachio": {
       "type": "item",
@@ -5487,7 +5498,7 @@
         "max": 64
       },
       "unitWorth": 77.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_sweetened_walnut": {
       "type": "item",
@@ -5498,7 +5509,7 @@
         "max": 64
       },
       "unitWorth": 77.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_walnut_gorge_cream": {
       "type": "item",
@@ -5509,7 +5520,7 @@
         "max": 64
       },
       "unitWorth": 271.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_warped_brew": {
       "type": "item",
@@ -5520,7 +5531,7 @@
         "max": 64
       },
       "unitWorth": 397.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_garnished_wheat_graze": {
       "type": "item",
@@ -5531,7 +5542,7 @@
         "max": 64
       },
       "unitWorth": 180.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_goated_goats_cooked_chevon": {
       "type": "item",
@@ -5542,7 +5553,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_hexerei_seed_mixture": {
       "type": "item",
@@ -5553,7 +5564,7 @@
         "max": 64
       },
       "unitWorth": 125.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_iceandfire_ambrosia": {
       "type": "item",
@@ -5564,7 +5575,7 @@
         "max": 64
       },
       "unitWorth": 72.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_immersive_weathering_golden_moss_clump": {
       "type": "item",
@@ -5575,7 +5586,7 @@
         "max": 64
       },
       "unitWorth": 1274.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_immersive_weathering_moss_clump": {
       "type": "item",
@@ -5586,7 +5597,7 @@
         "max": 64
       },
       "unitWorth": 7.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_incubation_fried_egg": {
       "type": "item",
@@ -5597,7 +5608,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_incubation_scrambled_eggs": {
       "type": "item",
@@ -5608,7 +5619,7 @@
         "max": 64
       },
       "unitWorth": 101.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_minecraft_baked_potato": {
       "type": "item",
@@ -5619,7 +5630,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_minecraft_beetroot_soup": {
       "type": "item",
@@ -5630,7 +5641,7 @@
         "max": 64
       },
       "unitWorth": 149.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_minecraft_bread": {
       "type": "item",
@@ -5641,7 +5652,7 @@
         "max": 64
       },
       "unitWorth": 88.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_minecraft_cooked_beef": {
       "type": "item",
@@ -5652,7 +5663,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_minecraft_cooked_chicken": {
       "type": "item",
@@ -5663,7 +5674,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_minecraft_cooked_cod": {
       "type": "item",
@@ -5674,7 +5685,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_minecraft_cooked_mutton": {
       "type": "item",
@@ -5685,7 +5696,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_minecraft_cooked_porkchop": {
       "type": "item",
@@ -5696,7 +5707,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_minecraft_cooked_rabbit": {
       "type": "item",
@@ -5707,7 +5718,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_minecraft_cooked_salmon": {
       "type": "item",
@@ -5718,7 +5729,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_minecraft_cookie": {
       "type": "item",
@@ -5729,7 +5740,7 @@
         "max": 64
       },
       "unitWorth": 22.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_minecraft_dried_kelp": {
       "type": "item",
@@ -5740,7 +5751,7 @@
         "max": 64
       },
       "unitWorth": 13.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_minecraft_golden_carrot": {
       "type": "item",
@@ -5751,7 +5762,7 @@
         "max": 64
       },
       "unitWorth": 230.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_minecraft_mushroom_stew": {
       "type": "item",
@@ -5762,7 +5773,7 @@
         "max": 64
       },
       "unitWorth": 80.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_minecraft_poisonous_potato": {
       "type": "item",
@@ -5773,7 +5784,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_minecraft_rabbit_stew": {
       "type": "item",
@@ -5784,7 +5795,7 @@
         "max": 64
       },
       "unitWorth": 229.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_miners_delight_baked_cave_carrot": {
       "type": "item",
@@ -5795,7 +5806,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_miners_delight_baked_spider_leg": {
       "type": "item",
@@ -5806,7 +5817,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_miners_delight_baked_tentacles": {
       "type": "item",
@@ -5817,7 +5828,7 @@
         "max": 64
       },
       "unitWorth": 31.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_miners_delight_cave_soup": {
       "type": "item",
@@ -5828,7 +5839,7 @@
         "max": 64
       },
       "unitWorth": 197.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_miners_delight_cooked_arthropod": {
       "type": "item",
@@ -5839,7 +5850,7 @@
         "max": 64
       },
       "unitWorth": 73.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_miners_delight_copper_carrot": {
       "type": "item",
@@ -5850,7 +5861,7 @@
         "max": 64
       },
       "unitWorth": 350.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_miners_delight_glow_ink_pasta": {
       "type": "item",
@@ -5861,7 +5872,7 @@
         "max": 64
       },
       "unitWorth": 313.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_miners_delight_insect_sandwich": {
       "type": "item",
@@ -5872,7 +5883,7 @@
         "max": 64
       },
       "unitWorth": 264.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_miners_delight_insect_stew": {
       "type": "item",
@@ -5883,7 +5894,7 @@
         "max": 64
       },
       "unitWorth": 325.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_miners_delight_insect_wrap": {
       "type": "item",
@@ -5894,7 +5905,7 @@
         "max": 64
       },
       "unitWorth": 355.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_miners_delight_moss": {
       "type": "item",
@@ -5905,7 +5916,7 @@
         "max": 64
       },
       "unitWorth": 7.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_miners_delight_pasta_with_veggieballs": {
       "type": "item",
@@ -5916,7 +5927,7 @@
         "max": 64
       },
       "unitWorth": 165.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_miners_delight_squid_sandwich": {
       "type": "item",
@@ -5927,7 +5938,7 @@
         "max": 64
       },
       "unitWorth": 227.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_miners_delight_takoyaki": {
       "type": "item",
@@ -5938,7 +5949,7 @@
         "max": 64
       },
       "unitWorth": 238.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_miners_delight_tentacles_on_a_stick": {
       "type": "item",
@@ -5949,7 +5960,7 @@
         "max": 64
       },
       "unitWorth": 120.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_miners_delight_vegan_hamburger": {
       "type": "item",
@@ -5960,7 +5971,7 @@
         "max": 64
       },
       "unitWorth": 367.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_miners_delight_vegan_patty": {
       "type": "item",
@@ -5971,7 +5982,7 @@
         "max": 64
       },
       "unitWorth": 47.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_miners_delight_vegan_steak_and_potatoes": {
       "type": "item",
@@ -5982,7 +5993,7 @@
         "max": 64
       },
       "unitWorth": 272.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_miners_delight_vegan_wrap": {
       "type": "item",
@@ -5993,7 +6004,7 @@
         "max": 64
       },
       "unitWorth": 271.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_naturalist_cooked_anglerfish": {
       "type": "item",
@@ -6004,7 +6015,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_naturalist_cooked_bass": {
       "type": "item",
@@ -6015,7 +6026,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_naturalist_cooked_blobfish": {
       "type": "item",
@@ -6026,7 +6037,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_naturalist_cooked_bushmeat": {
       "type": "item",
@@ -6037,7 +6048,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_naturalist_cooked_catfish": {
       "type": "item",
@@ -6048,7 +6059,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_naturalist_cooked_clam_meat": {
       "type": "item",
@@ -6059,7 +6070,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_naturalist_cooked_crab_meat": {
       "type": "item",
@@ -6070,7 +6081,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_naturalist_cooked_drumstick": {
       "type": "item",
@@ -6081,7 +6092,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_naturalist_cooked_duck": {
       "type": "item",
@@ -6092,7 +6103,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_naturalist_cooked_egg": {
       "type": "item",
@@ -6103,7 +6114,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_naturalist_cooked_lizard_tail": {
       "type": "item",
@@ -6114,7 +6125,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_naturalist_cooked_mammoth_meat": {
       "type": "item",
@@ -6125,7 +6136,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_naturalist_cooked_piranha": {
       "type": "item",
@@ -6136,7 +6147,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_naturalist_cooked_venison": {
       "type": "item",
@@ -6147,7 +6158,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_neapolitan_banana_bread": {
       "type": "item",
@@ -6158,7 +6169,7 @@
         "max": 64
       },
       "unitWorth": 125.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_neapolitan_banana_ice_cream": {
       "type": "item",
@@ -6169,7 +6180,7 @@
         "max": 64
       },
       "unitWorth": 125.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_neapolitan_banana_milkshake": {
       "type": "item",
@@ -6180,7 +6191,7 @@
         "max": 64
       },
       "unitWorth": 91.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_neapolitan_chocolate_ice_cream": {
       "type": "item",
@@ -6191,7 +6202,7 @@
         "max": 64
       },
       "unitWorth": 157.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_neapolitan_chocolate_spider_eye": {
       "type": "item",
@@ -6202,7 +6213,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_neapolitan_chocolate_strawberries": {
       "type": "item",
@@ -6213,7 +6224,7 @@
         "max": 64
       },
       "unitWorth": 133.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_neapolitan_dried_banana": {
       "type": "item",
@@ -6224,7 +6235,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_neapolitan_ice_cubes": {
       "type": "item",
@@ -6235,7 +6246,7 @@
         "max": 64
       },
       "unitWorth": 5.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_neapolitan_strawberry_ice_cream": {
       "type": "item",
@@ -6246,7 +6257,7 @@
         "max": 64
       },
       "unitWorth": 125.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_neapolitan_strawberry_milkshake": {
       "type": "item",
@@ -6257,7 +6268,7 @@
         "max": 64
       },
       "unitWorth": 91.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_neapolitan_strawberry_scones": {
       "type": "item",
@@ -6268,7 +6279,7 @@
         "max": 64
       },
       "unitWorth": 83.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_neapolitan_white_strawberries": {
       "type": "item",
@@ -6279,7 +6290,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_netherdepthsupgrade_baked_blazefish_stew": {
       "type": "item",
@@ -6290,7 +6301,7 @@
         "max": 64
       },
       "unitWorth": 221.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_netherdepthsupgrade_baked_glowdine_stew": {
       "type": "item",
@@ -6301,7 +6312,7 @@
         "max": 64
       },
       "unitWorth": 221.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_netherdepthsupgrade_baked_lava_pufferfish_stew": {
       "type": "item",
@@ -6312,7 +6323,7 @@
         "max": 64
       },
       "unitWorth": 221.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_netherdepthsupgrade_baked_magmacubefish_stew": {
       "type": "item",
@@ -6323,7 +6334,7 @@
         "max": 64
       },
       "unitWorth": 221.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_netherdepthsupgrade_baked_obsidianfish_stew": {
       "type": "item",
@@ -6334,7 +6345,7 @@
         "max": 64
       },
       "unitWorth": 221.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_netherdepthsupgrade_baked_searing_cod_stew": {
       "type": "item",
@@ -6345,7 +6356,7 @@
         "max": 64
       },
       "unitWorth": 221.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_netherdepthsupgrade_baked_soulsucker_stew": {
       "type": "item",
@@ -6356,7 +6367,7 @@
         "max": 64
       },
       "unitWorth": 221.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_netherdepthsupgrade_blazefish_roll": {
       "type": "item",
@@ -6367,7 +6378,7 @@
         "max": 64
       },
       "unitWorth": 180.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_netherdepthsupgrade_glowdine_roll": {
       "type": "item",
@@ -6378,7 +6389,7 @@
         "max": 64
       },
       "unitWorth": 180.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_netherdepthsupgrade_grilled_blazefish": {
       "type": "item",
@@ -6389,7 +6400,7 @@
         "max": 64
       },
       "unitWorth": 248.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_netherdepthsupgrade_grilled_glowdine": {
       "type": "item",
@@ -6400,7 +6411,7 @@
         "max": 64
       },
       "unitWorth": 300.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_netherdepthsupgrade_grilled_lava_pufferfish": {
       "type": "item",
@@ -6411,7 +6422,7 @@
         "max": 64
       },
       "unitWorth": 300.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_netherdepthsupgrade_grilled_magmacubefish": {
       "type": "item",
@@ -6422,7 +6433,7 @@
         "max": 64
       },
       "unitWorth": 300.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_netherdepthsupgrade_grilled_obsidianfish": {
       "type": "item",
@@ -6433,7 +6444,7 @@
         "max": 64
       },
       "unitWorth": 300.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_netherdepthsupgrade_grilled_searing_cod": {
       "type": "item",
@@ -6444,7 +6455,7 @@
         "max": 64
       },
       "unitWorth": 248.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_netherdepthsupgrade_grilled_soulsucker": {
       "type": "item",
@@ -6455,7 +6466,7 @@
         "max": 64
       },
       "unitWorth": 300.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_netherdepthsupgrade_lava_pufferfish_roll": {
       "type": "item",
@@ -6466,7 +6477,7 @@
         "max": 64
       },
       "unitWorth": 180.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_netherdepthsupgrade_magmacubefish_roll": {
       "type": "item",
@@ -6477,7 +6488,7 @@
         "max": 64
       },
       "unitWorth": 180.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_netherdepthsupgrade_obsidianfish_roll": {
       "type": "item",
@@ -6488,7 +6499,7 @@
         "max": 64
       },
       "unitWorth": 180.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_netherdepthsupgrade_searing_cod_roll": {
       "type": "item",
@@ -6499,7 +6510,7 @@
         "max": 64
       },
       "unitWorth": 180.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_netherdepthsupgrade_soulsucker_roll": {
       "type": "item",
@@ -6510,7 +6521,7 @@
         "max": 64
       },
       "unitWorth": 180.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_nethersdelight_ground_strider": {
       "type": "item",
@@ -6521,7 +6532,7 @@
         "max": 64
       },
       "unitWorth": 25.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_nethersdelight_hoglin_sirloin": {
       "type": "item",
@@ -6532,7 +6543,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_oceansdelight_braised_sea_pickle": {
       "type": "item",
@@ -6543,7 +6554,7 @@
         "max": 64
       },
       "unitWorth": 149.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_oceansdelight_cooked_stuffed_cod": {
       "type": "item",
@@ -6554,7 +6565,7 @@
         "max": 64
       },
       "unitWorth": 448.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_oceansdelight_fugu_roll": {
       "type": "item",
@@ -6565,7 +6576,7 @@
         "max": 64
       },
       "unitWorth": 94.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_oceansdelight_honey_fried_kelp": {
       "type": "item",
@@ -6576,7 +6587,7 @@
         "max": 64
       },
       "unitWorth": 25.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_oceansdelight_seagrass_salad": {
       "type": "item",
@@ -6587,7 +6598,7 @@
         "max": 64
       },
       "unitWorth": 40.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_oceansdelight_stuffed_cod": {
       "type": "item",
@@ -6598,7 +6609,7 @@
         "max": 64
       },
       "unitWorth": 277.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_bakedarrowrootitem": {
       "type": "item",
@@ -6609,7 +6620,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_bakedcassavaitem": {
       "type": "item",
@@ -6620,7 +6631,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_bakedjicamaitem": {
       "type": "item",
@@ -6631,7 +6642,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_bakedparsnipitem": {
       "type": "item",
@@ -6642,7 +6653,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_bakedrutabagaitem": {
       "type": "item",
@@ -6653,7 +6664,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_bakedsunchokeitem": {
       "type": "item",
@@ -6664,7 +6675,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_bakedtaroitem": {
       "type": "item",
@@ -6675,7 +6686,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_bakedturnipitem": {
       "type": "item",
@@ -6686,7 +6697,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_bakedwaterchestnutitem": {
       "type": "item",
@@ -6697,7 +6708,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_bokchoyseeditem": {
       "type": "item",
@@ -6708,7 +6719,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_calabashseeditem": {
       "type": "item",
@@ -6719,7 +6730,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_guaranaseeditem": {
       "type": "item",
@@ -6730,7 +6741,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_hotcoffeeitem": {
       "type": "item",
@@ -6741,7 +6752,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_hotnettleteaitem": {
       "type": "item",
@@ -6752,7 +6763,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_hotteaitem": {
       "type": "item",
@@ -6763,7 +6774,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_roastedgarlicitem": {
       "type": "item",
@@ -6774,7 +6785,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_roastedkohlrabiitem": {
       "type": "item",
@@ -6785,7 +6796,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_roastedleekitem": {
       "type": "item",
@@ -6796,7 +6807,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_roastedmushroomitem": {
       "type": "item",
@@ -6807,7 +6818,7 @@
         "max": 64
       },
       "unitWorth": 29.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_roastedonionitem": {
       "type": "item",
@@ -6818,7 +6829,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_roastedpeanutitem": {
       "type": "item",
@@ -6829,7 +6840,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_roastedradishitem": {
       "type": "item",
@@ -6840,7 +6851,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_roastedrhubarbitem": {
       "type": "item",
@@ -6851,7 +6862,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2crops_roastedscallionitem": {
       "type": "item",
@@ -6862,7 +6873,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_appledonutitem": {
       "type": "item",
@@ -6873,7 +6884,7 @@
         "max": 64
       },
       "unitWorth": 191.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_applemuffinitem": {
       "type": "item",
@@ -6884,7 +6895,7 @@
         "max": 64
       },
       "unitWorth": 145.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_applepieitem": {
       "type": "item",
@@ -6895,7 +6906,7 @@
         "max": 64
       },
       "unitWorth": 160.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_applesauceitem": {
       "type": "item",
@@ -6906,7 +6917,7 @@
         "max": 64
       },
       "unitWorth": 39.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_baconandeggsitem": {
       "type": "item",
@@ -6917,7 +6928,7 @@
         "max": 64
       },
       "unitWorth": 133.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_baconcheeseburgeritem": {
       "type": "item",
@@ -6928,7 +6939,7 @@
         "max": 64
       },
       "unitWorth": 482.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_bakedvegetablemedlyitem": {
       "type": "item",
@@ -6939,7 +6950,7 @@
         "max": 64
       },
       "unitWorth": 101.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_basiccheeseburgeritem": {
       "type": "item",
@@ -6950,7 +6961,7 @@
         "max": 64
       },
       "unitWorth": 402.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_basicchickensandwichitem": {
       "type": "item",
@@ -6961,7 +6972,7 @@
         "max": 64
       },
       "unitWorth": 310.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_basicfishsandwichitem": {
       "type": "item",
@@ -6972,7 +6983,7 @@
         "max": 64
       },
       "unitWorth": 267.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_batteritem": {
       "type": "item",
@@ -6983,7 +6994,7 @@
         "max": 64
       },
       "unitWorth": 57.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_beefpotpieitem": {
       "type": "item",
@@ -6994,7 +7005,7 @@
         "max": 64
       },
       "unitWorth": 264.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_boiledeggitem": {
       "type": "item",
@@ -7005,7 +7016,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_butteredbakedpotatoitem": {
       "type": "item",
@@ -7016,7 +7027,7 @@
         "max": 64
       },
       "unitWorth": 190.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_caramelappleitem": {
       "type": "item",
@@ -7027,7 +7038,7 @@
         "max": 64
       },
       "unitWorth": 119.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_carameldonutitem": {
       "type": "item",
@@ -7038,7 +7049,7 @@
         "max": 64
       },
       "unitWorth": 196.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_caramelmuffinitem": {
       "type": "item",
@@ -7049,7 +7060,7 @@
         "max": 64
       },
       "unitWorth": 150.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_caramelpieitem": {
       "type": "item",
@@ -7060,7 +7071,7 @@
         "max": 64
       },
       "unitWorth": 165.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_carrotbreaditem": {
       "type": "item",
@@ -7071,7 +7082,7 @@
         "max": 64
       },
       "unitWorth": 136.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_carrotcakeitem": {
       "type": "item",
@@ -7082,7 +7093,7 @@
         "max": 64
       },
       "unitWorth": 169.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_carrotdonutitem": {
       "type": "item",
@@ -7093,7 +7104,7 @@
         "max": 64
       },
       "unitWorth": 191.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_carrotjuiceitem": {
       "type": "item",
@@ -7104,7 +7115,7 @@
         "max": 64
       },
       "unitWorth": 101.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_carrotmuffinitem": {
       "type": "item",
@@ -7115,7 +7126,7 @@
         "max": 64
       },
       "unitWorth": 145.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_carrotpieitem": {
       "type": "item",
@@ -7126,7 +7137,7 @@
         "max": 64
       },
       "unitWorth": 160.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_carrotsoupitem": {
       "type": "item",
@@ -7137,7 +7148,7 @@
         "max": 64
       },
       "unitWorth": 137.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_cheesecakeitem": {
       "type": "item",
@@ -7148,7 +7159,7 @@
         "max": 64
       },
       "unitWorth": 213.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_cheeseitem": {
       "type": "item",
@@ -7159,7 +7170,7 @@
         "max": 64
       },
       "unitWorth": 57.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_chickenjerkyitem": {
       "type": "item",
@@ -7170,7 +7181,7 @@
         "max": 64
       },
       "unitWorth": 137.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_chickennuggetitem": {
       "type": "item",
@@ -7181,7 +7192,7 @@
         "max": 64
       },
       "unitWorth": 50.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_chickenpotpieitem": {
       "type": "item",
@@ -7192,7 +7203,7 @@
         "max": 64
       },
       "unitWorth": 264.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_chocolatebaconitem": {
       "type": "item",
@@ -7203,7 +7214,7 @@
         "max": 64
       },
       "unitWorth": 165.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_chocolatecakeitem": {
       "type": "item",
@@ -7214,7 +7225,7 @@
         "max": 64
       },
       "unitWorth": 201.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_chocolatecaramelfudgeitem": {
       "type": "item",
@@ -7225,7 +7236,7 @@
         "max": 64
       },
       "unitWorth": 137.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_chocolatedonutitem": {
       "type": "item",
@@ -7236,7 +7247,7 @@
         "max": 64
       },
       "unitWorth": 228.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_chocolatemilkitem": {
       "type": "item",
@@ -7247,7 +7258,7 @@
         "max": 64
       },
       "unitWorth": 245.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_chocolatemuffinitem": {
       "type": "item",
@@ -7258,7 +7269,7 @@
         "max": 64
       },
       "unitWorth": 182.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_chocolatepieitem": {
       "type": "item",
@@ -7269,7 +7280,7 @@
         "max": 64
       },
       "unitWorth": 197.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_chocolaterollitem": {
       "type": "item",
@@ -7280,7 +7291,7 @@
         "max": 64
       },
       "unitWorth": 226.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_chorusdonutitem": {
       "type": "item",
@@ -7291,7 +7302,7 @@
         "max": 64
       },
       "unitWorth": 303.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_chorusjellyitem": {
       "type": "item",
@@ -7302,7 +7313,7 @@
         "max": 64
       },
       "unitWorth": 549.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_chorusjuiceitem": {
       "type": "item",
@@ -7313,7 +7324,7 @@
         "max": 64
       },
       "unitWorth": 325.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_chorusmuffinitem": {
       "type": "item",
@@ -7324,7 +7335,7 @@
         "max": 64
       },
       "unitWorth": 257.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_choruspieitem": {
       "type": "item",
@@ -7335,7 +7346,7 @@
         "max": 64
       },
       "unitWorth": 272.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_choruspopsicleitem": {
       "type": "item",
@@ -7346,7 +7357,7 @@
         "max": 64
       },
       "unitWorth": 542.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_chorussmoothieitem": {
       "type": "item",
@@ -7357,7 +7368,7 @@
         "max": 64
       },
       "unitWorth": 528.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_cocoapowderitem": {
       "type": "item",
@@ -7368,7 +7379,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_cookedgroundbeefitem": {
       "type": "item",
@@ -7379,7 +7390,7 @@
         "max": 64
       },
       "unitWorth": 141.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_cookedgroundchickenitem": {
       "type": "item",
@@ -7390,7 +7401,7 @@
         "max": 64
       },
       "unitWorth": 141.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_cookedgroundfishitem": {
       "type": "item",
@@ -7401,7 +7412,7 @@
         "max": 64
       },
       "unitWorth": 98.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_cookedgroundmuttonitem": {
       "type": "item",
@@ -7412,7 +7423,7 @@
         "max": 64
       },
       "unitWorth": 141.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_cookedgroundrabbititem": {
       "type": "item",
@@ -7423,7 +7434,7 @@
         "max": 64
       },
       "unitWorth": 141.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_cookingoilitem": {
       "type": "item",
@@ -7434,7 +7445,7 @@
         "max": 64
       },
       "unitWorth": 29.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_cottoncandyitem": {
       "type": "item",
@@ -7445,7 +7456,7 @@
         "max": 64
       },
       "unitWorth": 43.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_creamitem": {
       "type": "item",
@@ -7456,7 +7467,7 @@
         "max": 64
       },
       "unitWorth": 32.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_epicbaconitem": {
       "type": "item",
@@ -7467,7 +7478,7 @@
         "max": 64
       },
       "unitWorth": 229.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_fishjerkyitem": {
       "type": "item",
@@ -7478,7 +7489,7 @@
         "max": 64
       },
       "unitWorth": 137.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_fishpotpieitem": {
       "type": "item",
@@ -7489,7 +7500,7 @@
         "max": 64
       },
       "unitWorth": 264.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_freshmilkitem": {
       "type": "item",
@@ -7500,7 +7511,7 @@
         "max": 64
       },
       "unitWorth": 7.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_friesitem": {
       "type": "item",
@@ -7511,7 +7522,7 @@
         "max": 64
       },
       "unitWorth": 151.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_fudgesicleitem": {
       "type": "item",
@@ -7522,7 +7533,7 @@
         "max": 64
       },
       "unitWorth": 414.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_glazedcarrotsitem": {
       "type": "item",
@@ -7533,7 +7544,7 @@
         "max": 64
       },
       "unitWorth": 125.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_glowberrydonutitem": {
       "type": "item",
@@ -7544,7 +7555,7 @@
         "max": 64
       },
       "unitWorth": 191.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_glowberryjellyitem": {
       "type": "item",
@@ -7555,7 +7566,7 @@
         "max": 64
       },
       "unitWorth": 190.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_glowberryjuiceitem": {
       "type": "item",
@@ -7566,7 +7577,7 @@
         "max": 64
       },
       "unitWorth": 101.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_glowberrymuffinitem": {
       "type": "item",
@@ -7577,7 +7588,7 @@
         "max": 64
       },
       "unitWorth": 145.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_glowberrypieitem": {
       "type": "item",
@@ -7588,7 +7599,7 @@
         "max": 64
       },
       "unitWorth": 160.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_glowberrypopsicleitem": {
       "type": "item",
@@ -7599,7 +7610,7 @@
         "max": 64
       },
       "unitWorth": 184.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_glowberrysmoothieitem": {
       "type": "item",
@@ -7610,7 +7621,7 @@
         "max": 64
       },
       "unitWorth": 169.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_groundbeefitem": {
       "type": "item",
@@ -7621,7 +7632,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_groundchickenitem": {
       "type": "item",
@@ -7632,7 +7643,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_groundfishitem": {
       "type": "item",
@@ -7643,7 +7654,7 @@
         "max": 64
       },
       "unitWorth": 58.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_groundmuttonitem": {
       "type": "item",
@@ -7654,7 +7665,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_groundporkitem": {
       "type": "item",
@@ -7665,7 +7676,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_groundrabbititem": {
       "type": "item",
@@ -7676,7 +7687,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_gummycreepersitem": {
       "type": "item",
@@ -7687,7 +7698,7 @@
         "max": 64
       },
       "unitWorth": 55.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_honeyglazeddonutitem": {
       "type": "item",
@@ -7698,7 +7709,7 @@
         "max": 64
       },
       "unitWorth": 143.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_honeypieitem": {
       "type": "item",
@@ -7709,7 +7720,7 @@
         "max": 64
       },
       "unitWorth": 144.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_hotchocolateitem": {
       "type": "item",
@@ -7720,7 +7731,7 @@
         "max": 64
       },
       "unitWorth": 109.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_jellybeansitem": {
       "type": "item",
@@ -7731,7 +7742,7 @@
         "max": 64
       },
       "unitWorth": 53.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_macncheeseitem": {
       "type": "item",
@@ -7742,7 +7753,7 @@
         "max": 64
       },
       "unitWorth": 181.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_mayonaiseitem": {
       "type": "item",
@@ -7753,7 +7764,7 @@
         "max": 64
       },
       "unitWorth": 17.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_meatloafitem": {
       "type": "item",
@@ -7764,7 +7775,7 @@
         "max": 64
       },
       "unitWorth": 240.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_melondonutitem": {
       "type": "item",
@@ -7775,7 +7786,7 @@
         "max": 64
       },
       "unitWorth": 191.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_melonjellyitem": {
       "type": "item",
@@ -7786,7 +7797,7 @@
         "max": 64
       },
       "unitWorth": 190.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_melonjuiceitem": {
       "type": "item",
@@ -7797,7 +7808,7 @@
         "max": 64
       },
       "unitWorth": 101.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_melonmuffinitem": {
       "type": "item",
@@ -7808,7 +7819,7 @@
         "max": 64
       },
       "unitWorth": 145.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_melonpopsicleitem": {
       "type": "item",
@@ -7819,7 +7830,7 @@
         "max": 64
       },
       "unitWorth": 184.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_melonsmoothieitem": {
       "type": "item",
@@ -7830,7 +7841,7 @@
         "max": 64
       },
       "unitWorth": 169.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_muttonjerkyitem": {
       "type": "item",
@@ -7841,7 +7852,7 @@
         "max": 64
       },
       "unitWorth": 137.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_muttonpotpieitem": {
       "type": "item",
@@ -7852,7 +7863,7 @@
         "max": 64
       },
       "unitWorth": 264.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_noodlesoupitem": {
       "type": "item",
@@ -7863,7 +7874,7 @@
         "max": 64
       },
       "unitWorth": 174.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_p8juiceitem": {
       "type": "item",
@@ -7874,7 +7885,7 @@
         "max": 64
       },
       "unitWorth": 101.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_pickledbeetsitem": {
       "type": "item",
@@ -7885,7 +7896,7 @@
         "max": 64
       },
       "unitWorth": 113.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_plaindonutitem": {
       "type": "item",
@@ -7896,7 +7907,7 @@
         "max": 64
       },
       "unitWorth": 143.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_porkjerkyitem": {
       "type": "item",
@@ -7907,7 +7918,7 @@
         "max": 64
       },
       "unitWorth": 137.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_powdereddonutitem": {
       "type": "item",
@@ -7918,7 +7929,7 @@
         "max": 64
       },
       "unitWorth": 167.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_pumpkinbreaditem": {
       "type": "item",
@@ -7929,7 +7940,7 @@
         "max": 64
       },
       "unitWorth": 136.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_pumpkincheesecakeitem": {
       "type": "item",
@@ -7940,7 +7951,7 @@
         "max": 64
       },
       "unitWorth": 261.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_pumpkindonutitem": {
       "type": "item",
@@ -7951,7 +7962,7 @@
         "max": 64
       },
       "unitWorth": 191.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_rabbitjerkyitem": {
       "type": "item",
@@ -7962,7 +7973,7 @@
         "max": 64
       },
       "unitWorth": 137.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_rabbitpotpieitem": {
       "type": "item",
@@ -7973,7 +7984,7 @@
         "max": 64
       },
       "unitWorth": 264.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_roastedsunflowerseedsitem": {
       "type": "item",
@@ -7984,7 +7995,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_sprinklesdonutitem": {
       "type": "item",
@@ -7995,7 +8006,7 @@
         "max": 64
       },
       "unitWorth": 219.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_stewitem": {
       "type": "item",
@@ -8006,7 +8017,7 @@
         "max": 64
       },
       "unitWorth": 227.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_stockitem": {
       "type": "item",
@@ -8017,7 +8028,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_sweetberrydonutitem": {
       "type": "item",
@@ -8028,7 +8039,7 @@
         "max": 64
       },
       "unitWorth": 191.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_sweetberryjellyitem": {
       "type": "item",
@@ -8039,7 +8050,7 @@
         "max": 64
       },
       "unitWorth": 190.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_sweetberryjuiceitem": {
       "type": "item",
@@ -8050,7 +8061,7 @@
         "max": 64
       },
       "unitWorth": 101.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_sweetberrymuffinitem": {
       "type": "item",
@@ -8061,7 +8072,7 @@
         "max": 64
       },
       "unitWorth": 145.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_sweetberrypieitem": {
       "type": "item",
@@ -8072,7 +8083,7 @@
         "max": 64
       },
       "unitWorth": 160.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_sweetberrypopsicleitem": {
       "type": "item",
@@ -8083,7 +8094,7 @@
         "max": 64
       },
       "unitWorth": 184.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_sweetberrysmoothieitem": {
       "type": "item",
@@ -8094,7 +8105,7 @@
         "max": 64
       },
       "unitWorth": 169.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2foodcore_vinegaritem": {
       "type": "item",
@@ -8105,7 +8116,7 @@
         "max": 64
       },
       "unitWorth": 38.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2trees_roastedacornitem": {
       "type": "item",
@@ -8116,7 +8127,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2trees_roastedalmonditem": {
       "type": "item",
@@ -8127,7 +8138,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2trees_roastedcashewitem": {
       "type": "item",
@@ -8138,7 +8149,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2trees_roastedchestnutitem": {
       "type": "item",
@@ -8149,7 +8160,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2trees_roastedhazelnutitem": {
       "type": "item",
@@ -8160,7 +8171,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2trees_roastedpecanitem": {
       "type": "item",
@@ -8171,7 +8182,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2trees_roastedpinenutitem": {
       "type": "item",
@@ -8182,7 +8193,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2trees_roastedpistachioitem": {
       "type": "item",
@@ -8193,7 +8204,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_pamhc2trees_roastedwalnutitem": {
       "type": "item",
@@ -8204,7 +8215,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_quark_cooked_crab_leg": {
       "type": "item",
@@ -8215,7 +8226,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_quarkdelight_cavern_explorer_stew": {
       "type": "item",
@@ -8226,7 +8237,7 @@
         "max": 64
       },
       "unitWorth": 197.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_quarkdelight_cloud_latte": {
       "type": "item",
@@ -8237,7 +8248,7 @@
         "max": 64
       },
       "unitWorth": 136.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_quarkdelight_cooked_whole_crab": {
       "type": "item",
@@ -8248,7 +8259,7 @@
         "max": 64
       },
       "unitWorth": 169.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_quarkdelight_crab_bars": {
       "type": "item",
@@ -8259,7 +8270,7 @@
         "max": 64
       },
       "unitWorth": 41.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_quarkdelight_crab_pasta": {
       "type": "item",
@@ -8270,7 +8281,7 @@
         "max": 64
       },
       "unitWorth": 235.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_quarkdelight_lush_moss_salad": {
       "type": "item",
@@ -8281,7 +8292,7 @@
         "max": 64
       },
       "unitWorth": 109.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_quarkdelight_miso_with_bamboo_sprouts": {
       "type": "item",
@@ -8292,7 +8303,7 @@
         "max": 64
       },
       "unitWorth": 373.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_rats_assorted_vegetables": {
       "type": "item",
@@ -8303,7 +8314,7 @@
         "max": 64
       },
       "unitWorth": 437.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_rats_confit_byaldi": {
       "type": "item",
@@ -8314,7 +8325,7 @@
         "max": 64
       },
       "unitWorth": 704.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_rats_cooked_rat": {
       "type": "item",
@@ -8325,7 +8336,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_rats_rat_burger": {
       "type": "item",
@@ -8336,7 +8347,7 @@
         "max": 64
       },
       "unitWorth": 361.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_ratsdelight_cooked_rat_stick": {
       "type": "item",
@@ -8347,7 +8358,7 @@
         "max": 64
       },
       "unitWorth": 77.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_ratsdelight_nether_cheese_toast": {
       "type": "item",
@@ -8358,7 +8369,7 @@
         "max": 64
       },
       "unitWorth": 187.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_ratsdelight_rat_sandwich": {
       "type": "item",
@@ -8369,7 +8380,7 @@
         "max": 64
       },
       "unitWorth": 361.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_solonion_lunchbag": {
       "type": "item",
@@ -8380,7 +8391,7 @@
         "max": 64
       },
       "unitWorth": 129.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_tide_cooked_fish": {
       "type": "item",
@@ -8391,7 +8402,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_tide_grilled_tuna": {
       "type": "item",
@@ -8402,7 +8413,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_tide_large_cooked_fish": {
       "type": "item",
@@ -8413,7 +8424,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_tide_small_cooked_fish": {
       "type": "item",
@@ -8424,7 +8435,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_tinkersdelight_enderslime_pudding": {
       "type": "item",
@@ -8435,7 +8446,7 @@
         "max": 64
       },
       "unitWorth": 229.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_tinkersdelight_skyslime_sweets": {
       "type": "item",
@@ -8446,7 +8457,7 @@
         "max": 64
       },
       "unitWorth": 37.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightdelight_berry_stick": {
       "type": "item",
@@ -8457,7 +8468,7 @@
         "max": 64
       },
       "unitWorth": 275.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightdelight_borer_tear_soup": {
       "type": "item",
@@ -8468,7 +8479,7 @@
         "max": 64
       },
       "unitWorth": 264.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightdelight_chocolate_wafer": {
       "type": "item",
@@ -8479,7 +8490,7 @@
         "max": 64
       },
       "unitWorth": 194.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightdelight_cooked_naga_meat": {
       "type": "item",
@@ -8490,7 +8501,7 @@
         "max": 64
       },
       "unitWorth": 133.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightdelight_cooked_naga_piece": {
       "type": "item",
@@ -8501,7 +8512,7 @@
         "max": 64
       },
       "unitWorth": 111.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightdelight_cooked_venison_rib": {
       "type": "item",
@@ -8512,7 +8523,7 @@
         "max": 64
       },
       "unitWorth": 41.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightdelight_hydra_piece": {
       "type": "item",
@@ -8523,7 +8534,7 @@
         "max": 64
       },
       "unitWorth": 25.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightdelight_liveroot_pork_fried_rice": {
       "type": "item",
@@ -8534,7 +8545,7 @@
         "max": 64
       },
       "unitWorth": 397.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightdelight_liveroot_venison_noodle_soup": {
       "type": "item",
@@ -8545,7 +8556,7 @@
         "max": 64
       },
       "unitWorth": 656.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightdelight_naga_chip": {
       "type": "item",
@@ -8556,7 +8567,7 @@
         "max": 64
       },
       "unitWorth": 15.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightdelight_naga_meatball_congee": {
       "type": "item",
@@ -8567,7 +8578,7 @@
         "max": 64
       },
       "unitWorth": 318.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightdelight_naga_skewers": {
       "type": "item",
@@ -8578,7 +8589,7 @@
         "max": 64
       },
       "unitWorth": 264.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightdelight_raw_naga_piece": {
       "type": "item",
@@ -8589,7 +8600,7 @@
         "max": 64
       },
       "unitWorth": 69.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightdelight_raw_venison_rib": {
       "type": "item",
@@ -8600,7 +8611,7 @@
         "max": 64
       },
       "unitWorth": 25.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightdelight_slime_wafer": {
       "type": "item",
@@ -8611,7 +8622,7 @@
         "max": 64
       },
       "unitWorth": 210.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightdelight_tear_drink": {
       "type": "item",
@@ -8622,7 +8633,7 @@
         "max": 64
       },
       "unitWorth": 685.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightdelight_torchberry_cookie": {
       "type": "item",
@@ -8633,7 +8644,7 @@
         "max": 64
       },
       "unitWorth": 37.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightdelight_torchberry_ice_cream": {
       "type": "item",
@@ -8644,7 +8655,7 @@
         "max": 64
       },
       "unitWorth": 237.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightdelight_torchberry_milkshake": {
       "type": "item",
@@ -8655,7 +8666,7 @@
         "max": 64
       },
       "unitWorth": 151.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightdelight_twilight_ice_cream": {
       "type": "item",
@@ -8666,7 +8677,7 @@
         "max": 64
       },
       "unitWorth": 310.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightdelight_twilight_spring": {
       "type": "item",
@@ -8677,7 +8688,7 @@
         "max": 64
       },
       "unitWorth": 119.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightforest_cooked_meef": {
       "type": "item",
@@ -8688,7 +8699,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightforest_cooked_venison": {
       "type": "item",
@@ -8699,7 +8710,7 @@
         "max": 64
       },
       "unitWorth": 45.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_twilightforest_maze_wafer": {
       "type": "item",
@@ -8710,7 +8721,7 @@
         "max": 64
       },
       "unitWorth": 44.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_upgrade_aquatic_cooked_lionfish": {
       "type": "item",
@@ -8721,7 +8732,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_upgrade_aquatic_cooked_perch": {
       "type": "item",
@@ -8732,7 +8743,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_upgrade_aquatic_cooked_pike": {
       "type": "item",
@@ -8743,7 +8754,7 @@
         "max": 64
       },
       "unitWorth": 85.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_upgrade_aquatic_mulberry_bread": {
       "type": "item",
@@ -8754,7 +8765,7 @@
         "max": 64
       },
       "unitWorth": 295.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_upgrade_aquatic_mulberry_pie": {
       "type": "item",
@@ -8765,7 +8776,7 @@
         "max": 64
       },
       "unitWorth": 125.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_beetroot_brownie": {
       "type": "item",
@@ -8776,7 +8787,7 @@
         "max": 64
       },
       "unitWorth": 160.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_broccoli_salad": {
       "type": "item",
@@ -8787,7 +8798,7 @@
         "max": 64
       },
       "unitWorth": 176.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_broccoli_soup": {
       "type": "item",
@@ -8798,7 +8809,7 @@
         "max": 64
       },
       "unitWorth": 101.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_cacciatore": {
       "type": "item",
@@ -8809,7 +8820,7 @@
         "max": 64
       },
       "unitWorth": 181.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_cauliflower_bread": {
       "type": "item",
@@ -8820,7 +8831,7 @@
         "max": 64
       },
       "unitWorth": 149.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_cauliflower_kuku": {
       "type": "item",
@@ -8831,7 +8842,7 @@
         "max": 64
       },
       "unitWorth": 149.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_cauliflower_soup": {
       "type": "item",
@@ -8842,7 +8853,7 @@
         "max": 64
       },
       "unitWorth": 101.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_cesar_salad": {
       "type": "item",
@@ -8853,7 +8864,7 @@
         "max": 64
       },
       "unitWorth": 319.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_chicken_fajitas_wrap": {
       "type": "item",
@@ -8864,7 +8875,7 @@
         "max": 64
       },
       "unitWorth": 338.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_coleslaw": {
       "type": "item",
@@ -8875,7 +8886,7 @@
         "max": 64
       },
       "unitWorth": 224.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_cooked_vegetarian_patty": {
       "type": "item",
@@ -8886,7 +8897,7 @@
         "max": 64
       },
       "unitWorth": 205.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_dandelion_and_eggs": {
       "type": "item",
@@ -8897,7 +8908,7 @@
         "max": 64
       },
       "unitWorth": 311.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_dandelion_leaf": {
       "type": "item",
@@ -8908,7 +8919,7 @@
         "max": 64
       },
       "unitWorth": 7.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_fermented_garlic_honey": {
       "type": "item",
@@ -8919,7 +8930,7 @@
         "max": 64
       },
       "unitWorth": 229.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_garlic_baked_cod": {
       "type": "item",
@@ -8930,7 +8941,7 @@
         "max": 64
       },
       "unitWorth": 367.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_garlic_chicken_stew": {
       "type": "item",
@@ -8941,7 +8952,7 @@
         "max": 64
       },
       "unitWorth": 169.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_garlic_rice_with_cauliflower": {
       "type": "item",
@@ -8952,7 +8963,7 @@
         "max": 64
       },
       "unitWorth": 318.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_garlic_stuffed_mushrooms": {
       "type": "item",
@@ -8963,7 +8974,7 @@
         "max": 64
       },
       "unitWorth": 197.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_mhadjeb": {
       "type": "item",
@@ -8974,7 +8985,7 @@
         "max": 64
       },
       "unitWorth": 286.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_pasta_with_broccoli": {
       "type": "item",
@@ -8985,7 +8996,7 @@
         "max": 64
       },
       "unitWorth": 137.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_potato_noodle": {
       "type": "item",
@@ -8996,7 +9007,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_potato_noodles": {
       "type": "item",
@@ -9007,7 +9018,7 @@
         "max": 64
       },
       "unitWorth": 222.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_raw_vegetarian_patty": {
       "type": "item",
@@ -9018,7 +9029,7 @@
         "max": 64
       },
       "unitWorth": 125.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_rice_and_vegetables": {
       "type": "item",
@@ -9029,7 +9040,7 @@
         "max": 64
       },
       "unitWorth": 221.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_roasted_cauliflower_floret": {
       "type": "item",
@@ -9040,7 +9051,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_roasted_garlic_clove": {
       "type": "item",
@@ -9051,7 +9062,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_roasted_vegetables": {
       "type": "item",
@@ -9062,7 +9073,7 @@
         "max": 64
       },
       "unitWorth": 293.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_roasted_zucchini": {
       "type": "item",
@@ -9073,7 +9084,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_shakshouka": {
       "type": "item",
@@ -9084,7 +9095,7 @@
         "max": 64
       },
       "unitWorth": 197.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_smoked_bellpepper": {
       "type": "item",
@@ -9095,7 +9106,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_steak_and_broccoli": {
       "type": "item",
@@ -9106,7 +9117,7 @@
         "max": 64
       },
       "unitWorth": 247.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_stuffed_zucchini_boat": {
       "type": "item",
@@ -9117,7 +9128,7 @@
         "max": 64
       },
       "unitWorth": 217.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_sweet_potato_cupcake": {
       "type": "item",
@@ -9128,7 +9139,7 @@
         "max": 64
       },
       "unitWorth": 61.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_sweet_potato_dough": {
       "type": "item",
@@ -9139,7 +9150,7 @@
         "max": 64
       },
       "unitWorth": 69.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_sweet_potato_pancakes": {
       "type": "item",
@@ -9150,7 +9161,7 @@
         "max": 64
       },
       "unitWorth": 158.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_turnip_beef_stew": {
       "type": "item",
@@ -9161,7 +9172,7 @@
         "max": 64
       },
       "unitWorth": 181.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_turnip_cake": {
       "type": "item",
@@ -9172,7 +9183,7 @@
         "max": 64
       },
       "unitWorth": 181.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_turnip_mutton_skewer": {
       "type": "item",
@@ -9183,7 +9194,7 @@
         "max": 64
       },
       "unitWorth": 184.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_turnip_salad": {
       "type": "item",
@@ -9194,7 +9205,7 @@
         "max": 64
       },
       "unitWorth": 93.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_uncooked_mhadjeb": {
       "type": "item",
@@ -9205,7 +9216,7 @@
         "max": 64
       },
       "unitWorth": 175.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_vegetables_wrap": {
       "type": "item",
@@ -9216,7 +9227,7 @@
         "max": 64
       },
       "unitWorth": 204.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_vegetarian_burger": {
       "type": "item",
@@ -9227,7 +9238,7 @@
         "max": 64
       },
       "unitWorth": 571.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_veggiesdelight_zucchini_sandwich": {
       "type": "item",
@@ -9238,7 +9249,7 @@
         "max": 64
       },
       "unitWorth": 255.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_apple_sauce_mason_jar": {
       "type": "item",
@@ -9249,7 +9260,18 @@
         "max": 64
       },
       "unitWorth": 269.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
+    },
+    "meals_obj_vintagedelight_century_egg": {
+      "type": "item",
+      "content": "vintagedelight:century_egg",
+      "rarity": "COMMON",
+      "amount": {
+        "min": 1,
+        "max": 64
+      },
+      "unitWorth": 1049.5,
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_cheese_burger": {
       "type": "item",
@@ -9260,7 +9282,7 @@
         "max": 64
       },
       "unitWorth": 483.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_cheese_curds": {
       "type": "item",
@@ -9271,7 +9293,7 @@
         "max": 64
       },
       "unitWorth": 32.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_cheese_pasta": {
       "type": "item",
@@ -9282,7 +9304,7 @@
         "max": 64
       },
       "unitWorth": 331.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_chocolate_nut_granola_bar": {
       "type": "item",
@@ -9293,7 +9315,7 @@
         "max": 64
       },
       "unitWorth": 88.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_cucumber_noodles": {
       "type": "item",
@@ -9304,7 +9326,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_cucumber_salad": {
       "type": "item",
@@ -9315,7 +9337,7 @@
         "max": 64
       },
       "unitWorth": 296.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_deluxe_granola_bar": {
       "type": "item",
@@ -9326,7 +9348,7 @@
         "max": 64
       },
       "unitWorth": 91.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_fruity_granola_bar": {
       "type": "item",
@@ -9337,7 +9359,7 @@
         "max": 64
       },
       "unitWorth": 75.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_ghostly_chili": {
       "type": "item",
@@ -9348,7 +9370,7 @@
         "max": 64
       },
       "unitWorth": 277.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_glow_berry_mason_jar": {
       "type": "item",
@@ -9359,7 +9381,7 @@
         "max": 64
       },
       "unitWorth": 269.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_honey_mason_jar": {
       "type": "item",
@@ -9370,7 +9392,7 @@
         "max": 64
       },
       "unitWorth": 137.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_honey_roasted_peanut": {
       "type": "item",
@@ -9381,7 +9403,7 @@
         "max": 64
       },
       "unitWorth": 105.8,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_nut_mash_bottle": {
       "type": "item",
@@ -9392,7 +9414,7 @@
         "max": 64
       },
       "unitWorth": 262.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_nut_mash_mason_jar": {
       "type": "item",
@@ -9403,7 +9425,7 @@
         "max": 64
       },
       "unitWorth": 453.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_nut_milk_bottle": {
       "type": "item",
@@ -9414,7 +9436,7 @@
         "max": 64
       },
       "unitWorth": 125.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_oat_dough": {
       "type": "item",
@@ -9425,7 +9447,7 @@
         "max": 64
       },
       "unitWorth": 90.9,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_oatmeal_cookie": {
       "type": "item",
@@ -9436,7 +9458,7 @@
         "max": 64
       },
       "unitWorth": 30.2,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_overnight_oats": {
       "type": "item",
@@ -9447,7 +9469,7 @@
         "max": 64
       },
       "unitWorth": 309.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_pb_j": {
       "type": "item",
@@ -9458,7 +9480,7 @@
         "max": 64
       },
       "unitWorth": 829.6,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_pepper_jam_mason_jar": {
       "type": "item",
@@ -9469,7 +9491,7 @@
         "max": 64
       },
       "unitWorth": 537.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_pickle": {
       "type": "item",
@@ -9480,7 +9502,7 @@
         "max": 64
       },
       "unitWorth": 105.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_pickle_soup": {
       "type": "item",
@@ -9491,7 +9513,7 @@
         "max": 64
       },
       "unitWorth": 330.1,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_pickled_beetroot": {
       "type": "item",
@@ -9502,7 +9524,7 @@
         "max": 64
       },
       "unitWorth": 63.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_pickled_egg": {
       "type": "item",
@@ -9513,7 +9535,7 @@
         "max": 64
       },
       "unitWorth": 63.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_pickled_onion": {
       "type": "item",
@@ -9524,7 +9546,7 @@
         "max": 64
       },
       "unitWorth": 63.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_pickled_pepper": {
       "type": "item",
@@ -9535,7 +9557,7 @@
         "max": 64
       },
       "unitWorth": 63.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_pickled_pitcher_pod": {
       "type": "item",
@@ -9545,8 +9567,8 @@
         "min": 1,
         "max": 64
       },
-      "unitWorth": 33.8,
-      "weightMult": 0.005195
+      "unitWorth": 969.8,
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_raw_oats": {
       "type": "item",
@@ -9557,7 +9579,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_relish_mason_jar": {
       "type": "item",
@@ -9568,7 +9590,7 @@
         "max": 64
       },
       "unitWorth": 873.4,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_roasted_peanut": {
       "type": "item",
@@ -9579,7 +9601,7 @@
         "max": 64
       },
       "unitWorth": 53.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_salted_cod": {
       "type": "item",
@@ -9590,7 +9612,7 @@
         "max": 64
       },
       "unitWorth": 111.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_salted_salmon": {
       "type": "item",
@@ -9601,7 +9623,7 @@
         "max": 64
       },
       "unitWorth": 111.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_stuffed_burrito": {
       "type": "item",
@@ -9612,7 +9634,7 @@
         "max": 64
       },
       "unitWorth": 483.7,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_surstromming": {
       "type": "item",
@@ -9623,7 +9645,7 @@
         "max": 64
       },
       "unitWorth": 95.5,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_sweet_berry_mason_jar": {
       "type": "item",
@@ -9634,7 +9656,7 @@
         "max": 64
       },
       "unitWorth": 269.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_vinegar_bottle": {
       "type": "item",
@@ -9645,7 +9667,7 @@
         "max": 64
       },
       "unitWorth": 61.0,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "meals_obj_vintagedelight_vinegar_mason_jar": {
       "type": "item",
@@ -9656,7 +9678,7 @@
         "max": 64
       },
       "unitWorth": 249.3,
-      "weightMult": 0.005195
+      "weightMult": 0.005181
     },
     "runes_obj_botania_rune_air": {
       "type": "item",

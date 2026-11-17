@@ -19,6 +19,13 @@ price = { COMMON = 600, UNCOMMON = 400, RARE = 250 }
 
 # Rewards are raw groups from prices.toml. An item goes in the first category that selects it, and
 # each category's weight is shared among its items.
+# Treasure hunts: rare chest loot that no recipe makes (checked against the export's recipes), so
+# the board can hand out what can't be farmed or crafted. The weight is a tenth of the least common
+# category, so it's almost never on a board, and worth 600 each, so a bounty pays one or two.
+[rewards.treasures]
+groups = ["treasures"]
+weight = 0.1
+
 [rewards.other_dimensions]
 groups = ["other_dimensions"]
 weight = 1

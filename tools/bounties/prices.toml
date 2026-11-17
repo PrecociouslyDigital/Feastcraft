@@ -35,6 +35,34 @@ ids = ["croptopia:knife", "croptopia:frying_pan", "croptopia:cooking_pot", "crop
 # Selectors take tags, namespaces, ids (globs) and deny (globs, or #tags). The tag loot:entities
 # holds every item an entity's loot table drops.
 
+# Treasure hunts: things that only spawn rarely in chests and no recipe makes (checked against the
+# export's recipes). First group on purpose, so crops, seeds and mushrooms don't price these first.
+# One value: every one is dear (worth 600, well past rarer_from's 250, so all RARE), so each bounty
+# hands out one or two.
+[raw.treasures]
+ids = [
+    # Vanilla first.
+    "minecraft:music_disc_11", "minecraft:music_disc_otherside", "minecraft:sculk_catalyst",
+    "minecraft:sniffer_egg", "minecraft:torchflower_seeds", "minecraft:pitcher_pod",
+    # Deep Dark and the Ratlantis voyage.
+    "deeperdarker:warden_carapace", "deeperdarker:soul_crystal", "deeperdarker:warden_upgrade_smithing_template",
+    "rats:ghost_pirat_cutlass", "rats:ghost_pirat_hat", "rats:military_hat", "rats:oratchalcum_nugget",
+    "rats:rat_toga", "rats:marbled_cheese_rat_head", "rats:pirat_cutlass", "rats:pirat_hat", "rats:tiny_coin",
+    # Hexerei's covens.
+    "hexerei:herb_enhanced_broom_brush", "hexerei:crow_ankh_amulet", "hexerei:crow_blank_amulet",
+    "hexerei:crow_flute", "hexerei:blood_sigil", "hexerei:mandrake_root",
+    # Boss spoils.
+    "mowziesmobs:geomancer_beads", "mowziesmobs:geomancer_belt", "mowziesmobs:geomancer_robe",
+    "mowziesmobs:geomancer_sandals", "mowziesmobs:sculptor_staff", "mowziesmobs:umvuthana_mask_bliss",
+    "mowziesmobs:umvuthana_mask_faith", "mowziesmobs:umvuthana_mask_fear", "mowziesmobs:umvuthana_mask_fury",
+    "mowziesmobs:umvuthana_mask_misery", "mowziesmobs:umvuthana_mask_rage",
+    # Odd wonders from the world's chests.
+    "caverns_and_chasms:deepslate_turquoise_ore", "atmospheric:firethorn", "atmospheric:forsythia",
+    "biomeswevegone:weeping_milkcap", "biomeswevegone:wood_blewit", "biomeswevegone:green_apple",
+    "biomeswevegone:skyris_vine",
+]
+value = 600
+
 [raw.other_dimensions]
 # Grows only in another dimension, so a base can't easily make it.
 ids = [
