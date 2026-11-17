@@ -1,0 +1,13 @@
+[project]
+name = "smithy"
+version = "0.1.0"
+description = "Generates Feastcraft's smithy datapack, which retires plain tools and armor for Tinkers"
+requires-python = ">=3.11"
+dependencies = ["packexport"]
+
+[tool.uv.sources]
+packexport = { path = "../pack_export", editable = true }
+
+[tool.mypy]
+strict = true
+mypy_path = "../pack_export"

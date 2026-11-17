@@ -1,0 +1,9 @@
+{
+  "tool": "tconstruct:pickaxe",
+  "materials": [
+    "feastcraft_smithy:skies",
+    "tconstruct:wood",
+    "tconstruct:wood"
+  ],
+  "modifiers": []
+}

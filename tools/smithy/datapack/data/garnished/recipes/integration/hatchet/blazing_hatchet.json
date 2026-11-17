@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create_sa"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "tconstruct:hand_axe"
+    },
+    {
+      "item": "create:powdered_obsidian"
+    }
+  ],
+  "results": [
+    {
+      "item": "tconstruct:hand_axe",
+      "count": 1
+    }
+  ],
+  "heatRequirement": "heated"
+}

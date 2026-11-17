@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:legacy_achievement/achievement.buildWorkBench",
+  "display": {
+    "title": {
+      "translate": "achievement.buildPickaxe"
+    },
+    "description": {
+      "translate": "achievement.buildPickaxe.desc"
+    },
+    "icon": {
+      "item": "tconstruct:pickaxe"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "legacy": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

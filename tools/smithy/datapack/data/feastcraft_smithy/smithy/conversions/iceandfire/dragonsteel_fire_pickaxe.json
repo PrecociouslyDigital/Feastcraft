@@ -1,0 +1,9 @@
+{
+  "tool": "tconstruct:pickaxe",
+  "materials": [
+    "tcintegrations:dragonsteel_fire",
+    "tconstruct:wood",
+    "tconstruct:wood"
+  ],
+  "modifiers": []
+}

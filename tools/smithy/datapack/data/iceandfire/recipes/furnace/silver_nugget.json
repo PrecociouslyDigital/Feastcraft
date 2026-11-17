@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "tconstruct:pickaxe"
+    },
+    {
+      "item": "tconstruct:pickadze"
+    },
+    {
+      "item": "tconstruct:hand_axe"
+    },
+    {
+      "item": "tconstruct:kama"
+    },
+    {
+      "item": "tconstruct:sword"
+    },
+    {
+      "item": "tconstruct:plate_helmet"
+    },
+    {
+      "item": "tconstruct:plate_chestplate"
+    },
+    {
+      "item": "tconstruct:plate_leggings"
+    },
+    {
+      "item": "tconstruct:plate_boots"
+    }
+  ],
+  "result": "iceandfire:silver_nugget",
+  "experience": 0.1,
+  "cookingtime": 200
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "forge:ingots/necromium"
+  },
+  "base": {
+    "item": "tconstruct:plate_helmet"
+  },
+  "result": {
+    "item": "tconstruct:plate_helmet"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

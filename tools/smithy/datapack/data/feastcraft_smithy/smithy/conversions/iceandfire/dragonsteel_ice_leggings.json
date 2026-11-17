@@ -1,0 +1,8 @@
+{
+  "tool": "tconstruct:plate_leggings",
+  "materials": [
+    "tcintegrations:dragonsteel_ice",
+    "tconstruct:chain"
+  ],
+  "modifiers": []
+}

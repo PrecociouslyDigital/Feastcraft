@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:legacy_achievement/achievement.buildWorkBench",
+  "display": {
+    "title": {
+      "translate": "achievement.buildSword"
+    },
+    "description": {
+      "translate": "achievement.buildSword.desc"
+    },
+    "icon": {
+      "item": "tconstruct:sword"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "legacy": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

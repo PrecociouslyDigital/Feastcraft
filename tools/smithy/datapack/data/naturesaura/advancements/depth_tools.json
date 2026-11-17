@@ -1,0 +1,73 @@
+{
+  "display": {
+    "icon": {
+      "item": "tconstruct:pickaxe"
+    },
+    "title": {
+      "translate": "advancement.naturesaura.depth_tools"
+    },
+    "description": {
+      "translate": "advancement.naturesaura.depth_tools.desc"
+    }
+  },
+  "parent": "naturesaura:depth_ingot",
+  "criteria": {
+    "materials": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "naturesaura:depth_pickaxe"
+            ],
+            "item": "tconstruct:pickaxe"
+          },
+          {
+            "items": [
+              "naturesaura:depth_sword"
+            ],
+            "item": "tconstruct:sword"
+          },
+          {
+            "items": [
+              "naturesaura:depth_axe"
+            ],
+            "item": "tconstruct:hand_axe"
+          },
+          {
+            "items": [
+              "naturesaura:depth_shovel"
+            ],
+            "item": "tconstruct:pickadze"
+          },
+          {
+            "items": [
+              "naturesaura:depth_hoe"
+            ],
+            "item": "tconstruct:kama"
+          },
+          {
+            "items": [
+              "naturesaura:depth_helmet"
+            ]
+          },
+          {
+            "items": [
+              "naturesaura:depth_chest"
+            ]
+          },
+          {
+            "items": [
+              "naturesaura:depth_pants"
+            ]
+          },
+          {
+            "items": [
+              "naturesaura:depth_shoes"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

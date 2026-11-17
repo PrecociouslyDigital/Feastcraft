@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "deeperdarker:resonarium_plate"
+  },
+  "base": {
+    "item": "tconstruct:plate_boots"
+  },
+  "result": {
+    "item": "tconstruct:plate_boots"
+  },
+  "template": []
+}

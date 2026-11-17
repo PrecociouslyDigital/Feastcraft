@@ -1,0 +1,61 @@
+{
+  "parent": "deeperdarker:main/obtain_reinforced_echo_shard",
+  "criteria": {
+    "warden_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "deeperdarker:warden_helmet"
+            ],
+            "item": "tconstruct:plate_helmet"
+          },
+          {
+            "items": [
+              "deeperdarker:warden_chestplate"
+            ],
+            "item": "tconstruct:plate_chestplate"
+          },
+          {
+            "items": [
+              "deeperdarker:warden_leggings"
+            ],
+            "item": "tconstruct:plate_leggings"
+          },
+          {
+            "items": [
+              "deeperdarker:warden_boots"
+            ],
+            "item": "tconstruct:plate_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.deeperdarker.warden_armor.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "tconstruct:plate_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.deeperdarker.warden_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "warden_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

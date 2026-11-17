@@ -1,0 +1,10 @@
+{
+  "type": "twilightdelight:frozen",
+  "ingredient": {
+    "item": "tconstruct:dagger"
+  },
+  "result": {
+    "item": "twilightdelight:ice_knife",
+    "nbt": "{Damage:0}"
+  }
+}

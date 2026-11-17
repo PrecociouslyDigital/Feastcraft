@@ -1,0 +1,2140 @@
+# The smithy's ledger: what happens to every plain tool, weapon and armor piece in the pack.
+# Every item the export tags as a tool, weapon or armor and is not from a Tinkers mod is here,
+# either as a conversion or as a keep. Run `uv run python -m smithy` to regenerate the
+# datapack; it fails if a tagged item is missing from this file.
+
+[convert."abnormals_delight:necromium_knife"]
+tool = "tconstruct:dagger"
+materials = ["feastcraft_smithy:necromium", "tconstruct:wood"]
+modifiers = []
+
+[convert."abnormals_delight:silver_knife"]
+tool = "tconstruct:dagger"
+materials = ["tconstruct:silver", "tconstruct:wood"]
+modifiers = []
+
+[convert."ae2:certus_quartz_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:quartz", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."ae2:certus_quartz_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:quartz", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."ae2:certus_quartz_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:quartz", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."ae2:certus_quartz_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:quartz", "tconstruct:wood", "tconstruct:quartz"]
+modifiers = []
+
+[convert."ae2:certus_quartz_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:quartz", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."ae2:fluix_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:amethyst", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."ae2:fluix_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:amethyst", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."ae2:fluix_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:amethyst", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."ae2:fluix_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:amethyst", "tconstruct:wood", "tconstruct:amethyst"]
+modifiers = []
+
+[convert."ae2:fluix_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:amethyst", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."ae2:nether_quartz_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:quartz", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."ae2:nether_quartz_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:quartz", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."ae2:nether_quartz_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:quartz", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."ae2:nether_quartz_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:quartz", "tconstruct:wood", "tconstruct:quartz"]
+modifiers = []
+
+[convert."ae2:nether_quartz_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:quartz", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."aquaculture:diamond_fillet_knife"]
+tool = "tconstruct:dagger"
+materials = ["tconstruct:iron", "tconstruct:wood"]
+modifiers = ["tconstruct:diamond"]
+
+[convert."aquaculture:gold_fillet_knife"]
+tool = "tconstruct:dagger"
+materials = ["tconstruct:gold", "tconstruct:wood"]
+modifiers = []
+
+[convert."aquaculture:iron_fillet_knife"]
+tool = "tconstruct:dagger"
+materials = ["tconstruct:iron", "tconstruct:wood"]
+modifiers = []
+
+[convert."aquaculture:neptunium_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tcintegrations:neptunium", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."aquaculture:neptunium_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tcintegrations:neptunium", "tconstruct:chain"]
+modifiers = []
+
+[convert."aquaculture:neptunium_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tcintegrations:neptunium", "tconstruct:chain"]
+modifiers = []
+
+[convert."aquaculture:neptunium_fillet_knife"]
+tool = "tconstruct:dagger"
+materials = ["tcintegrations:neptunium", "tconstruct:wood"]
+modifiers = []
+
+[convert."aquaculture:neptunium_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tcintegrations:neptunium", "tconstruct:chain"]
+modifiers = []
+
+[convert."aquaculture:neptunium_hoe"]
+tool = "tconstruct:kama"
+materials = ["tcintegrations:neptunium", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."aquaculture:neptunium_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tcintegrations:neptunium", "tconstruct:chain"]
+modifiers = []
+
+[convert."aquaculture:neptunium_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tcintegrations:neptunium", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."aquaculture:neptunium_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tcintegrations:neptunium", "tconstruct:wood", "tcintegrations:neptunium"]
+modifiers = []
+
+[convert."aquaculture:neptunium_sword"]
+tool = "tconstruct:sword"
+materials = ["tcintegrations:neptunium", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."aquaculture:stone_fillet_knife"]
+tool = "tconstruct:dagger"
+materials = ["tconstruct:rock", "tconstruct:wood"]
+modifiers = []
+
+[convert."aquaculture:wooden_fillet_knife"]
+tool = "tconstruct:dagger"
+materials = ["tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."biomesoplentydelight:rose_quartz_knife"]
+tool = "tconstruct:dagger"
+materials = ["tconstruct:quartz", "tconstruct:wood"]
+modifiers = []
+
+[convert."botania:elementium_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tcintegrations:manasteel", "tconstruct:wood", "tconstruct:wood"]
+modifiers = ["tcintegrations:elemental"]
+
+[convert."botania:elementium_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tcintegrations:manasteel", "tconstruct:chain"]
+modifiers = ["tcintegrations:elemental"]
+
+[convert."botania:elementium_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tcintegrations:manasteel", "tconstruct:chain"]
+modifiers = ["tcintegrations:elemental"]
+
+[convert."botania:elementium_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tcintegrations:manasteel", "tconstruct:chain"]
+modifiers = ["tcintegrations:elemental"]
+
+[convert."botania:elementium_hoe"]
+tool = "tconstruct:kama"
+materials = ["tcintegrations:manasteel", "tconstruct:wood", "tconstruct:wood"]
+modifiers = ["tcintegrations:elemental"]
+
+[convert."botania:elementium_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tcintegrations:manasteel", "tconstruct:chain"]
+modifiers = ["tcintegrations:elemental"]
+
+[convert."botania:elementium_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tcintegrations:manasteel", "tconstruct:wood", "tconstruct:wood"]
+modifiers = ["tcintegrations:elemental"]
+
+[convert."botania:elementium_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tcintegrations:manasteel", "tconstruct:wood", "tcintegrations:manasteel"]
+modifiers = ["tcintegrations:elemental"]
+
+[convert."botania:elementium_sword"]
+tool = "tconstruct:sword"
+materials = ["tcintegrations:manasteel", "tconstruct:wood", "tconstruct:wood"]
+modifiers = ["tcintegrations:elemental"]
+
+[convert."botania:manasteel_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tcintegrations:manasteel", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."botania:manasteel_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tcintegrations:manasteel", "tconstruct:chain"]
+modifiers = []
+
+[convert."botania:manasteel_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tcintegrations:manasteel", "tconstruct:chain"]
+modifiers = []
+
+[convert."botania:manasteel_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tcintegrations:manasteel", "tconstruct:chain"]
+modifiers = []
+
+[convert."botania:manasteel_hoe"]
+tool = "tconstruct:kama"
+materials = ["tcintegrations:manasteel", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."botania:manasteel_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tcintegrations:manasteel", "tconstruct:chain"]
+modifiers = []
+
+[convert."botania:manasteel_pick"]
+tool = "tconstruct:pickaxe"
+materials = ["tcintegrations:manasteel", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."botania:manasteel_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tcintegrations:manasteel", "tconstruct:wood", "tcintegrations:manasteel"]
+modifiers = []
+
+[convert."botania:manasteel_sword"]
+tool = "tconstruct:sword"
+materials = ["tcintegrations:manasteel", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."botania:manaweave_boots"]
+tool = "tconstruct:travelers_boots"
+materials = ["tconstruct:leather"]
+modifiers = []
+
+[convert."botania:manaweave_chestplate"]
+tool = "tconstruct:travelers_chestplate"
+materials = ["tconstruct:leather"]
+modifiers = []
+
+[convert."botania:manaweave_helmet"]
+tool = "tconstruct:travelers_helmet"
+materials = ["tconstruct:leather"]
+modifiers = []
+
+[convert."botania:manaweave_leggings"]
+tool = "tconstruct:travelers_leggings"
+materials = ["tconstruct:leather"]
+modifiers = []
+
+[convert."botania:terrasteel_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tcintegrations:manasteel", "tconstruct:chain"]
+modifiers = ["tcintegrations:terrestrial"]
+
+[convert."botania:terrasteel_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tcintegrations:manasteel", "tconstruct:chain"]
+modifiers = ["tcintegrations:terrestrial"]
+
+[convert."botania:terrasteel_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tcintegrations:manasteel", "tconstruct:chain"]
+modifiers = ["tcintegrations:terrestrial"]
+
+[convert."botania:terrasteel_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tcintegrations:manasteel", "tconstruct:chain"]
+modifiers = ["tcintegrations:terrestrial"]
+
+[convert."caverns_and_chasms:copper_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:copper_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:copper_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:copper_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:copper_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:copper_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:copper_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:copper_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:copper"]
+modifiers = []
+
+[convert."caverns_and_chasms:copper_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:exposed_copper_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:exposed_copper_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:exposed_copper_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:exposed_copper_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:exposed_copper_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:exposed_copper_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:exposed_copper_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:exposed_copper_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:copper"]
+modifiers = []
+
+[convert."caverns_and_chasms:exposed_copper_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:necromium_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["feastcraft_smithy:necromium", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:necromium_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["feastcraft_smithy:necromium", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:necromium_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["feastcraft_smithy:necromium", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:necromium_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["feastcraft_smithy:necromium", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:necromium_hoe"]
+tool = "tconstruct:kama"
+materials = ["feastcraft_smithy:necromium", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:necromium_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["feastcraft_smithy:necromium", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:necromium_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["feastcraft_smithy:necromium", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:necromium_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["feastcraft_smithy:necromium", "tconstruct:wood", "feastcraft_smithy:necromium"]
+modifiers = []
+
+[convert."caverns_and_chasms:necromium_sword"]
+tool = "tconstruct:sword"
+materials = ["feastcraft_smithy:necromium", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:oxidized_copper_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:oxidized_copper_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:oxidized_copper_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:oxidized_copper_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:oxidized_copper_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:oxidized_copper_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:oxidized_copper_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:oxidized_copper_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:copper"]
+modifiers = []
+
+[convert."caverns_and_chasms:oxidized_copper_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:silver_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:silver", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:silver_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tconstruct:silver", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:silver_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tconstruct:silver", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:silver_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tconstruct:silver", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:silver_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:silver", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:silver_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tconstruct:silver", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:silver_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:silver", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:silver_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:silver", "tconstruct:wood", "tconstruct:silver"]
+modifiers = []
+
+[convert."caverns_and_chasms:silver_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:silver", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_copper_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_copper_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_copper_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_copper_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_copper_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_copper_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_copper_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_copper_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:copper"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_copper_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_exposed_copper_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_exposed_copper_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_exposed_copper_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_exposed_copper_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_exposed_copper_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_exposed_copper_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_exposed_copper_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_exposed_copper_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:copper"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_exposed_copper_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_oxidized_copper_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_oxidized_copper_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_oxidized_copper_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_oxidized_copper_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_oxidized_copper_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_oxidized_copper_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_oxidized_copper_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_oxidized_copper_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:copper"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_oxidized_copper_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_weathered_copper_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_weathered_copper_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_weathered_copper_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_weathered_copper_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_weathered_copper_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_weathered_copper_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_weathered_copper_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_weathered_copper_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:copper"]
+modifiers = []
+
+[convert."caverns_and_chasms:waxed_weathered_copper_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:weathered_copper_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:weathered_copper_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:weathered_copper_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:weathered_copper_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:weathered_copper_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:weathered_copper_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."caverns_and_chasms:weathered_copper_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."caverns_and_chasms:weathered_copper_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:copper"]
+modifiers = []
+
+[convert."caverns_and_chasms:weathered_copper_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."croptopia:knife"]
+tool = "tconstruct:dagger"
+materials = ["tconstruct:iron", "tconstruct:wood"]
+modifiers = []
+
+[convert."deeperdarker:resonarium_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["feastcraft_smithy:resonarium", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."deeperdarker:resonarium_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["feastcraft_smithy:resonarium", "tconstruct:chain"]
+modifiers = []
+
+[convert."deeperdarker:resonarium_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["feastcraft_smithy:resonarium", "tconstruct:chain"]
+modifiers = []
+
+[convert."deeperdarker:resonarium_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["feastcraft_smithy:resonarium", "tconstruct:chain"]
+modifiers = []
+
+[convert."deeperdarker:resonarium_hoe"]
+tool = "tconstruct:kama"
+materials = ["feastcraft_smithy:resonarium", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."deeperdarker:resonarium_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["feastcraft_smithy:resonarium", "tconstruct:chain"]
+modifiers = []
+
+[convert."deeperdarker:resonarium_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["feastcraft_smithy:resonarium", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."deeperdarker:resonarium_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["feastcraft_smithy:resonarium", "tconstruct:wood", "feastcraft_smithy:resonarium"]
+modifiers = []
+
+[convert."deeperdarker:resonarium_sword"]
+tool = "tconstruct:sword"
+materials = ["feastcraft_smithy:resonarium", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."deeperdarker:warden_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["feastcraft_smithy:warden_carapace", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."deeperdarker:warden_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["feastcraft_smithy:warden_carapace", "tconstruct:chain"]
+modifiers = []
+
+[convert."deeperdarker:warden_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["feastcraft_smithy:warden_carapace", "tconstruct:chain"]
+modifiers = []
+
+[convert."deeperdarker:warden_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["feastcraft_smithy:warden_carapace", "tconstruct:chain"]
+modifiers = []
+
+[convert."deeperdarker:warden_hoe"]
+tool = "tconstruct:kama"
+materials = ["feastcraft_smithy:warden_carapace", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."deeperdarker:warden_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["feastcraft_smithy:warden_carapace", "tconstruct:chain"]
+modifiers = []
+
+[convert."deeperdarker:warden_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["feastcraft_smithy:warden_carapace", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."deeperdarker:warden_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["feastcraft_smithy:warden_carapace", "tconstruct:wood", "feastcraft_smithy:warden_carapace"]
+modifiers = []
+
+[convert."deeperdarker:warden_sword"]
+tool = "tconstruct:sword"
+materials = ["feastcraft_smithy:warden_carapace", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."farmersdelight:diamond_knife"]
+tool = "tconstruct:dagger"
+materials = ["tconstruct:iron", "tconstruct:wood"]
+modifiers = ["tconstruct:diamond"]
+
+[convert."farmersdelight:flint_knife"]
+tool = "tconstruct:dagger"
+materials = ["tconstruct:flint", "tconstruct:wood"]
+modifiers = []
+
+[convert."farmersdelight:golden_knife"]
+tool = "tconstruct:dagger"
+materials = ["tconstruct:gold", "tconstruct:wood"]
+modifiers = []
+
+[convert."farmersdelight:iron_knife"]
+tool = "tconstruct:dagger"
+materials = ["tconstruct:iron", "tconstruct:wood"]
+modifiers = []
+
+[convert."farmersdelight:netherite_knife"]
+tool = "tconstruct:dagger"
+materials = ["tconstruct:iron", "tconstruct:wood"]
+modifiers = ["tconstruct:netherite"]
+
+[convert."forestry:bronze_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:bronze", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."forestry:bronze_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:bronze", "tconstruct:wood", "tconstruct:bronze"]
+modifiers = []
+
+[convert."garnished:brass_hatchet"]
+tool = "tconstruct:hand_axe"
+materials = ["tcintegrations:brass", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."garnished:blazing_hatchet"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:blaze", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."garnished:certus_quartz_hatchet"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:quartz", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."garnished:copper_hatchet"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."garnished:diamond_hatchet"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = ["tconstruct:diamond"]
+
+[convert."garnished:experience_hatchet"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:gold", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."garnished:fluix_hatchet"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:amethyst", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."garnished:gilded_netherite_hatchet"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = ["tconstruct:netherite"]
+
+[convert."garnished:golden_hatchet"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:gold", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."garnished:iron_hatchet"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."garnished:nether_quartz_hatchet"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:quartz", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."garnished:netherite_hatchet"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = ["tconstruct:netherite"]
+
+[convert."garnished:rose_gold_hatchet"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:rose_gold", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."garnished:rose_quartz_hatchet"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:quartz", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."garnished:stone_hatchet"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:rock", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."garnished:warden_hatchet"]
+tool = "tconstruct:hand_axe"
+materials = ["feastcraft_smithy:warden_carapace", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."garnished:wooden_hatchet"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:wood", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."garnished:zinc_hatchet"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:lead", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:armor_bronze_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tconstruct:bronze", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:armor_bronze_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tconstruct:bronze", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:armor_bronze_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tconstruct:bronze", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:armor_bronze_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tconstruct:bronze", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:armor_copper_metal_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:armor_copper_metal_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:armor_copper_metal_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:armor_copper_metal_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tconstruct:copper", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:armor_silver_metal_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tconstruct:silver", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:armor_silver_metal_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tconstruct:silver", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:armor_silver_metal_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tconstruct:silver", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:armor_silver_metal_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tconstruct:silver", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:copper_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:copper_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:copper_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:copper_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:copper"]
+modifiers = []
+
+[convert."iceandfire:copper_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:copper", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:dragonbone_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:blazing_bone", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:dragonbone_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:blazing_bone", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:dragonbone_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:blazing_bone", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:dragonbone_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:blazing_bone", "tconstruct:wood", "tconstruct:blazing_bone"]
+modifiers = []
+
+[convert."iceandfire:dragonbone_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:blazing_bone", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_fire_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tcintegrations:dragonsteel_fire", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_fire_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tcintegrations:dragonsteel_fire", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_fire_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tcintegrations:dragonsteel_fire", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_fire_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tcintegrations:dragonsteel_fire", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_fire_hoe"]
+tool = "tconstruct:kama"
+materials = ["tcintegrations:dragonsteel_fire", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_fire_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tcintegrations:dragonsteel_fire", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_fire_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tcintegrations:dragonsteel_fire", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_fire_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tcintegrations:dragonsteel_fire", "tconstruct:wood", "tcintegrations:dragonsteel_fire"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_fire_sword"]
+tool = "tconstruct:sword"
+materials = ["tcintegrations:dragonsteel_fire", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_ice_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tcintegrations:dragonsteel_ice", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_ice_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tcintegrations:dragonsteel_ice", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_ice_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tcintegrations:dragonsteel_ice", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_ice_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tcintegrations:dragonsteel_ice", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_ice_hoe"]
+tool = "tconstruct:kama"
+materials = ["tcintegrations:dragonsteel_ice", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_ice_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tcintegrations:dragonsteel_ice", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_ice_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tcintegrations:dragonsteel_ice", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_ice_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tcintegrations:dragonsteel_ice", "tconstruct:wood", "tcintegrations:dragonsteel_ice"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_ice_sword"]
+tool = "tconstruct:sword"
+materials = ["tcintegrations:dragonsteel_ice", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_lightning_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tcintegrations:dragonsteel_lightning", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_lightning_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tcintegrations:dragonsteel_lightning", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_lightning_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tcintegrations:dragonsteel_lightning", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_lightning_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tcintegrations:dragonsteel_lightning", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_lightning_hoe"]
+tool = "tconstruct:kama"
+materials = ["tcintegrations:dragonsteel_lightning", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_lightning_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tcintegrations:dragonsteel_lightning", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_lightning_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tcintegrations:dragonsteel_lightning", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_lightning_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tcintegrations:dragonsteel_lightning", "tconstruct:wood", "tcintegrations:dragonsteel_lightning"]
+modifiers = []
+
+[convert."iceandfire:dragonsteel_lightning_sword"]
+tool = "tconstruct:sword"
+materials = ["tcintegrations:dragonsteel_lightning", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:myrmex_desert_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:myrmex_desert_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tconstruct:iron", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:myrmex_desert_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tconstruct:iron", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:myrmex_desert_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tconstruct:iron", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:myrmex_desert_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:myrmex_desert_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tconstruct:iron", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:myrmex_desert_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:myrmex_desert_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:iron"]
+modifiers = []
+
+[convert."iceandfire:myrmex_desert_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:myrmex_jungle_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:myrmex_jungle_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tconstruct:iron", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:myrmex_jungle_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tconstruct:iron", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:myrmex_jungle_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tconstruct:iron", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:myrmex_jungle_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:myrmex_jungle_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tconstruct:iron", "tconstruct:chain"]
+modifiers = []
+
+[convert."iceandfire:myrmex_jungle_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:myrmex_jungle_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:iron"]
+modifiers = []
+
+[convert."iceandfire:myrmex_jungle_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:silver_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:silver", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:silver_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:silver", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:silver_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:silver", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."iceandfire:silver_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:silver", "tconstruct:wood", "tconstruct:silver"]
+modifiers = []
+
+[convert."iceandfire:silver_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:silver", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."minecraft:bow"]
+tool = "tconstruct:longbow"
+materials = ["tconstruct:wood", "tconstruct:wood", "tconstruct:wood", "tconstruct:string"]
+modifiers = []
+
+[convert."minecraft:chainmail_boots"]
+tool = "tconstruct:travelers_boots"
+materials = ["tconstruct:chain"]
+modifiers = []
+
+[convert."minecraft:chainmail_chestplate"]
+tool = "tconstruct:travelers_chestplate"
+materials = ["tconstruct:chain"]
+modifiers = []
+
+[convert."minecraft:chainmail_helmet"]
+tool = "tconstruct:travelers_helmet"
+materials = ["tconstruct:chain"]
+modifiers = []
+
+[convert."minecraft:chainmail_leggings"]
+tool = "tconstruct:travelers_leggings"
+materials = ["tconstruct:chain"]
+modifiers = []
+
+[convert."minecraft:crossbow"]
+tool = "tconstruct:crossbow"
+materials = ["tconstruct:wood", "tconstruct:wood", "tconstruct:string"]
+modifiers = []
+
+[convert."minecraft:diamond_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = ["tconstruct:diamond"]
+
+[convert."minecraft:diamond_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tconstruct:iron", "tconstruct:chain"]
+modifiers = ["tconstruct:diamond"]
+
+[convert."minecraft:diamond_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tconstruct:iron", "tconstruct:chain"]
+modifiers = ["tconstruct:diamond"]
+
+[convert."minecraft:diamond_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tconstruct:iron", "tconstruct:chain"]
+modifiers = ["tconstruct:diamond"]
+
+[convert."minecraft:diamond_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = ["tconstruct:diamond"]
+
+[convert."minecraft:diamond_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tconstruct:iron", "tconstruct:chain"]
+modifiers = ["tconstruct:diamond"]
+
+[convert."minecraft:diamond_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = ["tconstruct:diamond"]
+
+[convert."minecraft:diamond_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:iron"]
+modifiers = ["tconstruct:diamond"]
+
+[convert."minecraft:diamond_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = ["tconstruct:diamond"]
+
+[convert."minecraft:golden_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:gold", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."minecraft:golden_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tconstruct:gold", "tconstruct:chain"]
+modifiers = []
+
+[convert."minecraft:golden_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tconstruct:gold", "tconstruct:chain"]
+modifiers = []
+
+[convert."minecraft:golden_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tconstruct:gold", "tconstruct:chain"]
+modifiers = []
+
+[convert."minecraft:golden_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:gold", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."minecraft:golden_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tconstruct:gold", "tconstruct:chain"]
+modifiers = []
+
+[convert."minecraft:golden_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:gold", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."minecraft:golden_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:gold", "tconstruct:wood", "tconstruct:gold"]
+modifiers = []
+
+[convert."minecraft:golden_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:gold", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."minecraft:iron_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."minecraft:iron_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tconstruct:iron", "tconstruct:chain"]
+modifiers = []
+
+[convert."minecraft:iron_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tconstruct:iron", "tconstruct:chain"]
+modifiers = []
+
+[convert."minecraft:iron_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tconstruct:iron", "tconstruct:chain"]
+modifiers = []
+
+[convert."minecraft:iron_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."minecraft:iron_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tconstruct:iron", "tconstruct:chain"]
+modifiers = []
+
+[convert."minecraft:iron_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."minecraft:iron_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:iron"]
+modifiers = []
+
+[convert."minecraft:iron_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."minecraft:leather_boots"]
+tool = "tconstruct:travelers_boots"
+materials = ["tconstruct:leather"]
+modifiers = []
+
+[convert."minecraft:leather_chestplate"]
+tool = "tconstruct:travelers_chestplate"
+materials = ["tconstruct:leather"]
+modifiers = []
+
+[convert."minecraft:leather_helmet"]
+tool = "tconstruct:travelers_helmet"
+materials = ["tconstruct:leather"]
+modifiers = []
+
+[convert."minecraft:leather_leggings"]
+tool = "tconstruct:travelers_leggings"
+materials = ["tconstruct:leather"]
+modifiers = []
+
+[convert."minecraft:netherite_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = ["tconstruct:netherite"]
+
+[convert."minecraft:netherite_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tconstruct:iron", "tconstruct:chain"]
+modifiers = ["tconstruct:netherite"]
+
+[convert."minecraft:netherite_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tconstruct:iron", "tconstruct:chain"]
+modifiers = ["tconstruct:netherite"]
+
+[convert."minecraft:netherite_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tconstruct:iron", "tconstruct:chain"]
+modifiers = ["tconstruct:netherite"]
+
+[convert."minecraft:netherite_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = ["tconstruct:netherite"]
+
+[convert."minecraft:netherite_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tconstruct:iron", "tconstruct:chain"]
+modifiers = ["tconstruct:netherite"]
+
+[convert."minecraft:netherite_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = ["tconstruct:netherite"]
+
+[convert."minecraft:netherite_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:iron"]
+modifiers = ["tconstruct:netherite"]
+
+[convert."minecraft:netherite_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = ["tconstruct:netherite"]
+
+[convert."minecraft:shield"]
+tool = "tconstruct:plate_shield"
+materials = ["tconstruct:wood"]
+modifiers = []
+
+[convert."minecraft:stone_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:rock", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."minecraft:stone_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:rock", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."minecraft:stone_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:rock", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."minecraft:stone_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:rock", "tconstruct:wood", "tconstruct:rock"]
+modifiers = []
+
+[convert."minecraft:stone_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:rock", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."minecraft:wooden_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:wood", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."minecraft:wooden_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:wood", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."minecraft:wooden_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:wood", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."minecraft:wooden_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:wood", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."minecraft:wooden_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:wood", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."naturesaura:depth_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["feastcraft_smithy:depths", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."naturesaura:depth_hoe"]
+tool = "tconstruct:kama"
+materials = ["feastcraft_smithy:depths", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."naturesaura:depth_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["feastcraft_smithy:depths", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."naturesaura:depth_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["feastcraft_smithy:depths", "tconstruct:wood", "feastcraft_smithy:depths"]
+modifiers = []
+
+[convert."naturesaura:depth_sword"]
+tool = "tconstruct:sword"
+materials = ["feastcraft_smithy:depths", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."naturesaura:infused_iron_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["feastcraft_smithy:infused_iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."naturesaura:infused_iron_hoe"]
+tool = "tconstruct:kama"
+materials = ["feastcraft_smithy:infused_iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."naturesaura:infused_iron_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["feastcraft_smithy:infused_iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."naturesaura:infused_iron_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["feastcraft_smithy:infused_iron", "tconstruct:wood", "feastcraft_smithy:infused_iron"]
+modifiers = []
+
+[convert."naturesaura:infused_iron_sword"]
+tool = "tconstruct:sword"
+materials = ["feastcraft_smithy:infused_iron", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."naturesaura:sky_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["feastcraft_smithy:skies", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."naturesaura:sky_hoe"]
+tool = "tconstruct:kama"
+materials = ["feastcraft_smithy:skies", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."naturesaura:sky_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["feastcraft_smithy:skies", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."naturesaura:sky_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["feastcraft_smithy:skies", "tconstruct:wood", "feastcraft_smithy:skies"]
+modifiers = []
+
+[convert."naturesaura:sky_sword"]
+tool = "tconstruct:sword"
+materials = ["feastcraft_smithy:skies", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."thaumcraft:item_axe_thaumium"]
+tool = "tconstruct:hand_axe"
+materials = ["feastcraft_smithy:thaumium", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."thaumcraft:item_axe_void"]
+tool = "tconstruct:hand_axe"
+materials = ["feastcraft_smithy:void_metal", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."thaumcraft:item_hoe_thaumium"]
+tool = "tconstruct:kama"
+materials = ["feastcraft_smithy:thaumium", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."thaumcraft:item_hoe_void"]
+tool = "tconstruct:kama"
+materials = ["feastcraft_smithy:void_metal", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."thaumcraft:item_pick_thaumium"]
+tool = "tconstruct:pickaxe"
+materials = ["feastcraft_smithy:thaumium", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."thaumcraft:item_pick_void"]
+tool = "tconstruct:pickaxe"
+materials = ["feastcraft_smithy:void_metal", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."thaumcraft:item_shovel_thaumium"]
+tool = "tconstruct:pickadze"
+materials = ["feastcraft_smithy:thaumium", "tconstruct:wood", "feastcraft_smithy:thaumium"]
+modifiers = []
+
+[convert."thaumcraft:item_shovel_void"]
+tool = "tconstruct:pickadze"
+materials = ["feastcraft_smithy:void_metal", "tconstruct:wood", "feastcraft_smithy:void_metal"]
+modifiers = []
+
+[convert."thaumcraft:item_sword_thaumium"]
+tool = "tconstruct:sword"
+materials = ["feastcraft_smithy:thaumium", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."thaumcraft:item_sword_void"]
+tool = "tconstruct:sword"
+materials = ["feastcraft_smithy:void_metal", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."twilightdelight:fiery_knife"]
+tool = "tconstruct:dagger"
+materials = ["tconstruct:fiery", "tconstruct:wood"]
+modifiers = []
+
+[convert."twilightdelight:ironwood_knife"]
+tool = "tconstruct:dagger"
+materials = ["tconstruct:ironwood", "tconstruct:wood"]
+modifiers = []
+
+[convert."twilightdelight:knightmetal_knife"]
+tool = "tconstruct:dagger"
+materials = ["tconstruct:knightmetal", "tconstruct:wood"]
+modifiers = []
+
+[convert."twilightdelight:steeleaf_knife"]
+tool = "tconstruct:dagger"
+materials = ["tconstruct:steeleaf", "tconstruct:wood"]
+modifiers = []
+
+[convert."twilightforest:fiery_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tconstruct:fiery", "tconstruct:chain"]
+modifiers = []
+
+[convert."twilightforest:fiery_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tconstruct:fiery", "tconstruct:chain"]
+modifiers = []
+
+[convert."twilightforest:fiery_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tconstruct:fiery", "tconstruct:chain"]
+modifiers = []
+
+[convert."twilightforest:fiery_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tconstruct:fiery", "tconstruct:chain"]
+modifiers = []
+
+[convert."twilightforest:fiery_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:fiery", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."twilightforest:fiery_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:fiery", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."twilightforest:ironwood_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:ironwood", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."twilightforest:ironwood_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tconstruct:ironwood", "tconstruct:chain"]
+modifiers = []
+
+[convert."twilightforest:ironwood_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tconstruct:ironwood", "tconstruct:chain"]
+modifiers = []
+
+[convert."twilightforest:ironwood_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tconstruct:ironwood", "tconstruct:chain"]
+modifiers = []
+
+[convert."twilightforest:ironwood_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:ironwood", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."twilightforest:ironwood_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tconstruct:ironwood", "tconstruct:chain"]
+modifiers = []
+
+[convert."twilightforest:ironwood_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:ironwood", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."twilightforest:ironwood_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:ironwood", "tconstruct:wood", "tconstruct:ironwood"]
+modifiers = []
+
+[convert."twilightforest:ironwood_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:ironwood", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."twilightforest:knightmetal_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:knightmetal", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."twilightforest:knightmetal_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tconstruct:knightmetal", "tconstruct:chain"]
+modifiers = []
+
+[convert."twilightforest:knightmetal_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tconstruct:knightmetal", "tconstruct:chain"]
+modifiers = []
+
+[convert."twilightforest:knightmetal_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tconstruct:knightmetal", "tconstruct:chain"]
+modifiers = []
+
+[convert."twilightforest:knightmetal_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tconstruct:knightmetal", "tconstruct:chain"]
+modifiers = []
+
+[convert."twilightforest:knightmetal_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:knightmetal", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."twilightforest:knightmetal_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:knightmetal", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."twilightforest:steeleaf_axe"]
+tool = "tconstruct:hand_axe"
+materials = ["tconstruct:steeleaf", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."twilightforest:steeleaf_boots"]
+tool = "tconstruct:plate_boots"
+materials = ["tconstruct:steeleaf", "tconstruct:chain"]
+modifiers = []
+
+[convert."twilightforest:steeleaf_chestplate"]
+tool = "tconstruct:plate_chestplate"
+materials = ["tconstruct:steeleaf", "tconstruct:chain"]
+modifiers = []
+
+[convert."twilightforest:steeleaf_helmet"]
+tool = "tconstruct:plate_helmet"
+materials = ["tconstruct:steeleaf", "tconstruct:chain"]
+modifiers = []
+
+[convert."twilightforest:steeleaf_hoe"]
+tool = "tconstruct:kama"
+materials = ["tconstruct:steeleaf", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."twilightforest:steeleaf_leggings"]
+tool = "tconstruct:plate_leggings"
+materials = ["tconstruct:steeleaf", "tconstruct:chain"]
+modifiers = []
+
+[convert."twilightforest:steeleaf_pickaxe"]
+tool = "tconstruct:pickaxe"
+materials = ["tconstruct:steeleaf", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[convert."twilightforest:steeleaf_shovel"]
+tool = "tconstruct:pickadze"
+materials = ["tconstruct:steeleaf", "tconstruct:wood", "tconstruct:steeleaf"]
+modifiers = []
+
+[convert."twilightforest:steeleaf_sword"]
+tool = "tconstruct:sword"
+materials = ["tconstruct:steeleaf", "tconstruct:wood", "tconstruct:wood"]
+modifiers = []
+
+[keep]
+"alexscaves:desolate_dagger" = "disintegrates what it kills"
+"alexscaves:dreadbow" = "draws dread shards"
+"alexscaves:extinction_spear" = "kills nuclear-era mobs"
+"alexscaves:galena_gauntlet" = "a cave-boxer's glove"
+"alexscaves:limestone_spear" = "throwable cave spear"
+"alexscaves:magic_conch" = "calls the sea"
+"alexscaves:ortholance" = "a long bone lance"
+"alexscaves:primitive_club" = "a caveman's club"
+"alexscaves:raygun" = "a ray gun"
+"alexscaves:resistor_shield" = "blocks electricity"
+"alexscaves:sea_staff" = "commands floods"
+"alexscaves:totem_of_possession" = "takes over a body"
+"alexsmobs:centipede_leggings" = "worn effect"
+"alexsmobs:crocodile_chestplate" = "worn effect"
+"alexsmobs:emu_leggings" = "worn effect"
+"alexsmobs:fedora" = "a hat"
+"alexsmobs:flying_fish_boots" = "worn effect"
+"alexsmobs:frontier_cap" = "a hat"
+"alexsmobs:froststalker_helmet" = "worn effect"
+"alexsmobs:ghostly_pickaxe" = "mines through walls"
+"alexsmobs:moose_headgear" = "worn effect"
+"alexsmobs:roadrunner_boots" = "worn effect"
+"alexsmobs:rocky_chestplate" = "worn effect"
+"alexsmobs:skelewag_sword" = "a mob drop that rages"
+"alexsmobs:sombrero" = "a hat"
+"alexsmobs:spiked_turtle_shell" = "hurts what holds you"
+"alexsmobs:unsettling_kimono" = "worn effect"
+"autumnity:snail_shell_chestplate" = "a mob drop"
+"botania:glass_pickaxe" = "the glasscutter"
+"botania:star_sword" = "the Star Sword"
+"botania:terra_axe" = "fells a wide arc"
+"botania:terra_pick" = "the Terra Shatterer, ranked by mana"
+"botania:terra_sword" = "the Terra Blade"
+"botania:thunder_sword" = "the Thundercaller"
+"cavebiomesdelight:icicle_knife" = "a delight knife of ice"
+"caverns_and_chasms:cowl" = "a hood, not a helmet"
+"caverns_and_chasms:sanguine_boots" = "vampire regalia"
+"caverns_and_chasms:sanguine_chestplate" = "vampire regalia"
+"caverns_and_chasms:sanguine_helmet" = "vampire regalia"
+"caverns_and_chasms:sanguine_leggings" = "vampire regalia"
+"caverns_and_chasms:toolbelt" = "a belt, not armor"
+"create:cardboard_boots" = "packing material"
+"create:cardboard_chestplate" = "packing material"
+"create:cardboard_helmet" = "packing material"
+"create:cardboard_leggings" = "packing material"
+"create:copper_backtank" = "holds air, not armor"
+"create:copper_diving_boots" = "dive gear"
+"create:copper_diving_helmet" = "dive gear"
+"create:netherite_backtank" = "holds air, not armor"
+"create:netherite_diving_boots" = "dive gear"
+"create:netherite_diving_helmet" = "dive gear"
+"environmental:yak_pants" = "a mob drop"
+"iceandfire:amphithere_macuahuitl" = "throws lightning"
+"iceandfire:armor_amythest_boots" = "dragon scales, an elemental set"
+"iceandfire:armor_amythest_chestplate" = "dragon scales, an elemental set"
+"iceandfire:armor_amythest_helmet" = "dragon scales, an elemental set"
+"iceandfire:armor_amythest_leggings" = "dragon scales, an elemental set"
+"iceandfire:armor_black_boots" = "dragon scales, an elemental set"
+"iceandfire:armor_black_chestplate" = "dragon scales, an elemental set"
+"iceandfire:armor_black_helmet" = "dragon scales, an elemental set"
+"iceandfire:armor_black_leggings" = "dragon scales, an elemental set"
+"iceandfire:armor_blue_boots" = "dragon scales, an elemental set"
+"iceandfire:armor_blue_chestplate" = "dragon scales, an elemental set"
+"iceandfire:armor_blue_helmet" = "dragon scales, an elemental set"
+"iceandfire:armor_blue_leggings" = "dragon scales, an elemental set"
+"iceandfire:armor_copper_boots" = "dragon scales, not a metal set"
+"iceandfire:armor_copper_chestplate" = "dragon scales, not a metal set"
+"iceandfire:armor_copper_helmet" = "dragon scales, not a metal set"
+"iceandfire:armor_copper_leggings" = "dragon scales, not a metal set"
+"iceandfire:armor_electric_boots" = "dragon scales, an elemental set"
+"iceandfire:armor_electric_chestplate" = "dragon scales, an elemental set"
+"iceandfire:armor_electric_helmet" = "dragon scales, an elemental set"
+"iceandfire:armor_electric_leggings" = "dragon scales, an elemental set"
+"iceandfire:armor_gray_boots" = "dragon scales, an elemental set"
+"iceandfire:armor_gray_chestplate" = "dragon scales, an elemental set"
+"iceandfire:armor_gray_helmet" = "dragon scales, an elemental set"
+"iceandfire:armor_gray_leggings" = "dragon scales, an elemental set"
+"iceandfire:armor_green_boots" = "dragon scales, an elemental set"
+"iceandfire:armor_green_chestplate" = "dragon scales, an elemental set"
+"iceandfire:armor_green_helmet" = "dragon scales, an elemental set"
+"iceandfire:armor_green_leggings" = "dragon scales, an elemental set"
+"iceandfire:armor_red_boots" = "dragon scales, an elemental set"
+"iceandfire:armor_red_chestplate" = "dragon scales, an elemental set"
+"iceandfire:armor_red_helmet" = "dragon scales, an elemental set"
+"iceandfire:armor_red_leggings" = "dragon scales, an elemental set"
+"iceandfire:armor_sapphire_boots" = "dragon scales, an elemental set"
+"iceandfire:armor_sapphire_chestplate" = "dragon scales, an elemental set"
+"iceandfire:armor_sapphire_helmet" = "dragon scales, an elemental set"
+"iceandfire:armor_sapphire_leggings" = "dragon scales, an elemental set"
+"iceandfire:armor_silver_boots" = "dragon scales, not a metal set"
+"iceandfire:armor_silver_chestplate" = "dragon scales, not a metal set"
+"iceandfire:armor_silver_helmet" = "dragon scales, not a metal set"
+"iceandfire:armor_silver_leggings" = "dragon scales, not a metal set"
+"iceandfire:armor_white_boots" = "dragon scales, an elemental set"
+"iceandfire:armor_white_chestplate" = "dragon scales, an elemental set"
+"iceandfire:armor_white_helmet" = "dragon scales, an elemental set"
+"iceandfire:armor_white_leggings" = "dragon scales, an elemental set"
+"iceandfire:blindfold" = "a blindfold"
+"iceandfire:deathworm_red_boots" = "a deathworm's hide"
+"iceandfire:deathworm_red_chestplate" = "a deathworm's hide"
+"iceandfire:deathworm_red_helmet" = "a deathworm's hide"
+"iceandfire:deathworm_red_leggings" = "a deathworm's hide"
+"iceandfire:deathworm_white_boots" = "a deathworm's hide"
+"iceandfire:deathworm_white_chestplate" = "a deathworm's hide"
+"iceandfire:deathworm_white_helmet" = "a deathworm's hide"
+"iceandfire:deathworm_white_leggings" = "a deathworm's hide"
+"iceandfire:deathworm_yellow_boots" = "a deathworm's hide"
+"iceandfire:deathworm_yellow_chestplate" = "a deathworm's hide"
+"iceandfire:deathworm_yellow_helmet" = "a deathworm's hide"
+"iceandfire:deathworm_yellow_leggings" = "a deathworm's hide"
+"iceandfire:dragonbone_sword_fire" = "breathes fire"
+"iceandfire:dragonbone_sword_ice" = "breathes frost"
+"iceandfire:dragonbone_sword_lightning" = "breathes lightning"
+"iceandfire:dread_knight_sword" = "a dread lich's blade"
+"iceandfire:dread_queen_sword" = "the dread queen's blade"
+"iceandfire:dread_sword" = "a dread blade"
+"iceandfire:earplugs" = "earplugs, not armor"
+"iceandfire:forest_troll_leather_boots" = "a troll's hide"
+"iceandfire:forest_troll_leather_chestplate" = "a troll's hide"
+"iceandfire:forest_troll_leather_helmet" = "a troll's hide"
+"iceandfire:forest_troll_leather_leggings" = "a troll's hide"
+"iceandfire:frost_troll_leather_boots" = "a troll's hide"
+"iceandfire:frost_troll_leather_chestplate" = "a troll's hide"
+"iceandfire:frost_troll_leather_helmet" = "a troll's hide"
+"iceandfire:frost_troll_leather_leggings" = "a troll's hide"
+"iceandfire:ghost_sword" = "hits what ghosts hide from"
+"iceandfire:hippocampus_slapper" = "a fish slapper"
+"iceandfire:hippogryph_sword" = "zaps what it parries"
+"iceandfire:mountain_troll_leather_boots" = "a troll's hide"
+"iceandfire:mountain_troll_leather_chestplate" = "a troll's hide"
+"iceandfire:mountain_troll_leather_helmet" = "a troll's hide"
+"iceandfire:mountain_troll_leather_leggings" = "a troll's hide"
+"iceandfire:myrmex_desert_sword_venom" = "carries myrmex venom"
+"iceandfire:myrmex_jungle_sword_venom" = "carries myrmex venom"
+"iceandfire:sheep_boots" = "a sheep costume"
+"iceandfire:sheep_chestplate" = "a sheep costume"
+"iceandfire:sheep_helmet" = "a sheep costume"
+"iceandfire:sheep_leggings" = "a sheep costume"
+"iceandfire:stymphalian_bird_dagger" = "a bird's talon"
+"iceandfire:tide_blue_boots" = "tide guardian, breathes water"
+"iceandfire:tide_blue_chestplate" = "tide guardian, breathes water"
+"iceandfire:tide_blue_helmet" = "tide guardian, breathes water"
+"iceandfire:tide_blue_leggings" = "tide guardian, breathes water"
+"iceandfire:tide_bronze_boots" = "tide guardian, breathes water"
+"iceandfire:tide_bronze_chestplate" = "tide guardian, breathes water"
+"iceandfire:tide_bronze_helmet" = "tide guardian, breathes water"
+"iceandfire:tide_bronze_leggings" = "tide guardian, breathes water"
+"iceandfire:tide_deepblue_boots" = "tide guardian, breathes water"
+"iceandfire:tide_deepblue_chestplate" = "tide guardian, breathes water"
+"iceandfire:tide_deepblue_helmet" = "tide guardian, breathes water"
+"iceandfire:tide_deepblue_leggings" = "tide guardian, breathes water"
+"iceandfire:tide_green_boots" = "tide guardian, breathes water"
+"iceandfire:tide_green_chestplate" = "tide guardian, breathes water"
+"iceandfire:tide_green_helmet" = "tide guardian, breathes water"
+"iceandfire:tide_green_leggings" = "tide guardian, breathes water"
+"iceandfire:tide_purple_boots" = "tide guardian, breathes water"
+"iceandfire:tide_purple_chestplate" = "tide guardian, breathes water"
+"iceandfire:tide_purple_helmet" = "tide guardian, breathes water"
+"iceandfire:tide_purple_leggings" = "tide guardian, breathes water"
+"iceandfire:tide_red_boots" = "tide guardian, breathes water"
+"iceandfire:tide_red_chestplate" = "tide guardian, breathes water"
+"iceandfire:tide_red_helmet" = "tide guardian, breathes water"
+"iceandfire:tide_red_leggings" = "tide guardian, breathes water"
+"iceandfire:tide_teal_boots" = "tide guardian, breathes water"
+"iceandfire:tide_teal_chestplate" = "tide guardian, breathes water"
+"iceandfire:tide_teal_helmet" = "tide guardian, breathes water"
+"iceandfire:tide_teal_leggings" = "tide guardian, breathes water"
+"iceandfire:troll_weapon_axe" = "a troll's weapon"
+"iceandfire:troll_weapon_column" = "a troll's weapon"
+"iceandfire:troll_weapon_column_forest" = "a troll's weapon"
+"iceandfire:troll_weapon_column_frost" = "a troll's weapon"
+"iceandfire:troll_weapon_hammer" = "a troll's weapon"
+"iceandfire:troll_weapon_trunk" = "a troll's weapon"
+"iceandfire:troll_weapon_trunk_frost" = "a troll's weapon"
+"minecraft:turtle_helmet" = "breathes underwater"
+"mowziesmobs:wrought_axe" = "the ferrous wroughtnaut's axe"
+"quark:forgotten_hat" = "a hat"
+"rats:archeologist_hat" = "a hat"
+"rats:black_death_mask" = "a plague mask"
+"rats:exterminator_hat" = "a hat"
+"rats:farmer_hat" = "a hat"
+"rats:fisherman_hat" = "a hat"
+"rats:halo_hat" = "a hat"
+"rats:party_hat" = "a hat"
+"rats:piper_hat" = "a hat"
+"rats:pirat_hat" = "a hat"
+"rats:plague_doctor_mask" = "a plague mask"
+"rats:santa_hat" = "a hat"
+"rats:top_hat" = "a hat"
+"ratsdelight:oratchalcum_knife" = "a delight knife of oratchalcum"
+"savage_and_ravage:griefer_boots" = "creeper regalia"
+"savage_and_ravage:griefer_chestplate" = "creeper regalia"
+"savage_and_ravage:griefer_helmet" = "creeper regalia"
+"savage_and_ravage:griefer_leggings" = "creeper regalia"
+"savage_and_ravage:mask_of_dishonesty" = "a mob drop"
+"thaumcraft:item_axe_elemental" = "carries primal aspects"
+"thaumcraft:item_hoe_elemental" = "carries primal aspects"
+"thaumcraft:item_pickaxe_elemental" = "carries primal aspects"
+"thaumcraft:item_shovel_elemental" = "carries primal aspects"
+"thaumcraft:item_sword_crimson" = "the crimson cult's blade"
+"thaumcraft:item_sword_elemental" = "carries primal aspects"
+"tide:blazing_swordfish" = "a fish, not a sword"
+"tide:sailfish" = "a fish, not a sword"
+"tide:swordfish" = "a fish, not a sword"
+"twilightdelight:helmet_crab_claw" = "a crab's claw"
+"twilightdelight:ice_knife" = "a delight knife of ice"
+"twilightdelight:teardrop_sword" = "a sword of hydra tears"
+"twilightforest:arctic_boots" = "the yeti set's twin"
+"twilightforest:arctic_chestplate" = "the yeti set's twin"
+"twilightforest:arctic_helmet" = "the yeti set's twin"
+"twilightforest:arctic_leggings" = "the yeti set's twin"
+"twilightforest:giant_pickaxe" = "mines a 3x3"
+"twilightforest:giant_sword" = "sweeps a wide arc"
+"twilightforest:glass_sword" = "a glass edge that shatters"
+"twilightforest:ice_sword" = "freezes what it cuts"
+"twilightforest:mazebreaker_pickaxe" = "a labyrinth reward"
+"twilightforest:naga_chestplate" = "the naga's scales"
+"twilightforest:naga_leggings" = "the naga's scales"
+"twilightforest:phantom_chestplate" = "floats the wearer"
+"twilightforest:phantom_helmet" = "floats the wearer"
+"twilightforest:yeti_boots" = "slides on ice"
+"twilightforest:yeti_chestplate" = "slides on ice"
+"twilightforest:yeti_helmet" = "slides on ice"
+"twilightforest:yeti_leggings" = "slides on ice"

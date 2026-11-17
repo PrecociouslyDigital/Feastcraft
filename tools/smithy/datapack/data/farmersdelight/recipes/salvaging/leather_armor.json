@@ -1,0 +1,33 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    [
+      {
+        "item": "tconstruct:travelers_helmet"
+      },
+      {
+        "item": "tconstruct:travelers_chestplate"
+      },
+      {
+        "item": "tconstruct:travelers_leggings"
+      },
+      {
+        "item": "tconstruct:travelers_boots"
+      }
+    ]
+  ],
+  "result": [
+    {
+      "item": "minecraft:leather"
+    }
+  ],
+  "tool": [
+    {
+      "type": "farmersdelight:tool_action",
+      "action": "shears_dig"
+    },
+    {
+      "tag": "forge:shears"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "tool": "tconstruct:plate_boots",
+  "materials": [
+    "tcintegrations:manasteel",
+    "tconstruct:chain"
+  ],
+  "modifiers": []
+}

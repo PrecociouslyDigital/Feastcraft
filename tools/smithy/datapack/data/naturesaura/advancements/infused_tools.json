@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "tconstruct:pickaxe"
+    },
+    "title": {
+      "translate": "advancement.naturesaura.infused_tools"
+    },
+    "description": {
+      "translate": "advancement.naturesaura.infused_tools.desc"
+    }
+  },
+  "parent": "naturesaura:infused_materials",
+  "criteria": {
+    "materials": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "naturesaura:infused_iron_pickaxe"
+            ],
+            "item": "tconstruct:pickaxe"
+          },
+          {
+            "items": [
+              "naturesaura:infused_iron_sword"
+            ],
+            "item": "tconstruct:sword"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "tconstruct:sword",
+  "materials": [
+    "tconstruct:wood",
+    "tconstruct:wood",
+    "tconstruct:wood"
+  ],
+  "modifiers": []
+}

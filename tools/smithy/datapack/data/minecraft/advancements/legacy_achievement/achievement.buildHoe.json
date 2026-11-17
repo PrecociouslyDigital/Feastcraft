@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:legacy_achievement/achievement.buildWorkBench",
+  "display": {
+    "title": {
+      "translate": "achievement.buildHoe"
+    },
+    "description": {
+      "translate": "achievement.buildHoe.desc"
+    },
+    "icon": {
+      "item": "tconstruct:kama"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "legacy": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

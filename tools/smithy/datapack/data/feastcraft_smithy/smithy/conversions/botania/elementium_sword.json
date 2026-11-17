@@ -1,0 +1,11 @@
+{
+  "tool": "tconstruct:sword",
+  "materials": [
+    "tcintegrations:manasteel",
+    "tconstruct:wood",
+    "tconstruct:wood"
+  ],
+  "modifiers": [
+    "tcintegrations:elemental"
+  ]
+}

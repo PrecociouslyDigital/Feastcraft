@@ -1,0 +1,9 @@
+{
+  "tool": "tconstruct:sword",
+  "materials": [
+    "tcintegrations:dragonsteel_ice",
+    "tconstruct:wood",
+    "tconstruct:wood"
+  ],
+  "modifiers": []
+}

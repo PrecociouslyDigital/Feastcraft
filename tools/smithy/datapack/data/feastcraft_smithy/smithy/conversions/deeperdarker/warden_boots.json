@@ -1,0 +1,8 @@
+{
+  "tool": "tconstruct:plate_boots",
+  "materials": [
+    "feastcraft_smithy:warden_carapace",
+    "tconstruct:chain"
+  ],
+  "modifiers": []
+}

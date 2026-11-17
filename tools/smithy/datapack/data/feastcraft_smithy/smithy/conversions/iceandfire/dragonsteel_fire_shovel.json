@@ -1,0 +1,9 @@
+{
+  "tool": "tconstruct:pickadze",
+  "materials": [
+    "tcintegrations:dragonsteel_fire",
+    "tconstruct:wood",
+    "tcintegrations:dragonsteel_fire"
+  ],
+  "modifiers": []
+}

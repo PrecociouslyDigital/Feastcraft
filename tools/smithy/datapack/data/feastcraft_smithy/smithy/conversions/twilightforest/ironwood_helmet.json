@@ -1,0 +1,8 @@
+{
+  "tool": "tconstruct:plate_helmet",
+  "materials": [
+    "tconstruct:ironwood",
+    "tconstruct:chain"
+  ],
+  "modifiers": []
+}

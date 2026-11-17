@@ -1,0 +1,10 @@
+{
+  "tool": "tconstruct:longbow",
+  "materials": [
+    "tconstruct:wood",
+    "tconstruct:wood",
+    "tconstruct:wood",
+    "tconstruct:string"
+  ],
+  "modifiers": []
+}

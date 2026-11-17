@@ -1,0 +1,8 @@
+{
+  "tool": "tconstruct:dagger",
+  "materials": [
+    "feastcraft_smithy:necromium",
+    "tconstruct:wood"
+  ],
+  "modifiers": []
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "forge:ingots/necromium"
+  },
+  "base": {
+    "item": "tconstruct:plate_boots"
+  },
+  "result": {
+    "item": "tconstruct:plate_boots"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}
