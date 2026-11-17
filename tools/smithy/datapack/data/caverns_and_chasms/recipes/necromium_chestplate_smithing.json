@@ -1,15 +1,7 @@
 {
-  "type": "minecraft:smithing_transform",
-  "addition": {
-    "tag": "forge:ingots/necromium"
-  },
-  "base": {
-    "item": "tconstruct:plate_chestplate"
-  },
-  "result": {
-    "item": "tconstruct:plate_chestplate"
-  },
-  "template": {
-    "item": "minecraft:netherite_upgrade_smithing_template"
-  }
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
 }

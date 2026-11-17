@@ -1,22 +1,7 @@
 {
   "conditions": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "ae2"
+      "type": "forge:false"
     }
-  ],
-  "type": "minecraft:smithing_transform",
-  "addition": {
-    "item": "ae2:fluix_block"
-  },
-  "base": {
-    "tag": "garnished:quartz_hatchet"
-  },
-  "result": {
-    "count": 1,
-    "item": "tconstruct:hand_axe"
-  },
-  "template": {
-    "item": "ae2:fluix_upgrade_smithing_template"
-  }
+  ]
 }

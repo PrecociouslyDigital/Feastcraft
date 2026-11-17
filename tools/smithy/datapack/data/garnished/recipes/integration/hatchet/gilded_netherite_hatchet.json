@@ -1,21 +1,7 @@
 {
   "conditions": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "additionaladditions"
+      "type": "forge:false"
     }
-  ],
-  "type": "minecraft:smithing_transform",
-  "base": {
-    "item": "tconstruct:hand_axe"
-  },
-  "addition": {
-    "item": "additionaladditions:gold_ring"
-  },
-  "result": {
-    "item": "tconstruct:hand_axe"
-  },
-  "template": {
-    "item": "additionaladditions:gilded_netherite_upgrade"
-  }
+  ]
 }

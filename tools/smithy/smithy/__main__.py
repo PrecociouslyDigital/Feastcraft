@@ -31,6 +31,15 @@ FALSE = {"conditions": [{"type": "forge:false"}]}
 # Tinkers recipes that melt or cast a disabled item are how it becomes ingots, so they stay.
 TINKERS_PREFIX = "tconstruct:"
 
+# Smithing recipes whose result is whatever armor the player feeds in, decorated with
+# trim or rune NBT. They can't make a disabled item, because a disabled item no longer
+# exists to feed them.
+DYNAMIC_RESULT_TYPES = frozenset({
+    "minecraft:smithing_trim",
+    "caverns_and_chasms:smithing_modifier",
+    "quark:smithing_rune",
+})
+
 
 def tool_definitions(export_dir: Path) -> dict[str, Any]:
     return {
@@ -67,10 +76,28 @@ def draft(export_dir: Path) -> None:
     print(f"{len(convert)} convert, {len(keep)} without a material, into {CONFIG.name}")
 
 
+def disabled_results(recipe: Json, replacements: dict[str, str]) -> bool:
+    """Whether every way to make this recipe's result is a retired item."""
+    results = recipe.get("result", recipe.get("results"))
+    if isinstance(results, dict):
+        results = [results]
+    if not isinstance(results, list):
+        return False
+    items = {entry["item"] for entry in results
+             if isinstance(entry, dict) and isinstance(entry.get("item"), str)}
+    return bool(items) and items <= set(replacements)
+
+
 def rewrite(recipe: Json, replacements: dict[str, str]) -> bool:
-    """Swap every disabled item a recipe consumes for its Tinkers stand-in."""
+    """Swap every disabled item a recipe consumes for its Tinkers stand-in.
+
+    The result is not an ingredient: a recipe whose result is disabled is
+    overridden whole, not rewritten into a mismatched Tinkers tool.
+    """
     changed = False
     for container, item in list(export.recipe_items(recipe)):
+        if container is recipe.get("result") or container is recipe.get("results"):
+            continue
         if item in replacements:
             container["item"] = replacements[item]
             changed = True
@@ -106,22 +133,28 @@ def build(export_dir: Path) -> None:
     disabled.write_text(json.dumps({"replace": False, "values": sorted(converts)}, indent=2) + "\n")
 
     replacements = {item: made["tool"] for item, made in converts.items()}
-    disabled_results = {recipe.id for recipe in pack.recipes if recipe.result in replacements}
-    skipped = set()
+    # MFCL's legacy_crafting recipes are opaque: the JSON holds a hash, and the
+    # result only shows in the export's recipe table. Overrides come from both.
+    row_results = {recipe.id: recipe.result for recipe in pack.recipes}
+    overridden = 0
+    rewritten = 0
     for id, recipe in export.recipes(export_dir):
         namespace, _, path = id.partition(":")
         target = recipes_dir / namespace / "recipes" / f"{path}.json"
-        if id in disabled_results:
+        recipe_type = recipe.get("type", "")
+        makes_disabled = recipe_type not in DYNAMIC_RESULT_TYPES and (
+            disabled_results(recipe, replacements) or row_results.get(id) in replacements)
+        if makes_disabled:
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(json.dumps(FALSE, indent=2) + "\n")
+            overridden += 1
             continue
-        if recipe.get("type", "").startswith(TINKERS_PREFIX):
+        if recipe_type.startswith(TINKERS_PREFIX):
             continue
         if rewrite(recipe, replacements):
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(json.dumps(recipe, indent=2) + "\n")
-        else:
-            skipped.add(id)
+            rewritten += 1
     for id, advancement in export.advancements(export_dir):
         namespace, _, path = id.partition(":")
         if rewrite(advancement, replacements):
@@ -129,8 +162,7 @@ def build(export_dir: Path) -> None:
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(json.dumps(advancement, indent=2) + "\n")
 
-    print(f"{len(converts)} conversions, {len(disabled_results)} recipes overridden, "
-          f"{sum(1 for _ in (recipes_dir / 'feastcraft_smithy' / 'smithy' / 'conversions').rglob('*.json'))} written")
+    print(f"{len(converts)} conversions, {overridden} recipes overridden, {rewritten} rewritten")
 
 
 def install(instance: Path) -> None:

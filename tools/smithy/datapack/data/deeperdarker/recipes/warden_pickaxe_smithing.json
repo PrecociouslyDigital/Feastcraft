@@ -1,15 +1,7 @@
 {
-  "type": "minecraft:smithing_transform",
-  "addition": {
-    "item": "deeperdarker:reinforced_echo_shard"
-  },
-  "base": {
-    "item": "tconstruct:pickaxe"
-  },
-  "result": {
-    "item": "tconstruct:pickaxe"
-  },
-  "template": {
-    "item": "deeperdarker:warden_upgrade_smithing_template"
-  }
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
 }

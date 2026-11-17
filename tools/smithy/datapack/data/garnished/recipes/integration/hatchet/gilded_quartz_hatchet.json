@@ -1,36 +1,7 @@
 {
   "conditions": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "create_sa"
+      "type": "forge:false"
     }
-  ],
-  "type": "create:mechanical_crafting",
-  "acceptMirrored": true,
-  "pattern": [
-    "AXI",
-    "XZ ",
-    " # "
-  ],
-  "key": {
-    "A": {
-      "item": "minecraft:string"
-    },
-    "X": {
-      "item": "create:polished_rose_quartz"
-    },
-    "#": {
-      "item": "create_sa:zinc_handle"
-    },
-    "Z": {
-      "tag": "forge:ingots/gold"
-    },
-    "I": {
-      "tag": "forge:plates/iron"
-    }
-  },
-  "result": {
-    "item": "tconstruct:hand_axe",
-    "count": 1
-  }
+  ]
 }

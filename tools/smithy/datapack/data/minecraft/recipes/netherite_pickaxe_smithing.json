@@ -1,15 +1,7 @@
 {
-  "type": "minecraft:smithing_transform",
-  "addition": {
-    "item": "minecraft:netherite_ingot"
-  },
-  "base": {
-    "item": "tconstruct:pickaxe"
-  },
-  "result": {
-    "item": "tconstruct:pickaxe"
-  },
-  "template": {
-    "item": "minecraft:netherite_upgrade_smithing_template"
-  }
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
 }

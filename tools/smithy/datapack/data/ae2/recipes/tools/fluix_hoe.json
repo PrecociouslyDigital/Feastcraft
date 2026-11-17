@@ -1,15 +1,7 @@
 {
-  "type": "minecraft:smithing_transform",
-  "addition": {
-    "item": "ae2:fluix_block"
-  },
-  "base": {
-    "tag": "ae2:quartz_hoe"
-  },
-  "result": {
-    "item": "tconstruct:kama"
-  },
-  "template": {
-    "item": "ae2:fluix_upgrade_smithing_template"
-  }
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
 }

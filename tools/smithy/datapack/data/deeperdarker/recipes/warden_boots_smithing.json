@@ -1,15 +1,7 @@
 {
-  "type": "minecraft:smithing_transform",
-  "addition": {
-    "item": "deeperdarker:reinforced_echo_shard"
-  },
-  "base": {
-    "item": "tconstruct:plate_boots"
-  },
-  "result": {
-    "item": "tconstruct:plate_boots"
-  },
-  "template": {
-    "item": "deeperdarker:warden_upgrade_smithing_template"
-  }
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
 }
