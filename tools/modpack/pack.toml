@@ -6,8 +6,8 @@ version = "0.1.0"
 overrides = ["config", "mods/1.7.10"]
 
 exclude = [
-    # Comes from tools/skill_tree/datapack instead.
-    "config/openloader/data/feastcraft_skill_tree/*",
+    # The repo's datapacks, which come from tools/ instead.
+    "config/openloader/data/feastcraft_*",
     # Belongs to one machine or one world.
     "config/NoChatReports/NCR-Encryption.json",
     "config/embeddium-fingerprint.json",

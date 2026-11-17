@@ -27,7 +27,7 @@ CONTENT_DIRS = ("mods", "resourcepacks", "shaderpacks")
 CLIENT_ONLY_DIRS = ("resourcepacks", "shaderpacks")
 # Jars the repo builds. The pack takes these from the repo, never from the instance.
 OWN_JARS = "feastcraft_*"
-SKILL_TREE_PATH = "config/openloader/data/feastcraft_skill_tree"
+OPEN_LOADER_PATH = "config/openloader/data"
 
 
 @dataclass(frozen=True)
@@ -86,6 +86,13 @@ def find_on_modrinth(instance: Path, paths: list[str]) -> dict[str, Hosted]:
     return hosted
 
 
+def named_folder(argument: str) -> tuple[str, Path]:
+    name, separator, folder = argument.partition("=")
+    if not separator:
+        raise argparse.ArgumentTypeError(f"expected NAME=DIR, got {argument}")
+    return name, Path(folder)
+
+
 def build(args: argparse.Namespace) -> None:
     instance: Path = args.instance
     config = tomllib.loads((Path(__file__).parent / "pack.toml").read_text())
@@ -136,8 +143,9 @@ def build(args: argparse.Namespace) -> None:
             bundled[f"{'client-overrides' if client_only(path) else 'overrides'}/{path}"] = instance / path
     for jar in args.jar:
         bundled[f"overrides/mods/{jar.name}"] = jar
-    for path in files_under(args.skill_tree, "."):
-        bundled[f"overrides/{SKILL_TREE_PATH}/{path}"] = args.skill_tree / path
+    for name, datapack in args.datapack:
+        for path in files_under(datapack, "."):
+            bundled[f"overrides/{OPEN_LOADER_PATH}/{name}/{path}"] = datapack / path
 
     index = {
         "formatVersion": 1,
@@ -220,7 +228,7 @@ def main() -> None:
     build_command.add_argument("--out", type=Path, required=True)
     build_command.add_argument("--minecraft", required=True)
     build_command.add_argument("--forge", required=True)
-    build_command.add_argument("--skill-tree", type=Path, required=True)
+    build_command.add_argument("--datapack", type=named_folder, action="append", default=[], metavar="NAME=DIR")
     build_command.add_argument("--jar", type=Path, action="append", default=[])
     build_command.set_defaults(run=build)
 

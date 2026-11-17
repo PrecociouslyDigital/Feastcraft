@@ -49,7 +49,9 @@ case $command in
         done
         python3 "$tool" build --instance "$game_dir" --out "$build_dir" \
             --minecraft "$(property minecraft_version)" --forge "$(property forge_version)" \
-            --skill-tree "$repo/tools/skill_tree/datapack" "${jars[@]}"
+            --datapack "feastcraft_skill_tree=$repo/tools/skill_tree/datapack" \
+            --datapack "feastcraft_thaumcraft_compat=$repo/tools/thaumcraft_compat/datapack" \
+            "${jars[@]}"
         ;;
     server)
         [[ -n $pack ]] || pack=$(ls -t "$build_dir"/*.mrpack 2>/dev/null | head -1)
