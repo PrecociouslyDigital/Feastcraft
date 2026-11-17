@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {"layer0": "feastcraft_arsenal:item/heavy_core"}
+}

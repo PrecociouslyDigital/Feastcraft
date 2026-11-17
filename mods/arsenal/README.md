@@ -39,3 +39,19 @@ An upgrade for spears only, up to level 3, from a rabbit's foot and a piston. Ev
 throws the player forward 0.458 blocks a tick per level, for 4 exhaustion per level and 1 durability.
 It doesn't fire while riding, gliding, in water, or below 7 food in survival.
 
+## Heavy core and mace
+
+The heavy core is a rare chest find: a 1.5% chance in the chests listed in
+`loot_modifiers/heavy_core.json`, such as ancient cities, strongholds and bastions. Pouring any castable metal over one on a casting table makes a mace
+head and uses up the core. Nothing else makes a mace head.
+
+The mace is a mace head on a tool handle, about vanilla's 6 damage at 0.6 speed with an iron head.
+Its Smash trait copies vanilla's mace:
+
+- Hitting a target while falling at least 1.5 blocks adds 4 damage a block for the first 3 blocks,
+  2 a block for the next 5, and 1 a block after that. Elytra flight and Slow Falling stop it.
+- The hit cancels the fall, so the wielder takes no fall damage.
+- Living things within 2.5 blocks of the target are thrown back, twice as hard after a fall of more
+  than 5 blocks. The wielder's pets and allies are spared.
+
+`art/draw.py` draws the mace and heavy core sprites from pixel maps.

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "parts": [
+    {"path": "feastcraft_arsenal:item/tool/parts/mace_head", "stat_type": "tconstruct:head"},
+    {"path": "feastcraft_arsenal:item/tool/mace/head", "stat_type": "tconstruct:head"},
+    {"path": "feastcraft_arsenal:item/tool/mace/head_broken", "stat_type": "tconstruct:head"}
+  ]
+}

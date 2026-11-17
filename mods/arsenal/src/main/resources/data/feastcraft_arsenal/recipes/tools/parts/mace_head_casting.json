@@ -1,0 +1,7 @@
+{
+  "type": "tconstruct:table_casting_material",
+  "cast": {"item": "feastcraft_arsenal:heavy_core"},
+  "cast_consumed": true,
+  "item_cost": 4,
+  "result": "feastcraft_arsenal:mace_head"
+}

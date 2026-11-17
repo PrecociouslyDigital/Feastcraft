@@ -1,0 +1,32 @@
+{
+  "type": "feastcraft_arsenal:heavy_core",
+  "conditions": [],
+  "chance": 0.015,
+  "tables": [
+    "minecraft:chests/ancient_city",
+    "minecraft:chests/stronghold_corridor",
+    "minecraft:chests/stronghold_crossing",
+    "minecraft:chests/stronghold_library",
+    "minecraft:chests/bastion_treasure",
+    "minecraft:chests/bastion_other",
+    "minecraft:chests/woodland_mansion",
+    "minecraft:chests/end_city_treasure",
+    "betterstrongholds:chests/treasure",
+    "betterstrongholds:chests/armoury",
+    "betterstrongholds:chests/crypt",
+    "betterfortresses:chests/keep",
+    "deeperdarker:chests/ancient_temple_apex",
+    "deeperdarker:chests/ancient_temple_secret",
+    "dungeons_arise:chests/mines_treasure_big",
+    "dungeons_arise:chests/infested_temple/infested_temple_top_treasure",
+    "dungeons_arise:chests/plague_asylum/plague_asylum_treasure",
+    "iceandfire:chest/cyclops_cave",
+    "iceandfire:chest/hydra_cave",
+    "iceandfire:chest/mausoleum_chest",
+    "mowziesmobs:chests/monastery_chest",
+    "twilightforest:chests/darktower_boss",
+    "twilightforest:chests/stronghold_boss",
+    "twilightforest:chests/labyrinth_vault",
+    "twilightforest:chests/troll_vault"
+  ]
+}

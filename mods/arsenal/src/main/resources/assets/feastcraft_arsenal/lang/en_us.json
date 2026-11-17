@@ -2,6 +2,7 @@
   "attribute.name.feastcraft_arsenal.blade_damage": "Blade Damage",
   "attribute.name.feastcraft_arsenal.axe_damage": "Axe Damage",
   "attribute.name.feastcraft_arsenal.spear_damage": "Spear Damage",
+  "attribute.name.feastcraft_arsenal.mace_damage": "Mace Damage",
   "attribute.name.feastcraft_arsenal.bow_damage": "Bow Damage",
   "attribute.name.feastcraft_arsenal.crossbow_damage": "Crossbow Damage",
   "attribute.name.feastcraft_arsenal.thrown_damage": "Thrown Weapon Damage",
@@ -13,5 +14,12 @@
   "modifier.feastcraft_arsenal.charge.description": "Hold right-click to lower the spear. Damage grows with how fast you and your target close, and a fresh charge knocks riders off their mounts.",
   "modifier.feastcraft_arsenal.lunge": "Lunge",
   "modifier.feastcraft_arsenal.lunge.flavor": "Have at you!",
-  "modifier.feastcraft_arsenal.lunge.description": "Each jab throws you forward, at the cost of hunger and durability. Doesn't work while riding, gliding, swimming or hungry."
+  "modifier.feastcraft_arsenal.lunge.description": "Each jab throws you forward, at the cost of hunger and durability. Doesn't work while riding, gliding, swimming or hungry.",
+  "item.feastcraft_arsenal.heavy_core": "Heavy Core",
+  "item.feastcraft_arsenal.mace_head": "Mace Head",
+  "item.feastcraft_arsenal.mace": "Mace",
+  "item.feastcraft_arsenal.mace.description": "Falling onto a target adds damage for every block fallen, cancels your fall, and throws back everything standing nearby.",
+  "modifier.feastcraft_arsenal.smash": "Smash",
+  "modifier.feastcraft_arsenal.smash.flavor": "What goes up...",
+  "modifier.feastcraft_arsenal.smash.description": "Hitting a target while falling at least 1.5 blocks adds damage for the height, cancels your fall, and knocks back everything near the target."
 }

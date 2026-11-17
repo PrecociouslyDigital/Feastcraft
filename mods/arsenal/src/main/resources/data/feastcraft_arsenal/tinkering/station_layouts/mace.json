@@ -1,0 +1,24 @@
+{
+  "translation_key": "item.feastcraft_arsenal.mace",
+  "icon": {
+    "item": "feastcraft_arsenal:mace",
+    "nbt": "{Damage:0,tic_broken:0b,tic_display:1b,tic_materials:[\"tconstruct:ui_render#head\",\"tconstruct:ui_render#handle\"]}"
+  },
+  "sortIndex": 5,
+  "input_slots": [
+    {
+      "filter": {"item": "feastcraft_arsenal:mace_head"},
+      "icon": "feastcraft_arsenal:mace_head",
+      "translation_key": "item.feastcraft_arsenal.mace_head",
+      "x": 44,
+      "y": 29
+    },
+    {
+      "filter": {"item": "tconstruct:tool_handle"},
+      "icon": "tconstruct:tool_handle",
+      "translation_key": "item.tconstruct.tool_handle",
+      "x": 21,
+      "y": 52
+    }
+  ]
+}

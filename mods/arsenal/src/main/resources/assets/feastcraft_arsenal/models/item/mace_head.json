@@ -1,0 +1,5 @@
+{
+  "parent": "forge:item/default",
+  "loader": "tconstruct:material",
+  "textures": {"texture": "feastcraft_arsenal:item/tool/parts/mace_head"}
+}

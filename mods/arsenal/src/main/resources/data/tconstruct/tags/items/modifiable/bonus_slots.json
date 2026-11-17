@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "feastcraft_arsenal:spear"
+    "feastcraft_arsenal:spear",
+    "feastcraft_arsenal:mace"
   ]
 }

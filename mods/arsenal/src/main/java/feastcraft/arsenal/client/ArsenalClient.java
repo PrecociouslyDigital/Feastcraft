@@ -14,10 +14,14 @@ public final class ArsenalClient {
     }
 
     public static void register(IEventBus modBus) {
-        modBus.addListener((FMLClientSetupEvent event) -> event.enqueueWork(() ->
-                TinkerItemProperties.registerToolProperties(ArsenalRegistry.SPEAR.get())));
-        modBus.addListener((RegisterColorHandlersEvent.Item event) ->
-                ToolModel.registerItemColors(event.getItemColors(), ArsenalRegistry.SPEAR));
+        modBus.addListener((FMLClientSetupEvent event) -> event.enqueueWork(() -> {
+            TinkerItemProperties.registerToolProperties(ArsenalRegistry.SPEAR.get());
+            TinkerItemProperties.registerToolProperties(ArsenalRegistry.MACE.get());
+        }));
+        modBus.addListener((RegisterColorHandlersEvent.Item event) -> {
+            ToolModel.registerItemColors(event.getItemColors(), ArsenalRegistry.SPEAR);
+            ToolModel.registerItemColors(event.getItemColors(), ArsenalRegistry.MACE);
+        });
         MinecraftForge.EVENT_BUS.addListener(LungeSwing::onLeftClickEmpty);
     }
 }

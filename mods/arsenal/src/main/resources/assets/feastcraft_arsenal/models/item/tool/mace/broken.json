@@ -1,0 +1,14 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "forge:item/default-tool",
+  "textures": {
+    "head": "feastcraft_arsenal:item/tool/mace/head_broken",
+    "handle": "tconstruct:item/tool/sword/handle"
+  },
+  "modifier_maps": ["tconstruct:sword_broken", "tconstruct:sword"],
+  "modifier_roots": ["tconstruct:item/tool/sword/modifiers/broken/", "tconstruct:item/tool/sword/modifiers/"],
+  "parts": [
+    {"name": "handle", "index": 1},
+    {"name": "head", "index": 0}
+  ]
+}

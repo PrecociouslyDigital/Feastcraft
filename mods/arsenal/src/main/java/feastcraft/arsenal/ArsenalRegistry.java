@@ -1,5 +1,8 @@
 package feastcraft.arsenal;
 
+import com.mojang.serialization.Codec;
+import feastcraft.arsenal.mace.HeavyCoreLoot;
+import feastcraft.arsenal.mace.SmashModule;
 import feastcraft.arsenal.spear.ChargeModule;
 import feastcraft.arsenal.weapon.WeaponClass;
 import java.util.Arrays;
@@ -12,6 +15,8 @@ import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Rarity;
+import net.minecraftforge.common.loot.IGlobalLootModifier;
 import net.minecraftforge.event.entity.EntityAttributeModificationEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -22,11 +27,15 @@ import slimeknights.tconstruct.library.modifiers.modules.ModifierModule;
 import slimeknights.tconstruct.library.tools.definition.ToolDefinition;
 import slimeknights.tconstruct.library.tools.helper.ToolBuildHandler;
 import slimeknights.tconstruct.library.tools.item.ModifiableItem;
+import slimeknights.tconstruct.library.tools.part.ToolPartItem;
+import slimeknights.tconstruct.tools.stats.HeadMaterialStats;
 
 public final class ArsenalRegistry {
     private static final DeferredRegister<Attribute> ATTRIBUTES = DeferredRegister.create(ForgeRegistries.ATTRIBUTES, Arsenal.MOD_ID);
     private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Arsenal.MOD_ID);
     private static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Arsenal.MOD_ID);
+    private static final DeferredRegister<Codec<? extends IGlobalLootModifier>> LOOT_MODIFIERS =
+            DeferredRegister.create(ForgeRegistries.Keys.GLOBAL_LOOT_MODIFIER_SERIALIZERS, Arsenal.MOD_ID);
 
     private static final Map<WeaponClass, RegistryObject<Attribute>> WEAPON_CLASS_DAMAGE = new EnumMap<>(WeaponClass.class);
 
@@ -39,12 +48,28 @@ public final class ArsenalRegistry {
     public static final RegistryObject<ModifiableItem> SPEAR = ITEMS.register("spear",
             () -> new ModifiableItem(new Item.Properties().stacksTo(1), SPEAR_DEFINITION));
 
+    public static final RegistryObject<Item> HEAVY_CORE = ITEMS.register("heavy_core",
+            () -> new Item(new Item.Properties().rarity(Rarity.EPIC)));
+    public static final RegistryObject<ToolPartItem> MACE_HEAD = ITEMS.register("mace_head",
+            () -> new ToolPartItem(new Item.Properties(), HeadMaterialStats.ID));
+    public static final ToolDefinition MACE_DEFINITION = ToolDefinition.create(Arsenal.id("mace"));
+    public static final RegistryObject<ModifiableItem> MACE = ITEMS.register("mace",
+            () -> new ModifiableItem(new Item.Properties().stacksTo(1), MACE_DEFINITION));
+
+    static {
+        LOOT_MODIFIERS.register("heavy_core", () -> HeavyCoreLoot.CODEC);
+    }
 
     static {
         TABS.register("main", () -> CreativeModeTab.builder()
                 .title(Component.translatable("itemGroup.feastcraft_arsenal"))
                 .icon(() -> new ItemStack(SPEAR.get()))
-                .displayItems((parameters, output) -> ToolBuildHandler.addVariants(output::accept, SPEAR.get(), ""))
+                .displayItems((parameters, output) -> {
+                    ToolBuildHandler.addVariants(output::accept, SPEAR.get(), "");
+                    ToolBuildHandler.addVariants(output::accept, MACE.get(), "");
+                    output.accept(HEAVY_CORE.get());
+                    MACE_HEAD.get().addVariants(output::accept, "");
+                })
                 .build());
     }
 
@@ -60,12 +85,14 @@ public final class ArsenalRegistry {
         ATTRIBUTES.register(modBus);
         ITEMS.register(modBus);
         TABS.register(modBus);
+        LOOT_MODIFIERS.register(modBus);
         modBus.addListener((EntityAttributeModificationEvent event) ->
                 WEAPON_CLASS_DAMAGE.values().forEach(attribute -> event.add(EntityType.PLAYER, attribute.get())));
         // Tinkers registers its own modules at this point, which is before any modifier JSON loads.
         modBus.addListener((RegisterEvent event) -> {
             if (event.getRegistryKey() == Registries.RECIPE_SERIALIZER) {
                 ModifierModule.LOADER.register(Arsenal.id("charge"), ChargeModule.LOADER);
+                ModifierModule.LOADER.register(Arsenal.id("smash"), SmashModule.LOADER);
             }
         });
     }
