@@ -30,9 +30,10 @@ Open Loader loads it into every world from `config/openloader/data/feastcraft_sk
 
 - Pufferfish stores what a player owns by skill id, so ids come from names: `blade.duelist.3`,
   `keystone.acrobat`. Renaming a cluster or notable takes it away from players who had it.
-- Pufferfish reruns a command reward's unlock command on every server start and reload, so the
-  Curios slot notables set an absolute slot count rather than adding one. The counts assume the
-  pack's current slots: two rings and one charm.
+- Pufferfish reruns a command reward's unlock command on every server start and reload, and Curios
+  can only be told a slot's whole count. So a slot notable tags its owner and calls a function that
+  sets the count from the tags held, which is what lets the three ring notables stack. The counts
+  assume the pack's current slots: two rings, one charm and one head.
 - Origins doesn't stack a power granted twice, so each resistance node gets its own power named
   after the node.
 - The datapack replaces Origins' origin layer with one that offers only Human and picks it.

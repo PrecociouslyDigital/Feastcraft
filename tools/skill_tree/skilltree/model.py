@@ -114,19 +114,36 @@ class Resist:
         return f"-{_number(self.percent)}% {listed} Damage Taken"
 
 
-@dataclass(frozen=True)
-class Command:
-    """Runs `unlock` on every server start and reload while owned, so it must be idempotent."""
+class Slot(Enum):
+    """A Curios slot, and how many of it players have without the tree."""
 
-    unlock: str
-    lock: str
-    summary: str
+    # Curios and Botania give two rings between them.
+    RING = ("ring", 2)
+    CHARM = ("charm", 1)
+    HEAD = ("head", 1)
+
+    @property
+    def key(self) -> str:
+        key: str = self.value[0]
+        return key
+
+    @property
+    def base(self) -> int:
+        base: int = self.value[1]
+        return base
+
+
+@dataclass(frozen=True)
+class ExtraSlot:
+    """One more of a Curios slot. Nodes giving the same slot stack."""
+
+    slot: Slot
 
     def text(self) -> str:
-        return self.summary
+        return f"+1 {self.slot.key.capitalize()} Slot"
 
 
-Reward = Bonus | Multiply | OriginPower | CustomPower | Resist | Command
+Reward = Bonus | Multiply | OriginPower | CustomPower | Resist | ExtraSlot
 
 
 @dataclass(frozen=True)

@@ -1,8 +1,7 @@
 from ..layout import Cluster, Inner, KeystoneAt, Outer, Region
-from ..model import Bonus as B, Notable as N
+from ..model import Bonus as B, ExtraSlot, Notable as N, Slot
 from ..origins import BLAZEBORN, ENDERIAN
 from ..powers.pack_leader import PACK_LEADER
-from ..powers.trinkets import CHARM_SLOT, RING_SLOT
 from ..shapes import Ring6, Spine, Wheel6, Wheel8
 from ..stats import Stat as S
 
@@ -26,8 +25,8 @@ HEXCRAFT = Cluster(
 TRINKETS = Cluster(
     "Trinkets",
     Wheel8(
-        N("Ring Bearer", (RING_SLOT,), "minecraft:gold_nugget"),
-        N("Charmed", (CHARM_SLOT,), "minecraft:rabbit_foot"),
+        N("Crowned", (ExtraSlot(Slot.HEAD),), "minecraft:golden_helmet"),
+        N("Charmed", (ExtraSlot(Slot.CHARM),), "minecraft:rabbit_foot"),
     ),
     smalls=(B(S.EXPERIENCE_GAINED, 3),),
     icon="minecraft:gold_ingot",

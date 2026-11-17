@@ -540,6 +540,36 @@
     "y": -632,
     "definition": "blade.polearm.5"
   },
+  "blade.signet.1": {
+    "x": -29,
+    "y": -693,
+    "definition": "blade.signet.1"
+  },
+  "blade.signet.2": {
+    "x": 6,
+    "y": -735,
+    "definition": "blade.signet.2"
+  },
+  "blade.signet.3": {
+    "x": 18,
+    "y": -664,
+    "definition": "blade.signet.3"
+  },
+  "blade.signet.4": {
+    "x": 54,
+    "y": -707,
+    "definition": "blade.signet.4"
+  },
+  "blade.signet.signet_ring": {
+    "x": 12,
+    "y": -700,
+    "definition": "blade.signet.signet_ring"
+  },
+  "blade.signet.in.1": {
+    "x": -88,
+    "y": -682,
+    "definition": "blade.signet.in.1"
+  },
   "keystone.acrobat": {
     "x": 0,
     "y": -574,
@@ -1300,6 +1330,31 @@
     "y": 510,
     "definition": "gourmand.epicure.strong_stomach"
   },
+  "gourmand.heirloom.1": {
+    "x": 596,
+    "y": 382,
+    "definition": "gourmand.heirloom.1"
+  },
+  "gourmand.heirloom.2": {
+    "x": 650,
+    "y": 372,
+    "definition": "gourmand.heirloom.2"
+  },
+  "gourmand.heirloom.3": {
+    "x": 615,
+    "y": 434,
+    "definition": "gourmand.heirloom.3"
+  },
+  "gourmand.heirloom.4": {
+    "x": 669,
+    "y": 424,
+    "definition": "gourmand.heirloom.4"
+  },
+  "gourmand.heirloom.family_ring": {
+    "x": 633,
+    "y": 403,
+    "definition": "gourmand.heirloom.family_ring"
+  },
   "keystone.open_hand": {
     "x": 404,
     "y": 390,
@@ -1815,6 +1870,31 @@
     "y": 339,
     "definition": "wayfarer.warding.5"
   },
+  "wayfarer.keepsake.1": {
+    "x": -411,
+    "y": 362,
+    "definition": "wayfarer.keepsake.1"
+  },
+  "wayfarer.keepsake.2": {
+    "x": -368,
+    "y": 396,
+    "definition": "wayfarer.keepsake.2"
+  },
+  "wayfarer.keepsake.3": {
+    "x": -438,
+    "y": 410,
+    "definition": "wayfarer.keepsake.3"
+  },
+  "wayfarer.keepsake.4": {
+    "x": -395,
+    "y": 444,
+    "definition": "wayfarer.keepsake.4"
+  },
+  "wayfarer.keepsake.travelers_ring": {
+    "x": -403,
+    "y": 403,
+    "definition": "wayfarer.keepsake.travelers_ring"
+  },
   "keystone.feline": {
     "x": -377,
     "y": 627,
@@ -2230,10 +2310,10 @@
     "y": -293,
     "definition": "arcane.trinkets.2"
   },
-  "arcane.trinkets.ring_bearer": {
+  "arcane.trinkets.crowned": {
     "x": -544,
     "y": -305,
-    "definition": "arcane.trinkets.ring_bearer"
+    "definition": "arcane.trinkets.crowned"
   },
   "arcane.trinkets.3": {
     "x": -558,

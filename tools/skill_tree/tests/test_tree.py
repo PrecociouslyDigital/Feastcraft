@@ -6,7 +6,7 @@ from pathlib import Path
 
 from skilltree import emit, layout
 from skilltree.layout import Cluster, Hang, KeystoneAt, Region, Tree
-from skilltree.model import Json, Notable, Origin
+from skilltree.model import Json, Notable, Origin, Slot
 from skilltree.preview import radius
 from skilltree.shapes import Point
 from skilltree.tree import BORDERS, REGIONS, ROADS, SPOKES, tree
@@ -143,11 +143,27 @@ class DatapackTest(unittest.TestCase):
                     power = reward["data"]["power"]
                     self.assertTrue(power.startswith("origins:") or power in ours, f"{skill}: {power}")
 
+    def test_every_command_reward_calls_a_function_that_exists(self) -> None:
+        ours = {f"function feastcraft_skill_tree:{name}" for name in emit.functions(tree())}
+        for skill, definition in self.category("definitions").items():
+            for reward in definition["rewards"]:
+                if reward["type"] == "puffish_skills:command":
+                    for when in ("unlock_command", "lock_command"):
+                        self.assertIn(reward["data"][when], ours, skill)
+
+    def test_slots_count_every_node_that_gives_one(self) -> None:
+        functions = emit.functions(tree())
+        for slot in Slot:
+            givers = [name for name in functions if name.startswith(f"slots/{slot.key}/") and name.endswith("/unlock")]
+            most = f"curios set {slot.key} @s {slot.base + len(givers)}"
+            self.assertIn(most, functions[f"slots/{slot.key}/recount"])
+
     def test_committed_datapack_is_up_to_date(self) -> None:
+        rendered = emit.rendered(tree())
         on_disk = {str(p.relative_to(DATAPACK)) for p in DATAPACK.rglob("*") if p.is_file()}
-        self.assertEqual(on_disk, set(self.files), "run `uv run python -m skilltree`")
-        for path, body in self.files.items():
-            self.assertEqual(json.loads((DATAPACK / path).read_text()), body, path)
+        self.assertEqual(on_disk, set(rendered), "run `uv run python -m skilltree`")
+        for path, text in rendered.items():
+            self.assertEqual((DATAPACK / path).read_text(), text, path)
 
 
 if __name__ == "__main__":

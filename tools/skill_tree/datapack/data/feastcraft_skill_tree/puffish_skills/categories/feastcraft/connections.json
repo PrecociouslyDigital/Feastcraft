@@ -462,6 +462,38 @@
         "blade.polearm.1"
       ],
       [
+        "blade.signet.1",
+        "blade.signet.2"
+      ],
+      [
+        "blade.signet.1",
+        "blade.signet.3"
+      ],
+      [
+        "blade.signet.2",
+        "blade.signet.4"
+      ],
+      [
+        "blade.signet.3",
+        "blade.signet.4"
+      ],
+      [
+        "blade.signet.signet_ring",
+        "blade.signet.2"
+      ],
+      [
+        "blade.signet.signet_ring",
+        "blade.signet.3"
+      ],
+      [
+        "blade.executioner.4",
+        "blade.signet.in.1"
+      ],
+      [
+        "blade.signet.in.1",
+        "blade.signet.1"
+      ],
+      [
         "blade.edgework.4",
         "blade.outer.2"
       ],
@@ -1206,6 +1238,34 @@
         "gourmand.epicure.1"
       ],
       [
+        "gourmand.heirloom.1",
+        "gourmand.heirloom.2"
+      ],
+      [
+        "gourmand.heirloom.1",
+        "gourmand.heirloom.3"
+      ],
+      [
+        "gourmand.heirloom.2",
+        "gourmand.heirloom.4"
+      ],
+      [
+        "gourmand.heirloom.3",
+        "gourmand.heirloom.4"
+      ],
+      [
+        "gourmand.heirloom.family_ring",
+        "gourmand.heirloom.2"
+      ],
+      [
+        "gourmand.heirloom.family_ring",
+        "gourmand.heirloom.3"
+      ],
+      [
+        "gourmand.shepherd.4",
+        "gourmand.heirloom.1"
+      ],
+      [
         "gourmand.appetite.4",
         "gourmand.outer.1"
       ],
@@ -1718,6 +1778,34 @@
         "wayfarer.warding.1"
       ],
       [
+        "wayfarer.keepsake.1",
+        "wayfarer.keepsake.2"
+      ],
+      [
+        "wayfarer.keepsake.1",
+        "wayfarer.keepsake.3"
+      ],
+      [
+        "wayfarer.keepsake.2",
+        "wayfarer.keepsake.4"
+      ],
+      [
+        "wayfarer.keepsake.3",
+        "wayfarer.keepsake.4"
+      ],
+      [
+        "wayfarer.keepsake.travelers_ring",
+        "wayfarer.keepsake.2"
+      ],
+      [
+        "wayfarer.keepsake.travelers_ring",
+        "wayfarer.keepsake.3"
+      ],
+      [
+        "wayfarer.shadow.3",
+        "wayfarer.keepsake.1"
+      ],
+      [
         "wayfarer.stride.4",
         "wayfarer.outer.2"
       ],
@@ -2131,10 +2219,10 @@
       ],
       [
         "arcane.trinkets.2",
-        "arcane.trinkets.ring_bearer"
+        "arcane.trinkets.crowned"
       ],
       [
-        "arcane.trinkets.ring_bearer",
+        "arcane.trinkets.crowned",
         "arcane.trinkets.3"
       ],
       [

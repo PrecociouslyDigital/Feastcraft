@@ -1,4 +1,4 @@
-"""Writes the tree as a datapack: Pufferfish's category, the custom powers, the origin layer and the point rule."""
+"""Writes the tree as a datapack: Pufferfish's category, the custom powers, the slot functions, the origin layer and the point rule."""
 
 import json
 import shutil
@@ -7,14 +7,15 @@ from pathlib import Path
 
 from .layout import Tree
 from .model import (
-    NAMESPACE, Bonus, Command, Content, CustomPower, Json, Keystone, Multiply, Notable, Origin,
-    OriginPower, Resist, Reward, Small, Start, Travel,
+    NAMESPACE, Bonus, Content, CustomPower, ExtraSlot, Json, Keystone, Multiply, Notable, Origin,
+    OriginPower, Resist, Reward, Slot, Small, Start, Travel,
 )
 from .powers import scale
 
 CATEGORY = "feastcraft"
 PACK_FORMAT = 15
 GAIN, COST, NOTE = "green", "red", "gray"
+SLOT_COUNT = "feastcraft_slots"
 
 
 def _frame(content: Content) -> tuple[str, float]:
@@ -58,6 +59,18 @@ def _power_reward(power_id: str) -> Json:
     return {"type": "puffish_skills_origins:power", "data": {"power": power_id}}
 
 
+def _slot_function(slot: Slot, skill: str, action: str) -> str:
+    return f"slots/{slot.key}/{skill}/{action}"
+
+
+def _recount(slot: Slot) -> str:
+    return f"slots/{slot.key}/recount"
+
+
+def _call(function: str) -> str:
+    return f"function {NAMESPACE}:{function}"
+
+
 def _rewards(skill: str, reward: Reward) -> Iterator[Json]:
     match reward:
         case Bonus(stat, amount):
@@ -75,8 +88,14 @@ def _rewards(skill: str, reward: Reward) -> Iterator[Json]:
             yield _power_reward(reward.id)
         case Resist():
             yield from (_power_reward(p.id) for p in _resist_powers(skill, reward))
-        case Command(unlock, lock, _):
-            yield {"type": "puffish_skills:command", "data": {"unlock_command": unlock, "lock_command": lock}}
+        case ExtraSlot(slot):
+            yield {
+                "type": "puffish_skills:command",
+                "data": {
+                    "unlock_command": _call(_slot_function(slot, skill, "unlock")),
+                    "lock_command": _call(_slot_function(slot, skill, "lock")),
+                },
+            }
 
 
 def _reward_line(reward: Reward) -> Json:
@@ -152,8 +171,35 @@ def _custom_powers(tree: Tree) -> dict[str, CustomPower]:
     return found
 
 
+def functions(tree: Tree) -> dict[str, str]:
+    """The functions behind extra slots, by name.
+
+    Pufferfish reruns a node's unlock command on every server start and reload, and Curios can only
+    be told a slot's whole count. So a node tags its owner, and the count is set from the tags held.
+    """
+    holders: dict[Slot, list[str]] = {}
+    for skill, node in tree.nodes.items():
+        for reward in _rewards_of(node.content):
+            if isinstance(reward, ExtraSlot):
+                holders.setdefault(reward.slot, []).append(skill)
+    out: dict[str, str] = {}
+    for slot, skills in holders.items():
+        tags = [f"{NAMESPACE}.{skill}" for skill in skills]
+        for skill, tag in zip(skills, tags):
+            out[_slot_function(slot, skill, "unlock")] = f"tag @s add {tag}\n{_call(_recount(slot))}\n"
+            out[_slot_function(slot, skill, "lock")] = f"tag @s remove {tag}\n{_call(_recount(slot))}\n"
+        lines = [f"scoreboard objectives add {SLOT_COUNT} dummy", f"scoreboard players set @s {SLOT_COUNT} 0"]
+        lines += [f"execute if entity @s[tag={tag}] run scoreboard players add @s {SLOT_COUNT} 1" for tag in tags]
+        lines += [
+            f"execute if score @s {SLOT_COUNT} matches {extra} run curios set {slot.key} @s {slot.base + extra}"
+            for extra in range(len(tags) + 1)
+        ]
+        out[_recount(slot)] = "\n".join(lines) + "\n"
+    return out
+
+
 def files(tree: Tree, scale_to_pixels: float = 1.0) -> dict[str, Json]:
-    """Every file of the datapack, by path inside it."""
+    """Every JSON file of the datapack, by path inside it."""
     data = f"data/{NAMESPACE}"
     category = f"{data}/puffish_skills/categories/{CATEGORY}"
     out: dict[str, Json] = {
@@ -199,10 +245,21 @@ def files(tree: Tree, scale_to_pixels: float = 1.0) -> dict[str, Json]:
     return out
 
 
+def function_path(name: str) -> str:
+    return f"data/{NAMESPACE}/functions/{name}.mcfunction"
+
+
+def rendered(tree: Tree) -> dict[str, str]:
+    """Every file of the datapack as text, by path inside it."""
+    out = {path: json.dumps(body, indent=2, ensure_ascii=False) + "\n" for path, body in files(tree).items()}
+    out.update((function_path(name), body) for name, body in functions(tree).items())
+    return out
+
+
 def write(tree: Tree, root: Path) -> None:
     if root.exists():
         shutil.rmtree(root)
-    for path, body in files(tree).items():
+    for path, text in rendered(tree).items():
         target = root / path
         target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(json.dumps(body, indent=2, ensure_ascii=False) + "\n")
+        target.write_text(text)

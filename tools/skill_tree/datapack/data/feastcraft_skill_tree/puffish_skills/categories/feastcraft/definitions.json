@@ -3818,6 +3818,215 @@
       }
     ]
   },
+  "blade.signet.1": {
+    "title": "Signet",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Melee Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "blade.signet.2": {
+    "title": "Signet",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Melee Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "blade.signet.3": {
+    "title": "Signet",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Melee Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "blade.signet.4": {
+    "title": "Signet",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Melee Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "blade.signet.signet_ring": {
+    "title": "Signet Ring",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1 Ring Slot"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gold_nugget"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "function feastcraft_skill_tree:slots/ring/blade.signet.signet_ring/unlock",
+          "lock_command": "function feastcraft_skill_tree:slots/ring/blade.signet.signet_ring/lock"
+        }
+      }
+    ]
+  },
+  "blade.signet.in.1": {
+    "title": "Blade Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Melee Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
   "keystone.acrobat": {
     "title": "Acrobat",
     "description": {
@@ -9491,6 +9700,180 @@
       }
     ]
   },
+  "gourmand.heirloom.1": {
+    "title": "Heirloom",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.5 Luck"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.luck",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "gourmand.heirloom.2": {
+    "title": "Heirloom",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.5 Luck"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.luck",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "gourmand.heirloom.3": {
+    "title": "Heirloom",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.5 Luck"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.luck",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "gourmand.heirloom.4": {
+    "title": "Heirloom",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.5 Luck"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.luck",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "gourmand.heirloom.family_ring": {
+    "title": "Family Ring",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1 Ring Slot"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gold_nugget"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "function feastcraft_skill_tree:slots/ring/gourmand.heirloom.family_ring/unlock",
+          "lock_command": "function feastcraft_skill_tree:slots/ring/gourmand.heirloom.family_ring/lock"
+        }
+      }
+    ]
+  },
   "keystone.open_hand": {
     "title": "Open Hand",
     "description": {
@@ -13343,6 +13726,180 @@
       }
     ]
   },
+  "wayfarer.keepsake.1": {
+    "title": "Keepsake",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Movement Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "wayfarer.keepsake.2": {
+    "title": "Keepsake",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Movement Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "wayfarer.keepsake.3": {
+    "title": "Keepsake",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Movement Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "wayfarer.keepsake.4": {
+    "title": "Keepsake",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Movement Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "wayfarer.keepsake.travelers_ring": {
+    "title": "Traveler's Ring",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1 Ring Slot"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gold_nugget"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "function feastcraft_skill_tree:slots/ring/wayfarer.keepsake.travelers_ring/unlock",
+          "lock_command": "function feastcraft_skill_tree:slots/ring/wayfarer.keepsake.travelers_ring/lock"
+        }
+      }
+    ]
+  },
   "keystone.feline": {
     "title": "Feline",
     "description": {
@@ -16626,21 +17183,21 @@
       }
     ]
   },
-  "arcane.trinkets.ring_bearer": {
-    "title": "Ring Bearer",
+  "arcane.trinkets.crowned": {
+    "title": "Crowned",
     "description": {
       "text": "",
       "extra": [
         "",
         {
-          "text": "+1 Ring Slot"
+          "text": "+1 Head Slot"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:gold_nugget"
+        "item": "minecraft:golden_helmet"
       }
     },
     "frame": {
@@ -16654,8 +17211,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "curios set ring @s 3",
-          "lock_command": "curios set ring @s 2"
+          "unlock_command": "function feastcraft_skill_tree:slots/head/arcane.trinkets.crowned/unlock",
+          "lock_command": "function feastcraft_skill_tree:slots/head/arcane.trinkets.crowned/lock"
         }
       }
     ]
@@ -16793,8 +17350,8 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "curios set charm @s 2",
-          "lock_command": "curios set charm @s 1"
+          "unlock_command": "function feastcraft_skill_tree:slots/charm/arcane.trinkets.charmed/unlock",
+          "lock_command": "function feastcraft_skill_tree:slots/charm/arcane.trinkets.charmed/lock"
         }
       }
     ]

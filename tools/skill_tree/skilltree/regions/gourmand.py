@@ -1,9 +1,9 @@
 from ..layout import Cluster, Inner, KeystoneAt, Outer, Region
-from ..model import Bonus as B, Notable as N
+from ..model import Bonus as B, ExtraSlot, Notable as N, Slot
 from ..origins import AVIAN
 from ..powers.hearth import BOTTOMLESS, COMFORT_FOOD
 from ..powers.open_hand import OPEN_HAND
-from ..shapes import Ring6, Spine, Wheel6, Wheel8
+from ..shapes import Kite, Ring6, Spine, Wheel6, Wheel8
 from ..stats import Stat as S
 
 APPETITE = Cluster(
@@ -54,11 +54,19 @@ EPICURE = Cluster(
     radius=642, angle=10, hangs_from=HEARTH_AND_HOME,
 )
 
+HEIRLOOM = Cluster(
+    "Heirloom",
+    Kite(N("Family Ring", (ExtraSlot(Slot.RING),), "minecraft:gold_nugget")),
+    smalls=(B(S.LUCK, 0.5),),
+    icon="minecraft:gold_ingot",
+    radius=750, angle=-12.5, hangs_from=SHEPHERD,
+)
+
 GOURMAND = Region(
     "gourmand", "Gourmand",
     road=B(S.NATURAL_REGENERATION, 4), road_icon="minecraft:carrot",
     inner=APPETITE,
-    clusters=(FORAGER, SHEPHERD, HEARTH_AND_HOME, EPICURE),
+    clusters=(FORAGER, SHEPHERD, HEARTH_AND_HOME, EPICURE, HEIRLOOM),
     keystones=(
         KeystoneAt(OPEN_HAND, 562, -1, HEARTH_AND_HOME),
         KeystoneAt(AVIAN, 786, 10, EPICURE),

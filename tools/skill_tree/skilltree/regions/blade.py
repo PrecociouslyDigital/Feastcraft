@@ -1,9 +1,9 @@
 from ..layout import Cluster, Inner, KeystoneAt, Outer, Region
-from ..model import Bonus as B, Notable as N
+from ..model import Bonus as B, ExtraSlot, Notable as N, Slot
 from ..origins import ARACHNID
 from ..powers.acrobat import ACROBAT
 from ..powers.sanguine import SANGUINE
-from ..shapes import Ring6, Spine, Wheel6, Wheel8
+from ..shapes import Kite, Ring6, Spine, Wheel6, Wheel8
 from ..stats import Stat as S
 
 EDGEWORK = Cluster(
@@ -54,11 +54,19 @@ POLEARM = Cluster(
     radius=644, angle=11, hangs_from=WOODSMANS_WRATH,
 )
 
+SIGNET = Cluster(
+    "Signet",
+    Kite(N("Signet Ring", (ExtraSlot(Slot.RING),), "minecraft:gold_nugget")),
+    smalls=(B(S.MELEE_DAMAGE, 3),),
+    icon="minecraft:gold_ingot",
+    radius=700, angle=1, hangs_from=EXECUTIONER,
+)
+
 BLADE = Region(
     "blade", "Blade",
     road=B(S.MELEE_DAMAGE, 2), road_icon="minecraft:wooden_sword",
     inner=EDGEWORK,
-    clusters=(DUELIST, EXECUTIONER, WOODSMANS_WRATH, POLEARM),
+    clusters=(DUELIST, EXECUTIONER, WOODSMANS_WRATH, POLEARM, SIGNET),
     keystones=(
         KeystoneAt(ACROBAT, 574, 0, DUELIST),
         KeystoneAt(ARACHNID, 790, -10, EXECUTIONER),

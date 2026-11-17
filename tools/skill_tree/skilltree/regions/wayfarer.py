@@ -1,8 +1,8 @@
 from ..layout import Cluster, Inner, KeystoneAt, Outer, Region
-from ..model import Bonus as B, Notable as N
+from ..model import Bonus as B, ExtraSlot, Notable as N, Slot
 from ..origins import ELYTRIAN, FELINE
 from ..powers.feast_or_famine import FEAST_OR_FAMINE
-from ..shapes import Ring6, Spine, Wheel6, Wheel8
+from ..shapes import Kite, Ring6, Spine, Wheel6, Wheel8
 from ..stats import Stat as S
 
 STRIDE = Cluster(
@@ -53,11 +53,19 @@ WARDING = Cluster(
     radius=622, angle=12, hangs_from=SHADOW,
 )
 
+KEEPSAKE = Cluster(
+    "Keepsake",
+    Kite(N("Traveler's Ring", (ExtraSlot(Slot.RING),), "minecraft:gold_nugget")),
+    smalls=(B(S.MOVEMENT_SPEED, 2),),
+    icon="minecraft:gold_ingot",
+    radius=570, angle=0, hangs_from=SHADOW,
+)
+
 WAYFARER = Region(
     "wayfarer", "Wayfarer",
     road=B(S.MOVEMENT_SPEED, 1), road_icon="minecraft:dirt_path",
     inner=STRIDE,
-    clusters=(LEAP, TRAILBLAZER, SHADOW, WARDING),
+    clusters=(LEAP, TRAILBLAZER, SHADOW, WARDING, KEEPSAKE),
     keystones=(
         KeystoneAt(FELINE, 732, -14, TRAILBLAZER),
         KeystoneAt(FEAST_OR_FAMINE, 708, 15, WARDING),
