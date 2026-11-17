@@ -1,0 +1,12 @@
+[
+  {"item": "cookingforblockheads:cow_jar", "aspects": {"bestia": 2, "corpus": 2, "fames": 3, "vacuos": 1}},
+  {"block": "cookingforblockheads:cow_jar", "aspects": {"bestia": 2, "corpus": 2, "fames": 3, "vacuos": 1}},
+  {"item": "cookingforblockheads:crafting_book", "aspects": {"cognitio": 1, "fabrico": 6, "lucrum": 6, "vitreus": 6}},
+  {"item": "cookingforblockheads:heating_unit", "aspects": {"metallum": 8, "potentia": 2, "terra": 3}},
+  {"item": "cookingforblockheads:ice_unit", "aspects": {"gelum": 2, "metallum": 6, "potentia": 2, "terra": 3}},
+  {"item": "cookingforblockheads:no_filter_edition", "aspects": {"cognitio": 1}},
+  {"item": "cookingforblockheads:preservation_chamber", "aspects": {"machina": 2, "metallum": 6, "potentia": 6, "terra": 3}},
+  {"item": "cookingforblockheads:recipe_book", "aspects": {"cognitio": 2}},
+  {"item": "cookingforblockheads:white_kitchen_floor", "aspects": {"ignis": 1, "potentia": 2}},
+  {"block": "cookingforblockheads:white_kitchen_floor", "aspects": {"ignis": 1, "potentia": 2}}
+]

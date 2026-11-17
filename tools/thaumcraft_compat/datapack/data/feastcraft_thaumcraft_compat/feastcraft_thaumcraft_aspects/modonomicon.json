@@ -1,0 +1,7 @@
+[
+  {"item": "modonomicon:modonomicon", "aspects": {"cognitio": 2, "perditio": 1, "terra": 1}},
+  {"item": "modonomicon:modonomicon_blue", "aspects": {"auram": 1, "cognitio": 3, "fabrico": 1, "praecantatio": 3}},
+  {"item": "modonomicon:modonomicon_green", "aspects": {"auram": 1, "cognitio": 3, "fabrico": 1, "praecantatio": 2}},
+  {"item": "modonomicon:modonomicon_purple", "aspects": {"auram": 1, "cognitio": 3, "praecantatio": 3, "tenebrae": 1}},
+  {"item": "modonomicon:modonomicon_red", "aspects": {"cognitio": 2, "fabrico": 1, "ignis": 1, "praecantatio": 2}}
+]

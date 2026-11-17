@@ -1,0 +1,15 @@
+[
+  {"item": "ratsdelight:blue_cheese_sauce", "aspects": {"fames": 1}},
+  {"item": "ratsdelight:cheese_dough", "aspects": {"fames": 3}},
+  {"item": "ratsdelight:cheese_sauce", "aspects": {"fames": 6, "sensus": 1}},
+  {"item": "ratsdelight:cheese_slice", "aspects": {"fames": 1}},
+  {"item": "ratsdelight:cheese_toast", "aspects": {"fames": 4, "messis": 3}},
+  {"item": "ratsdelight:contaminated_food_ice_cream", "aspects": {"fames": 6, "gelum": 3, "mortuus": 3, "venenum": 4, "vitium": 3}},
+  {"item": "ratsdelight:contaminated_food_slice", "aspects": {"fames": 1, "venenum": 1}},
+  {"item": "ratsdelight:cooked_rat_stick", "aspects": {"bestia": 2, "corpus": 2, "fames": 2}},
+  {"item": "ratsdelight:nether_cheese_slice", "aspects": {"fames": 1}},
+  {"item": "ratsdelight:nether_cheese_toast", "aspects": {"fames": 4, "messis": 3, "sensus": 1, "victus": 1}},
+  {"item": "ratsdelight:oratchalcum_knife", "aspects": {"fabrico": 1, "metallum": 2}},
+  {"item": "ratsdelight:potato_pancake_sandwich", "aspects": {"fames": 3, "messis": 6}},
+  {"item": "ratsdelight:rat_sandwich", "aspects": {"bestia": 2, "corpus": 2, "fames": 5, "messis": 6}}
+]

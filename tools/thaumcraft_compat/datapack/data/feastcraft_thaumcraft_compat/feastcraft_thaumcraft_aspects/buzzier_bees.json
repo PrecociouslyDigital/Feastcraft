@@ -1,0 +1,11 @@
+[
+  {"entity": "buzzier_bees:grizzly_bear", "aspects": {"bestia": 4, "corpus": 4, "motus": 2, "victus": 3}},
+  {"entity": "buzzier_bees:moobloom", "aspects": {"bestia": 4, "corpus": 3, "motus": 2, "victus": 2}},
+  {"item": "buzzier_bees:bee_bottle", "aspects": {"bestia": 3, "vacuos": 2, "victus": 2, "vitreus": 1}},
+  {"item": "buzzier_bees:endermite_bottle", "aspects": {"alienis": 3, "bestia": 3, "vacuos": 2, "victus": 1}},
+  {"item": "buzzier_bees:four_leaf_clover", "aspects": {"arbor": 2, "herba": 3, "praecantatio": 1, "victus": 1}},
+  {"item": "buzzier_bees:glazed_porkchop", "aspects": {"corpus": 2, "fames": 2}},
+  {"item": "buzzier_bees:honey_apple", "aspects": {"fames": 1, "messis": 1, "victus": 2}},
+  {"item": "buzzier_bees:honey_bread", "aspects": {"fames": 1, "messis": 3}},
+  {"item": "buzzier_bees:silverfish_bottle", "aspects": {"bestia": 2, "corpus": 1, "vacuos": 1}}
+]

@@ -1,0 +1,7 @@
+[
+  {"item": "citadel:citadel_book", "aspects": {"cognitio": 3, "fabrico": 1}},
+  {"item": "citadel:debug", "aspects": {"cognitio": 1, "fabrico": 1, "instrumentum": 2, "machina": 2}},
+  {"item": "citadel:effect_item", "aspects": {"aqua": 2, "permutatio": 1, "praecantatio": 2, "sano": 2}},
+  {"item": "citadel:fancy_item", "aspects": {"fabrico": 1}},
+  {"item": "citadel:icon_item", "aspects": {"fabrico": 1}}
+]

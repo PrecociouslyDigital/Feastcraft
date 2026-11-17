@@ -1,0 +1,19 @@
+[
+  {"item": "structure_gel:blue_gel", "aspects": {"aqua": 2, "limus": 3, "sensus": 1}},
+  {"block": "structure_gel:blue_gel", "aspects": {"aqua": 2, "limus": 3, "sensus": 1}},
+  {"item": "structure_gel:building_tool", "aspects": {"fabrico": 2, "instrumentum": 3, "machina": 1, "ordo": 1}},
+  {"item": "structure_gel:cyan_gel", "aspects": {"aqua": 2, "limus": 3, "ordo": 1, "praecantatio": 1}},
+  {"block": "structure_gel:cyan_gel", "aspects": {"aqua": 2, "limus": 3, "ordo": 1, "praecantatio": 1}},
+  {"item": "structure_gel:data_handler", "aspects": {"cognitio": 2, "fabrico": 1, "machina": 3, "ordo": 1}},
+  {"block": "structure_gel:data_handler", "aspects": {"cognitio": 2, "fabrico": 1, "machina": 3, "ordo": 1}},
+  {"item": "structure_gel:dynamic_spawner", "aspects": {"fabrico": 2, "machina": 3, "motus": 1, "potentia": 2}},
+  {"block": "structure_gel:dynamic_spawner", "aspects": {"fabrico": 2, "machina": 3, "motus": 1, "potentia": 2}},
+  {"item": "structure_gel:green_gel", "aspects": {"aqua": 1, "limus": 3, "ordo": 1, "sensus": 1}},
+  {"block": "structure_gel:green_gel", "aspects": {"aqua": 1, "limus": 3, "ordo": 1, "sensus": 1}},
+  {"item": "structure_gel:orange_gel", "aspects": {"aqua": 1, "limus": 3, "ordo": 1, "sensus": 2}},
+  {"block": "structure_gel:orange_gel", "aspects": {"aqua": 1, "limus": 3, "ordo": 1, "sensus": 2}},
+  {"item": "structure_gel:red_gel", "aspects": {"aqua": 1, "limus": 3, "ordo": 1, "sensus": 2}},
+  {"block": "structure_gel:red_gel", "aspects": {"aqua": 1, "limus": 3, "ordo": 1, "sensus": 2}},
+  {"item": "structure_gel:yellow_gel", "aspects": {"aqua": 1, "limus": 3, "ordo": 1, "sensus": 2}},
+  {"block": "structure_gel:yellow_gel", "aspects": {"aqua": 1, "limus": 3, "ordo": 1, "sensus": 2}}
+]

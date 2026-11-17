@@ -1,0 +1,20 @@
+[
+  {"item": "biomesoplentydelight:barley_bread", "aspects": {"fames": 4, "herba": 6, "messis": 6, "victus": 4}},
+  {"item": "biomesoplentydelight:barley_dough", "aspects": {"fames": 3, "herba": 4, "messis": 4, "victus": 3}},
+  {"item": "biomesoplentydelight:barley_rolls", "aspects": {"fames": 2, "herba": 2, "messis": 2, "victus": 2}},
+  {"item": "biomesoplentydelight:bramble_and_spider_egg", "aspects": {"arbor": 4, "bestia": 3, "herba": 4, "terra": 1, "victus": 1, "vinculum": 3}},
+  {"item": "biomesoplentydelight:bramble_pasta", "aspects": {"arbor": 2, "herba": 2, "messis": 1, "vinculum": 1}},
+  {"item": "biomesoplentydelight:bramble_pasta_with_spider_egg", "aspects": {"arbor": 1, "bestia": 2, "herba": 1, "victus": 1}},
+  {"item": "biomesoplentydelight:bramble_sandwich", "aspects": {"arbor": 2, "fames": 3, "herba": 2, "messis": 6, "vinculum": 1}},
+  {"item": "biomesoplentydelight:cattail_shake", "aspects": {"aqua": 5, "herba": 6, "terra": 3, "victus": 3}},
+  {"item": "biomesoplentydelight:cooked_bramble", "aspects": {"arbor": 2, "herba": 2, "vinculum": 1}},
+  {"item": "biomesoplentydelight:cooked_spider_egg", "aspects": {"bestia": 2, "victus": 1}},
+  {"item": "biomesoplentydelight:flesh", "aspects": {"aqua": 1, "corpus": 5, "humanus": 2, "vacuos": 1}},
+  {"item": "biomesoplentydelight:glowworm_ice_cream", "aspects": {"bestia": 1, "gelum": 3, "lux": 1, "pannus": 2}},
+  {"item": "biomesoplentydelight:glowworm_jem", "aspects": {"bestia": 3, "fabrico": 1, "lux": 3, "pannus": 4}},
+  {"item": "biomesoplentydelight:glowworm_of_hamburger", "aspects": {"bestia": 1, "fames": 3, "lux": 1, "messis": 6, "pannus": 2}},
+  {"item": "biomesoplentydelight:glowworm_pie", "aspects": {"bestia": 1, "fames": 2, "lux": 1, "messis": 3, "metallum": 4, "pannus": 2}},
+  {"item": "biomesoplentydelight:spider_egg_sandwich", "aspects": {"bestia": 3, "corpus": 3, "fames": 4, "victus": 1}},
+  {"item": "biomesoplentydelight:spider_noodle_soup", "aspects": {"aqua": 3, "bestia": 3, "corpus": 3, "fames": 4}},
+  {"item": "biomesoplentydelight:watergrass_rolls", "aspects": {"aqua": 2, "herba": 3, "victus": 2}}
+]

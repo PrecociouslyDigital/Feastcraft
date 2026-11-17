@@ -1,0 +1,6 @@
+[
+  {"item": "tinkers_katanas:fuma_shuriken", "aspects": {"fabrico": 2, "metallum": 1, "motus": 2, "telum": 3}},
+  {"item": "tinkers_katanas:katana", "aspects": {"fabrico": 2, "metallum": 3, "potentia": 2, "telum": 3}},
+  {"item": "tinkers_katanas:muramasa", "aspects": {"fabrico": 1, "metallum": 2, "potentia": 2, "telum": 3}},
+  {"item": "tinkers_katanas:naginata", "aspects": {"fabrico": 2, "metallum": 3, "potentia": 2, "telum": 3}}
+]

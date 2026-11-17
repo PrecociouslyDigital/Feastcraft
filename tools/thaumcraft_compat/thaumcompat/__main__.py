@@ -1,16 +1,19 @@
 """`uv run python -m thaumcompat biomes --instance <dir>`, and `install --instance <dir>`."""
 
 import argparse
+import dataclasses
 import shutil
 from collections import Counter
 from pathlib import Path
 
-from . import biomes, budget, derive, emit, export, raw, tables
+from . import biomes, budget, derive, emit, export, questions, raw, tables
 
 HERE = Path(__file__).resolve().parent.parent
 DATAPACK = HERE / "datapack"
-EXPORT = HERE.parent.parent / "build" / "datapack-export"
+REPO = HERE.parent.parent
+EXPORT = REPO / "build" / "datapack-export"
 REPORT = HERE / "subjects.tsv"
+STORE = questions.Store(decisions=HERE / "decisions", pending=HERE / "build" / "pending")
 INSTALLED_AS = Path("config/openloader/data/feastcraft_thaumcraft_compat")
 
 
@@ -18,18 +21,52 @@ def aspects(export_dir: Path) -> None:
     loaded = export.load(export_dir)
     hand = tables.hand(HERE / "aspects.toml", loaded)
     tag_parents = tables.tag_parents(HERE / "tags.toml", loaded)
-    resolved = derive.resolve(loaded, hand, tag_parents, {})
+    loaded = dataclasses.replace(loaded, known=loaded.known | tables.known(HERE / "aspects.toml", loaded))
+    before_asking = derive.resolve(loaded, hand, tag_parents, {})
     uses = raw.uses(loaded)
-    raw_materials = raw.raw_materials(loaded, resolved)
-    kept = budget.kept(loaded, resolved, raw_materials, uses)
+    raw_materials = raw.raw_materials(loaded, before_asking)
+    kept = budget.kept(loaded, before_asking, raw_materials, uses)
     blocks = budget.block_items(loaded)
     to_ask = [s for s in raw_materials if s.id not in blocks or s.id in kept]
+
+    asked, waiting, referenced = ask(loaded, to_ask)
+    resolved = derive.resolve(loaded, hand, tag_parents, asked)
     entries = emit.entries(loaded, resolved, kept)
     emit.write(DATAPACK, entries)
     emit.report(REPORT, loaded, resolved, set(to_ask), kept)
-    steps = Counter(type(r).__name__ for r in resolved.values())
+    STORE.settle(waiting, referenced)
+
+    steps = Counter(type(r).__name__ if not isinstance(r, derive.Asked) else r.model for r in resolved.values())
     print(f"{len(entries)} entries ({', '.join(f'{n} {k}' for k, n in sorted(steps.items()))}); "
-          f"{len(to_ask)} raw materials to ask about; {len(kept)} block items in the budget")
+          f"{len(to_ask)} raw materials; {len(kept)} block items, {sum(len(blocks[i]) for i in kept)} blocks, in the budget")
+    if waiting:
+        tool = HERE.relative_to(REPO)
+        print(f"{len(waiting)} requests wait in {STORE.pending.relative_to(HERE)}. From the repo root, send them with")
+        print(f'  secretspec run --reason "Thaumcraft aspects" -- {tool}/decide.sh {tool}/decisions {tool}/build/pending')
+        print("then run this again.")
+
+
+def ask(loaded: export.Export, subjects: list[export.Subject]) -> tuple[dict[export.Subject, derive.Asked], list[questions.Request], set[str]]:
+    """Answers so far, from mammoth-1 where Jev was unsure, and the requests still to send."""
+    answered = STORE.answered()
+    waiting: list[questions.Request] = []
+    referenced: set[str] = set()
+
+    def answers(model: questions.Model, of: list[export.Subject]) -> dict[export.Subject, dict[str, float]]:
+        out: dict[export.Subject, dict[str, float]] = {}
+        for request in questions.requests(loaded, model, of):
+            referenced.add(request.key)
+            if request.key in answered:
+                out |= questions.probabilities(request, answered[request.key])
+            else:
+                waiting.append(request)
+        return out
+
+    jev = answers("jev", subjects)
+    mammoth = answers("mammoth", [s for s, p in jev.items() if questions.unsure(p)])
+    asked = {s: derive.Asked("jev", questions.aspects(p)) for s, p in jev.items()}
+    asked |= {s: derive.Asked("mammoth", questions.aspects(p)) for s, p in mammoth.items()}
+    return asked, waiting, referenced
 
 
 def main() -> None:
@@ -55,4 +92,5 @@ def main() -> None:
         print(f"installed to {target}")
 
 
-main()
+if __name__ == "__main__":
+    main()

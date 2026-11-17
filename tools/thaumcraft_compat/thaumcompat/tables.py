@@ -8,7 +8,7 @@ from typing import Any
 
 from .aspects import ASPECTS
 from .derive import Inherits, Listed, Value
-from .export import Export, Kind, Subject
+from .export import Aspects, Export, Kind, Subject
 
 
 class TableError(Exception):
@@ -43,6 +43,8 @@ def _kind(path: Path, table: str) -> Kind:
 def hand(path: Path, export: Export) -> dict[Subject, Value]:
     out: dict[Subject, Value] = {}
     for table, entries in tomllib.loads(path.read_text()).items():
+        if table == "known":
+            continue
         kind = _kind(path, table)
         for id, raw in entries.items():
             subject = Subject(kind, id)
@@ -63,4 +65,20 @@ def tag_parents(path: Path, export: Export) -> dict[str, dict[str, str]]:
             if Subject(kind, parent) not in export.known:
                 raise TableError(f"{path.name}: {tag} copies {parent}, which Thaumcraft gives no aspects")
         out[kind] = dict(entries)
+    return out
+
+
+def known(path: Path, export: Export) -> dict[Subject, Aspects]:
+    """Vanilla items' aspects for the recipe step, where the export has none."""
+    out: dict[Subject, Aspects] = {}
+    for id, raw in tomllib.loads(path.read_text()).get("known", {}).items():
+        subject = Subject("item", id)
+        if id not in export.items:
+            raise TableError(f"{path.name}: the game has no {subject}")
+        if subject in export.known:
+            raise TableError(f"{path.name}: [known] has {id}, which Thaumcraft already gives aspects")
+        value = _aspects_or_parent(f"{path.name}: {subject}", raw)
+        if not isinstance(value, Listed):
+            raise TableError(f"{path.name}: [known] lists aspects, not parents")
+        out[subject] = value.aspects
     return out

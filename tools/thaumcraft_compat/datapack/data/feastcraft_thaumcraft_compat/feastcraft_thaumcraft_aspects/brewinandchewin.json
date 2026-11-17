@@ -1,0 +1,15 @@
+[
+  {"item": "brewinandchewin:apple_jelly", "aspects": {"fames": 3, "messis": 4}},
+  {"item": "brewinandchewin:cocoa_fudge", "aspects": {"fames": 2, "herba": 1}},
+  {"item": "brewinandchewin:creamy_onion_soup", "aspects": {"fames": 3, "herba": 1, "messis": 4, "terra": 1}},
+  {"item": "brewinandchewin:fiery_fondue", "aspects": {"bestia": 2, "corpus": 3, "fames": 4, "ignis": 3}},
+  {"item": "brewinandchewin:flaxen_cheese_wedge", "aspects": {"terra": 2}},
+  {"item": "brewinandchewin:glow_berry_marmalade", "aspects": {"herba": 4}},
+  {"item": "brewinandchewin:ham_and_cheese_sandwich", "aspects": {"corpus": 1, "fames": 2, "messis": 3}},
+  {"item": "brewinandchewin:kippers", "aspects": {"corpus": 2, "victus": 1}},
+  {"item": "brewinandchewin:quiche_slice", "aspects": {"metallum": 1}},
+  {"item": "brewinandchewin:scarlet_cheese_wedge", "aspects": {"terra": 1}},
+  {"item": "brewinandchewin:scarlet_pierogi", "aspects": {"fames": 1, "messis": 1, "terra": 1}},
+  {"item": "brewinandchewin:sweet_berry_jam", "aspects": {"fames": 3, "herba": 2}},
+  {"item": "brewinandchewin:vegetable_omelet", "aspects": {"fames": 5, "herba": 1, "messis": 1, "terra": 1}}
+]

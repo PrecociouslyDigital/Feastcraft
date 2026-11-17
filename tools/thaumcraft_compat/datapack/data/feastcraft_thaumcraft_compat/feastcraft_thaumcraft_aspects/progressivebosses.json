@@ -1,0 +1,6 @@
+[
+  {"entity": "progressivebosses:wither", "aspects": {"exanimis": 2, "mortuus": 2, "motus": 2, "spiritus": 2}},
+  {"entity": "progressivebosses:wither_minion", "aspects": {"aqua": 1, "exanimis": 2, "spiritus": 2, "telum": 1}},
+  {"item": "progressivebosses:elder_guardian_spike", "aspects": {"aqua": 1, "metallum": 1, "telum": 3}},
+  {"item": "progressivebosses:nether_star_shard", "aspects": {"alienis": 2, "lux": 2, "potentia": 2, "praecantatio": 1}}
+]

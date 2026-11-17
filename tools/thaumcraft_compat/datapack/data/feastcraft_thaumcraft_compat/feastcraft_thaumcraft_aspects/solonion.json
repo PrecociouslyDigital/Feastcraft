@@ -1,0 +1,6 @@
+[
+  {"item": "solonion:food_book", "aspects": {"cognitio": 2}},
+  {"item": "solonion:golden_lunchbox", "aspects": {"cognitio": 2, "lucrum": 9, "metallum": 27}},
+  {"item": "solonion:lunchbag", "aspects": {"cognitio": 4}},
+  {"item": "solonion:lunchbox", "aspects": {"cognitio": 3, "metallum": 18}}
+]

@@ -1,0 +1,9 @@
+[
+  {"item": "buildinggadgets2:gadget_building", "aspects": {"lucrum": 6, "machina": 1, "metallum": 12, "potentia": 3, "vitreus": 6}},
+  {"item": "buildinggadgets2:gadget_copy_paste", "aspects": {"lucrum": 7, "machina": 1, "metallum": 12, "potentia": 3, "vitreus": 6}},
+  {"item": "buildinggadgets2:gadget_cut_paste", "aspects": {"machina": 1, "metallum": 21, "meto": 4, "potentia": 3}},
+  {"item": "buildinggadgets2:gadget_destruction", "aspects": {"alienis": 6, "iter": 6, "machina": 1, "metallum": 12, "potentia": 3, "praecantatio": 3}},
+  {"item": "buildinggadgets2:gadget_exchanging", "aspects": {"lucrum": 6, "metallum": 12, "potentia": 1, "sensus": 1, "vitreus": 6}},
+  {"item": "buildinggadgets2:redprint", "aspects": {"cognitio": 2, "fabrico": 2, "machina": 2, "ordo": 2}},
+  {"item": "buildinggadgets2:template", "aspects": {"cognitio": 2, "fabrico": 2, "machina": 1, "ordo": 2}}
+]

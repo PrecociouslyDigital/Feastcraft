@@ -1,0 +1,18 @@
+[
+  {"item": "scorchful:cactus_juice", "aspects": {"aqua": 1, "herba": 4, "perditio": 1}},
+  {"item": "scorchful:crimson_lily", "aspects": {"arbor": 1, "herba": 3, "ignis": 1, "sensus": 2}},
+  {"block": "scorchful:crimson_lily", "aspects": {"arbor": 1, "herba": 3, "ignis": 1, "sensus": 2}},
+  {"item": "scorchful:rooted_crimson_nylium", "aspects": {"herba": 3, "ignis": 2, "terra": 4, "victus": 2}},
+  {"block": "scorchful:rooted_crimson_nylium", "aspects": {"herba": 3, "ignis": 2, "terra": 4, "victus": 2}},
+  {"item": "scorchful:rooted_netherrack", "aspects": {"herba": 1, "ignis": 2, "perfodio": 1, "terra": 3}},
+  {"block": "scorchful:rooted_netherrack", "aspects": {"herba": 1, "ignis": 2, "perfodio": 1, "terra": 3}},
+  {"item": "scorchful:rooted_warped_nylium", "aspects": {"alienis": 1, "herba": 3, "terra": 3, "victus": 1}},
+  {"block": "scorchful:rooted_warped_nylium", "aspects": {"alienis": 1, "herba": 3, "terra": 3, "victus": 1}},
+  {"item": "scorchful:sun_hat", "aspects": {"fames": 3, "messis": 7}},
+  {"item": "scorchful:turtle_boots", "aspects": {"bestia": 3, "tutamen": 3}},
+  {"item": "scorchful:turtle_chestplate", "aspects": {"bestia": 6, "tutamen": 6}},
+  {"item": "scorchful:turtle_leggings", "aspects": {"bestia": 5, "tutamen": 5}},
+  {"item": "scorchful:warped_lily", "aspects": {"alienis": 1, "arbor": 1, "herba": 3, "victus": 2}},
+  {"block": "scorchful:warped_lily", "aspects": {"alienis": 1, "arbor": 1, "herba": 3, "victus": 2}},
+  {"item": "scorchful:water_skin", "aspects": {"bestia": 3, "metallum": 3, "pannus": 7, "tutamen": 3}}
+]

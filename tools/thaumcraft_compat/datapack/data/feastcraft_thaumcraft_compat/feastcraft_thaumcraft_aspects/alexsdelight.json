@@ -1,0 +1,16 @@
+[
+  {"item": "alexsdelight:bison_mince", "aspects": {"bestia": 1, "corpus": 1, "fames": 1}},
+  {"item": "alexsdelight:bunfungus_sandwich", "aspects": {"fames": 5, "herba": 3, "messis": 3, "terra": 1, "victus": 1}},
+  {"item": "alexsdelight:cooked_bison", "aspects": {"bestia": 2, "corpus": 2, "fames": 3, "victus": 1}},
+  {"item": "alexsdelight:cooked_bunfungus", "aspects": {"fames": 3}},
+  {"item": "alexsdelight:cooked_centipede_leg", "aspects": {"bestia": 3, "corpus": 2, "venenum": 1}},
+  {"item": "alexsdelight:gongylidia_bruschetta", "aspects": {"aqua": 4, "corpus": 12, "fames": 3, "messis": 3, "victus": 4}},
+  {"item": "alexsdelight:kangaroo_shank", "aspects": {"bestia": 1, "corpus": 1, "fames": 1}},
+  {"item": "alexsdelight:kangaroo_stew", "aspects": {"bestia": 1, "corpus": 2, "fames": 3, "victus": 1}},
+  {"item": "alexsdelight:loose_moose_rib", "aspects": {"bestia": 1, "corpus": 1, "fames": 1}},
+  {"item": "alexsdelight:maggot_salad", "aspects": {"bestia": 1, "corpus": 2, "fames": 9, "herba": 3, "messis": 4, "victus": 3}},
+  {"item": "alexsdelight:raw_bison", "aspects": {"bestia": 3, "corpus": 3, "fames": 4, "victus": 2}},
+  {"item": "alexsdelight:raw_bunfungus", "aspects": {"corpus": 1, "fames": 4, "victus": 1}},
+  {"item": "alexsdelight:raw_bunfungus_drumstick", "aspects": {"fames": 1}},
+  {"item": "alexsdelight:raw_catfish_slice", "aspects": {"aqua": 1, "corpus": 1, "fames": 1}}
+]

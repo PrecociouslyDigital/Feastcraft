@@ -1,0 +1,6 @@
+[
+  {"item": "berry_good:glowgurt", "aspects": {"aqua": 2, "fames": 2, "herba": 3, "metallum": 6, "sano": 1, "vacuos": 1}},
+  {"item": "berry_good:music_disc_fox", "aspects": {"instrumentum": 1}},
+  {"item": "berry_good:sweet_berry_meatballs", "aspects": {"corpus": 1}},
+  {"item": "berry_good:sweet_berry_mince", "aspects": {"corpus": 2}}
+]

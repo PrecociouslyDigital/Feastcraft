@@ -7,3 +7,35 @@
 "create:zinc_nugget" = { metallum = 1 }
 
 [entity]
+
+# Vanilla items TC Modern Lib gives no aspects in the export, though Thaumcraft may in game. These
+# only feed the recipe step, and are never written into the datapack. Our guesses, not Thaumcraft's.
+[known]
+"minecraft:sugar" = { fames = 1, aqua = 1 }
+"minecraft:redstone" = { potentia = 2, machina = 1 }
+"minecraft:chain" = { metallum = 3, vinculum = 1 }
+"minecraft:string" = { pannus = 1, bestia = 1 }
+"minecraft:honeycomb" = { bestia = 1, limus = 1 }
+"minecraft:carrot" = { messis = 1, fames = 1, sensus = 1 }
+"minecraft:sweet_berries" = { herba = 1, fames = 1 }
+"minecraft:potato" = { messis = 1, fames = 1, terra = 1 }
+"minecraft:andesite" = { terra = 2 }
+"minecraft:diorite" = { terra = 2 }
+"minecraft:granite" = { terra = 2 }
+"minecraft:polished_andesite" = { terra = 2 }
+"minecraft:polished_diorite" = { terra = 2 }
+"minecraft:polished_granite" = { terra = 2 }
+"minecraft:smooth_stone" = { terra = 2 }
+"minecraft:prismarine_shard" = { aqua = 1, vitreus = 1 }
+"minecraft:prismarine_crystals" = { aqua = 1, lux = 1, vitreus = 1 }
+"minecraft:iron_nugget" = { metallum = 1 }
+"minecraft:cocoa_beans" = { herba = 1, fames = 1 }
+"minecraft:scute" = { bestia = 1, tutamen = 1 }
+"minecraft:red_sandstone" = { terra = 3, perditio = 3 }
+"minecraft:purpur_block" = { alienis = 2, terra = 1 }
+"minecraft:end_stone_bricks" = { alienis = 1, terra = 2 }
+"minecraft:bone_block" = { mortuus = 3, corpus = 1 }
+"minecraft:rabbit_hide" = { bestia = 1, tutamen = 1 }
+"minecraft:red_nether_bricks" = { ignis = 2, terra = 2 }
+"minecraft:crying_obsidian" = { terra = 2, ignis = 1, tenebrae = 1 }
+"minecraft:glow_ink_sac" = { aqua = 1, bestia = 1, lux = 1 }

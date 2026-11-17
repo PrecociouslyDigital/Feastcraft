@@ -44,6 +44,31 @@ gives any:
 `subjects.tsv` lists every subject with its aspects and the step that gave them, so it can be read
 through. Spawn eggs get no aspects.
 
+### Asking about raw materials
+
+Each raw material is asked about through OpenRouter's Decisions API: one yes/no question per aspect,
+with the subject's id, English name, tags and food value as the state. A request holds up to four
+subjects, which keeps it under 32,000 bytes. The most probable aspects over even odds are kept, at
+most four, at 1 to 4 by probability. That mapping is crude, so a raw material that matters belongs
+in `aspects.toml`.
+
+Jev answers first. Where Jev is unsure, mammoth-1 is asked too and its answer wins. mammoth-1 knows
+more about the world, but it's paid, so it only gets the tenth of subjects where no aspect is
+clearly there.
+
+`aspects` writes the requests it has no answer for to `build/pending`, and prints how to send them:
+
+```sh
+# from the repo root, where secretspec.toml is
+secretspec run --reason "Thaumcraft aspects" -- tools/thaumcraft_compat/decide.sh \
+    tools/thaumcraft_compat/decisions tools/thaumcraft_compat/build/pending
+```
+
+`decide.sh` comes from Cookbook of Babel, and resumes if stopped. Answers are kept in `decisions/`,
+named by the hash of the request, and committed, so a rerun only asks about new or reworded
+subjects. mammoth-1's requests only exist once Jev has answered, so it takes two rounds. Once
+Jev has nothing pending, answers nothing refers to any more are deleted.
+
 ### The block budget
 
 A block with aspects takes one of MFCL's legacy block ids. There are 4,095, and MFCL also hands

@@ -1,0 +1,9 @@
+[
+  {"entity": "pet_cemetery:skeleton_cat", "aspects": {"bestia": 2, "exanimis": 4, "mortuus": 3, "motus": 2}},
+  {"entity": "pet_cemetery:skeleton_parrot", "aspects": {"exanimis": 4, "mortuus": 3, "motus": 2, "volatus": 3}},
+  {"entity": "pet_cemetery:skeleton_wolf", "aspects": {"bestia": 2, "exanimis": 4, "fames": 3, "mortuus": 2}},
+  {"entity": "pet_cemetery:zombie_cat", "aspects": {"bestia": 3, "corpus": 3, "exanimis": 2, "mortuus": 3}},
+  {"entity": "pet_cemetery:zombie_parrot", "aspects": {"bestia": 3, "corpus": 3, "exanimis": 4, "volatus": 3}},
+  {"entity": "pet_cemetery:zombie_wolf", "aspects": {"bestia": 3, "corpus": 3, "exanimis": 4, "mortuus": 2}},
+  {"item": "pet_cemetery:pet_collar", "aspects": {"bestia": 1, "fabrico": 1, "tutamen": 2, "vinculum": 1}}
+]

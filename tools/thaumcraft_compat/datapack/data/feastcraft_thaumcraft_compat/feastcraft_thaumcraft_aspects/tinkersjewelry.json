@@ -1,0 +1,14 @@
+[
+  {"item": "tinkersjewelry:book", "aspects": {"cognitio": 2}},
+  {"item": "tinkersjewelry:eudialyte", "aspects": {"lucrum": 3, "vitreus": 3}},
+  {"item": "tinkersjewelry:fire_opal", "aspects": {"lux": 1}},
+  {"item": "tinkersjewelry:gem", "aspects": {"fabrico": 3, "lucrum": 4, "tutamen": 3, "vitreus": 4}},
+  {"item": "tinkersjewelry:malachite", "aspects": {"lucrum": 3, "vitreus": 3}},
+  {"item": "tinkersjewelry:merlinite", "aspects": {"lux": 1}},
+  {"item": "tinkersjewelry:plain_ring", "aspects": {"fabrico": 2, "terra": 1}},
+  {"item": "tinkersjewelry:plain_ring_cast", "aspects": {"fabrico": 1}},
+  {"item": "tinkersjewelry:plain_ring_red_sand_cast", "aspects": {"fabrico": 3, "ignis": 1, "terra": 2}},
+  {"item": "tinkersjewelry:plain_ring_sand_cast", "aspects": {"fabrico": 3, "terra": 2}},
+  {"item": "tinkersjewelry:ring", "aspects": {"fabrico": 2, "lucrum": 2, "metallum": 2, "ordo": 1}},
+  {"item": "tinkersjewelry:rubellite", "aspects": {"messis": 1}}
+]

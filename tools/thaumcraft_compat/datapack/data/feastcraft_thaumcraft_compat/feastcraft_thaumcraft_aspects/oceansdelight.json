@@ -1,0 +1,13 @@
+[
+  {"item": "oceansdelight:baked_tentacle_on_a_stick", "aspects": {"corpus": 1, "fames": 2}},
+  {"item": "oceansdelight:bowl_of_guardian_soup", "aspects": {"aqua": 1, "fames": 4, "herba": 2, "victus": 1}},
+  {"item": "oceansdelight:cooked_stuffed_cod", "aspects": {"aqua": 1, "corpus": 1, "fames": 2, "herba": 2, "messis": 1}},
+  {"item": "oceansdelight:cut_tentacles", "aspects": {"fames": 1}},
+  {"item": "oceansdelight:elder_guardian_slab", "aspects": {"alienis": 2, "bestia": 2, "corpus": 3, "fames": 4}},
+  {"item": "oceansdelight:guardian", "aspects": {"praecantatio": 1, "tutamen": 1}},
+  {"item": "oceansdelight:honey_fried_kelp", "aspects": {"fames": 1, "victus": 3}},
+  {"item": "oceansdelight:seagrass_salad", "aspects": {"aqua": 1, "herba": 1}},
+  {"item": "oceansdelight:stuffed_cod", "aspects": {"aqua": 2, "corpus": 2, "fames": 3, "herba": 3, "messis": 2, "terra": 1}},
+  {"item": "oceansdelight:tentacle_on_a_stick", "aspects": {"bestia": 1, "corpus": 2, "fames": 3}},
+  {"item": "oceansdelight:tentacles", "aspects": {"aqua": 1, "bestia": 2, "corpus": 3, "fames": 4}}
+]

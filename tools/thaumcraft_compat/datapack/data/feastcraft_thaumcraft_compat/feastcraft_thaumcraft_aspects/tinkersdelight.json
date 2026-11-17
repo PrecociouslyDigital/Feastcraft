@@ -1,0 +1,21 @@
+[
+  {"item": "tinkersdelight:cheesecake_1", "aspects": {"fames": 4, "sensus": 2, "victus": 2}},
+  {"block": "tinkersdelight:cheesecake_1", "aspects": {"fames": 4, "sensus": 2, "victus": 2}},
+  {"item": "tinkersdelight:cheesecake_2", "aspects": {"fabrico": 1, "fames": 4, "sensus": 3, "victus": 1}},
+  {"block": "tinkersdelight:cheesecake_2", "aspects": {"fabrico": 1, "fames": 4, "sensus": 3, "victus": 1}},
+  {"item": "tinkersdelight:cheesecake_3", "aspects": {"fabrico": 1, "fames": 4, "sensus": 3, "victus": 1}},
+  {"block": "tinkersdelight:cheesecake_3", "aspects": {"fabrico": 1, "fames": 4, "sensus": 3, "victus": 1}},
+  {"item": "tinkersdelight:cobalt_knife", "aspects": {"metallum": 1, "terra": 1}},
+  {"item": "tinkersdelight:crimson_broth", "aspects": {"corpus": 1, "exanimis": 3, "herba": 3, "limus": 1, "mortuus": 2, "terra": 1}},
+  {"item": "tinkersdelight:earthslime_cake_slice", "aspects": {"limus": 1, "terra": 1}},
+  {"item": "tinkersdelight:enderslime_cake_slice", "aspects": {"alienis": 1, "limus": 1}},
+  {"item": "tinkersdelight:honey_pie_1", "aspects": {"fabrico": 1, "fames": 4, "sensus": 3, "victus": 1}},
+  {"block": "tinkersdelight:honey_pie_1", "aspects": {"fabrico": 1, "fames": 4, "sensus": 3, "victus": 1}},
+  {"item": "tinkersdelight:honey_pie_2", "aspects": {"fabrico": 1, "fames": 4, "sensus": 3, "victus": 1}},
+  {"block": "tinkersdelight:honey_pie_2", "aspects": {"fabrico": 1, "fames": 4, "sensus": 3, "victus": 1}},
+  {"item": "tinkersdelight:honey_pie_3", "aspects": {"fabrico": 2, "fames": 4, "messis": 1, "sensus": 3}},
+  {"block": "tinkersdelight:honey_pie_3", "aspects": {"fabrico": 2, "fames": 4, "messis": 1, "sensus": 3}},
+  {"item": "tinkersdelight:ichor_salad", "aspects": {"exanimis": 2, "mortuus": 1}},
+  {"item": "tinkersdelight:jewel_fruit_salad", "aspects": {"fames": 2, "messis": 2}},
+  {"item": "tinkersdelight:skyslime_cake_slice", "aspects": {"limus": 1}}
+]

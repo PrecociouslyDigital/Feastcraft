@@ -1,0 +1,19 @@
+[
+  {"item": "cavebiomesdelight:cooked_ice_cube", "aspects": {"aqua": 1, "corpus": 1, "fames": 2, "gelum": 2}},
+  {"item": "cavebiomesdelight:cooked_sand_shapper", "aspects": {"corpus": 1, "fames": 2}},
+  {"item": "cavebiomesdelight:cut_ice_cube", "aspects": {"fames": 1, "gelum": 1}},
+  {"item": "cavebiomesdelight:cut_sand_shapper", "aspects": {"fames": 1}},
+  {"item": "cavebiomesdelight:frost_lily_ice_cream", "aspects": {"aqua": 1, "gelum": 5, "herba": 2, "victus": 1}},
+  {"item": "cavebiomesdelight:frost_lily_punch", "aspects": {"aqua": 3, "fames": 1, "gelum": 5, "herba": 2, "victus": 1}},
+  {"item": "cavebiomesdelight:glazed_frost_lily", "aspects": {"aqua": 2, "fames": 6, "gelum": 8, "herba": 5, "messis": 1, "victus": 4}},
+  {"item": "cavebiomesdelight:ice_cube", "aspects": {"aqua": 2, "corpus": 2, "fames": 3, "gelum": 3}},
+  {"item": "cavebiomesdelight:icicle_juice", "aspects": {"aqua": 5, "gelum": 9, "vitreus": 2}},
+  {"item": "cavebiomesdelight:icicle_knife", "aspects": {"aqua": 1, "gelum": 3}},
+  {"item": "cavebiomesdelight:icicle_wrap", "aspects": {"aqua": 1, "fames": 3, "gelum": 3, "messis": 6}},
+  {"item": "cavebiomesdelight:prickly_peach_bun", "aspects": {"fames": 4, "herba": 1, "messis": 3, "victus": 1}},
+  {"item": "cavebiomesdelight:prickly_peach_cookie", "aspects": {"fames": 3, "herba": 1, "messis": 2, "victus": 1}},
+  {"item": "cavebiomesdelight:prickly_peach_juice", "aspects": {"fames": 9, "herba": 4, "messis": 2, "victus": 4}},
+  {"item": "cavebiomesdelight:prickly_peach_pie", "aspects": {"fames": 14, "herba": 6, "messis": 6, "metallum": 4, "victus": 6}},
+  {"item": "cavebiomesdelight:prickly_peach_porridge", "aspects": {"fames": 12, "herba": 6, "messis": 3, "victus": 6}},
+  {"item": "cavebiomesdelight:sand_shapper", "aspects": {"corpus": 2, "fames": 3, "victus": 1}}
+]

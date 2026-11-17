@@ -1,0 +1,20 @@
+[
+  {"entity": "savage_and_ravage:creepie", "aspects": {"bestia": 1, "corpus": 3, "motus": 2, "victus": 2}},
+  {"entity": "savage_and_ravage:executioner", "aspects": {"corpus": 3, "motus": 2, "telum": 2, "victus": 2}},
+  {"entity": "savage_and_ravage:griefer", "aspects": {"telum": 1}},
+  {"entity": "savage_and_ravage:iceologer", "aspects": {"gelum": 2, "praecantatio": 1}},
+  {"entity": "savage_and_ravage:skeleton_villager", "aspects": {"exanimis": 4, "mortuus": 2, "spiritus": 1, "telum": 1}},
+  {"entity": "savage_and_ravage:trickster", "aspects": {"telum": 1}},
+  {"item": "savage_and_ravage:blast_proof_plating", "aspects": {"lucrum": 3, "metallum": 4, "potentia": 2}},
+  {"item": "savage_and_ravage:cleaver_of_beheading", "aspects": {"fabrico": 1, "metallum": 2, "mortuus": 1, "telum": 4}},
+  {"item": "savage_and_ravage:conch_of_conjuring", "aspects": {"aqua": 2, "auram": 1, "instrumentum": 1, "praecantatio": 3}},
+  {"item": "savage_and_ravage:creeper_spores", "aspects": {"potentia": 1}},
+  {"item": "savage_and_ravage:griefer_boots", "aspects": {"lucrum": 9, "metallum": 12, "potentia": 6}},
+  {"item": "savage_and_ravage:griefer_chestplate", "aspects": {"lucrum": 18, "metallum": 24, "potentia": 12}},
+  {"item": "savage_and_ravage:griefer_helmet", "aspects": {"lucrum": 11, "metallum": 15, "potentia": 7}},
+  {"item": "savage_and_ravage:griefer_leggings", "aspects": {"lucrum": 15, "metallum": 21, "potentia": 10}},
+  {"item": "savage_and_ravage:mask_of_dishonesty", "aspects": {"fabrico": 2, "humanus": 1, "praecantatio": 1, "tutamen": 4}},
+  {"item": "savage_and_ravage:runed_gloomy_tiles", "aspects": {"fabrico": 2, "praecantatio": 2, "tenebrae": 2, "terra": 2}},
+  {"block": "savage_and_ravage:runed_gloomy_tiles", "aspects": {"fabrico": 2, "praecantatio": 2, "tenebrae": 2, "terra": 2}},
+  {"item": "savage_and_ravage:wand_of_freezing", "aspects": {"gelum": 4, "instrumentum": 3, "potentia": 3, "praecantatio": 3}}
+]

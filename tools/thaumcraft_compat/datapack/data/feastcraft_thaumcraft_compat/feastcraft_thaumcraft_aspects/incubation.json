@@ -1,0 +1,6 @@
+[
+  {"item": "incubation:fried_egg", "aspects": {"fames": 1}},
+  {"item": "incubation:scrambled_eggs", "aspects": {"bestia": 1, "limus": 1, "victus": 1}},
+  {"item": "incubation:twig_nest", "aspects": {"arbor": 3, "fabrico": 1, "herba": 2, "volatus": 1}},
+  {"block": "incubation:twig_nest", "aspects": {"arbor": 3, "fabrico": 1, "herba": 2, "volatus": 1}}
+]

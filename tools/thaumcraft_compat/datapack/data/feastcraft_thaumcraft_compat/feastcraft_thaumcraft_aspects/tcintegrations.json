@@ -1,0 +1,17 @@
+[
+  {"item": "tcintegrations:bronze_ingot", "aspects": {"fabrico": 6}},
+  {"item": "tcintegrations:bronze_nugget", "aspects": {"fabrico": 1}},
+  {"item": "tcintegrations:molten_calorite_bucket", "aspects": {"ignis": 2, "metallum": 3, "potentia": 1, "vacuos": 1}},
+  {"item": "tcintegrations:molten_cloggrum_bucket", "aspects": {"ignis": 1, "metallum": 2, "vacuos": 1}},
+  {"item": "tcintegrations:molten_desh_bucket", "aspects": {"ignis": 1, "metallum": 3, "terra": 1, "vacuos": 1}},
+  {"item": "tcintegrations:molten_dragonsteel_fire_bucket", "aspects": {"fabrico": 1, "ignis": 4, "metallum": 4, "praecantatio": 1}},
+  {"item": "tcintegrations:molten_dragonsteel_ice_bucket", "aspects": {"fabrico": 1, "gelum": 4, "metallum": 4, "vacuos": 3}},
+  {"item": "tcintegrations:molten_dragonsteel_lightning_bucket", "aspects": {"metallum": 4, "potentia": 3, "tempestas": 3, "vacuos": 2}},
+  {"item": "tcintegrations:molten_forgotten_metal_bucket", "aspects": {"ignis": 2, "metallum": 4, "vacuos": 2, "vitium": 1}},
+  {"item": "tcintegrations:molten_froststeel_bucket", "aspects": {"fabrico": 2, "gelum": 3, "metallum": 4, "vacuos": 2}},
+  {"item": "tcintegrations:molten_manasteel_bucket", "aspects": {"fabrico": 1, "ignis": 3, "metallum": 4, "vacuos": 3}},
+  {"item": "tcintegrations:molten_neptunium_bucket", "aspects": {"ignis": 3, "metallum": 4, "potentia": 2, "vitium": 2}},
+  {"item": "tcintegrations:molten_ostrum_bucket", "aspects": {"ignis": 3, "metallum": 3, "potentia": 2, "vacuos": 2}},
+  {"item": "tcintegrations:molten_soul_stained_steel_bucket", "aspects": {"metallum": 4, "spiritus": 4, "vacuos": 3, "vitium": 3}},
+  {"item": "tcintegrations:molten_source_gem_bucket", "aspects": {"potentia": 2, "praecantatio": 3, "vacuos": 3, "vitreus": 3}}
+]

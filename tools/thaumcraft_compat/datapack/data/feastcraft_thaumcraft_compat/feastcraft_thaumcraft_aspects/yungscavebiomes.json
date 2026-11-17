@@ -1,0 +1,22 @@
+[
+  {"entity": "yungscavebiomes:ice_cube", "aspects": {"bestia": 1, "corpus": 1, "gelum": 3, "victus": 1}},
+  {"entity": "yungscavebiomes:sand_snapper", "aspects": {"bestia": 2, "corpus": 2, "motus": 1, "victus": 1}},
+  {"item": "yungscavebiomes:ancient_armor_trim_smithing_template", "aspects": {"fabrico": 3, "metallum": 2, "ordo": 2, "tutamen": 2}},
+  {"item": "yungscavebiomes:clock_pottery_sherd", "aspects": {"fabrico": 3, "perditio": 1, "terra": 3}},
+  {"item": "yungscavebiomes:frost_lily", "aspects": {"aqua": 1, "gelum": 3, "herba": 3, "victus": 2}},
+  {"block": "yungscavebiomes:frost_lily", "aspects": {"aqua": 1, "gelum": 3, "herba": 3, "victus": 2}},
+  {"item": "yungscavebiomes:hourglass_pottery_sherd", "aspects": {"fabrico": 3, "ordo": 1, "perditio": 3, "terra": 3}},
+  {"item": "yungscavebiomes:ice_sheet", "aspects": {"aqua": 1, "gelum": 3, "motus": 2}},
+  {"block": "yungscavebiomes:ice_sheet", "aspects": {"aqua": 1, "gelum": 3, "motus": 2}},
+  {"item": "yungscavebiomes:icicle", "aspects": {"aqua": 2, "gelum": 4, "vitreus": 1}},
+  {"block": "yungscavebiomes:icicle", "aspects": {"aqua": 2, "gelum": 4, "vitreus": 1}},
+  {"item": "yungscavebiomes:prickly_peach", "aspects": {"fames": 4, "herba": 2, "messis": 1, "victus": 2}},
+  {"item": "yungscavebiomes:prickly_peach_cactus", "aspects": {"arbor": 1, "herba": 3, "terra": 1, "victus": 2}},
+  {"block": "yungscavebiomes:prickly_peach_cactus", "aspects": {"arbor": 1, "herba": 3, "terra": 1, "victus": 2}},
+  {"item": "yungscavebiomes:prickly_vines", "aspects": {"arbor": 2, "herba": 3, "victus": 2, "vinculum": 1}},
+  {"block": "yungscavebiomes:prickly_vines", "aspects": {"arbor": 2, "herba": 3, "victus": 2, "vinculum": 1}},
+  {"item": "yungscavebiomes:rare_ice", "aspects": {"aqua": 3, "gelum": 4, "praecantatio": 3, "vitreus": 1}},
+  {"block": "yungscavebiomes:rare_ice", "aspects": {"aqua": 3, "gelum": 4, "praecantatio": 3, "vitreus": 1}},
+  {"item": "yungscavebiomes:suspicious_ancient_sand", "aspects": {"perfodio": 3, "terra": 4}},
+  {"block": "yungscavebiomes:suspicious_ancient_sand", "aspects": {"perfodio": 3, "terra": 4}}
+]

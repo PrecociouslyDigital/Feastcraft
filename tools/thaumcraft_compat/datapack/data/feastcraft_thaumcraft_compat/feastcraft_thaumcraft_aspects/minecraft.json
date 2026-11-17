@@ -1,0 +1,5 @@
+[
+  {"block": "minecraft:powder_snow", "aspects": {"gelum": 3, "lucrum": 3, "terra": 1, "vacuos": 3}},
+  {"block": "minecraft:fire", "aspects": {"ignis": 4, "lux": 3, "motus": 1, "potentia": 1}},
+  {"block": "minecraft:soul_fire", "aspects": {"exanimis": 2, "ignis": 4, "lux": 3, "spiritus": 3}}
+]

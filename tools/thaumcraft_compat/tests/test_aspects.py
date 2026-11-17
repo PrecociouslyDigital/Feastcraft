@@ -24,6 +24,7 @@ def make_export(items: list[str], recipes: list[Recipe] = [], tags: dict[str, fr
     known = {Subject("item", id): aspects for id, aspects in VANILLA.items()}
     return Export(
         items={id: None for id in list(VANILLA) + items},
+        names={},
         blocks=blocks,
         mobs=mobs,
         recipes=tuple(recipes),
@@ -92,12 +93,15 @@ class BudgetTests(unittest.TestCase):
         crafted = [f"mod:crafted_{i}" for i in range(budget.BLOCK_BUDGET)]
         raws = [f"mod:raw_{i}" for i in range(10)]
         items = crafted + raws
-        export = make_export(items, [recipe(id, id, 1, "minecraft:stone") for id in crafted],
-                             blocks={id: id for id in items})
+        blocks: dict[str, str | None] = {id: id for id in items}
+        blocks |= {f"{id}_on_a_wall": id for id in crafted[::2]}
+        export = make_export(items, [recipe(id, id, 1, "minecraft:stone") for id in crafted], blocks=blocks)
         resolved = derive.resolve(export, {}, {}, {})
         raw_materials = raw.raw_materials(export, resolved)
         kept = budget.kept(export, resolved, raw_materials, Counter())
-        self.assertEqual(budget.BLOCK_BUDGET, len(kept))
+        blocks_kept = [block for block, item in blocks.items() if item in kept]
+        self.assertGreaterEqual(budget.BLOCK_BUDGET, len(blocks_kept))
+        self.assertLess(budget.BLOCK_BUDGET - 2, len(blocks_kept))
         self.assertTrue(set(raws) <= kept)
 
 

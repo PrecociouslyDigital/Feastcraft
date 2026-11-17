@@ -31,7 +31,7 @@ def kept(
     raw: Iterable[Subject],
     uses: Counter[str],
 ) -> set[str]:
-    """The block items within the budget: raw materials first, then crafted blocks, then tagged ones, shapes last."""
+    """The block items whose blocks fit the budget: raw materials first, then crafted blocks, then tagged ones, shapes last."""
     blocks = block_items(export)
 
     def tier(subject: Subject) -> int:
@@ -47,5 +47,13 @@ def kept(
         return 0
 
     candidates = [s for s in list(resolved) + list(raw) if s.kind == "item" and s.id in blocks]
-    ranked = sorted(set(candidates), key=lambda s: (tier(s), -uses[s.id], s.id))
-    return {s.id for s in ranked[:BLOCK_BUDGET]}
+    out: set[str] = set()
+    spent = 0
+    for subject in sorted(set(candidates), key=lambda s: (tier(s), -uses[s.id], s.id)):
+        # A torch item places two blocks, the torch and the wall torch.
+        cost = len(blocks[subject.id])
+        if spent + cost > BLOCK_BUDGET:
+            break
+        out.add(subject.id)
+        spent += cost
+    return out

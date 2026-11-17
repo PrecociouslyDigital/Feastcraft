@@ -1,0 +1,14 @@
+[
+  {"item": "farmersrespite:black_cod", "aspects": {"aqua": 1, "corpus": 3, "fames": 3, "herba": 2, "metallum": 3}},
+  {"item": "farmersrespite:black_tea_leaves", "aspects": {"herba": 2}},
+  {"item": "farmersrespite:blazing_chili", "aspects": {"fames": 2, "herba": 1, "ignis": 1, "praecantatio": 1}},
+  {"item": "farmersrespite:coffee_berries", "aspects": {"fames": 4, "herba": 1, "sensus": 1, "victus": 1}},
+  {"item": "farmersrespite:green_tea_leaves", "aspects": {"fames": 1, "herba": 4, "messis": 2, "sensus": 2}},
+  {"item": "farmersrespite:nether_wart_sourdough", "aspects": {"herba": 3, "praecantatio": 1, "tenebrae": 1}},
+  {"item": "farmersrespite:tea_curry", "aspects": {"fames": 3, "herba": 6, "messis": 4, "sensus": 1}},
+  {"item": "farmersrespite:wild_coffee_bush", "aspects": {"fames": 2, "herba": 4, "messis": 1, "sensus": 1}},
+  {"block": "farmersrespite:wild_coffee_bush", "aspects": {"fames": 2, "herba": 4, "messis": 1, "sensus": 1}},
+  {"item": "farmersrespite:wild_tea_bush", "aspects": {"fames": 2, "herba": 4, "messis": 2, "sensus": 1}},
+  {"block": "farmersrespite:wild_tea_bush", "aspects": {"fames": 2, "herba": 4, "messis": 2, "sensus": 1}},
+  {"item": "farmersrespite:yellow_tea_leaves", "aspects": {"herba": 3, "messis": 1, "sensus": 1}}
+]

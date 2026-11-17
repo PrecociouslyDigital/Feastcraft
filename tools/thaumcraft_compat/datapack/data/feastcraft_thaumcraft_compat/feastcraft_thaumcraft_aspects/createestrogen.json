@@ -1,0 +1,9 @@
+[
+  {"item": "createestrogen:estrogen_cardboard_package_10x12", "aspects": {"arbor": 2, "fabrico": 3, "sano": 2, "vacuos": 2}},
+  {"item": "createestrogen:estrogen_cardboard_package_10x8", "aspects": {"fabrico": 2, "sano": 2, "vacuos": 2}},
+  {"item": "createestrogen:estrogen_cardboard_package_12x10", "aspects": {"fabrico": 2, "sano": 2, "vacuos": 2}},
+  {"item": "createestrogen:estrogen_cardboard_package_12x12", "aspects": {"fabrico": 3, "ordo": 1, "sano": 2, "vacuos": 2}},
+  {"item": "createestrogen:incomplete_estrogen_patches", "aspects": {"fabrico": 1, "sano": 2}},
+  {"item": "createestrogen:incomplete_uwu", "aspects": {"perditio": 1}},
+  {"item": "createestrogen:used_filter", "aspects": {"pannus": 2}}
+]

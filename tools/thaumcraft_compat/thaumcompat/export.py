@@ -39,6 +39,8 @@ class Recipe:
 @dataclass(frozen=True)
 class Export:
     items: dict[str, Food | None]
+    # English names of items and mobs.
+    names: dict[str, str]
     # Block id to the item that places it.
     blocks: dict[str, str | None]
     # Entity ids that have attributes, which is to say mobs.
@@ -107,15 +109,16 @@ def _tags(data: Path, folder: str) -> dict[str, frozenset[str]]:
 
 
 def load(export: Path) -> Export:
-    items = {
-        id: Food(int(hunger), float(saturation)) if hunger else None
-        for id, hunger, saturation in _rows(export / "items.tsv")
-    }
+    item_rows = list(_rows(export / "items.tsv"))
+    entity_rows = list(_rows(export / "entities.tsv"))
+    items = {id: Food(int(hunger), float(saturation)) if hunger else None for id, hunger, saturation, _ in item_rows}
+    names = {row[0]: row[-1] for row in item_rows + entity_rows}
     blocks = {block: item or None for block, item in _rows(export / "blocks.tsv")}
-    mobs = frozenset(id for id, _category, living in _rows(export / "entities.tsv") if living)
+    mobs = frozenset(id for id, _category, living, _ in entity_rows if living)
     known = {Subject(kind, id): parse_aspects(aspects) for kind, id, aspects in _rows(export / "aspects.tsv")}  # type: ignore[arg-type]
     return Export(
         items=items,
+        names=names,
         blocks=blocks,
         mobs=mobs,
         recipes=tuple(_recipes(export / "recipes.tsv")),

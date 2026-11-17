@@ -1,0 +1,9 @@
+[
+  {"item": "quarkdelight:bowl_of_exotic_fruits", "aspects": {"fames": 4, "herba": 1, "praecantatio": 2, "victus": 3}},
+  {"item": "quarkdelight:bucket_of_sweet_gelatine", "aspects": {"aqua": 2, "fames": 1, "limus": 3, "messis": 1, "vacuos": 1}},
+  {"item": "quarkdelight:cloud_latte", "aspects": {"aqua": 2, "fames": 3, "herba": 1, "metallum": 6, "sano": 1}},
+  {"item": "quarkdelight:cooked_whole_crab", "aspects": {"aqua": 6, "bestia": 6, "corpus": 6, "fames": 7, "messis": 1, "tutamen": 2}},
+  {"item": "quarkdelight:crab_bars", "aspects": {"corpus": 1}},
+  {"item": "quarkdelight:lush_moss_salad", "aspects": {"herba": 3}},
+  {"item": "quarkdelight:miso_with_bamboo_sprouts", "aspects": {"corpus": 2, "fames": 2, "herba": 3, "victus": 1}}
+]
