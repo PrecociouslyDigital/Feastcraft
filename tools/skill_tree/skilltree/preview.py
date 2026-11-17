@@ -18,8 +18,8 @@ def radius(content: Content) -> float:
 
 def svg(tree: Tree) -> str:
     out = [
-        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1000 -1000 2000 2000" width="2000" height="2000">',
-        '<rect x="-1000" y="-1000" width="2000" height="2000" fill="#17141f"/>',
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1100 -1100 2200 2200" width="2200" height="2200">',
+        '<rect x="-1100" y="-1100" width="2200" height="2200" fill="#17141f"/>',
     ]
     for a, b in tree.edges:
         pa, pb = tree.nodes[a].at, tree.nodes[b].at

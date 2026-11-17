@@ -298,6 +298,46 @@
         "spoke.blade_bulwark.8"
       ],
       [
+        "far.arcane_blade",
+        "blade.far.0"
+      ],
+      [
+        "blade.far.0",
+        "blade.far.1"
+      ],
+      [
+        "blade.far.1",
+        "blade.far.2"
+      ],
+      [
+        "blade.far.2",
+        "blade.far.3"
+      ],
+      [
+        "blade.far.3",
+        "blade.far.4"
+      ],
+      [
+        "blade.far.4",
+        "blade.far.5"
+      ],
+      [
+        "blade.far.5",
+        "blade.far.6"
+      ],
+      [
+        "blade.far.6",
+        "blade.far.7"
+      ],
+      [
+        "blade.far.7",
+        "blade.far.8"
+      ],
+      [
+        "blade.far.8",
+        "far.blade_bulwark"
+      ],
+      [
         "blade.edgework.1",
         "blade.edgework.2"
       ],
@@ -494,6 +534,50 @@
         "blade.signet.1"
       ],
       [
+        "blade.bladesong.1",
+        "blade.bladesong.2"
+      ],
+      [
+        "blade.bladesong.2",
+        "blade.bladesong.keen_edge"
+      ],
+      [
+        "blade.bladesong.keen_edge",
+        "blade.bladesong.3"
+      ],
+      [
+        "blade.bladesong.3",
+        "blade.bladesong.4"
+      ],
+      [
+        "blade.bladesong.4",
+        "blade.bladesong.5"
+      ],
+      [
+        "blade.bladesong.5",
+        "blade.bladesong.deep_cuts"
+      ],
+      [
+        "blade.bladesong.deep_cuts",
+        "blade.bladesong.6"
+      ],
+      [
+        "blade.bladesong.6",
+        "blade.bladesong.1"
+      ],
+      [
+        "blade.bladesong.7",
+        "blade.bladesong.1"
+      ],
+      [
+        "blade.bladesong.7",
+        "blade.bladesong.4"
+      ],
+      [
+        "blade.far.4",
+        "blade.bladesong.1"
+      ],
+      [
         "blade.edgework.4",
         "blade.outer.2"
       ],
@@ -556,6 +640,46 @@
       [
         "bulwark.outer.4",
         "spoke.bulwark_delver.8"
+      ],
+      [
+        "far.blade_bulwark",
+        "bulwark.far.0"
+      ],
+      [
+        "bulwark.far.0",
+        "bulwark.far.1"
+      ],
+      [
+        "bulwark.far.1",
+        "bulwark.far.2"
+      ],
+      [
+        "bulwark.far.2",
+        "bulwark.far.3"
+      ],
+      [
+        "bulwark.far.3",
+        "bulwark.far.4"
+      ],
+      [
+        "bulwark.far.4",
+        "bulwark.far.5"
+      ],
+      [
+        "bulwark.far.5",
+        "bulwark.far.6"
+      ],
+      [
+        "bulwark.far.6",
+        "bulwark.far.7"
+      ],
+      [
+        "bulwark.far.7",
+        "bulwark.far.8"
+      ],
+      [
+        "bulwark.far.8",
+        "far.bulwark_delver"
       ],
       [
         "bulwark.plating.1",
@@ -746,6 +870,50 @@
         "bulwark.evasion.1"
       ],
       [
+        "bulwark.runic_plate.1",
+        "bulwark.runic_plate.2"
+      ],
+      [
+        "bulwark.runic_plate.2",
+        "bulwark.runic_plate.runic_weave"
+      ],
+      [
+        "bulwark.runic_plate.runic_weave",
+        "bulwark.runic_plate.3"
+      ],
+      [
+        "bulwark.runic_plate.3",
+        "bulwark.runic_plate.4"
+      ],
+      [
+        "bulwark.runic_plate.4",
+        "bulwark.runic_plate.5"
+      ],
+      [
+        "bulwark.runic_plate.5",
+        "bulwark.runic_plate.ironhide"
+      ],
+      [
+        "bulwark.runic_plate.ironhide",
+        "bulwark.runic_plate.6"
+      ],
+      [
+        "bulwark.runic_plate.6",
+        "bulwark.runic_plate.1"
+      ],
+      [
+        "bulwark.runic_plate.7",
+        "bulwark.runic_plate.1"
+      ],
+      [
+        "bulwark.runic_plate.7",
+        "bulwark.runic_plate.4"
+      ],
+      [
+        "bulwark.far.4",
+        "bulwark.runic_plate.1"
+      ],
+      [
         "bulwark.plating.4",
         "bulwark.outer.1"
       ],
@@ -800,6 +968,46 @@
       [
         "delver.outer.4",
         "spoke.delver_gourmand.8"
+      ],
+      [
+        "far.bulwark_delver",
+        "delver.far.0"
+      ],
+      [
+        "delver.far.0",
+        "delver.far.1"
+      ],
+      [
+        "delver.far.1",
+        "delver.far.2"
+      ],
+      [
+        "delver.far.2",
+        "delver.far.3"
+      ],
+      [
+        "delver.far.3",
+        "delver.far.4"
+      ],
+      [
+        "delver.far.4",
+        "delver.far.5"
+      ],
+      [
+        "delver.far.5",
+        "delver.far.6"
+      ],
+      [
+        "delver.far.6",
+        "delver.far.7"
+      ],
+      [
+        "delver.far.7",
+        "delver.far.8"
+      ],
+      [
+        "delver.far.8",
+        "far.delver_gourmand"
       ],
       [
         "delver.pickwork.1",
@@ -1006,6 +1214,50 @@
         "delver.tinkers_reach.4"
       ],
       [
+        "delver.deep_seams.1",
+        "delver.deep_seams.2"
+      ],
+      [
+        "delver.deep_seams.2",
+        "delver.deep_seams.motherlode"
+      ],
+      [
+        "delver.deep_seams.motherlode",
+        "delver.deep_seams.3"
+      ],
+      [
+        "delver.deep_seams.3",
+        "delver.deep_seams.4"
+      ],
+      [
+        "delver.deep_seams.4",
+        "delver.deep_seams.5"
+      ],
+      [
+        "delver.deep_seams.5",
+        "delver.deep_seams.stonebreaker"
+      ],
+      [
+        "delver.deep_seams.stonebreaker",
+        "delver.deep_seams.6"
+      ],
+      [
+        "delver.deep_seams.6",
+        "delver.deep_seams.1"
+      ],
+      [
+        "delver.deep_seams.7",
+        "delver.deep_seams.1"
+      ],
+      [
+        "delver.deep_seams.7",
+        "delver.deep_seams.4"
+      ],
+      [
+        "delver.far.4",
+        "delver.deep_seams.1"
+      ],
+      [
         "delver.pickwork.4",
         "delver.outer.3"
       ],
@@ -1052,6 +1304,46 @@
       [
         "gourmand.outer.4",
         "spoke.gourmand_tidecaller.8"
+      ],
+      [
+        "far.delver_gourmand",
+        "gourmand.far.0"
+      ],
+      [
+        "gourmand.far.0",
+        "gourmand.far.1"
+      ],
+      [
+        "gourmand.far.1",
+        "gourmand.far.2"
+      ],
+      [
+        "gourmand.far.2",
+        "gourmand.far.3"
+      ],
+      [
+        "gourmand.far.3",
+        "gourmand.far.4"
+      ],
+      [
+        "gourmand.far.4",
+        "gourmand.far.5"
+      ],
+      [
+        "gourmand.far.5",
+        "gourmand.far.6"
+      ],
+      [
+        "gourmand.far.6",
+        "gourmand.far.7"
+      ],
+      [
+        "gourmand.far.7",
+        "gourmand.far.8"
+      ],
+      [
+        "gourmand.far.8",
+        "far.gourmand_tidecaller"
       ],
       [
         "gourmand.appetite.1",
@@ -1266,6 +1558,50 @@
         "gourmand.heirloom.1"
       ],
       [
+        "gourmand.banquet.1",
+        "gourmand.banquet.2"
+      ],
+      [
+        "gourmand.banquet.2",
+        "gourmand.banquet.gourmet"
+      ],
+      [
+        "gourmand.banquet.gourmet",
+        "gourmand.banquet.3"
+      ],
+      [
+        "gourmand.banquet.3",
+        "gourmand.banquet.4"
+      ],
+      [
+        "gourmand.banquet.4",
+        "gourmand.banquet.5"
+      ],
+      [
+        "gourmand.banquet.5",
+        "gourmand.banquet.well_fed"
+      ],
+      [
+        "gourmand.banquet.well_fed",
+        "gourmand.banquet.6"
+      ],
+      [
+        "gourmand.banquet.6",
+        "gourmand.banquet.1"
+      ],
+      [
+        "gourmand.banquet.7",
+        "gourmand.banquet.1"
+      ],
+      [
+        "gourmand.banquet.7",
+        "gourmand.banquet.4"
+      ],
+      [
+        "gourmand.far.4",
+        "gourmand.banquet.1"
+      ],
+      [
         "gourmand.appetite.4",
         "gourmand.outer.1"
       ],
@@ -1316,6 +1652,46 @@
       [
         "tidecaller.outer.4",
         "spoke.tidecaller_wayfarer.8"
+      ],
+      [
+        "far.gourmand_tidecaller",
+        "tidecaller.far.0"
+      ],
+      [
+        "tidecaller.far.0",
+        "tidecaller.far.1"
+      ],
+      [
+        "tidecaller.far.1",
+        "tidecaller.far.2"
+      ],
+      [
+        "tidecaller.far.2",
+        "tidecaller.far.3"
+      ],
+      [
+        "tidecaller.far.3",
+        "tidecaller.far.4"
+      ],
+      [
+        "tidecaller.far.4",
+        "tidecaller.far.5"
+      ],
+      [
+        "tidecaller.far.5",
+        "tidecaller.far.6"
+      ],
+      [
+        "tidecaller.far.6",
+        "tidecaller.far.7"
+      ],
+      [
+        "tidecaller.far.7",
+        "tidecaller.far.8"
+      ],
+      [
+        "tidecaller.far.8",
+        "far.tidecaller_wayfarer"
       ],
       [
         "tidecaller.swimmer.1",
@@ -1550,6 +1926,50 @@
         "tidecaller.leechcraft.3"
       ],
       [
+        "tidecaller.floodtide.1",
+        "tidecaller.floodtide.2"
+      ],
+      [
+        "tidecaller.floodtide.2",
+        "tidecaller.floodtide.wellspring"
+      ],
+      [
+        "tidecaller.floodtide.wellspring",
+        "tidecaller.floodtide.3"
+      ],
+      [
+        "tidecaller.floodtide.3",
+        "tidecaller.floodtide.4"
+      ],
+      [
+        "tidecaller.floodtide.4",
+        "tidecaller.floodtide.5"
+      ],
+      [
+        "tidecaller.floodtide.5",
+        "tidecaller.floodtide.tidal_pull"
+      ],
+      [
+        "tidecaller.floodtide.tidal_pull",
+        "tidecaller.floodtide.6"
+      ],
+      [
+        "tidecaller.floodtide.6",
+        "tidecaller.floodtide.1"
+      ],
+      [
+        "tidecaller.floodtide.7",
+        "tidecaller.floodtide.1"
+      ],
+      [
+        "tidecaller.floodtide.7",
+        "tidecaller.floodtide.4"
+      ],
+      [
+        "tidecaller.far.4",
+        "tidecaller.floodtide.1"
+      ],
+      [
         "tidecaller.swimmer.4",
         "tidecaller.outer.3"
       ],
@@ -1600,6 +2020,46 @@
       [
         "wayfarer.outer.4",
         "spoke.wayfarer_marksman.8"
+      ],
+      [
+        "far.tidecaller_wayfarer",
+        "wayfarer.far.0"
+      ],
+      [
+        "wayfarer.far.0",
+        "wayfarer.far.1"
+      ],
+      [
+        "wayfarer.far.1",
+        "wayfarer.far.2"
+      ],
+      [
+        "wayfarer.far.2",
+        "wayfarer.far.3"
+      ],
+      [
+        "wayfarer.far.3",
+        "wayfarer.far.4"
+      ],
+      [
+        "wayfarer.far.4",
+        "wayfarer.far.5"
+      ],
+      [
+        "wayfarer.far.5",
+        "wayfarer.far.6"
+      ],
+      [
+        "wayfarer.far.6",
+        "wayfarer.far.7"
+      ],
+      [
+        "wayfarer.far.7",
+        "wayfarer.far.8"
+      ],
+      [
+        "wayfarer.far.8",
+        "far.wayfarer_marksman"
       ],
       [
         "wayfarer.stride.1",
@@ -1806,6 +2266,50 @@
         "wayfarer.keepsake.1"
       ],
       [
+        "wayfarer.far_roads.1",
+        "wayfarer.far_roads.2"
+      ],
+      [
+        "wayfarer.far_roads.2",
+        "wayfarer.far_roads.pathfinder"
+      ],
+      [
+        "wayfarer.far_roads.pathfinder",
+        "wayfarer.far_roads.3"
+      ],
+      [
+        "wayfarer.far_roads.3",
+        "wayfarer.far_roads.4"
+      ],
+      [
+        "wayfarer.far_roads.4",
+        "wayfarer.far_roads.5"
+      ],
+      [
+        "wayfarer.far_roads.5",
+        "wayfarer.far_roads.featherfall"
+      ],
+      [
+        "wayfarer.far_roads.featherfall",
+        "wayfarer.far_roads.6"
+      ],
+      [
+        "wayfarer.far_roads.6",
+        "wayfarer.far_roads.1"
+      ],
+      [
+        "wayfarer.far_roads.7",
+        "wayfarer.far_roads.1"
+      ],
+      [
+        "wayfarer.far_roads.7",
+        "wayfarer.far_roads.4"
+      ],
+      [
+        "wayfarer.far.4",
+        "wayfarer.far_roads.1"
+      ],
+      [
         "wayfarer.stride.4",
         "wayfarer.outer.2"
       ],
@@ -1868,6 +2372,46 @@
       [
         "marksman.outer.4",
         "spoke.marksman_arcane.8"
+      ],
+      [
+        "far.wayfarer_marksman",
+        "marksman.far.0"
+      ],
+      [
+        "marksman.far.0",
+        "marksman.far.1"
+      ],
+      [
+        "marksman.far.1",
+        "marksman.far.2"
+      ],
+      [
+        "marksman.far.2",
+        "marksman.far.3"
+      ],
+      [
+        "marksman.far.3",
+        "marksman.far.4"
+      ],
+      [
+        "marksman.far.4",
+        "marksman.far.5"
+      ],
+      [
+        "marksman.far.5",
+        "marksman.far.6"
+      ],
+      [
+        "marksman.far.6",
+        "marksman.far.7"
+      ],
+      [
+        "marksman.far.7",
+        "marksman.far.8"
+      ],
+      [
+        "marksman.far.8",
+        "far.marksman_arcane"
       ],
       [
         "marksman.fletching.1",
@@ -2090,6 +2634,50 @@
         "marksman.sharpshooter.1"
       ],
       [
+        "marksman.longbow.1",
+        "marksman.longbow.2"
+      ],
+      [
+        "marksman.longbow.2",
+        "marksman.longbow.eagle_eye"
+      ],
+      [
+        "marksman.longbow.eagle_eye",
+        "marksman.longbow.3"
+      ],
+      [
+        "marksman.longbow.3",
+        "marksman.longbow.4"
+      ],
+      [
+        "marksman.longbow.4",
+        "marksman.longbow.5"
+      ],
+      [
+        "marksman.longbow.5",
+        "marksman.longbow.piercing_shot"
+      ],
+      [
+        "marksman.longbow.piercing_shot",
+        "marksman.longbow.6"
+      ],
+      [
+        "marksman.longbow.6",
+        "marksman.longbow.1"
+      ],
+      [
+        "marksman.longbow.7",
+        "marksman.longbow.1"
+      ],
+      [
+        "marksman.longbow.7",
+        "marksman.longbow.4"
+      ],
+      [
+        "marksman.far.4",
+        "marksman.longbow.1"
+      ],
+      [
         "marksman.fletching.4",
         "marksman.outer.1"
       ],
@@ -2140,6 +2728,46 @@
       [
         "arcane.outer.4",
         "spoke.arcane_blade.8"
+      ],
+      [
+        "far.marksman_arcane",
+        "arcane.far.0"
+      ],
+      [
+        "arcane.far.0",
+        "arcane.far.1"
+      ],
+      [
+        "arcane.far.1",
+        "arcane.far.2"
+      ],
+      [
+        "arcane.far.2",
+        "arcane.far.3"
+      ],
+      [
+        "arcane.far.3",
+        "arcane.far.4"
+      ],
+      [
+        "arcane.far.4",
+        "arcane.far.5"
+      ],
+      [
+        "arcane.far.5",
+        "arcane.far.6"
+      ],
+      [
+        "arcane.far.6",
+        "arcane.far.7"
+      ],
+      [
+        "arcane.far.7",
+        "arcane.far.8"
+      ],
+      [
+        "arcane.far.8",
+        "far.arcane_blade"
       ],
       [
         "arcane.attunement.1",
@@ -2318,6 +2946,94 @@
         "arcane.runesmith.1"
       ],
       [
+        "arcane.mana_font.1",
+        "arcane.mana_font.2"
+      ],
+      [
+        "arcane.mana_font.2",
+        "arcane.mana_font.mana_well"
+      ],
+      [
+        "arcane.mana_font.mana_well",
+        "arcane.mana_font.3"
+      ],
+      [
+        "arcane.mana_font.3",
+        "arcane.mana_font.4"
+      ],
+      [
+        "arcane.mana_font.4",
+        "arcane.mana_font.5"
+      ],
+      [
+        "arcane.mana_font.5",
+        "arcane.mana_font.arcane_reserve"
+      ],
+      [
+        "arcane.mana_font.arcane_reserve",
+        "arcane.mana_font.6"
+      ],
+      [
+        "arcane.mana_font.6",
+        "arcane.mana_font.1"
+      ],
+      [
+        "arcane.mana_font.7",
+        "arcane.mana_font.1"
+      ],
+      [
+        "arcane.mana_font.7",
+        "arcane.mana_font.4"
+      ],
+      [
+        "arcane.far.2",
+        "arcane.mana_font.1"
+      ],
+      [
+        "arcane.thaumaturgy.1",
+        "arcane.thaumaturgy.2"
+      ],
+      [
+        "arcane.thaumaturgy.2",
+        "arcane.thaumaturgy.clear_mind"
+      ],
+      [
+        "arcane.thaumaturgy.clear_mind",
+        "arcane.thaumaturgy.3"
+      ],
+      [
+        "arcane.thaumaturgy.3",
+        "arcane.thaumaturgy.4"
+      ],
+      [
+        "arcane.thaumaturgy.4",
+        "arcane.thaumaturgy.5"
+      ],
+      [
+        "arcane.thaumaturgy.5",
+        "arcane.thaumaturgy.initiates_notes"
+      ],
+      [
+        "arcane.thaumaturgy.initiates_notes",
+        "arcane.thaumaturgy.6"
+      ],
+      [
+        "arcane.thaumaturgy.6",
+        "arcane.thaumaturgy.1"
+      ],
+      [
+        "arcane.thaumaturgy.7",
+        "arcane.thaumaturgy.1"
+      ],
+      [
+        "arcane.thaumaturgy.7",
+        "arcane.thaumaturgy.4"
+      ],
+      [
+        "arcane.far.6",
+        "arcane.thaumaturgy.1"
+      ],
+      [
         "arcane.attunement.4",
         "arcane.outer.2"
       ],
@@ -2362,6 +3078,34 @@
         "border.sapper.sapper"
       ],
       [
+        "border.sapper.sapper",
+        "far.bulwark_delver.in.1"
+      ],
+      [
+        "far.bulwark_delver.in.1",
+        "far.bulwark_delver.in.2"
+      ],
+      [
+        "far.bulwark_delver.in.2",
+        "far.bulwark_delver.in.3"
+      ],
+      [
+        "far.bulwark_delver.in.3",
+        "far.bulwark_delver.in.4"
+      ],
+      [
+        "far.bulwark_delver.in.4",
+        "far.bulwark_delver.in.5"
+      ],
+      [
+        "far.bulwark_delver.in.5",
+        "far.bulwark_delver.in.6"
+      ],
+      [
+        "far.bulwark_delver.in.6",
+        "far.bulwark_delver"
+      ],
+      [
         "spoke.delver_gourmand.8",
         "border.harvester.1"
       ],
@@ -2372,6 +3116,34 @@
       [
         "border.harvester.2",
         "border.harvester.harvester"
+      ],
+      [
+        "border.harvester.harvester",
+        "far.delver_gourmand.in.1"
+      ],
+      [
+        "far.delver_gourmand.in.1",
+        "far.delver_gourmand.in.2"
+      ],
+      [
+        "far.delver_gourmand.in.2",
+        "far.delver_gourmand.in.3"
+      ],
+      [
+        "far.delver_gourmand.in.3",
+        "far.delver_gourmand.in.4"
+      ],
+      [
+        "far.delver_gourmand.in.4",
+        "far.delver_gourmand.in.5"
+      ],
+      [
+        "far.delver_gourmand.in.5",
+        "far.delver_gourmand.in.6"
+      ],
+      [
+        "far.delver_gourmand.in.6",
+        "far.delver_gourmand"
       ],
       [
         "spoke.gourmand_tidecaller.8",
@@ -2410,6 +3182,34 @@
         "border.scout.scout"
       ],
       [
+        "border.scout.scout",
+        "far.wayfarer_marksman.in.1"
+      ],
+      [
+        "far.wayfarer_marksman.in.1",
+        "far.wayfarer_marksman.in.2"
+      ],
+      [
+        "far.wayfarer_marksman.in.2",
+        "far.wayfarer_marksman.in.3"
+      ],
+      [
+        "far.wayfarer_marksman.in.3",
+        "far.wayfarer_marksman.in.4"
+      ],
+      [
+        "far.wayfarer_marksman.in.4",
+        "far.wayfarer_marksman.in.5"
+      ],
+      [
+        "far.wayfarer_marksman.in.5",
+        "far.wayfarer_marksman.in.6"
+      ],
+      [
+        "far.wayfarer_marksman.in.6",
+        "far.wayfarer_marksman"
+      ],
+      [
         "spoke.marksman_arcane.8",
         "border.spellshot.1"
       ],
@@ -2432,6 +3232,34 @@
       [
         "border.spellblade.2",
         "border.spellblade.spellblade"
+      ],
+      [
+        "border.spellblade.spellblade",
+        "far.arcane_blade.in.1"
+      ],
+      [
+        "far.arcane_blade.in.1",
+        "far.arcane_blade.in.2"
+      ],
+      [
+        "far.arcane_blade.in.2",
+        "far.arcane_blade.in.3"
+      ],
+      [
+        "far.arcane_blade.in.3",
+        "far.arcane_blade.in.4"
+      ],
+      [
+        "far.arcane_blade.in.4",
+        "far.arcane_blade.in.5"
+      ],
+      [
+        "far.arcane_blade.in.5",
+        "far.arcane_blade.in.6"
+      ],
+      [
+        "far.arcane_blade.in.6",
+        "far.arcane_blade"
       ],
       [
         "blade.polearm.4",

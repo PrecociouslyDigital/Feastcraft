@@ -1,7 +1,8 @@
-from ..layout import Cluster, Inner, KeystoneAt, Outer, Region
+from ..layout import Cluster, Far, Inner, KeystoneAt, Outer, Region
 from ..model import Bonus as B, ExtraSlot, Notable as N, Slot
 from ..origins import BLAZEBORN, ENDERIAN
 from ..powers.pack_leader import PACK_LEADER
+from ..powers.thaumaturgy import CLEAR_MIND, INITIATES_NOTES
 from ..shapes import Ring6, Spine, Wheel6, Wheel8
 from ..stats import Stat as S
 
@@ -53,11 +54,29 @@ RUNESMITH = Cluster(
     radius=646, angle=11, hangs_from=FROST,
 )
 
+MANA_FONT = Cluster(
+    "Mana Font",
+    Wheel8(
+        N("Mana Well", (ExtraSlot(Slot.MANA_TABLET),), "botania:mana_tablet"),
+        N("Arcane Reserve", (B(S.MAGIC_DAMAGE, 10),), "minecraft:amethyst_shard"),
+    ),
+    smalls=(B(S.MAGIC_DAMAGE, 4), B(S.EXPERIENCE_GAINED, 3)),
+    icon="botania:mana_pearl",
+    radius=970, angle=-9, hangs_from=Far(2),
+)
+THAUMATURGY = Cluster(
+    "Thaumaturgy",
+    Wheel8(CLEAR_MIND, INITIATES_NOTES),
+    smalls=(B(S.MAGIC_DAMAGE, 4), B(S.MAGIC_RESISTANCE, 4)),
+    icon="thaumcraft:item_thaumonomicon",
+    radius=970, angle=9, hangs_from=Far(6),
+)
+
 ARCANE = Region(
     "arcane", "Arcane",
     road=B(S.EXPERIENCE_GAINED, 2), road_icon="minecraft:glass_bottle",
     inner=ATTUNEMENT,
-    clusters=(HEXCRAFT, TRINKETS, FROST, RUNESMITH),
+    clusters=(HEXCRAFT, TRINKETS, FROST, RUNESMITH, MANA_FONT, THAUMATURGY),
     keystones=(
         KeystoneAt(PACK_LEADER, 568, 0, HEXCRAFT),
         KeystoneAt(ENDERIAN, 720, -13, TRINKETS),

@@ -207,14 +207,14 @@
       "extra": [
         "",
         {
-          "text": "+0.5 Max Health"
+          "text": "+1s Breath"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:glass_bottle"
       }
     },
     "frame": {
@@ -228,8 +228,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 0.5,
+          "attribute": "additionalentityattributes:lung_capacity",
+          "value": 20,
           "operation": "addition"
         }
       }
@@ -242,14 +242,14 @@
       "extra": [
         "",
         {
-          "text": "+0.25 Armor"
+          "text": "+1.25% Swim Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:leather"
+        "item": "minecraft:cod"
       }
     },
     "frame": {
@@ -263,9 +263,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.armor",
-          "value": 0.25,
-          "operation": "addition"
+          "attribute": "forge:swim_speed",
+          "value": 0.0125,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -277,14 +277,14 @@
       "extra": [
         "",
         {
-          "text": "+0.5% Movement Speed"
+          "text": "+0.25 Fall Distance Ignored"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:feather"
+        "item": "minecraft:hay_block"
       }
     },
     "frame": {
@@ -298,9 +298,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.movement_speed",
-          "value": 0.005,
-          "operation": "multiply_base"
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 0.25,
+          "operation": "addition"
         }
       }
     ]
@@ -452,14 +452,14 @@
       "extra": [
         "",
         {
-          "text": "+0.5 Max Health"
+          "text": "+1s Breath"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:glass_bottle"
       }
     },
     "frame": {
@@ -473,8 +473,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 0.5,
+          "attribute": "additionalentityattributes:lung_capacity",
+          "value": 20,
           "operation": "addition"
         }
       }
@@ -487,14 +487,14 @@
       "extra": [
         "",
         {
-          "text": "+0.25 Armor"
+          "text": "+1.25% Swim Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:leather"
+        "item": "minecraft:cod"
       }
     },
     "frame": {
@@ -508,9 +508,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.armor",
-          "value": 0.25,
-          "operation": "addition"
+          "attribute": "forge:swim_speed",
+          "value": 0.0125,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -522,14 +522,14 @@
       "extra": [
         "",
         {
-          "text": "+0.5% Movement Speed"
+          "text": "+0.25 Fall Distance Ignored"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:feather"
+        "item": "minecraft:hay_block"
       }
     },
     "frame": {
@@ -543,9 +543,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.movement_speed",
-          "value": 0.005,
-          "operation": "multiply_base"
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 0.25,
+          "operation": "addition"
         }
       }
     ]
@@ -557,14 +557,14 @@
       "extra": [
         "",
         {
-          "text": "+1% Jump Height"
+          "text": "+1% Eating Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:rabbit_foot"
+        "item": "minecraft:bread"
       }
     },
     "frame": {
@@ -578,7 +578,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:jump",
+          "attribute": "puffish_attributes:consuming_speed",
           "value": 0.01,
           "operation": "multiply_base"
         }
@@ -697,14 +697,14 @@
       "extra": [
         "",
         {
-          "text": "+0.5 Max Health"
+          "text": "+1s Breath"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:glass_bottle"
       }
     },
     "frame": {
@@ -718,8 +718,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 0.5,
+          "attribute": "additionalentityattributes:lung_capacity",
+          "value": 20,
           "operation": "addition"
         }
       }
@@ -732,14 +732,14 @@
       "extra": [
         "",
         {
-          "text": "+0.25 Armor"
+          "text": "+1.25% Swim Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:leather"
+        "item": "minecraft:cod"
       }
     },
     "frame": {
@@ -753,9 +753,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.armor",
-          "value": 0.25,
-          "operation": "addition"
+          "attribute": "forge:swim_speed",
+          "value": 0.0125,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -767,14 +767,14 @@
       "extra": [
         "",
         {
-          "text": "+0.5% Movement Speed"
+          "text": "+0.25 Fall Distance Ignored"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:feather"
+        "item": "minecraft:hay_block"
       }
     },
     "frame": {
@@ -788,9 +788,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.movement_speed",
-          "value": 0.005,
-          "operation": "multiply_base"
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 0.25,
+          "operation": "addition"
         }
       }
     ]
@@ -802,14 +802,14 @@
       "extra": [
         "",
         {
-          "text": "+1% Jump Height"
+          "text": "+1% Eating Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:rabbit_foot"
+        "item": "minecraft:bread"
       }
     },
     "frame": {
@@ -823,7 +823,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:jump",
+          "attribute": "puffish_attributes:consuming_speed",
           "value": 0.01,
           "operation": "multiply_base"
         }
@@ -837,14 +837,14 @@
       "extra": [
         "",
         {
-          "text": "+0.125 Armor Toughness"
+          "text": "+0.75% Experience Gained"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:scute"
+        "item": "minecraft:experience_bottle"
       }
     },
     "frame": {
@@ -858,8 +858,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.armor_toughness",
-          "value": 0.125,
+          "attribute": "attributeslib:experience_gained",
+          "value": 0.0075,
           "operation": "addition"
         }
       }
@@ -942,14 +942,14 @@
       "extra": [
         "",
         {
-          "text": "+0.5 Max Health"
+          "text": "+1s Breath"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:glass_bottle"
       }
     },
     "frame": {
@@ -963,8 +963,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 0.5,
+          "attribute": "additionalentityattributes:lung_capacity",
+          "value": 20,
           "operation": "addition"
         }
       }
@@ -977,14 +977,14 @@
       "extra": [
         "",
         {
-          "text": "+0.25 Armor"
+          "text": "+1.25% Swim Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:leather"
+        "item": "minecraft:cod"
       }
     },
     "frame": {
@@ -998,9 +998,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.armor",
-          "value": 0.25,
-          "operation": "addition"
+          "attribute": "forge:swim_speed",
+          "value": 0.0125,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -1012,14 +1012,14 @@
       "extra": [
         "",
         {
-          "text": "+0.5% Movement Speed"
+          "text": "+0.25 Fall Distance Ignored"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:feather"
+        "item": "minecraft:hay_block"
       }
     },
     "frame": {
@@ -1033,9 +1033,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.movement_speed",
-          "value": 0.005,
-          "operation": "multiply_base"
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 0.25,
+          "operation": "addition"
         }
       }
     ]
@@ -1047,14 +1047,14 @@
       "extra": [
         "",
         {
-          "text": "+1% Jump Height"
+          "text": "+1% Eating Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:rabbit_foot"
+        "item": "minecraft:bread"
       }
     },
     "frame": {
@@ -1068,7 +1068,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:jump",
+          "attribute": "puffish_attributes:consuming_speed",
           "value": 0.01,
           "operation": "multiply_base"
         }
@@ -1082,14 +1082,14 @@
       "extra": [
         "",
         {
-          "text": "+0.125 Armor Toughness"
+          "text": "+0.75% Experience Gained"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:scute"
+        "item": "minecraft:experience_bottle"
       }
     },
     "frame": {
@@ -1103,8 +1103,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.armor_toughness",
-          "value": 0.125,
+          "attribute": "attributeslib:experience_gained",
+          "value": 0.0075,
           "operation": "addition"
         }
       }
@@ -1117,14 +1117,14 @@
       "extra": [
         "",
         {
-          "text": "+1% Knockback Resistance"
+          "text": "+0.1 Block Reach"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:cobblestone"
+        "item": "minecraft:scaffolding"
       }
     },
     "frame": {
@@ -1138,8 +1138,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.knockback_resistance",
-          "value": 0.01,
+          "attribute": "forge:block_reach",
+          "value": 0.1,
           "operation": "addition"
         }
       }
@@ -1187,14 +1187,14 @@
       "extra": [
         "",
         {
-          "text": "+0.5 Max Health"
+          "text": "+1s Breath"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:glass_bottle"
       }
     },
     "frame": {
@@ -1208,8 +1208,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 0.5,
+          "attribute": "additionalentityattributes:lung_capacity",
+          "value": 20,
           "operation": "addition"
         }
       }
@@ -1222,14 +1222,14 @@
       "extra": [
         "",
         {
-          "text": "+0.25 Armor"
+          "text": "+1.25% Swim Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:leather"
+        "item": "minecraft:cod"
       }
     },
     "frame": {
@@ -1243,9 +1243,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.armor",
-          "value": 0.25,
-          "operation": "addition"
+          "attribute": "forge:swim_speed",
+          "value": 0.0125,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -1257,14 +1257,14 @@
       "extra": [
         "",
         {
-          "text": "+0.5% Movement Speed"
+          "text": "+0.25 Fall Distance Ignored"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:feather"
+        "item": "minecraft:hay_block"
       }
     },
     "frame": {
@@ -1278,9 +1278,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.movement_speed",
-          "value": 0.005,
-          "operation": "multiply_base"
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 0.25,
+          "operation": "addition"
         }
       }
     ]
@@ -1292,14 +1292,14 @@
       "extra": [
         "",
         {
-          "text": "+1% Jump Height"
+          "text": "+1% Eating Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:rabbit_foot"
+        "item": "minecraft:bread"
       }
     },
     "frame": {
@@ -1313,7 +1313,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:jump",
+          "attribute": "puffish_attributes:consuming_speed",
           "value": 0.01,
           "operation": "multiply_base"
         }
@@ -1327,14 +1327,14 @@
       "extra": [
         "",
         {
-          "text": "+0.125 Armor Toughness"
+          "text": "+0.75% Experience Gained"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:scute"
+        "item": "minecraft:experience_bottle"
       }
     },
     "frame": {
@@ -1348,8 +1348,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.armor_toughness",
-          "value": 0.125,
+          "attribute": "attributeslib:experience_gained",
+          "value": 0.0075,
           "operation": "addition"
         }
       }
@@ -1362,14 +1362,14 @@
       "extra": [
         "",
         {
-          "text": "+1% Knockback Resistance"
+          "text": "+0.1 Block Reach"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:cobblestone"
+        "item": "minecraft:scaffolding"
       }
     },
     "frame": {
@@ -1383,8 +1383,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.knockback_resistance",
-          "value": 0.01,
+          "attribute": "forge:block_reach",
+          "value": 0.1,
           "operation": "addition"
         }
       }
@@ -1397,14 +1397,14 @@
       "extra": [
         "",
         {
-          "text": "+0.5 Max Health"
+          "text": "+1% Natural Regeneration"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:glistering_melon_slice"
       }
     },
     "frame": {
@@ -1418,9 +1418,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 0.5,
-          "operation": "addition"
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.01,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -1432,14 +1432,14 @@
       "extra": [
         "",
         {
-          "text": "+0.5 Max Health"
+          "text": "+1s Breath"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:glass_bottle"
       }
     },
     "frame": {
@@ -1453,8 +1453,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 0.5,
+          "attribute": "additionalentityattributes:lung_capacity",
+          "value": 20,
           "operation": "addition"
         }
       }
@@ -1467,14 +1467,14 @@
       "extra": [
         "",
         {
-          "text": "+0.25 Armor"
+          "text": "+1.25% Swim Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:leather"
+        "item": "minecraft:cod"
       }
     },
     "frame": {
@@ -1488,9 +1488,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.armor",
-          "value": 0.25,
-          "operation": "addition"
+          "attribute": "forge:swim_speed",
+          "value": 0.0125,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -1502,14 +1502,14 @@
       "extra": [
         "",
         {
-          "text": "+0.5% Movement Speed"
+          "text": "+0.25 Fall Distance Ignored"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:feather"
+        "item": "minecraft:hay_block"
       }
     },
     "frame": {
@@ -1523,9 +1523,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.movement_speed",
-          "value": 0.005,
-          "operation": "multiply_base"
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 0.25,
+          "operation": "addition"
         }
       }
     ]
@@ -1537,14 +1537,14 @@
       "extra": [
         "",
         {
-          "text": "+1% Jump Height"
+          "text": "+1% Eating Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:rabbit_foot"
+        "item": "minecraft:bread"
       }
     },
     "frame": {
@@ -1558,7 +1558,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:jump",
+          "attribute": "puffish_attributes:consuming_speed",
           "value": 0.01,
           "operation": "multiply_base"
         }
@@ -1572,14 +1572,14 @@
       "extra": [
         "",
         {
-          "text": "+0.125 Armor Toughness"
+          "text": "+0.75% Experience Gained"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:scute"
+        "item": "minecraft:experience_bottle"
       }
     },
     "frame": {
@@ -1593,8 +1593,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.armor_toughness",
-          "value": 0.125,
+          "attribute": "attributeslib:experience_gained",
+          "value": 0.0075,
           "operation": "addition"
         }
       }
@@ -1607,14 +1607,14 @@
       "extra": [
         "",
         {
-          "text": "+1% Knockback Resistance"
+          "text": "+0.1 Block Reach"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:cobblestone"
+        "item": "minecraft:scaffolding"
       }
     },
     "frame": {
@@ -1628,14 +1628,49 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.knockback_resistance",
-          "value": 0.01,
+          "attribute": "forge:block_reach",
+          "value": 0.1,
           "operation": "addition"
         }
       }
     ]
   },
   "spoke.wayfarer_marksman.7": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1% Natural Regeneration"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "spoke.wayfarer_marksman.8": {
     "title": "Spoke",
     "description": {
       "text": "",
@@ -1670,41 +1705,6 @@
       }
     ]
   },
-  "spoke.wayfarer_marksman.8": {
-    "title": "Spoke",
-    "description": {
-      "text": "",
-      "extra": [
-        "",
-        {
-          "text": "+0.25 Armor"
-        }
-      ]
-    },
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:leather"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "size": 0.75,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "minecraft:generic.armor",
-          "value": 0.25,
-          "operation": "addition"
-        }
-      }
-    ]
-  },
   "spoke.marksman_arcane.1": {
     "title": "Spoke",
     "description": {
@@ -1712,14 +1712,14 @@
       "extra": [
         "",
         {
-          "text": "+0.25 Armor"
+          "text": "+1.25% Swim Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:leather"
+        "item": "minecraft:cod"
       }
     },
     "frame": {
@@ -1733,9 +1733,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.armor",
-          "value": 0.25,
-          "operation": "addition"
+          "attribute": "forge:swim_speed",
+          "value": 0.0125,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -1747,14 +1747,14 @@
       "extra": [
         "",
         {
-          "text": "+0.5% Movement Speed"
+          "text": "+0.25 Fall Distance Ignored"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:feather"
+        "item": "minecraft:hay_block"
       }
     },
     "frame": {
@@ -1768,9 +1768,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.movement_speed",
-          "value": 0.005,
-          "operation": "multiply_base"
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 0.25,
+          "operation": "addition"
         }
       }
     ]
@@ -1782,14 +1782,14 @@
       "extra": [
         "",
         {
-          "text": "+1% Jump Height"
+          "text": "+1% Eating Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:rabbit_foot"
+        "item": "minecraft:bread"
       }
     },
     "frame": {
@@ -1803,7 +1803,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:jump",
+          "attribute": "puffish_attributes:consuming_speed",
           "value": 0.01,
           "operation": "multiply_base"
         }
@@ -1817,14 +1817,14 @@
       "extra": [
         "",
         {
-          "text": "+0.125 Armor Toughness"
+          "text": "+0.75% Experience Gained"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:scute"
+        "item": "minecraft:experience_bottle"
       }
     },
     "frame": {
@@ -1838,8 +1838,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.armor_toughness",
-          "value": 0.125,
+          "attribute": "attributeslib:experience_gained",
+          "value": 0.0075,
           "operation": "addition"
         }
       }
@@ -1852,14 +1852,14 @@
       "extra": [
         "",
         {
-          "text": "+1% Knockback Resistance"
+          "text": "+0.1 Block Reach"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:cobblestone"
+        "item": "minecraft:scaffolding"
       }
     },
     "frame": {
@@ -1873,14 +1873,49 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.knockback_resistance",
-          "value": 0.01,
+          "attribute": "forge:block_reach",
+          "value": 0.1,
           "operation": "addition"
         }
       }
     ]
   },
   "spoke.marksman_arcane.6": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1% Natural Regeneration"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "spoke.marksman_arcane.7": {
     "title": "Spoke",
     "description": {
       "text": "",
@@ -1915,7 +1950,7 @@
       }
     ]
   },
-  "spoke.marksman_arcane.7": {
+  "spoke.marksman_arcane.8": {
     "title": "Spoke",
     "description": {
       "text": "",
@@ -1950,41 +1985,6 @@
       }
     ]
   },
-  "spoke.marksman_arcane.8": {
-    "title": "Spoke",
-    "description": {
-      "text": "",
-      "extra": [
-        "",
-        {
-          "text": "+0.5% Movement Speed"
-        }
-      ]
-    },
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:feather"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "size": 0.75,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "minecraft:generic.movement_speed",
-          "value": 0.005,
-          "operation": "multiply_base"
-        }
-      }
-    ]
-  },
   "spoke.arcane_blade.1": {
     "title": "Spoke",
     "description": {
@@ -1992,14 +1992,14 @@
       "extra": [
         "",
         {
-          "text": "+0.5% Movement Speed"
+          "text": "+0.25 Fall Distance Ignored"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:feather"
+        "item": "minecraft:hay_block"
       }
     },
     "frame": {
@@ -2013,9 +2013,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.movement_speed",
-          "value": 0.005,
-          "operation": "multiply_base"
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 0.25,
+          "operation": "addition"
         }
       }
     ]
@@ -2027,14 +2027,14 @@
       "extra": [
         "",
         {
-          "text": "+1% Jump Height"
+          "text": "+1% Eating Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:rabbit_foot"
+        "item": "minecraft:bread"
       }
     },
     "frame": {
@@ -2048,7 +2048,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:jump",
+          "attribute": "puffish_attributes:consuming_speed",
           "value": 0.01,
           "operation": "multiply_base"
         }
@@ -2062,14 +2062,14 @@
       "extra": [
         "",
         {
-          "text": "+0.125 Armor Toughness"
+          "text": "+0.75% Experience Gained"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:scute"
+        "item": "minecraft:experience_bottle"
       }
     },
     "frame": {
@@ -2083,8 +2083,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.armor_toughness",
-          "value": 0.125,
+          "attribute": "attributeslib:experience_gained",
+          "value": 0.0075,
           "operation": "addition"
         }
       }
@@ -2097,14 +2097,14 @@
       "extra": [
         "",
         {
-          "text": "+1% Knockback Resistance"
+          "text": "+0.1 Block Reach"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:cobblestone"
+        "item": "minecraft:scaffolding"
       }
     },
     "frame": {
@@ -2118,14 +2118,49 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.knockback_resistance",
-          "value": 0.01,
+          "attribute": "forge:block_reach",
+          "value": 0.1,
           "operation": "addition"
         }
       }
     ]
   },
   "spoke.arcane_blade.5": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1% Natural Regeneration"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "spoke.arcane_blade.6": {
     "title": "Spoke",
     "description": {
       "text": "",
@@ -2160,7 +2195,7 @@
       }
     ]
   },
-  "spoke.arcane_blade.6": {
+  "spoke.arcane_blade.7": {
     "title": "Spoke",
     "description": {
       "text": "",
@@ -2195,7 +2230,7 @@
       }
     ]
   },
-  "spoke.arcane_blade.7": {
+  "spoke.arcane_blade.8": {
     "title": "Spoke",
     "description": {
       "text": "",
@@ -2230,7 +2265,182 @@
       }
     ]
   },
-  "spoke.arcane_blade.8": {
+  "far.blade_bulwark": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.1 Block Reach"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:scaffolding"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:block_reach",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "far.bulwark_delver": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1% Natural Regeneration"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "far.delver_gourmand": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.5 Max Health"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:poppy"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "far.gourmand_tidecaller": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.25 Armor"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "far.tidecaller_wayfarer": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.5% Movement Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.005,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "far.wayfarer_marksman": {
     "title": "Spoke",
     "description": {
       "text": "",
@@ -2261,6 +2471,76 @@
           "attribute": "puffish_attributes:jump",
           "value": 0.01,
           "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "far.marksman_arcane": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.125 Armor Toughness"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:scute"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 0.125,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "far.arcane_blade": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1% Knockback Resistance"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cobblestone"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.01,
+          "operation": "addition"
         }
       }
     ]
@@ -2511,6 +2791,321 @@
     ]
   },
   "blade.outer.4": {
+    "title": "Blade Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Melee Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "blade.far.0": {
+    "title": "Blade Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Melee Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "blade.far.1": {
+    "title": "Blade Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Melee Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "blade.far.2": {
+    "title": "Blade Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Melee Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "blade.far.3": {
+    "title": "Blade Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Melee Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "blade.far.4": {
+    "title": "Blade Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Melee Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "blade.far.5": {
+    "title": "Blade Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Melee Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "blade.far.6": {
+    "title": "Blade Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Melee Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "blade.far.7": {
+    "title": "Blade Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Melee Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "blade.far.8": {
     "title": "Blade Road",
     "description": {
       "text": "",
@@ -4027,6 +4622,321 @@
       }
     ]
   },
+  "blade.bladesong.1": {
+    "title": "Bladesong",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1.5% Crit Chance"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.015,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "blade.bladesong.2": {
+    "title": "Bladesong",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Melee Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "blade.bladesong.keen_edge": {
+    "title": "Keen Edge",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+5% Crit Chance"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:flint"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "blade.bladesong.3": {
+    "title": "Bladesong",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1.5% Crit Chance"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.015,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "blade.bladesong.4": {
+    "title": "Bladesong",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Melee Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "blade.bladesong.5": {
+    "title": "Bladesong",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1.5% Crit Chance"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.015,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "blade.bladesong.deep_cuts": {
+    "title": "Deep Cuts",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+15% Crit Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_damage",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "blade.bladesong.6": {
+    "title": "Bladesong",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Melee Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "blade.bladesong.7": {
+    "title": "Bladesong",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1.5% Crit Chance"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:crit_chance",
+          "value": 0.015,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
   "keystone.acrobat": {
     "title": "Acrobat",
     "description": {
@@ -4566,6 +5476,321 @@
     ]
   },
   "bulwark.outer.4": {
+    "title": "Bulwark Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.5 Armor"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "bulwark.far.0": {
+    "title": "Bulwark Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.5 Armor"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "bulwark.far.1": {
+    "title": "Bulwark Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.5 Armor"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "bulwark.far.2": {
+    "title": "Bulwark Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.5 Armor"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "bulwark.far.3": {
+    "title": "Bulwark Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.5 Armor"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "bulwark.far.4": {
+    "title": "Bulwark Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.5 Armor"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "bulwark.far.5": {
+    "title": "Bulwark Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.5 Armor"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "bulwark.far.6": {
+    "title": "Bulwark Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.5 Armor"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "bulwark.far.7": {
+    "title": "Bulwark Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.5 Armor"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "bulwark.far.8": {
     "title": "Bulwark Road",
     "description": {
       "text": "",
@@ -6001,6 +7226,331 @@
       }
     ]
   },
+  "bulwark.runic_plate.1": {
+    "title": "Runic Plate",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1 Armor"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:manasteel_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "bulwark.runic_plate.2": {
+    "title": "Runic Plate",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Magic Resistance"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:manasteel_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_resistance",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "bulwark.runic_plate.runic_weave": {
+    "title": "Runic Weave",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "In a full set of Manasteel, Elementium or Terrasteel: +2 Armor Toughness, +15% Magic Resistance"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:terrasteel_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills_origins:power",
+        "data": {
+          "power": "feastcraft_skill_tree:runic_weave"
+        }
+      }
+    ]
+  },
+  "bulwark.runic_plate.3": {
+    "title": "Runic Plate",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1 Armor"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:manasteel_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "bulwark.runic_plate.4": {
+    "title": "Runic Plate",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Magic Resistance"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:manasteel_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_resistance",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "bulwark.runic_plate.5": {
+    "title": "Runic Plate",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1 Armor"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:manasteel_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "bulwark.runic_plate.ironhide": {
+    "title": "Ironhide",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3 Armor"
+        },
+        "\n",
+        {
+          "text": "+1 Armor Toughness"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 3,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "bulwark.runic_plate.6": {
+    "title": "Runic Plate",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Magic Resistance"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:manasteel_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_resistance",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "bulwark.runic_plate.7": {
+    "title": "Runic Plate",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1 Armor"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:manasteel_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
   "keystone.scholars_ward": {
     "title": "Scholar's Ward",
     "description": {
@@ -6520,6 +8070,321 @@
     ]
   },
   "delver.outer.4": {
+    "title": "Delver Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Mining Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "delver.far.0": {
+    "title": "Delver Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Mining Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "delver.far.1": {
+    "title": "Delver Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Mining Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "delver.far.2": {
+    "title": "Delver Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Mining Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "delver.far.3": {
+    "title": "Delver Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Mining Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "delver.far.4": {
+    "title": "Delver Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Mining Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "delver.far.5": {
+    "title": "Delver Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Mining Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "delver.far.6": {
+    "title": "Delver Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Mining Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "delver.far.7": {
+    "title": "Delver Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Mining Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "delver.far.8": {
     "title": "Delver Road",
     "description": {
       "text": "",
@@ -8014,6 +9879,321 @@
       }
     ]
   },
+  "delver.deep_seams.1": {
+    "title": "Deep Seams",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+5% Mining Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:deepslate_diamond_ore"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "delver.deep_seams.2": {
+    "title": "Deep Seams",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.1 Fortune"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:deepslate_diamond_ore"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fortune",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "delver.deep_seams.motherlode": {
+    "title": "Motherlode",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.3 Fortune"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_ore"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fortune",
+          "value": 0.3,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "delver.deep_seams.3": {
+    "title": "Deep Seams",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+5% Mining Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:deepslate_diamond_ore"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "delver.deep_seams.4": {
+    "title": "Deep Seams",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.1 Fortune"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:deepslate_diamond_ore"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fortune",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "delver.deep_seams.5": {
+    "title": "Deep Seams",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+5% Mining Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:deepslate_diamond_ore"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "delver.deep_seams.stonebreaker": {
+    "title": "Stonebreaker",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+15% Mining Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.15,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "delver.deep_seams.6": {
+    "title": "Deep Seams",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.1 Fortune"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:deepslate_diamond_ore"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fortune",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "delver.deep_seams.7": {
+    "title": "Deep Seams",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+5% Mining Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:deepslate_diamond_ore"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:mining_speed",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
   "keystone.troglodyte": {
     "title": "Troglodyte",
     "description": {
@@ -8328,6 +10508,321 @@
     ]
   },
   "gourmand.outer.4": {
+    "title": "Gourmand Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Natural Regeneration"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:carrot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "gourmand.far.0": {
+    "title": "Gourmand Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Natural Regeneration"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:carrot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "gourmand.far.1": {
+    "title": "Gourmand Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Natural Regeneration"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:carrot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "gourmand.far.2": {
+    "title": "Gourmand Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Natural Regeneration"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:carrot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "gourmand.far.3": {
+    "title": "Gourmand Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Natural Regeneration"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:carrot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "gourmand.far.4": {
+    "title": "Gourmand Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Natural Regeneration"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:carrot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "gourmand.far.5": {
+    "title": "Gourmand Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Natural Regeneration"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:carrot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "gourmand.far.6": {
+    "title": "Gourmand Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Natural Regeneration"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:carrot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "gourmand.far.7": {
+    "title": "Gourmand Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Natural Regeneration"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:carrot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "gourmand.far.8": {
     "title": "Gourmand Road",
     "description": {
       "text": "",
@@ -9874,6 +12369,321 @@
       }
     ]
   },
+  "gourmand.banquet.1": {
+    "title": "Banquet",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Eating Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cake"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:consuming_speed",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "gourmand.banquet.2": {
+    "title": "Banquet",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Natural Regeneration"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cake"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "gourmand.banquet.gourmet": {
+    "title": "Gourmet",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+15% Eating Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_carrot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:consuming_speed",
+          "value": 0.15,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "gourmand.banquet.3": {
+    "title": "Banquet",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Eating Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cake"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:consuming_speed",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "gourmand.banquet.4": {
+    "title": "Banquet",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Natural Regeneration"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cake"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "gourmand.banquet.5": {
+    "title": "Banquet",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Eating Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cake"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:consuming_speed",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "gourmand.banquet.well_fed": {
+    "title": "Well Fed",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+10% Natural Regeneration"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_stew"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.1,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "gourmand.banquet.6": {
+    "title": "Banquet",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Natural Regeneration"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cake"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "gourmand.banquet.7": {
+    "title": "Banquet",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Eating Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cake"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:consuming_speed",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
   "keystone.open_hand": {
     "title": "Open Hand",
     "description": {
@@ -10281,6 +13091,321 @@
     ]
   },
   "tidecaller.outer.4": {
+    "title": "Tidecaller Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Swim Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:kelp"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:swim_speed",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "tidecaller.far.0": {
+    "title": "Tidecaller Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Swim Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:kelp"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:swim_speed",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "tidecaller.far.1": {
+    "title": "Tidecaller Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Swim Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:kelp"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:swim_speed",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "tidecaller.far.2": {
+    "title": "Tidecaller Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Swim Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:kelp"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:swim_speed",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "tidecaller.far.3": {
+    "title": "Tidecaller Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Swim Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:kelp"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:swim_speed",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "tidecaller.far.4": {
+    "title": "Tidecaller Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Swim Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:kelp"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:swim_speed",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "tidecaller.far.5": {
+    "title": "Tidecaller Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Swim Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:kelp"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:swim_speed",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "tidecaller.far.6": {
+    "title": "Tidecaller Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Swim Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:kelp"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:swim_speed",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "tidecaller.far.7": {
+    "title": "Tidecaller Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Swim Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:kelp"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:swim_speed",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "tidecaller.far.8": {
     "title": "Tidecaller Road",
     "description": {
       "text": "",
@@ -12016,6 +15141,331 @@
       }
     ]
   },
+  "tidecaller.floodtide.1": {
+    "title": "Floodtide",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Swim Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:mana_pearl"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:swim_speed",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "tidecaller.floodtide.2": {
+    "title": "Floodtide",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2s Breath"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:mana_pearl"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "additionalentityattributes:lung_capacity",
+          "value": 40,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "tidecaller.floodtide.wellspring": {
+    "title": "Wellspring",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+20 Mana per Second into Carried Mana Items"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:mana_tablet"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "feastcraft_skill_rewards:mana_trickle",
+        "data": {
+          "mana_per_second": 20
+        }
+      }
+    ]
+  },
+  "tidecaller.floodtide.3": {
+    "title": "Floodtide",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Swim Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:mana_pearl"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:swim_speed",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "tidecaller.floodtide.4": {
+    "title": "Floodtide",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2s Breath"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:mana_pearl"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "additionalentityattributes:lung_capacity",
+          "value": 40,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "tidecaller.floodtide.5": {
+    "title": "Floodtide",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Swim Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:mana_pearl"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:swim_speed",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "tidecaller.floodtide.tidal_pull": {
+    "title": "Tidal Pull",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+15% Swim Speed"
+        },
+        "\n",
+        {
+          "text": "+4s Breath"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:conduit"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:swim_speed",
+          "value": 0.15,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "additionalentityattributes:lung_capacity",
+          "value": 80,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "tidecaller.floodtide.6": {
+    "title": "Floodtide",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2s Breath"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:mana_pearl"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "additionalentityattributes:lung_capacity",
+          "value": 40,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "tidecaller.floodtide.7": {
+    "title": "Floodtide",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Swim Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:mana_pearl"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:swim_speed",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
   "keystone.merling": {
     "title": "Merling",
     "description": {
@@ -12420,6 +15870,321 @@
     ]
   },
   "wayfarer.outer.4": {
+    "title": "Wayfarer Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1% Movement Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:dirt_path"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "wayfarer.far.0": {
+    "title": "Wayfarer Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1% Movement Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:dirt_path"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "wayfarer.far.1": {
+    "title": "Wayfarer Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1% Movement Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:dirt_path"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "wayfarer.far.2": {
+    "title": "Wayfarer Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1% Movement Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:dirt_path"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "wayfarer.far.3": {
+    "title": "Wayfarer Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1% Movement Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:dirt_path"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "wayfarer.far.4": {
+    "title": "Wayfarer Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1% Movement Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:dirt_path"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "wayfarer.far.5": {
+    "title": "Wayfarer Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1% Movement Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:dirt_path"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "wayfarer.far.6": {
+    "title": "Wayfarer Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1% Movement Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:dirt_path"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "wayfarer.far.7": {
+    "title": "Wayfarer Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1% Movement Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:dirt_path"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "wayfarer.far.8": {
     "title": "Wayfarer Road",
     "description": {
       "text": "",
@@ -13900,6 +17665,321 @@
       }
     ]
   },
+  "wayfarer.far_roads.1": {
+    "title": "Far Roads",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Movement Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "wayfarer.far_roads.2": {
+    "title": "Far Roads",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Jump Height"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:jump",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "wayfarer.far_roads.pathfinder": {
+    "title": "Pathfinder",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+5% Movement Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "wayfarer.far_roads.3": {
+    "title": "Far Roads",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Movement Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "wayfarer.far_roads.4": {
+    "title": "Far Roads",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Jump Height"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:jump",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "wayfarer.far_roads.5": {
+    "title": "Far Roads",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Movement Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "wayfarer.far_roads.featherfall": {
+    "title": "Featherfall",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3 Fall Distance Ignored"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "wayfarer.far_roads.6": {
+    "title": "Far Roads",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Jump Height"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:jump",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "wayfarer.far_roads.7": {
+    "title": "Far Roads",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Movement Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
   "keystone.feline": {
     "title": "Feline",
     "description": {
@@ -14520,6 +18600,321 @@
     ]
   },
   "marksman.outer.4": {
+    "title": "Marksman Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Ranged Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stick"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "marksman.far.0": {
+    "title": "Marksman Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Ranged Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stick"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "marksman.far.1": {
+    "title": "Marksman Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Ranged Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stick"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "marksman.far.2": {
+    "title": "Marksman Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Ranged Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stick"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "marksman.far.3": {
+    "title": "Marksman Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Ranged Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stick"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "marksman.far.4": {
+    "title": "Marksman Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Ranged Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stick"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "marksman.far.5": {
+    "title": "Marksman Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Ranged Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stick"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "marksman.far.6": {
+    "title": "Marksman Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Ranged Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stick"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "marksman.far.7": {
+    "title": "Marksman Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Ranged Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stick"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "marksman.far.8": {
     "title": "Marksman Road",
     "description": {
       "text": "",
@@ -16108,6 +20503,321 @@
       }
     ]
   },
+  "marksman.longbow.1": {
+    "title": "Longbow",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Ranged Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "marksman.longbow.2": {
+    "title": "Longbow",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Arrow Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:arrow_damage",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "marksman.longbow.eagle_eye": {
+    "title": "Eagle Eye",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+15% Arrow Velocity"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spyglass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:arrow_velocity",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "marksman.longbow.3": {
+    "title": "Longbow",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Ranged Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "marksman.longbow.4": {
+    "title": "Longbow",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Arrow Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:arrow_damage",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "marksman.longbow.5": {
+    "title": "Longbow",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Ranged Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "marksman.longbow.piercing_shot": {
+    "title": "Piercing Shot",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2 Armor Pierce"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spectral_arrow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:armor_pierce",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "marksman.longbow.6": {
+    "title": "Longbow",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Arrow Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:arrow_damage",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "marksman.longbow.7": {
+    "title": "Longbow",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Ranged Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.03,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
   "keystone.far_shot": {
     "title": "Far Shot",
     "description": {
@@ -16565,6 +21275,321 @@
     ]
   },
   "arcane.outer.4": {
+    "title": "Arcane Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Experience Gained"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glass_bottle"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:experience_gained",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "arcane.far.0": {
+    "title": "Arcane Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Experience Gained"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glass_bottle"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:experience_gained",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "arcane.far.1": {
+    "title": "Arcane Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Experience Gained"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glass_bottle"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:experience_gained",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "arcane.far.2": {
+    "title": "Arcane Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Experience Gained"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glass_bottle"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:experience_gained",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "arcane.far.3": {
+    "title": "Arcane Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Experience Gained"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glass_bottle"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:experience_gained",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "arcane.far.4": {
+    "title": "Arcane Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Experience Gained"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glass_bottle"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:experience_gained",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "arcane.far.5": {
+    "title": "Arcane Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Experience Gained"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glass_bottle"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:experience_gained",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "arcane.far.6": {
+    "title": "Arcane Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Experience Gained"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glass_bottle"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:experience_gained",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "arcane.far.7": {
+    "title": "Arcane Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Experience Gained"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glass_bottle"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:experience_gained",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "arcane.far.8": {
     "title": "Arcane Road",
     "description": {
       "text": "",
@@ -17881,6 +22906,631 @@
       }
     ]
   },
+  "arcane.mana_font.1": {
+    "title": "Mana Font",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Magic Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:mana_pearl"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "arcane.mana_font.2": {
+    "title": "Mana Font",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Experience Gained"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:mana_pearl"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:experience_gained",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "arcane.mana_font.mana_well": {
+    "title": "Mana Well",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1 Mana Tablet Slot"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:mana_tablet"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "function feastcraft_skill_tree:slots/mana_tablet/arcane.mana_font.mana_well/unlock",
+          "lock_command": "function feastcraft_skill_tree:slots/mana_tablet/arcane.mana_font.mana_well/lock"
+        }
+      }
+    ]
+  },
+  "arcane.mana_font.3": {
+    "title": "Mana Font",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Magic Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:mana_pearl"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "arcane.mana_font.4": {
+    "title": "Mana Font",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Experience Gained"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:mana_pearl"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:experience_gained",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "arcane.mana_font.5": {
+    "title": "Mana Font",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Magic Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:mana_pearl"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "arcane.mana_font.arcane_reserve": {
+    "title": "Arcane Reserve",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+10% Magic Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.1,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "arcane.mana_font.6": {
+    "title": "Mana Font",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+3% Experience Gained"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:mana_pearl"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:experience_gained",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "arcane.mana_font.7": {
+    "title": "Mana Font",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Magic Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "botania:mana_pearl"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "arcane.thaumaturgy.1": {
+    "title": "Thaumaturgy",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Magic Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "thaumcraft:item_thaumonomicon"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "arcane.thaumaturgy.2": {
+    "title": "Thaumaturgy",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Magic Resistance"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "thaumcraft:item_thaumonomicon"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_resistance",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "arcane.thaumaturgy.clear_mind": {
+    "title": "Clear Mind",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "Every 10 minutes, 2 temporary Warp fades"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "thaumcraft:item_sanity_soap"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills_origins:power",
+        "data": {
+          "power": "feastcraft_skill_tree:clear_mind"
+        }
+      }
+    ]
+  },
+  "arcane.thaumaturgy.3": {
+    "title": "Thaumaturgy",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Magic Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "thaumcraft:item_thaumonomicon"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "arcane.thaumaturgy.4": {
+    "title": "Thaumaturgy",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Magic Resistance"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "thaumcraft:item_thaumonomicon"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_resistance",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "arcane.thaumaturgy.5": {
+    "title": "Thaumaturgy",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Magic Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "thaumcraft:item_thaumonomicon"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "arcane.thaumaturgy.initiates_notes": {
+    "title": "Initiate's Notes",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "Every 30 minutes, +1 research point of every aspect"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "thaumcraft:item_thaumonomicon"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills_origins:power",
+        "data": {
+          "power": "feastcraft_skill_tree:initiates_notes"
+        }
+      }
+    ]
+  },
+  "arcane.thaumaturgy.6": {
+    "title": "Thaumaturgy",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Magic Resistance"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "thaumcraft:item_thaumonomicon"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_resistance",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "arcane.thaumaturgy.7": {
+    "title": "Thaumaturgy",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Magic Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "thaumcraft:item_thaumonomicon"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:magic_damage",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
   "keystone.pack_leader": {
     "title": "Pack Leader",
     "description": {
@@ -18448,6 +24098,216 @@
       }
     ]
   },
+  "far.bulwark_delver.in.1": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1% Natural Regeneration"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "far.bulwark_delver.in.2": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.5 Max Health"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:poppy"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "far.bulwark_delver.in.3": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.25 Armor"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "far.bulwark_delver.in.4": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.5% Movement Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.005,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "far.bulwark_delver.in.5": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1% Jump Height"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:jump",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "far.bulwark_delver.in.6": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.125 Armor Toughness"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:scute"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 0.125,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
   "border.harvester.1": {
     "title": "Harvester",
     "description": {
@@ -18565,7 +24425,7 @@
       }
     ]
   },
-  "keystone.point_blank.in.1": {
+  "far.delver_gourmand.in.1": {
     "title": "Spoke",
     "description": {
       "text": "",
@@ -18600,7 +24460,7 @@
       }
     ]
   },
-  "keystone.point_blank.in.2": {
+  "far.delver_gourmand.in.2": {
     "title": "Spoke",
     "description": {
       "text": "",
@@ -18630,6 +24490,216 @@
         "data": {
           "attribute": "minecraft:generic.armor",
           "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "far.delver_gourmand.in.3": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.5% Movement Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.005,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "far.delver_gourmand.in.4": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1% Jump Height"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:jump",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "far.delver_gourmand.in.5": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.125 Armor Toughness"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:scute"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 0.125,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "far.delver_gourmand.in.6": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1% Knockback Resistance"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cobblestone"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "keystone.point_blank.in.1": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1% Natural Regeneration"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:natural_regeneration",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "keystone.point_blank.in.2": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.5 Max Health"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:poppy"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 0.5,
           "operation": "addition"
         }
       }
@@ -18730,6 +24800,41 @@
       "extra": [
         "",
         {
+          "text": "+0.5 Max Health"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:poppy"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "keystone.stonefist.in.2": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
           "text": "+0.25 Armor"
         }
       ]
@@ -18754,41 +24859,6 @@
           "attribute": "minecraft:generic.armor",
           "value": 0.25,
           "operation": "addition"
-        }
-      }
-    ]
-  },
-  "keystone.stonefist.in.2": {
-    "title": "Spoke",
-    "description": {
-      "text": "",
-      "extra": [
-        "",
-        {
-          "text": "+0.5% Movement Speed"
-        }
-      ]
-    },
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:feather"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "task"
-      }
-    },
-    "size": 0.75,
-    "rewards": [
-      {
-        "type": "puffish_skills:attribute",
-        "data": {
-          "attribute": "minecraft:generic.movement_speed",
-          "value": 0.005,
-          "operation": "multiply_base"
         }
       }
     ]
@@ -18974,6 +25044,216 @@
           "attribute": "puffish_attributes:ranged_damage",
           "value": 0.06,
           "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "far.wayfarer_marksman.in.1": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1% Jump Height"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:jump",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "far.wayfarer_marksman.in.2": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.125 Armor Toughness"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:scute"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 0.125,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "far.wayfarer_marksman.in.3": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1% Knockback Resistance"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cobblestone"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "far.wayfarer_marksman.in.4": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1s Breath"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glass_bottle"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "additionalentityattributes:lung_capacity",
+          "value": 20,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "far.wayfarer_marksman.in.5": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1.25% Swim Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:swim_speed",
+          "value": 0.0125,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "far.wayfarer_marksman.in.6": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.25 Fall Distance Ignored"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:hay_block"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 0.25,
+          "operation": "addition"
         }
       }
     ]
@@ -19208,6 +25488,216 @@
           "attribute": "puffish_attributes:magic_damage",
           "value": 0.08,
           "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "far.arcane_blade.in.1": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1% Knockback Resistance"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cobblestone"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "far.arcane_blade.in.2": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1s Breath"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glass_bottle"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "additionalentityattributes:lung_capacity",
+          "value": 20,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "far.arcane_blade.in.3": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1.25% Swim Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:swim_speed",
+          "value": 0.0125,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "far.arcane_blade.in.4": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.25 Fall Distance Ignored"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:hay_block"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "far.arcane_blade.in.5": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+1% Eating Speed"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bread"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:consuming_speed",
+          "value": 0.01,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "far.arcane_blade.in.6": {
+    "title": "Spoke",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.75% Experience Gained"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:experience_bottle"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "attributeslib:experience_gained",
+          "value": 0.0075,
+          "operation": "addition"
         }
       }
     ]

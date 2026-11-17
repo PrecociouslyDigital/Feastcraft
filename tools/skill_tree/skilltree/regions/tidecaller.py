@@ -1,7 +1,7 @@
-from ..layout import Cluster, Inner, KeystoneAt, Outer, Region
-from ..model import Bonus as B, DamageKind, Notable as N, Resist
+from ..layout import Cluster, Far, Inner, KeystoneAt, Outer, Region
+from ..model import Bonus as B, DamageKind, ManaTrickle, Notable as N, Resist
 from ..origins import MERLING
-from ..shapes import Fork, Kite, Wheel6, Wheel8, Wheel10
+from ..shapes import Fork, Kite, Wheel10, Wheel6, Wheel8
 from ..stats import Stat as S
 
 POISON_AND_WITHER = (DamageKind.POISON, DamageKind.WITHER)
@@ -61,10 +61,21 @@ ANTIVENOM = Cluster(
     radius=566, angle=0, hangs_from=DEEP_LUNGS, joins=LEECHCRAFT,
 )
 
+FLOODTIDE = Cluster(
+    "Floodtide",
+    Wheel8(
+        N("Wellspring", (ManaTrickle(20),), "botania:mana_tablet"),
+        N("Tidal Pull", (B(S.SWIM_SPEED, 15), B(S.BREATH, 4)), "minecraft:conduit"),
+    ),
+    smalls=(B(S.SWIM_SPEED, 4), B(S.BREATH, 2)),
+    icon="botania:mana_pearl",
+    radius=970, angle=0, hangs_from=Far(4),
+)
+
 TIDECALLER = Region(
     "tidecaller", "Tidecaller",
     road=B(S.SWIM_SPEED, 3), road_icon="minecraft:kelp",
     inner=SWIMMER,
-    clusters=(ANGLER, LEECHCRAFT, DEEP_LUNGS, DEPTHWALKER, ANTIVENOM),
+    clusters=(ANGLER, LEECHCRAFT, DEEP_LUNGS, DEPTHWALKER, ANTIVENOM, FLOODTIDE),
     keystones=(KeystoneAt(MERLING, 778, 6, DEPTHWALKER),),
 )

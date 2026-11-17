@@ -1,7 +1,7 @@
 # Feastcraft skill tree
 
 Generates the pack's [Pufferfish's Skills](https://modrinth.com/mod/skills) tree as a datapack:
-about 500 nodes, every one costing a point, with keystones that change a rule and pay for it with
+about 700 nodes, every one costing a point, with keystones that change a rule and pay for it with
 something no other node can buy back. Points come from advancements, through `advancement_points`.
 
 ```sh
@@ -17,7 +17,8 @@ Open Loader loads it into every world from `config/openloader/data/feastcraft_sk
 ## Where things are
 
 - `tree.py` lists the regions clockwise from the top, the spur out along each border, and the few
-  roads that join outer clusters across a border.
+  roads that join outer clusters across a border. A far ring lies past every region's tips, and
+  four of the spurs run on out to it.
 - `regions/` has one file per region. Each cluster names its shape, its notables, the stats its small
   nodes hand out in turn, and where it hangs: a radius, an angle off the region's centre line, and a
   ring road node or an earlier cluster.
@@ -33,7 +34,12 @@ Open Loader loads it into every world from `config/openloader/data/feastcraft_sk
 - Pufferfish reruns a command reward's unlock command on every server start and reload, and Curios
   can only be told a slot's whole count. So a slot notable tags its owner and calls a function that
   sets the count from the tags held, which is what lets the three ring notables stack. The counts
-  assume the pack's current slots: two rings, one charm and one head.
+  assume the pack's current slots: two rings, one charm and one head. The Mana Tablet slot is the
+  datapack's own: nobody has one until Mana Well sets its count.
+- Wellspring's mana trickle is a reward type from `mods/skill_rewards`, since no command or power
+  touches Botania mana.
+- Clear Mind and Initiate's Notes run Thaumcraft's `/thaumcraft` command, and Thaumcraft says so in
+  chat every time. That's why they run every 10 and 30 minutes, not more often.
 - Origins doesn't stack a power granted twice, so each resistance node gets its own power named
   after the node.
 - The datapack replaces Origins' origin layer with one that offers only Human and picks it.

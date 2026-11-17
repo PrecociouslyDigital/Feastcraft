@@ -1,4 +1,4 @@
-from ..layout import Cluster, Inner, KeystoneAt, Outer, Region
+from ..layout import Cluster, Far, Inner, KeystoneAt, Outer, Region
 from ..model import Bonus as B, DamageKind, Notable as N, Resist
 from ..powers.troglodyte import TROGLODYTE
 from ..shapes import Fork, Kite, Ring6, Spine, Wheel6, Wheel8
@@ -59,10 +59,21 @@ BLAST_PADDING = Cluster(
     radius=572, angle=1, hangs_from=PROSPECTING, joins=TINKERS_REACH,
 )
 
+DEEP_SEAMS = Cluster(
+    "Deep Seams",
+    Wheel8(
+        N("Motherlode", (B(S.FORTUNE, 0.3),), "minecraft:diamond_ore"),
+        N("Stonebreaker", (B(S.MINING_SPEED, 15),), "minecraft:netherite_pickaxe"),
+    ),
+    smalls=(B(S.MINING_SPEED, 5), B(S.FORTUNE, 0.1)),
+    icon="minecraft:deepslate_diamond_ore",
+    radius=970, angle=0, hangs_from=Far(4),
+)
+
 DELVER = Region(
     "delver", "Delver",
     road=B(S.MINING_SPEED, 3), road_icon="minecraft:wooden_pickaxe",
     inner=PICKWORK,
-    clusters=(LUMBER_AND_LOAM, TINKERS_REACH, PROSPECTING, FORGEFIRE, BLAST_PADDING),
+    clusters=(LUMBER_AND_LOAM, TINKERS_REACH, PROSPECTING, FORGEFIRE, BLAST_PADDING, DEEP_SEAMS),
     keystones=(KeystoneAt(TROGLODYTE, 772, -8, TINKERS_REACH),),
 )

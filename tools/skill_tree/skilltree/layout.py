@@ -1,7 +1,8 @@
 """Turns hand placements into a tree of positioned, connected nodes.
 
 The skeleton is the only regular part: eight regions of 45°, a spoke of travel nodes along each
-border, and two ring roads per region. Everything else hangs off it where a region file says.
+border, and three ring roads per region. The far ring lies past every region's tips, and some
+border spurs run on out to it. Everything else hangs off it where a region file says.
 
 Skill ids come from names, never from position or order, because Pufferfish stores what a player
 owns by skill id. Road nodes are numbered from the end they leave, so a road that grows or shrinks
@@ -22,6 +23,7 @@ ROAD_STEP = 48
 SPOKE_LENGTH = 8
 INNER_RING = (192, (-11.25, 0, 11.25))
 OUTER_RING = (384, (-15, -7.5, 0, 7.5, 15))
+FAR_RING = (880, (-18, -13.5, -9, -4.5, 0, 4.5, 9, 13.5, 18))
 KEYSTONE_PAD = 26
 
 
@@ -42,6 +44,11 @@ class Outer:
     j: int
 
 
+@dataclass(frozen=True)
+class Far:
+    j: int
+
+
 @dataclass(frozen=True, eq=False)
 class Cluster:
     name: str
@@ -57,7 +64,7 @@ class Cluster:
     """A second road, from the cluster's exit."""
 
 
-Hang = Inner | Outer | Cluster
+Hang = Inner | Outer | Far | Cluster
 
 
 @dataclass(frozen=True)
@@ -94,6 +101,8 @@ class BorderCluster:
     smalls: tuple[Reward, Reward]
     notable: Notable
     icon: str
+    # Whether spoke travel runs on from the notable to the far ring.
+    reaches_far: bool = False
 
 
 Border = BorderCluster | Keystone
@@ -177,6 +186,8 @@ class _Builder:
                 return self.rings[(region.key, Inner, j)]
             case Outer(j):
                 return self.rings[(region.key, Outer, j)]
+            case Far(j):
+                return self.rings[(region.key, Far, j)]
             case Cluster():
                 if hang not in self.cluster_ids:
                     raise ValueError(f"{hang.name} must be placed before what hangs from it")
@@ -207,6 +218,21 @@ class _Builder:
             exit = self._exit(cluster)
             self.road(exit, self.resolve(region, cluster.joins, self.at(exit)), f"{cid}.join", region.travel(), i)
 
+    def _border_name(self, s: int) -> str:
+        return f"{self.regions[s].key}_{self.regions[(s + 1) % len(self.regions)].key}"
+
+    def spoke_road(self, a: str, far: str, s: int) -> None:
+        """Spoke travel from a border spur's notable out to the far ring."""
+        pa, pb = self.at(a), self.at(far)
+        count = max(0, math.floor(pa.distance(pb) / ROAD_STEP + 0.5) - 1)
+        prev = a
+        for k in range(1, count + 1):
+            content = self.spoke(s, SPOKE_LENGTH + 2 + k)
+            n = self.add(f"far.{self._border_name(s)}.in.{k}", pa + (pb - pa) * (k / (count + 1)), content, None)
+            self.link(prev, n)
+            prev = n
+        self.link(prev, far)
+
     def _exit(self, cluster: Cluster) -> str:
         exit = self.cluster_exits[cluster]
         if exit is None:
@@ -227,7 +253,7 @@ class _Builder:
 
         spokes = []
         for s in range(count):
-            name = f"spoke.{self.regions[s].key}_{self.regions[(s + 1) % count].key}"
+            name = f"spoke.{self._border_name(s)}"
             prev, column = "start", []
             for k in range(1, SPOKE_LENGTH + 1):
                 n = self.add(f"{name}.{k}", polar(ROAD_STEP * k, 22.5 + 45 * s), self.spoke(s, k), None)
@@ -235,20 +261,26 @@ class _Builder:
                 prev = n
                 column.append(n)
             spokes.append(column)
+        # Where the far ring crosses each border.
+        far = [
+            self.add(f"far.{self._border_name(s)}", polar(FAR_RING[0], 22.5 + 45 * s), self.spoke(s, SPOKE_LENGTH + 3), None)
+            for s in range(count)
+        ]
 
         for i, region in enumerate(self.regions):
-            left, right = spokes[(i - 1) % count], spokes[i]
-            for kind, (radius, offsets), spoke_k, tag in (
-                (Inner, INNER_RING, 3, "inner"),
-                (Outer, OUTER_RING, 7, "outer"),
+            left, right = (i - 1) % count, i
+            for kind, (radius, offsets), ends, tag in (
+                (Inner, INNER_RING, (spokes[left][3], spokes[right][3]), "inner"),
+                (Outer, OUTER_RING, (spokes[left][7], spokes[right][7]), "outer"),
+                (Far, FAR_RING, (far[left], far[right]), "far"),
             ):
-                prev = left[spoke_k]
+                prev = ends[0]
                 for j, off in enumerate(offsets):
                     n = self.add(f"{region.key}.{tag}.{j}", polar(radius, 45 * i + off), region.travel(), i)
                     self.rings[(region.key, kind, j)] = n
                     self.link(prev, n)
                     prev = n
-                self.link(prev, right[spoke_k])
+                self.link(prev, ends[1])
 
             for cluster in region.all_clusters():
                 self.cluster(region, i, cluster)
@@ -284,6 +316,8 @@ class _Builder:
                     for x, y in ((tip, a), (a, b), (b, n)):
                         self.link(x, y)
                     self.tree.clusters[cid] = [a, b, n]
+                    if border.reaches_far:
+                        self.spoke_road(n, far[s], s)
 
         for first, second in roads:
             pairs = ((x, y) for x in self.smalls_of(first) for y in self.smalls_of(second))

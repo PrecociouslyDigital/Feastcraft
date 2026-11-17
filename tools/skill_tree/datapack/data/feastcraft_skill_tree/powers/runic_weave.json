@@ -1,0 +1,94 @@
+{
+  "type": "origins:conditioned_attribute",
+  "hidden": true,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "head",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": [
+            {
+              "item": "botania:manasteel_helmet"
+            },
+            {
+              "item": "botania:elementium_helmet"
+            },
+            {
+              "item": "botania:terrasteel_helmet"
+            }
+          ]
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "chest",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": [
+            {
+              "item": "botania:manasteel_chestplate"
+            },
+            {
+              "item": "botania:elementium_chestplate"
+            },
+            {
+              "item": "botania:terrasteel_chestplate"
+            }
+          ]
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "legs",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": [
+            {
+              "item": "botania:manasteel_leggings"
+            },
+            {
+              "item": "botania:elementium_leggings"
+            },
+            {
+              "item": "botania:terrasteel_leggings"
+            }
+          ]
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "feet",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": [
+            {
+              "item": "botania:manasteel_boots"
+            },
+            {
+              "item": "botania:elementium_boots"
+            },
+            {
+              "item": "botania:terrasteel_boots"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "tick_rate": 20,
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.armor_toughness",
+      "operation": "addition",
+      "value": 2
+    },
+    {
+      "attribute": "puffish_attributes:magic_resistance",
+      "operation": "multiply_base",
+      "value": 0.15
+    }
+  ]
+}

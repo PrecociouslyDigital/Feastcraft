@@ -1,0 +1,9 @@
+{
+  "type": "origins:action_over_time",
+  "hidden": true,
+  "interval": 12000,
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "thaumcraft warp @s add -2 TEMP"
+  }
+}

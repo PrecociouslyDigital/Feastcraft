@@ -1,0 +1,9 @@
+plugins {
+    id 'feastcraft.forge-mod'
+}
+
+dependencies {
+    // Pufferfish's Skills 0.19.2 and Botania 1.20.1-456, the versions the pack runs.
+    modCompileOnly 'maven.modrinth:skills:zfbPzmtb'
+    modCompileOnly 'maven.modrinth:botania:npY4sRWF'
+}

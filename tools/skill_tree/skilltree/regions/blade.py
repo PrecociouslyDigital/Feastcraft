@@ -1,4 +1,4 @@
-from ..layout import Cluster, Inner, KeystoneAt, Outer, Region
+from ..layout import Cluster, Far, Inner, KeystoneAt, Outer, Region
 from ..model import Bonus as B, ExtraSlot, Notable as N, Slot
 from ..origins import ARACHNID
 from ..powers.acrobat import ACROBAT
@@ -62,11 +62,22 @@ SIGNET = Cluster(
     radius=700, angle=1, hangs_from=EXECUTIONER,
 )
 
+BLADESONG = Cluster(
+    "Bladesong",
+    Wheel8(
+        N("Keen Edge", (B(S.CRIT_CHANCE, 5),), "minecraft:flint"),
+        N("Deep Cuts", (B(S.CRIT_DAMAGE, 15),), "minecraft:redstone"),
+    ),
+    smalls=(B(S.CRIT_CHANCE, 1.5), B(S.MELEE_DAMAGE, 3)),
+    icon="minecraft:netherite_sword",
+    radius=970, angle=0, hangs_from=Far(4),
+)
+
 BLADE = Region(
     "blade", "Blade",
     road=B(S.MELEE_DAMAGE, 2), road_icon="minecraft:wooden_sword",
     inner=EDGEWORK,
-    clusters=(DUELIST, EXECUTIONER, WOODSMANS_WRATH, POLEARM, SIGNET),
+    clusters=(DUELIST, EXECUTIONER, WOODSMANS_WRATH, POLEARM, SIGNET, BLADESONG),
     keystones=(
         KeystoneAt(ACROBAT, 574, 0, DUELIST),
         KeystoneAt(ARACHNID, 790, -10, EXECUTIONER),

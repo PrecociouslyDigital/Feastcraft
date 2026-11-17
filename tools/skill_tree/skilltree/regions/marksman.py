@@ -1,4 +1,4 @@
-from ..layout import Cluster, Inner, KeystoneAt, Outer, Region
+from ..layout import Cluster, Far, Inner, KeystoneAt, Outer, Region
 from ..model import Bonus as B, DamageKind, Notable as N, Resist
 from ..origins import PHANTOM
 from ..powers.far_shot import FAR_SHOT
@@ -62,11 +62,22 @@ EMBERHIDE = Cluster(
     radius=574, angle=0, hangs_from=ARBALEST, joins=SHARPSHOOTER,
 )
 
+LONGBOW = Cluster(
+    "Longbow",
+    Wheel8(
+        N("Eagle Eye", (B(S.ARROW_VELOCITY, 15),), "minecraft:spyglass"),
+        N("Piercing Shot", (B(S.ARMOR_PIERCE, 2),), "minecraft:spectral_arrow"),
+    ),
+    smalls=(B(S.RANGED_DAMAGE, 3), B(S.ARROW_DAMAGE, 3)),
+    icon="minecraft:bow",
+    radius=970, angle=0, hangs_from=Far(4),
+)
+
 MARKSMAN = Region(
     "marksman", "Marksman",
     road=B(S.RANGED_DAMAGE, 2), road_icon="minecraft:stick",
     inner=FLETCHING,
-    clusters=(QUICK_DRAW, SHARPSHOOTER, ARBALEST, SKIRMISHER, EMBERHIDE),
+    clusters=(QUICK_DRAW, SHARPSHOOTER, ARBALEST, SKIRMISHER, EMBERHIDE, LONGBOW),
     keystones=(
         KeystoneAt(FAR_SHOT, 792, -11, SHARPSHOOTER),
         KeystoneAt(PHANTOM, 710, 10, SKIRMISHER),

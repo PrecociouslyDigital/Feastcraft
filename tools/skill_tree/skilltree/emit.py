@@ -7,7 +7,7 @@ from pathlib import Path
 
 from .layout import Tree
 from .model import (
-    NAMESPACE, Bonus, Content, CustomPower, ExtraSlot, Json, Keystone, Multiply, Notable, Origin,
+    NAMESPACE, Bonus, Content, CustomPower, ExtraSlot, Json, Keystone, ManaTrickle, Multiply, Notable, Origin,
     OriginPower, Resist, Reward, Slot, Small, Start, Travel,
 )
 from .powers import scale
@@ -96,6 +96,8 @@ def _rewards(skill: str, reward: Reward) -> Iterator[Json]:
                     "lock_command": _call(_slot_function(slot, skill, "lock")),
                 },
             }
+        case ManaTrickle(mana_per_second):
+            yield {"type": "feastcraft_skill_rewards:mana_trickle", "data": {"mana_per_second": mana_per_second}}
 
 
 def _reward_line(reward: Reward) -> Json:
@@ -241,6 +243,12 @@ def files(tree: Tree, scale_to_pixels: float = 1.0) -> dict[str, Json]:
             "points": 1,
         },
     }
+    for slot in Slot:
+        if slot.items:
+            # Nobody has the slot until a node sets its count.
+            out[f"{data}/curios/slots/{slot.key}.json"] = {"size": 0, "icon": "curios:slot/empty_curio_slot", "validators": ["curios:tag"]}
+            out[f"{data}/curios/entities/{slot.key}.json"] = {"entities": ["minecraft:player"], "slots": [slot.key]}
+            out[f"data/curios/tags/items/{slot.key}.json"] = {"replace": False, "values": list(slot.items)}
     for name, power in sorted(_custom_powers(tree).items()):
         out[f"{data}/powers/{name}.json"] = power.body
     return out

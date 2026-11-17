@@ -1,0 +1,13 @@
+[[dependencies.feastcraft_skill_rewards]]
+    modId="puffish_skills"
+    mandatory=true
+    versionRange="[0.19,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.feastcraft_skill_rewards]]
+    modId="botania"
+    mandatory=true
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"

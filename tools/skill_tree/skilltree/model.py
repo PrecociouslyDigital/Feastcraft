@@ -115,12 +115,16 @@ class Resist:
 
 
 class Slot(Enum):
-    """A Curios slot, and how many of it players have without the tree."""
+    """A Curios slot, how many of it players have without the tree, and its name.
+
+    A slot with items is one this datapack adds, and only those items fit it.
+    """
 
     # Curios and Botania give two rings between them.
-    RING = ("ring", 2)
-    CHARM = ("charm", 1)
-    HEAD = ("head", 1)
+    RING = ("ring", 2, "Ring", ())
+    CHARM = ("charm", 1, "Charm", ())
+    HEAD = ("head", 1, "Head", ())
+    MANA_TABLET = ("mana_tablet", 0, "Mana Tablet", ("botania:mana_tablet",))
 
     @property
     def key(self) -> str:
@@ -132,6 +136,16 @@ class Slot(Enum):
         base: int = self.value[1]
         return base
 
+    @property
+    def label(self) -> str:
+        label: str = self.value[2]
+        return label
+
+    @property
+    def items(self) -> tuple[str, ...]:
+        items: tuple[str, ...] = self.value[3]
+        return items
+
 
 @dataclass(frozen=True)
 class ExtraSlot:
@@ -140,10 +154,20 @@ class ExtraSlot:
     slot: Slot
 
     def text(self) -> str:
-        return f"+1 {self.slot.key.capitalize()} Slot"
+        return f"+1 {self.slot.label} Slot"
 
 
-Reward = Bonus | Multiply | OriginPower | CustomPower | Resist | ExtraSlot
+@dataclass(frozen=True)
+class ManaTrickle:
+    """Mana each second into the Botania mana items a player carries, from feastcraft_skill_rewards."""
+
+    mana_per_second: int
+
+    def text(self) -> str:
+        return f"+{self.mana_per_second} Mana per Second into Carried Mana Items"
+
+
+Reward = Bonus | Multiply | OriginPower | CustomPower | Resist | ExtraSlot | ManaTrickle
 
 
 @dataclass(frozen=True)

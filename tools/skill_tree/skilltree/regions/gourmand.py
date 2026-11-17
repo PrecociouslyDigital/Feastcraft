@@ -1,4 +1,4 @@
-from ..layout import Cluster, Inner, KeystoneAt, Outer, Region
+from ..layout import Cluster, Far, Inner, KeystoneAt, Outer, Region
 from ..model import Bonus as B, ExtraSlot, Notable as N, Slot
 from ..origins import AVIAN
 from ..powers.hearth import BOTTOMLESS, COMFORT_FOOD
@@ -62,11 +62,22 @@ HEIRLOOM = Cluster(
     radius=750, angle=-12.5, hangs_from=SHEPHERD,
 )
 
+BANQUET = Cluster(
+    "Banquet",
+    Wheel8(
+        N("Gourmet", (B(S.EATING_SPEED, 15),), "minecraft:golden_carrot"),
+        N("Well Fed", (B(S.NATURAL_REGENERATION, 10),), "minecraft:rabbit_stew"),
+    ),
+    smalls=(B(S.EATING_SPEED, 4), B(S.NATURAL_REGENERATION, 3)),
+    icon="minecraft:cake",
+    radius=970, angle=0, hangs_from=Far(4),
+)
+
 GOURMAND = Region(
     "gourmand", "Gourmand",
     road=B(S.NATURAL_REGENERATION, 4), road_icon="minecraft:carrot",
     inner=APPETITE,
-    clusters=(FORAGER, SHEPHERD, HEARTH_AND_HOME, EPICURE, HEIRLOOM),
+    clusters=(FORAGER, SHEPHERD, HEARTH_AND_HOME, EPICURE, HEIRLOOM, BANQUET),
     keystones=(
         KeystoneAt(OPEN_HAND, 562, -1, HEARTH_AND_HOME),
         KeystoneAt(AVIAN, 786, 10, EPICURE),

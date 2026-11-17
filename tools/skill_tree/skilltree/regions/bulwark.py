@@ -1,9 +1,10 @@
-from ..layout import Cluster, Inner, KeystoneAt, Outer, Region
+from ..layout import Cluster, Far, Inner, KeystoneAt, Outer, Region
 from ..model import Bonus as B, Notable as N
 from ..origins import SHULK
 from ..powers.scholars_ward import SCHOLARS_WARD
 from ..powers.unyielding import UNYIELDING
-from ..shapes import Kite, Spine, Wheel6, Wheel8, Wheel10
+from ..powers.runic_weave import RUNIC_WEAVE
+from ..shapes import Kite, Spine, Wheel10, Wheel6, Wheel8
 from ..stats import Stat as S
 
 PLATING = Cluster(
@@ -54,11 +55,19 @@ EVASION = Cluster(
     radius=654, angle=12, hangs_from=CONSTITUTION,
 )
 
+RUNIC_PLATE = Cluster(
+    "Runic Plate",
+    Wheel8(RUNIC_WEAVE, N("Ironhide", (B(S.ARMOR, 3), B(S.ARMOR_TOUGHNESS, 1)), "minecraft:netherite_chestplate")),
+    smalls=(B(S.ARMOR, 1), B(S.MAGIC_RESISTANCE, 3)),
+    icon="botania:manasteel_chestplate",
+    radius=970, angle=0, hangs_from=Far(4),
+)
+
 BULWARK = Region(
     "bulwark", "Bulwark",
     road=B(S.ARMOR, 0.5), road_icon="minecraft:leather_chestplate",
     inner=PLATING,
-    clusters=(SHIELDWALL, THORNMAIL, CONSTITUTION, EVASION),
+    clusters=(SHIELDWALL, THORNMAIL, CONSTITUTION, EVASION, RUNIC_PLATE),
     keystones=(
         KeystoneAt(SCHOLARS_WARD, 572, 0, CONSTITUTION),
         KeystoneAt(UNYIELDING, 742, -12, THORNMAIL),
