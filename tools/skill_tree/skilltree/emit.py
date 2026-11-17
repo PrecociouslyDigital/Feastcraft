@@ -237,6 +237,7 @@ def files(tree: Tree, scale_to_pixels: float = 1.0) -> dict[str, Json]:
         f"{data}/feastcraft_advancement_points/rules/advancements.json": {
             "category": f"{NAMESPACE}:{CATEGORY}",
             "advancements": ["*:*"],
+            "except": ["minecraft:legacy_achievement/*"],
             "points": 1,
         },
     }

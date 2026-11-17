@@ -14,6 +14,7 @@ Each rule is a JSON file at `data/<namespace>/feastcraft_advancement_points/rule
 {
   "category": "mypack:gourmet",
   "advancements": ["feastcraft_food_advancements:*"],
+  "except": ["feastcraft_food_advancements:root"],
   "points": {"task": 1, "goal": 2, "challenge": 3}
 }
 ```
@@ -22,6 +23,8 @@ Each rule is a JSON file at `data/<namespace>/feastcraft_advancement_points/rule
   tree, and the category's name in that pack's `puffish_skills/config.json`.
 - `advancements` lists advancement ids as `namespace:path`. `*` stands for any run of characters:
   `mymod:*` is all of a mod's advancements, and `minecraft:story/*` is one tab of vanilla's.
+- `except` is optional, and lists patterns the same way. An advancement matching any of them pays
+  nothing under this rule.
 - `points` is what each matching advancement pays: a number for every frame, or an object by frame
   (`task`, `goal`, `challenge`) where a missing frame pays nothing.
 

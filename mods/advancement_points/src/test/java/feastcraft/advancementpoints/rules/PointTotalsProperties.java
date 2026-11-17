@@ -32,9 +32,28 @@ class PointTotalsProperties {
         Arbitrary<Integer> points = Arbitraries.integers().between(0, 50);
         return Combinators.combine(
                 Arbitraries.of("pack:gourmet", "pack:combat"),
-                Arbitraries.of(PATTERNS).map(AdvancementPattern::new).list().ofMaxSize(3),
+                patterns().list().ofMaxSize(3),
+                patterns().list().ofMaxSize(2),
                 Combinators.combine(points, points, points).as(FramePoints::new)
         ).as(PointRule::new);
+    }
+
+    private Arbitrary<AdvancementPattern> patterns() {
+        return Arbitraries.of(PATTERNS).map(AdvancementPattern::new);
+    }
+
+    @Property
+    void anExceptedAdvancementPaysNothing(@ForAll("rule") PointRule rule, @ForAll("earned") Earned earned) {
+        if (rule.except().stream().anyMatch(pattern -> pattern.matches(earned.id()))) {
+            assertEquals(0, rule.worth(earned));
+        }
+    }
+
+    @Property
+    void withoutExceptionsARulePaysWhatItsPatternsMatch(@ForAll("rule") PointRule rule, @ForAll("earned") Earned earned) {
+        var unexcepted = new PointRule(rule.category(), rule.advancements(), List.of(), rule.points());
+        boolean matched = rule.advancements().stream().anyMatch(pattern -> pattern.matches(earned.id()));
+        assertEquals(matched ? rule.points().of(earned.frame()) : 0, unexcepted.worth(earned));
     }
 
     @Property

@@ -3,5 +3,8 @@
   "advancements": [
     "*:*"
   ],
+  "except": [
+    "minecraft:legacy_achievement/*"
+  ],
   "points": 1
 }

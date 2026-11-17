@@ -1,6 +1,7 @@
 package feastcraft.advancementpoints;
 
 import com.google.gson.Gson;
+import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParseException;
@@ -73,10 +74,14 @@ public final class PointRules extends SimpleJsonResourceReloadListener {
         if (category == null) {
             throw new JsonParseException("category is not a valid id");
         }
+        return new PointRule(category.toString(), patterns(GsonHelper.getAsJsonArray(json, "advancements")),
+                patterns(GsonHelper.getAsJsonArray(json, "except", new JsonArray())), points(json.get("points")));
+    }
+
+    private static List<AdvancementPattern> patterns(JsonArray json) {
         var patterns = new ArrayList<AdvancementPattern>();
-        GsonHelper.getAsJsonArray(json, "advancements").forEach(pattern ->
-                patterns.add(new AdvancementPattern(GsonHelper.convertToString(pattern, "advancement pattern"))));
-        return new PointRule(category.toString(), patterns, points(json.get("points")));
+        json.forEach(pattern -> patterns.add(new AdvancementPattern(GsonHelper.convertToString(pattern, "advancement pattern"))));
+        return patterns;
     }
 
     private static FramePoints points(JsonElement json) {
