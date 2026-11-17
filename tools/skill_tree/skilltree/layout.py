@@ -125,10 +125,10 @@ class Tree:
 
 
 class _Builder:
-    def __init__(self, regions: tuple[Region, ...], spoke: Travel) -> None:
+    def __init__(self, regions: tuple[Region, ...], spokes: tuple[Travel, ...]) -> None:
         self.tree = Tree()
         self.regions = regions
-        self.spoke = spoke
+        self.spokes = spokes
         self.rings: dict[tuple[str, type, int], str] = {}
         self.cluster_ids: dict[Cluster, str] = {}
         self.cluster_region: dict[Cluster, int] = {}
@@ -142,6 +142,10 @@ class _Builder:
 
     def link(self, a: str, b: str) -> None:
         self.tree.edges.append((a, b))
+
+    def spoke(self, s: int, k: int) -> Travel:
+        """The k-th node out along spoke s. Neighbouring spokes start at different places in the cycle."""
+        return self.spokes[(s + k) % len(self.spokes)]
 
     def at(self, id: str) -> Point:
         return self.tree.nodes[id].at
@@ -226,7 +230,7 @@ class _Builder:
             name = f"spoke.{self.regions[s].key}_{self.regions[(s + 1) % count].key}"
             prev, column = "start", []
             for k in range(1, SPOKE_LENGTH + 1):
-                n = self.add(f"{name}.{k}", polar(ROAD_STEP * k, 22.5 + 45 * s), self.spoke, None)
+                n = self.add(f"{name}.{k}", polar(ROAD_STEP * k, 22.5 + 45 * s), self.spoke(s, k), None)
                 self.link(prev, n)
                 prev = n
                 column.append(n)
@@ -267,8 +271,8 @@ class _Builder:
             match border:
                 case Keystone():
                     kid = f"keystone.{slug(border.title)}"
-                    a = self.add(f"{kid}.in.1", polar(432, angle), self.spoke, None)
-                    b = self.add(f"{kid}.in.2", polar(480, angle), self.spoke, None)
+                    a = self.add(f"{kid}.in.1", polar(432, angle), self.spoke(s, SPOKE_LENGTH + 1), None)
+                    b = self.add(f"{kid}.in.2", polar(480, angle), self.spoke(s, SPOKE_LENGTH + 2), None)
                     self.keystone(kid, polar(524, angle), border, None)
                     for x, y in ((tip, a), (a, b), (b, kid)):
                         self.link(x, y)
@@ -291,8 +295,8 @@ class _Builder:
         return self.tree
 
 
-def build(regions: tuple[Region, ...], borders: tuple[Border, ...], roads: tuple[tuple[Cluster, Cluster], ...], spoke: Travel) -> Tree:
-    return _Builder(regions, spoke).build(borders, roads)
+def build(regions: tuple[Region, ...], borders: tuple[Border, ...], roads: tuple[tuple[Cluster, Cluster], ...], spokes: tuple[Travel, ...]) -> Tree:
+    return _Builder(regions, spokes).build(borders, roads)
 
 
 def walk(tree: Tree) -> Iterator[tuple[str, int]]:

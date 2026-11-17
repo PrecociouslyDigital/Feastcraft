@@ -32,14 +32,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.25 Armor"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:leather"
       }
     },
     "frame": {
@@ -53,8 +53,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.armor",
+          "value": 0.25,
           "operation": "addition"
         }
       }
@@ -67,14 +67,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5% Movement Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:feather"
       }
     },
     "frame": {
@@ -88,9 +88,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.005,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -102,14 +102,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+1% Jump Height"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:rabbit_foot"
       }
     },
     "frame": {
@@ -123,9 +123,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "puffish_attributes:jump",
+          "value": 0.01,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -137,14 +137,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.125 Armor Toughness"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:scute"
       }
     },
     "frame": {
@@ -158,8 +158,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 0.125,
           "operation": "addition"
         }
       }
@@ -172,14 +172,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+1% Knockback Resistance"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:cobblestone"
       }
     },
     "frame": {
@@ -193,8 +193,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.01,
           "operation": "addition"
         }
       }
@@ -207,7 +207,7 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5 Max Health"
         }
       ]
     },
@@ -229,7 +229,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "value": 0.5,
           "operation": "addition"
         }
       }
@@ -242,14 +242,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.25 Armor"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:leather"
       }
     },
     "frame": {
@@ -263,8 +263,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.armor",
+          "value": 0.25,
           "operation": "addition"
         }
       }
@@ -277,14 +277,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5% Movement Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:feather"
       }
     },
     "frame": {
@@ -298,9 +298,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.005,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -312,14 +312,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5% Movement Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:feather"
       }
     },
     "frame": {
@@ -333,9 +333,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.005,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -347,14 +347,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+1% Jump Height"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:rabbit_foot"
       }
     },
     "frame": {
@@ -368,9 +368,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "puffish_attributes:jump",
+          "value": 0.01,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -382,14 +382,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.125 Armor Toughness"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:scute"
       }
     },
     "frame": {
@@ -403,8 +403,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 0.125,
           "operation": "addition"
         }
       }
@@ -417,14 +417,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+1% Knockback Resistance"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:cobblestone"
       }
     },
     "frame": {
@@ -438,8 +438,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.01,
           "operation": "addition"
         }
       }
@@ -452,7 +452,7 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5 Max Health"
         }
       ]
     },
@@ -474,7 +474,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "value": 0.5,
           "operation": "addition"
         }
       }
@@ -487,14 +487,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.25 Armor"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:leather"
       }
     },
     "frame": {
@@ -508,8 +508,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.armor",
+          "value": 0.25,
           "operation": "addition"
         }
       }
@@ -522,14 +522,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5% Movement Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:feather"
       }
     },
     "frame": {
@@ -543,9 +543,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.005,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -557,14 +557,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+1% Jump Height"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:rabbit_foot"
       }
     },
     "frame": {
@@ -578,9 +578,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "puffish_attributes:jump",
+          "value": 0.01,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -592,14 +592,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+1% Jump Height"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:rabbit_foot"
       }
     },
     "frame": {
@@ -613,9 +613,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "puffish_attributes:jump",
+          "value": 0.01,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -627,14 +627,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.125 Armor Toughness"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:scute"
       }
     },
     "frame": {
@@ -648,8 +648,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 0.125,
           "operation": "addition"
         }
       }
@@ -662,14 +662,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+1% Knockback Resistance"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:cobblestone"
       }
     },
     "frame": {
@@ -683,8 +683,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.01,
           "operation": "addition"
         }
       }
@@ -697,7 +697,7 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5 Max Health"
         }
       ]
     },
@@ -719,7 +719,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "value": 0.5,
           "operation": "addition"
         }
       }
@@ -732,14 +732,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.25 Armor"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:leather"
       }
     },
     "frame": {
@@ -753,8 +753,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.armor",
+          "value": 0.25,
           "operation": "addition"
         }
       }
@@ -767,14 +767,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5% Movement Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:feather"
       }
     },
     "frame": {
@@ -788,9 +788,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.005,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -802,14 +802,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+1% Jump Height"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:rabbit_foot"
       }
     },
     "frame": {
@@ -823,9 +823,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "puffish_attributes:jump",
+          "value": 0.01,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -837,14 +837,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.125 Armor Toughness"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:scute"
       }
     },
     "frame": {
@@ -858,8 +858,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 0.125,
           "operation": "addition"
         }
       }
@@ -872,14 +872,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.125 Armor Toughness"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:scute"
       }
     },
     "frame": {
@@ -893,8 +893,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 0.125,
           "operation": "addition"
         }
       }
@@ -907,14 +907,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+1% Knockback Resistance"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:cobblestone"
       }
     },
     "frame": {
@@ -928,8 +928,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.01,
           "operation": "addition"
         }
       }
@@ -942,7 +942,7 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5 Max Health"
         }
       ]
     },
@@ -964,7 +964,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "value": 0.5,
           "operation": "addition"
         }
       }
@@ -977,14 +977,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.25 Armor"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:leather"
       }
     },
     "frame": {
@@ -998,8 +998,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.armor",
+          "value": 0.25,
           "operation": "addition"
         }
       }
@@ -1012,14 +1012,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5% Movement Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:feather"
       }
     },
     "frame": {
@@ -1033,9 +1033,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.005,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -1047,14 +1047,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+1% Jump Height"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:rabbit_foot"
       }
     },
     "frame": {
@@ -1068,9 +1068,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "puffish_attributes:jump",
+          "value": 0.01,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -1082,14 +1082,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.125 Armor Toughness"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:scute"
       }
     },
     "frame": {
@@ -1103,8 +1103,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 0.125,
           "operation": "addition"
         }
       }
@@ -1117,14 +1117,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+1% Knockback Resistance"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:cobblestone"
       }
     },
     "frame": {
@@ -1138,8 +1138,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.01,
           "operation": "addition"
         }
       }
@@ -1152,14 +1152,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+1% Knockback Resistance"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:cobblestone"
       }
     },
     "frame": {
@@ -1173,8 +1173,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.01,
           "operation": "addition"
         }
       }
@@ -1187,7 +1187,7 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5 Max Health"
         }
       ]
     },
@@ -1209,7 +1209,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "value": 0.5,
           "operation": "addition"
         }
       }
@@ -1222,14 +1222,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.25 Armor"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:leather"
       }
     },
     "frame": {
@@ -1243,8 +1243,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.armor",
+          "value": 0.25,
           "operation": "addition"
         }
       }
@@ -1257,14 +1257,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5% Movement Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:feather"
       }
     },
     "frame": {
@@ -1278,9 +1278,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.005,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -1292,14 +1292,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+1% Jump Height"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:rabbit_foot"
       }
     },
     "frame": {
@@ -1313,9 +1313,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "puffish_attributes:jump",
+          "value": 0.01,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -1327,14 +1327,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.125 Armor Toughness"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:scute"
       }
     },
     "frame": {
@@ -1348,8 +1348,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 0.125,
           "operation": "addition"
         }
       }
@@ -1362,14 +1362,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+1% Knockback Resistance"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:cobblestone"
       }
     },
     "frame": {
@@ -1383,8 +1383,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.01,
           "operation": "addition"
         }
       }
@@ -1397,7 +1397,7 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5 Max Health"
         }
       ]
     },
@@ -1419,7 +1419,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "value": 0.5,
           "operation": "addition"
         }
       }
@@ -1432,7 +1432,7 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5 Max Health"
         }
       ]
     },
@@ -1454,7 +1454,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "value": 0.5,
           "operation": "addition"
         }
       }
@@ -1467,14 +1467,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.25 Armor"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:leather"
       }
     },
     "frame": {
@@ -1488,8 +1488,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.armor",
+          "value": 0.25,
           "operation": "addition"
         }
       }
@@ -1502,14 +1502,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5% Movement Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:feather"
       }
     },
     "frame": {
@@ -1523,9 +1523,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.005,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -1537,14 +1537,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+1% Jump Height"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:rabbit_foot"
       }
     },
     "frame": {
@@ -1558,9 +1558,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "puffish_attributes:jump",
+          "value": 0.01,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -1572,14 +1572,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.125 Armor Toughness"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:scute"
       }
     },
     "frame": {
@@ -1593,8 +1593,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 0.125,
           "operation": "addition"
         }
       }
@@ -1607,14 +1607,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+1% Knockback Resistance"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:cobblestone"
       }
     },
     "frame": {
@@ -1628,8 +1628,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.01,
           "operation": "addition"
         }
       }
@@ -1642,7 +1642,7 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5 Max Health"
         }
       ]
     },
@@ -1664,7 +1664,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "value": 0.5,
           "operation": "addition"
         }
       }
@@ -1677,14 +1677,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.25 Armor"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:leather"
       }
     },
     "frame": {
@@ -1698,8 +1698,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.armor",
+          "value": 0.25,
           "operation": "addition"
         }
       }
@@ -1712,14 +1712,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.25 Armor"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:leather"
       }
     },
     "frame": {
@@ -1733,8 +1733,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.armor",
+          "value": 0.25,
           "operation": "addition"
         }
       }
@@ -1747,14 +1747,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5% Movement Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:feather"
       }
     },
     "frame": {
@@ -1768,9 +1768,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.005,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -1782,14 +1782,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+1% Jump Height"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:rabbit_foot"
       }
     },
     "frame": {
@@ -1803,9 +1803,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "puffish_attributes:jump",
+          "value": 0.01,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -1817,14 +1817,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.125 Armor Toughness"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:scute"
       }
     },
     "frame": {
@@ -1838,8 +1838,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 0.125,
           "operation": "addition"
         }
       }
@@ -1852,14 +1852,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+1% Knockback Resistance"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:cobblestone"
       }
     },
     "frame": {
@@ -1873,8 +1873,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.01,
           "operation": "addition"
         }
       }
@@ -1887,7 +1887,7 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5 Max Health"
         }
       ]
     },
@@ -1909,7 +1909,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "value": 0.5,
           "operation": "addition"
         }
       }
@@ -1922,14 +1922,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.25 Armor"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:leather"
       }
     },
     "frame": {
@@ -1943,8 +1943,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.armor",
+          "value": 0.25,
           "operation": "addition"
         }
       }
@@ -1957,14 +1957,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5% Movement Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:feather"
       }
     },
     "frame": {
@@ -1978,9 +1978,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.005,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -1992,14 +1992,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5% Movement Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:feather"
       }
     },
     "frame": {
@@ -2013,9 +2013,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.005,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -2027,14 +2027,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+1% Jump Height"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:rabbit_foot"
       }
     },
     "frame": {
@@ -2048,9 +2048,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "puffish_attributes:jump",
+          "value": 0.01,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -2062,14 +2062,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.125 Armor Toughness"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:scute"
       }
     },
     "frame": {
@@ -2083,8 +2083,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.armor_toughness",
+          "value": 0.125,
           "operation": "addition"
         }
       }
@@ -2097,14 +2097,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+1% Knockback Resistance"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:cobblestone"
       }
     },
     "frame": {
@@ -2118,8 +2118,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.01,
           "operation": "addition"
         }
       }
@@ -2132,7 +2132,7 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5 Max Health"
         }
       ]
     },
@@ -2154,7 +2154,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "value": 0.5,
           "operation": "addition"
         }
       }
@@ -2167,14 +2167,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.25 Armor"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:leather"
       }
     },
     "frame": {
@@ -2188,8 +2188,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.armor",
+          "value": 0.25,
           "operation": "addition"
         }
       }
@@ -2202,14 +2202,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5% Movement Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:feather"
       }
     },
     "frame": {
@@ -2223,9 +2223,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.005,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -2237,14 +2237,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+1% Jump Height"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:rabbit_foot"
       }
     },
     "frame": {
@@ -2258,9 +2258,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "puffish_attributes:jump",
+          "value": 0.01,
+          "operation": "multiply_base"
         }
       }
     ]
@@ -18015,7 +18015,7 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5 Max Health"
         }
       ]
     },
@@ -18037,7 +18037,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "value": 0.5,
           "operation": "addition"
         }
       }
@@ -18050,14 +18050,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.25 Armor"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:leather"
       }
     },
     "frame": {
@@ -18071,8 +18071,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.armor",
+          "value": 0.25,
           "operation": "addition"
         }
       }
@@ -18173,14 +18173,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.25 Armor"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:leather"
       }
     },
     "frame": {
@@ -18194,8 +18194,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
+          "attribute": "minecraft:generic.armor",
+          "value": 0.25,
           "operation": "addition"
         }
       }
@@ -18208,14 +18208,14 @@
       "extra": [
         "",
         {
-          "text": "+1 Max Health"
+          "text": "+0.5% Movement Speed"
         }
       ]
     },
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:poppy"
+        "item": "minecraft:feather"
       }
     },
     "frame": {
@@ -18229,9 +18229,9 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "minecraft:generic.max_health",
-          "value": 1,
-          "operation": "addition"
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.005,
+          "operation": "multiply_base"
         }
       }
     ]

@@ -44,8 +44,18 @@ ROADS = (
     (wayfarer.TRAILBLAZER, tidecaller.DEPTHWALKER),
 )
 
-SPOKE = Travel("Spoke", (B(S.MAX_HEALTH, 1),), "minecraft:poppy")
+SPOKES = tuple(
+    Travel("Spoke", (bonus,), icon)
+    for bonus, icon in (
+        (B(S.MAX_HEALTH, 0.5), "minecraft:poppy"),
+        (B(S.ARMOR, 0.25), "minecraft:leather"),
+        (B(S.MOVEMENT_SPEED, 0.5), "minecraft:feather"),
+        (B(S.JUMP, 1), "minecraft:rabbit_foot"),
+        (B(S.ARMOR_TOUGHNESS, 0.125), "minecraft:scute"),
+        (B(S.KNOCKBACK_RESISTANCE, 1), "minecraft:cobblestone"),
+    )
+)
 
 
 def tree() -> Tree:
-    return build(REGIONS, BORDERS, ROADS, SPOKE)
+    return build(REGIONS, BORDERS, ROADS, SPOKES)

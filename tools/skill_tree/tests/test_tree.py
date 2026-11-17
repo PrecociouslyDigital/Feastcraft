@@ -9,7 +9,7 @@ from skilltree.layout import Cluster, Hang, KeystoneAt, Region, Tree
 from skilltree.model import Json, Notable, Origin
 from skilltree.preview import radius
 from skilltree.shapes import Point
-from skilltree.tree import BORDERS, REGIONS, ROADS, SPOKE, tree
+from skilltree.tree import BORDERS, REGIONS, ROADS, SPOKES, tree
 
 DATAPACK = Path(__file__).resolve().parent.parent / "datapack"
 ROAD_MARKERS = (".in.", ".out.", ".join.")
@@ -55,7 +55,7 @@ def _nudged(regions: tuple[Region, ...], roads: tuple[tuple[Cluster, Cluster], .
         keystones = tuple(KeystoneAt(k.keystone, k.radius + by, k.angle, hang(k.hangs_from)) for k in r.keystones)
         new_regions.append(dataclasses.replace(r, inner=inner, clusters=clusters, keystones=keystones))
     new_roads = tuple((moved[a], moved[b]) for a, b in roads)
-    return layout.build(tuple(new_regions), BORDERS, new_roads, SPOKE)
+    return layout.build(tuple(new_regions), BORDERS, new_roads, SPOKES)
 
 
 class TreeTest(unittest.TestCase):
