@@ -1,0 +1,63 @@
+#!/usr/bin/env bash
+# Packs an ATLauncher instance and this repo's mods into a Modrinth pack, and turns a pack into a
+# server directory. See tools/modpack/README.md.
+#
+#   modpack build [instance=Feastcraft3]         writes build/modpack/Feastcraft-<version>.mrpack
+#   modpack server [pack=<newest built>] [out=build/modpack/server] [instance=Feastcraft3]
+#
+# ATLAUNCHER_DIR is the launcher's own directory, the one holding ATLauncher.jar and instances/.
+set -euo pipefail
+
+repo=$(cd "$(dirname "$0")/.." && pwd)
+launcher=${ATLAUNCHER_DIR:-/Applications/ATLauncher.app/Contents/Java}
+tool=$repo/tools/modpack/modpack.py
+build_dir=$repo/build/modpack
+instance=Feastcraft3
+pack=
+out=$build_dir/server
+
+die() {
+    echo "modpack: $*" >&2
+    exit 1
+}
+
+property() {
+    sed -n "s/^$1=//p" "$repo/gradle.properties"
+}
+
+command=${1:-}
+shift || true
+for pair in "$@"; do
+    case $pair in
+        instance=*) instance=${pair#instance=} ;;
+        pack=*) pack=${pair#pack=} ;;
+        out=*) out=${pair#out=} ;;
+        *) die "unknown argument $pair" ;;
+    esac
+done
+game_dir=$launcher/instances/$instance
+
+case $command in
+    build)
+        [[ -d $game_dir/mods ]] || die "no instance at $game_dir"
+        jars=()
+        for mod in "$repo"/mods/*/; do
+            # A jar left over from an earlier mod_version would ship next to the new one.
+            rm -rf "$mod/build/libs"
+            "$repo/gradlew" -p "$repo" -q ":mods:$(basename "$mod"):assemble"
+            jars+=(--jar "$(ls "$mod"/build/libs/*.jar)")
+        done
+        python3 "$tool" build --instance "$game_dir" --out "$build_dir" \
+            --minecraft "$(property minecraft_version)" --forge "$(property forge_version)" \
+            --skill-tree "$repo/tools/skill_tree/datapack" "${jars[@]}"
+        ;;
+    server)
+        [[ -n $pack ]] || pack=$(ls -t "$build_dir"/*.mrpack 2>/dev/null | head -1)
+        [[ -f $pack ]] || die "no pack to install; run: modpack build"
+        # The instance already has most of the pack's files, which saves downloading them.
+        local_files=()
+        [[ -d $game_dir/mods ]] && local_files=(--local "$game_dir")
+        python3 "$tool" server --pack "$pack" --out "$out" "${local_files[@]}"
+        ;;
+    *) die "usage: modpack build [instance=<name>] | server [pack=<file>] [out=<dir>] [instance=<name>]" ;;
+esac

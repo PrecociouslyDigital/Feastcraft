@@ -1,0 +1,29 @@
+name = "Feastcraft"
+version = "0.1.0"
+
+# What the pack takes from the instance besides the jars and zips directly in mods/,
+# resourcepacks/ and shaderpacks/.
+overrides = ["config", "mods/1.7.10"]
+
+exclude = [
+    # Comes from tools/skill_tree/datapack instead.
+    "config/openloader/data/feastcraft_skill_tree/*",
+    # Belongs to one machine or one world.
+    "config/NoChatReports/NCR-Encryption.json",
+    "config/embeddium-fingerprint.json",
+    "config/forgeendertech/cached.dat",
+    "config/jei/world/*",
+    "*.bak",
+]
+
+# Client-only mods that Modrinth doesn't say are client-only, by jar name.
+client_only = [
+    "Controlling-*",
+    "Searchables-*",
+]
+
+# Mods the server needs although Modrinth says they are client-only.
+server_too = [
+    # Curious Lanterns requires it on both sides.
+    "radiantgear-*",
+]
