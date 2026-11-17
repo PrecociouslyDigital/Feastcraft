@@ -1,0 +1,30 @@
+[[dependencies.feastcraft_smithy]]
+    modId="tconstruct"
+    mandatory=true
+    versionRange="[3.12,)"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.feastcraft_smithy]]
+    modId="mantle"
+    mandatory=true
+    versionRange="[1.11,)"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.feastcraft_smithy]]
+    modId="botania"
+    mandatory=true
+    versionRange="[1.20.1-454,)"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.feastcraft_smithy]]
+    modId="jei"
+    mandatory=false
+    versionRange="[15,)"
+    ordering="NONE"
+    side="CLIENT"
+[[dependencies.feastcraft_smithy]]
+    modId="emi"
+    mandatory=false
+    versionRange="[1.1,)"
+    ordering="NONE"
+    side="CLIENT"

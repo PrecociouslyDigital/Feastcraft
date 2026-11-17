@@ -1,0 +1,18 @@
+plugins {
+    id 'feastcraft.forge-mod'
+}
+
+// Tinkers' Construct 3.12.1.231 and Mantle 1.11.128, the versions the pack runs.
+// JEI and EMI are compile-only: the instance and pack provide them at runtime.
+dependencies {
+    modImplementation 'maven.modrinth:tinkers-construct:Fv0zTUuh'
+    modImplementation 'maven.modrinth:mantle:WWRIIbP8'
+    modImplementation 'maven.modrinth:botania:npY4sRWF'
+    modCompileOnly 'maven.modrinth:jei:6E4ps2ER'
+    modCompileOnly 'maven.modrinth:emi:Axuu9I9R'
+}
+
+// Unit tests read the datapack's tags and conversions with Gson, which Minecraft doesn't put on their classpath. 2.10 is the version 1.20.1 ships.
+dependencies {
+    testImplementation 'com.google.code.gson:gson:2.10'
+}

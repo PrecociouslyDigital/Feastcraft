@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "feastcraft.smithy.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "feastcraft_smithy.refmap.json",
+  "mixins": [
+    "TerrasteelHelmItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
