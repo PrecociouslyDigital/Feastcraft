@@ -1,7 +1,11 @@
 {
   "values": [
+    "feastcraft_arsenal:spear",
     "minecraft:trident",
     "tconstruct:javelin",
-    {"id": "tinkers_katanas:naginata", "required": false}
+    {
+      "id": "tinkers_katanas:naginata",
+      "required": false
+    }
   ]
 }

@@ -1,7 +1,6 @@
 # Feastcraft Arsenal
 
-Weapon-class damage the skill tree can scale, and (later in this mod) the spear and mace as Tinkers
-tools.
+Weapon-class damage the skill tree can scale, and newer Minecraft's spear and mace as Tinkers tools.
 
 ## Weapon-class damage
 
@@ -18,3 +17,25 @@ Each attribute is a damage multiplier with a base of 1, so a tree node's `multip
 - A hit from an entity in `feastcraft_arsenal:thrown_weapons` is thrown damage, such as a thrown
   trident or javelin.
 - Any other arrow is crossbow damage when it was shot from a crossbow, and bow damage otherwise.
+
+## Spear
+
+A Tinkers tool from a small blade and two tool handles. It jabs like a weak sword with 1.5 more
+blocks of reach, and its Charge trait copies vanilla's spear charge:
+
+- Hold right-click to lower it. After a short delay, anything in reach takes damage from how fast the
+  two of you are closing: 0.7 per block a second for wood up to 1.2 for netherite, from 4.6 blocks a
+  second.
+- The tool's harvest tier picks vanilla's row, so an iron head charges like an iron spear.
+- A fresh charge also knocks back and dismounts; it tires into knockback only, then damage only, then
+  ends. Each hit costs 1 durability, and a target can't be hit again for half a second.
+
+Players move on their own client, so the server never knows their velocity. `Motion` records how far
+each player, or whatever they ride, moved in the last tick.
+
+### Lunge
+
+An upgrade for spears only, up to level 3, from a rabbit's foot and a piston. Every jab, hit or miss,
+throws the player forward 0.458 blocks a tick per level, for 4 exhaustion per level and 1 durability.
+It doesn't fire while riding, gliding, in water, or below 7 food in survival.
+

@@ -1,0 +1,28 @@
+{
+  "loader": "tconstruct:tool",
+  "parent": "tconstruct:item/base/tall",
+  "textures": {
+    "head": "tconstruct:item/tool/javelin/head",
+    "handle": "tconstruct:item/tool/javelin/handle",
+    "grip": "tconstruct:item/tool/javelin/grip",
+    "large_head": "tconstruct:item/tool/javelin/large/head",
+    "large_handle": "tconstruct:item/tool/javelin/large/handle",
+    "large_grip": "tconstruct:item/tool/javelin/large/grip"
+  },
+  "modifier_maps": ["tconstruct:javelin"],
+  "modifier_roots": {
+    "small": ["tconstruct:item/tool/javelin/modifiers/"],
+    "large": ["tconstruct:item/tool/javelin/large/modifiers/"]
+  },
+  "large": true,
+  "large_offset": [-2, 2],
+  "parts": [
+    {"name": "handle", "index": 1},
+    {"name": "grip", "index": 2},
+    {"name": "head", "index": 0}
+  ],
+  "overrides": [
+    {"predicate": {"tconstruct:charging": 1}, "model": "feastcraft_arsenal:item/tool/spear/charging"},
+    {"predicate": {"tconstruct:broken": 1}, "model": "feastcraft_arsenal:item/tool/spear/broken"}
+  ]
+}

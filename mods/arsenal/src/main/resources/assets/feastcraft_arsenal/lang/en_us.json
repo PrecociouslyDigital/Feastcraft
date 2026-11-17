@@ -2,8 +2,16 @@
   "attribute.name.feastcraft_arsenal.blade_damage": "Blade Damage",
   "attribute.name.feastcraft_arsenal.axe_damage": "Axe Damage",
   "attribute.name.feastcraft_arsenal.spear_damage": "Spear Damage",
-  "attribute.name.feastcraft_arsenal.mace_damage": "Mace Damage",
   "attribute.name.feastcraft_arsenal.bow_damage": "Bow Damage",
   "attribute.name.feastcraft_arsenal.crossbow_damage": "Crossbow Damage",
-  "attribute.name.feastcraft_arsenal.thrown_damage": "Thrown Weapon Damage"
+  "attribute.name.feastcraft_arsenal.thrown_damage": "Thrown Weapon Damage",
+  "itemGroup.feastcraft_arsenal": "Feastcraft Arsenal",
+  "item.feastcraft_arsenal.spear": "Spear",
+  "item.feastcraft_arsenal.spear.description": "Jabs at reach. Hold right-click to lower it and charge: anything it meets takes damage from how fast you're closing.",
+  "modifier.feastcraft_arsenal.charge": "Charge",
+  "modifier.feastcraft_arsenal.charge.flavor": "Brace for impact",
+  "modifier.feastcraft_arsenal.charge.description": "Hold right-click to lower the spear. Damage grows with how fast you and your target close, and a fresh charge knocks riders off their mounts.",
+  "modifier.feastcraft_arsenal.lunge": "Lunge",
+  "modifier.feastcraft_arsenal.lunge.flavor": "Have at you!",
+  "modifier.feastcraft_arsenal.lunge.description": "Each jab throws you forward, at the cost of hunger and durability. Doesn't work while riding, gliding, swimming or hungry."
 }

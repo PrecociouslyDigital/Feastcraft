@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {"item": "minecraft:rabbit_foot"},
+    {"item": "minecraft:piston"}
+  ],
+  "tools": [{"tag": "feastcraft_arsenal:modifiable/spear"}],
+  "result": "feastcraft_arsenal:lunge",
+  "level": {"max": 3},
+  "slots": {"upgrades": 1}
+}

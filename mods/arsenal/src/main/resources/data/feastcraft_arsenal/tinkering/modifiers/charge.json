@@ -1,0 +1,14 @@
+{
+  "level_display": "tconstruct:no_levels",
+  "modules": [
+    {"type": "feastcraft_arsenal:charge"},
+    {
+      "type": "tconstruct:attribute",
+      "unique": "feastcraft_arsenal.modifier.charge",
+      "attribute": "forge:entity_reach",
+      "operation": "addition",
+      "each_level": 1.5,
+      "slots": ["mainhand"]
+    }
+  ]
+}

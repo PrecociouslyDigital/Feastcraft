@@ -1,0 +1,31 @@
+{
+  "translation_key": "item.feastcraft_arsenal.spear",
+  "icon": {
+    "item": "feastcraft_arsenal:spear",
+    "nbt": "{Damage:0,tic_broken:0b,tic_display:1b,tic_materials:[\"tconstruct:ui_render#head\",\"tconstruct:ui_render#handle\",\"tconstruct:ui_render#extra\"]}"
+  },
+  "sortIndex": 4,
+  "input_slots": [
+    {
+      "filter": {"item": "tconstruct:small_blade"},
+      "icon": "tconstruct:small_blade",
+      "translation_key": "item.tconstruct.small_blade",
+      "x": 52,
+      "y": 22
+    },
+    {
+      "filter": {"item": "tconstruct:tool_handle"},
+      "icon": "tconstruct:tool_handle",
+      "translation_key": "item.tconstruct.tool_handle",
+      "x": 34,
+      "y": 40
+    },
+    {
+      "filter": {"item": "tconstruct:tool_handle"},
+      "icon": "tconstruct:tool_handle",
+      "translation_key": "item.tconstruct.tool_handle",
+      "x": 16,
+      "y": 58
+    }
+  ]
+}
