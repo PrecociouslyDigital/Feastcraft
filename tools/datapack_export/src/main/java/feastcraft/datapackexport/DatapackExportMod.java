@@ -31,14 +31,18 @@ public final class DatapackExportMod {
                 Minecraft minecraft = Minecraft.getInstance();
                 // Every mod has finished loading by now.
                 minecraft.tell(() -> {
-                    ItemList.write(directory);
-                    BlockList.write(directory);
-                    EntityList.write(directory);
-                    if (ModList.get().isLoaded("tcmodernlib")) {
-                        AspectList.write(directory);
+                    // A failed export quits too. The script sees no sources.tsv and points at the log.
+                    try {
+                        ItemList.write(directory);
+                        BlockList.write(directory);
+                        EntityList.write(directory);
+                        if (ModList.get().isLoaded("tcmodernlib")) {
+                            AspectList.write(directory);
+                        }
+                        MergedData.write(directory);
+                    } finally {
+                        minecraft.stop();
                     }
-                    MergedData.write(directory);
-                    minecraft.stop();
                 });
             }
         });

@@ -23,10 +23,11 @@ run takes about as long as the pack takes to start. The game window does open.
   `origins:origin_layers/origin.json	origins-forge-1.20.1-1.10.0.9-all.jar < data/feastcraft_skill_tree`.
 - `packs.txt` lists the packs, lowest first.
 - `items.tsv` lists every registered item, with hunger points and saturation modifier for foods, so
-  a recipe audit can tell which results are food and which ingredients don't exist.
+  a recipe audit can tell which results are food and which ingredients don't exist, and its English
+  name.
 - `blocks.tsv` lists every registered block and the item that places it.
-- `entities.tsv` lists every entity type, its spawn category, and `living` if it has attributes,
-  which picks out the mobs.
+- `entities.tsv` lists every entity type, its spawn category, `living` if it has attributes, which
+  picks out the mobs, and its English name.
 - `aspects.tsv` lists the Thaumcraft aspects TC Modern Lib gives items, blocks and mobs:
   `item	minecraft:iron_ingot	metallum:4`. Aspects that datapacks add through it are left out.
 - `recipes.tsv` lists the recipes the game is left with once it has loaded those files: id,

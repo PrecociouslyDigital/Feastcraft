@@ -8,8 +8,8 @@ import net.minecraft.world.entity.ai.attributes.DefaultAttributes;
 import net.minecraftforge.registries.ForgeRegistries;
 
 /**
- * {@code entities.tsv}: every registered entity type, its spawn category, and whether it has
- * attributes. Mobs have attributes; arrows, boats and item frames don't.
+ * {@code entities.tsv}: every registered entity type, its spawn category, whether it has
+ * attributes, and its English name. Mobs have attributes; arrows, boats and item frames don't.
  */
 final class EntityList {
     private EntityList() {
@@ -20,7 +20,8 @@ final class EntityList {
             Files.createDirectories(output);
             Files.write(output.resolve("entities.tsv"), ForgeRegistries.ENTITY_TYPES.getEntries().stream()
                     .map(entry -> entry.getKey().location() + "\t" + entry.getValue().getCategory().getName()
-                            + "\t" + (DefaultAttributes.hasSupplier(entry.getValue()) ? "living" : ""))
+                            + "\t" + (DefaultAttributes.hasSupplier(entry.getValue()) ? "living" : "")
+                            + "\t" + entry.getValue().getDescription().getString())
                     .sorted()
                     .toList());
         } catch (IOException e) {
