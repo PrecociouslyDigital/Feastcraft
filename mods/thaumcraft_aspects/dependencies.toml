@@ -1,0 +1,6 @@
+[[dependencies.feastcraft_thaumcraft_aspects]]
+    modId="tcmodernlib"
+    mandatory=false
+    versionRange="[0.2,)"
+    ordering="AFTER"
+    side="BOTH"

@@ -1,0 +1,11 @@
+[
+  {"item": "minecraft:oak_stairs", "parent": "minecraft:oak_planks"},
+  {"block": "minecraft:diamond_ore", "aspects": {"terra": 1, "lucrum": 2}},
+  {"entity": "minecraft:pig", "aspects": {"bestia": 2}},
+  {"item": "removed_mod:gone", "parent": "minecraft:stick"},
+  {"item": "minecraft:stick", "parent": "removed_mod:gone"},
+  {"item": "minecraft:apple", "block": "minecraft:stone", "parent": "minecraft:stick"},
+  {"item": "minecraft:apple", "parent": "minecraft:stick", "aspects": {"herba": 1}},
+  {"item": "minecraft:apple", "aspects": {"Herba": 1}},
+  {"item": "minecraft:apple", "aspects": {}}
+]
