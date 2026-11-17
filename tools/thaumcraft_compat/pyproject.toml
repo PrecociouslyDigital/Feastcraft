@@ -1,0 +1,9 @@
+[project]
+name = "thaumcompat"
+version = "0.1.0"
+description = "Generates Feastcraft's Thaumcraft compatibility datapack"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.mypy]
+strict = true
