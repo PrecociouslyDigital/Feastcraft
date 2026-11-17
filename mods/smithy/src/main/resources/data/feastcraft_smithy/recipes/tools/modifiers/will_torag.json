@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:modifier",
+  "allow_crystal": false,
+  "inputs": [
+    {
+      "item": "botania:ancient_will_torag"
+    }
+  ],
+  "level": 1,
+  "result": "feastcraft_smithy:will_torag",
+  "slots": {},
+  "tools": {
+    "type": "mantle:and",
+    "predicates": [
+      {
+        "item": "tconstruct:plate_helmet"
+      },
+      {
+        "type": "tconstruct:has_modifier",
+        "modifier": "tcintegrations:terrestrial",
+        "level": 1,
+        "check": "ALL"
+      }
+    ]
+  }
+}
