@@ -1,0 +1,10 @@
+{
+  "values": [
+    "minecraft:trident",
+    "tconstruct:thrown_tool",
+    "tconstruct:thrown_shuriken",
+    "tconstruct:flint_shuriken",
+    "tconstruct:quartz_shuriken",
+    {"id": "iceandfire:tide_trident", "required": false}
+  ]
+}

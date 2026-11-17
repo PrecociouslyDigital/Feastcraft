@@ -24,8 +24,8 @@ Open Loader loads it into every world from `config/openloader/data/feastcraft_sk
   ring road node or an earlier cluster.
 - `powers/` has the keystones that need custom Origins powers, each next to the text that describes it.
 - `origins.py` has the nine origins. Taking one locks the other eight.
-- `stats.py` is the catalogue of attributes. A node gives `Bonus(Stat.SWORD_DAMAGE, 4)` and the
-  catalogue decides the modifier and the "+4% Sword Damage" tooltip.
+- `stats.py` is the catalogue of attributes. A node gives `Bonus(Stat.BLADE_DAMAGE, 4)` and the
+  catalogue decides the modifier and the "+4% Blade Damage" tooltip.
 
 ## Things that bite
 

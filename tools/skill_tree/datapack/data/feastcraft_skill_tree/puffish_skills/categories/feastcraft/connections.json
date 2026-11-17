@@ -502,6 +502,42 @@
         "blade.polearm.1"
       ],
       [
+        "blade.skullcrusher.1",
+        "blade.skullcrusher.2"
+      ],
+      [
+        "blade.skullcrusher.1",
+        "blade.skullcrusher.3"
+      ],
+      [
+        "blade.skullcrusher.2",
+        "blade.skullcrusher.4"
+      ],
+      [
+        "blade.skullcrusher.3",
+        "blade.skullcrusher.4"
+      ],
+      [
+        "blade.skullcrusher.meteor_strike",
+        "blade.skullcrusher.2"
+      ],
+      [
+        "blade.skullcrusher.meteor_strike",
+        "blade.skullcrusher.3"
+      ],
+      [
+        "blade.polearm.4",
+        "blade.skullcrusher.in.1"
+      ],
+      [
+        "blade.skullcrusher.in.1",
+        "blade.skullcrusher.in.2"
+      ],
+      [
+        "blade.skullcrusher.in.2",
+        "blade.skullcrusher.1"
+      ],
+      [
         "blade.signet.1",
         "blade.signet.2"
       ],
@@ -2632,6 +2668,38 @@
       [
         "marksman.emberhide.join.1",
         "marksman.sharpshooter.1"
+      ],
+      [
+        "marksman.hurler.1",
+        "marksman.hurler.2"
+      ],
+      [
+        "marksman.hurler.1",
+        "marksman.hurler.3"
+      ],
+      [
+        "marksman.hurler.2",
+        "marksman.hurler.4"
+      ],
+      [
+        "marksman.hurler.3",
+        "marksman.hurler.4"
+      ],
+      [
+        "marksman.hurler.javelineer",
+        "marksman.hurler.2"
+      ],
+      [
+        "marksman.hurler.javelineer",
+        "marksman.hurler.3"
+      ],
+      [
+        "marksman.emberhide.4",
+        "marksman.hurler.in.1"
+      ],
+      [
+        "marksman.hurler.in.1",
+        "marksman.hurler.1"
       ],
       [
         "marksman.longbow.1",

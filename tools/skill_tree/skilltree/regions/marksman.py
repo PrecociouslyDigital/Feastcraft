@@ -18,9 +18,9 @@ QUICK_DRAW = Cluster(
     "Quick Draw",
     Wheel8(
         N("Snap Shot", (B(S.DRAW_SPEED, 15),), "minecraft:bow"),
-        N("Taut String", (B(S.BOW_PROJECTILE_SPEED, 15),), "minecraft:string"),
+        N("Taut String", (B(S.BOW_DAMAGE, 12),), "minecraft:string"),
     ),
-    smalls=(B(S.DRAW_SPEED, 5), B(S.BOW_PROJECTILE_SPEED, 5)),
+    smalls=(B(S.DRAW_SPEED, 5), B(S.BOW_DAMAGE, 4)),
     icon="minecraft:bow",
     radius=500, angle=-11, hangs_from=Outer(1),
 )
@@ -37,10 +37,10 @@ SHARPSHOOTER = Cluster(
 ARBALEST = Cluster(
     "Arbalest",
     Wheel6(
-        N("Heavy Bolt", (B(S.CROSSBOW_PROJECTILE_SPEED, 15), B(S.KNOCKBACK, 25)), "minecraft:crossbow"),
+        N("Heavy Bolt", (B(S.CROSSBOW_DAMAGE, 12), B(S.KNOCKBACK, 25)), "minecraft:crossbow"),
         N("Punch Through", (B(S.ARMOR_PIERCE, 2),), "minecraft:iron_nugget"),
     ),
-    smalls=(B(S.CROSSBOW_PROJECTILE_SPEED, 5), B(S.ARMOR_PIERCE, 0.5)),
+    smalls=(B(S.CROSSBOW_DAMAGE, 4), B(S.ARMOR_PIERCE, 0.5)),
     icon="minecraft:crossbow",
     radius=466, angle=12, hangs_from=Outer(3),
 )
@@ -61,6 +61,13 @@ EMBERHIDE = Cluster(
     icon="minecraft:nether_brick",
     radius=574, angle=0, hangs_from=ARBALEST, joins=SHARPSHOOTER,
 )
+HURLER = Cluster(
+    "Hurler",
+    Kite(N("Javelineer", (B(S.THROWN_DAMAGE, 15),), "minecraft:trident")),
+    smalls=(B(S.THROWN_DAMAGE, 4), B(S.RANGED_DAMAGE, 2)),
+    icon="minecraft:trident",
+    radius=740, angle=0, hangs_from=EMBERHIDE,
+)
 
 LONGBOW = Cluster(
     "Longbow",
@@ -77,7 +84,7 @@ MARKSMAN = Region(
     "marksman", "Marksman",
     road=B(S.RANGED_DAMAGE, 2), road_icon="minecraft:stick",
     inner=FLETCHING,
-    clusters=(QUICK_DRAW, SHARPSHOOTER, ARBALEST, SKIRMISHER, EMBERHIDE, LONGBOW),
+    clusters=(QUICK_DRAW, SHARPSHOOTER, ARBALEST, SKIRMISHER, EMBERHIDE, HURLER, LONGBOW),
     keystones=(
         KeystoneAt(FAR_SHOT, 792, -11, SHARPSHOOTER),
         KeystoneAt(PHANTOM, 710, 10, SKIRMISHER),

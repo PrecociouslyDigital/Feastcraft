@@ -3147,7 +3147,7 @@
       "extra": [
         "",
         {
-          "text": "+4% Sword Damage"
+          "text": "+4% Blade Damage"
         }
       ]
     },
@@ -3168,7 +3168,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:sword_damage",
+          "attribute": "feastcraft_arsenal:blade_damage",
           "value": 0.04,
           "operation": "multiply_base"
         }
@@ -3203,7 +3203,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:axe_damage",
+          "attribute": "feastcraft_arsenal:axe_damage",
           "value": 0.04,
           "operation": "multiply_base"
         }
@@ -3217,7 +3217,7 @@
       "extra": [
         "",
         {
-          "text": "+4% Sword Damage"
+          "text": "+4% Blade Damage"
         }
       ]
     },
@@ -3238,7 +3238,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:sword_damage",
+          "attribute": "feastcraft_arsenal:blade_damage",
           "value": 0.04,
           "operation": "multiply_base"
         }
@@ -3273,7 +3273,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:axe_damage",
+          "attribute": "feastcraft_arsenal:axe_damage",
           "value": 0.04,
           "operation": "multiply_base"
         }
@@ -3287,7 +3287,7 @@
       "extra": [
         "",
         {
-          "text": "+4% Sword Damage"
+          "text": "+4% Blade Damage"
         }
       ]
     },
@@ -3308,7 +3308,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:sword_damage",
+          "attribute": "feastcraft_arsenal:blade_damage",
           "value": 0.04,
           "operation": "multiply_base"
         }
@@ -3343,7 +3343,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:axe_damage",
+          "attribute": "feastcraft_arsenal:axe_damage",
           "value": 0.04,
           "operation": "multiply_base"
         }
@@ -3357,7 +3357,7 @@
       "extra": [
         "",
         {
-          "text": "+10% Sword Damage"
+          "text": "+10% Blade Damage"
         },
         "\n",
         {
@@ -3382,7 +3382,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:sword_damage",
+          "attribute": "feastcraft_arsenal:blade_damage",
           "value": 0.1,
           "operation": "multiply_base"
         }
@@ -3390,7 +3390,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:axe_damage",
+          "attribute": "feastcraft_arsenal:axe_damage",
           "value": 0.1,
           "operation": "multiply_base"
         }
@@ -3404,7 +3404,7 @@
       "extra": [
         "",
         {
-          "text": "+4% Sword Damage"
+          "text": "+4% Blade Damage"
         }
       ]
     },
@@ -3425,7 +3425,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:sword_damage",
+          "attribute": "feastcraft_arsenal:blade_damage",
           "value": 0.04,
           "operation": "multiply_base"
         }
@@ -3521,7 +3521,7 @@
       "extra": [
         "",
         {
-          "text": "+4% Sword Damage"
+          "text": "+4% Blade Damage"
         }
       ]
     },
@@ -3542,7 +3542,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:sword_damage",
+          "attribute": "feastcraft_arsenal:blade_damage",
           "value": 0.04,
           "operation": "multiply_base"
         }
@@ -3591,7 +3591,7 @@
       "extra": [
         "",
         {
-          "text": "+4% Sword Damage"
+          "text": "+4% Blade Damage"
         }
       ]
     },
@@ -3612,7 +3612,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:sword_damage",
+          "attribute": "feastcraft_arsenal:blade_damage",
           "value": 0.04,
           "operation": "multiply_base"
         }
@@ -3696,7 +3696,7 @@
       "extra": [
         "",
         {
-          "text": "+4% Sword Damage"
+          "text": "+4% Blade Damage"
         }
       ]
     },
@@ -3717,7 +3717,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:sword_damage",
+          "attribute": "feastcraft_arsenal:blade_damage",
           "value": 0.04,
           "operation": "multiply_base"
         }
@@ -3974,7 +3974,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:axe_damage",
+          "attribute": "feastcraft_arsenal:axe_damage",
           "value": 0.04,
           "operation": "multiply_base"
         }
@@ -4044,7 +4044,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:axe_damage",
+          "attribute": "feastcraft_arsenal:axe_damage",
           "value": 0.04,
           "operation": "multiply_base"
         }
@@ -4118,7 +4118,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:axe_damage",
+          "attribute": "feastcraft_arsenal:axe_damage",
           "value": 0.1,
           "operation": "multiply_base"
         }
@@ -4175,7 +4175,7 @@
       "extra": [
         "",
         {
-          "text": "+5% Trident Damage"
+          "text": "+5% Spear Damage"
         }
       ]
     },
@@ -4196,7 +4196,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:trident_damage",
+          "attribute": "feastcraft_arsenal:spear_damage",
           "value": 0.05,
           "operation": "multiply_base"
         }
@@ -4245,7 +4245,7 @@
       "extra": [
         "",
         {
-          "text": "+15% Trident Damage"
+          "text": "+15% Spear Damage"
         }
       ]
     },
@@ -4266,7 +4266,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:trident_damage",
+          "attribute": "feastcraft_arsenal:spear_damage",
           "value": 0.15,
           "operation": "multiply_base"
         }
@@ -4280,7 +4280,7 @@
       "extra": [
         "",
         {
-          "text": "+5% Trident Damage"
+          "text": "+5% Spear Damage"
         }
       ]
     },
@@ -4301,7 +4301,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:trident_damage",
+          "attribute": "feastcraft_arsenal:spear_damage",
           "value": 0.05,
           "operation": "multiply_base"
         }
@@ -4385,7 +4385,7 @@
       "extra": [
         "",
         {
-          "text": "+5% Trident Damage"
+          "text": "+5% Spear Damage"
         }
       ]
     },
@@ -4406,8 +4406,265 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:trident_damage",
+          "attribute": "feastcraft_arsenal:spear_damage",
           "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "blade.skullcrusher.1": {
+    "title": "Skullcrusher",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Mace Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:skeleton_skull"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "feastcraft_arsenal:mace_damage",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "blade.skullcrusher.2": {
+    "title": "Skullcrusher",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.5 Safe Fall Distance"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:skeleton_skull"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tconstruct:generic.safe_fall_distance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "blade.skullcrusher.3": {
+    "title": "Skullcrusher",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Mace Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:skeleton_skull"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "feastcraft_arsenal:mace_damage",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "blade.skullcrusher.4": {
+    "title": "Skullcrusher",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+0.5 Safe Fall Distance"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:skeleton_skull"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tconstruct:generic.safe_fall_distance",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "blade.skullcrusher.meteor_strike": {
+    "title": "Meteor Strike",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+15% Mace Damage"
+        },
+        "\n",
+        {
+          "text": "+3 Safe Fall Distance"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "feastcraft_arsenal:mace_damage",
+          "value": 0.15,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tconstruct:generic.safe_fall_distance",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "blade.skullcrusher.in.1": {
+    "title": "Blade Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Melee Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "blade.skullcrusher.in.2": {
+    "title": "Blade Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Melee Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wooden_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.02,
           "operation": "multiply_base"
         }
       }
@@ -19166,7 +19423,7 @@
       "extra": [
         "",
         {
-          "text": "+5% Bow Projectile Speed"
+          "text": "+4% Bow Damage"
         }
       ]
     },
@@ -19187,8 +19444,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:bow_projectile_speed",
-          "value": 0.05,
+          "attribute": "feastcraft_arsenal:bow_damage",
+          "value": 0.04,
           "operation": "multiply_base"
         }
       }
@@ -19271,7 +19528,7 @@
       "extra": [
         "",
         {
-          "text": "+5% Bow Projectile Speed"
+          "text": "+4% Bow Damage"
         }
       ]
     },
@@ -19292,8 +19549,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:bow_projectile_speed",
-          "value": 0.05,
+          "attribute": "feastcraft_arsenal:bow_damage",
+          "value": 0.04,
           "operation": "multiply_base"
         }
       }
@@ -19341,7 +19598,7 @@
       "extra": [
         "",
         {
-          "text": "+15% Bow Projectile Speed"
+          "text": "+12% Bow Damage"
         }
       ]
     },
@@ -19362,8 +19619,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:bow_projectile_speed",
-          "value": 0.15,
+          "attribute": "feastcraft_arsenal:bow_damage",
+          "value": 0.12,
           "operation": "multiply_base"
         }
       }
@@ -19376,7 +19633,7 @@
       "extra": [
         "",
         {
-          "text": "+5% Bow Projectile Speed"
+          "text": "+4% Bow Damage"
         }
       ]
     },
@@ -19397,8 +19654,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:bow_projectile_speed",
-          "value": 0.05,
+          "attribute": "feastcraft_arsenal:bow_damage",
+          "value": 0.04,
           "operation": "multiply_base"
         }
       }
@@ -19691,7 +19948,7 @@
       "extra": [
         "",
         {
-          "text": "+5% Crossbow Projectile Speed"
+          "text": "+4% Crossbow Damage"
         }
       ]
     },
@@ -19712,8 +19969,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:crossbow_projectile_speed",
-          "value": 0.05,
+          "attribute": "feastcraft_arsenal:crossbow_damage",
+          "value": 0.04,
           "operation": "multiply_base"
         }
       }
@@ -19761,7 +20018,7 @@
       "extra": [
         "",
         {
-          "text": "+15% Crossbow Projectile Speed"
+          "text": "+12% Crossbow Damage"
         },
         "\n",
         {
@@ -19786,8 +20043,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:crossbow_projectile_speed",
-          "value": 0.15,
+          "attribute": "feastcraft_arsenal:crossbow_damage",
+          "value": 0.12,
           "operation": "multiply_base"
         }
       },
@@ -19808,7 +20065,7 @@
       "extra": [
         "",
         {
-          "text": "+5% Crossbow Projectile Speed"
+          "text": "+4% Crossbow Damage"
         }
       ]
     },
@@ -19829,8 +20086,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:crossbow_projectile_speed",
-          "value": 0.05,
+          "attribute": "feastcraft_arsenal:crossbow_damage",
+          "value": 0.04,
           "operation": "multiply_base"
         }
       }
@@ -19913,7 +20170,7 @@
       "extra": [
         "",
         {
-          "text": "+5% Crossbow Projectile Speed"
+          "text": "+4% Crossbow Damage"
         }
       ]
     },
@@ -19934,8 +20191,8 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "puffish_attributes:crossbow_projectile_speed",
-          "value": 0.05,
+          "attribute": "feastcraft_arsenal:crossbow_damage",
+          "value": 0.04,
           "operation": "multiply_base"
         }
       }
@@ -20469,6 +20726,216 @@
     ]
   },
   "marksman.emberhide.join.1": {
+    "title": "Marksman Road",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Ranged Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:stick"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 0.75,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "marksman.hurler.1": {
+    "title": "Hurler",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Thrown Weapon Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:trident"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "feastcraft_arsenal:thrown_damage",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "marksman.hurler.2": {
+    "title": "Hurler",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Ranged Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:trident"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "marksman.hurler.3": {
+    "title": "Hurler",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+4% Thrown Weapon Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:trident"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "feastcraft_arsenal:thrown_damage",
+          "value": 0.04,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "marksman.hurler.4": {
+    "title": "Hurler",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+2% Ranged Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:trident"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "size": 1.0,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.02,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "marksman.hurler.javelineer": {
+    "title": "Javelineer",
+    "description": {
+      "text": "",
+      "extra": [
+        "",
+        {
+          "text": "+15% Thrown Weapon Damage"
+        }
+      ]
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:trident"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "size": 1.25,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "feastcraft_arsenal:thrown_damage",
+          "value": 0.15,
+          "operation": "multiply_base"
+        }
+      }
+    ]
+  },
+  "marksman.hurler.in.1": {
     "title": "Marksman Road",
     "description": {
       "text": "",

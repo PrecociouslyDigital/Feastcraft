@@ -625,6 +625,41 @@
     "y": -632,
     "definition": "blade.polearm.5"
   },
+  "blade.skullcrusher.1": {
+    "x": 291,
+    "y": -706,
+    "definition": "blade.skullcrusher.1"
+  },
+  "blade.skullcrusher.2": {
+    "x": 304,
+    "y": -760,
+    "definition": "blade.skullcrusher.2"
+  },
+  "blade.skullcrusher.3": {
+    "x": 347,
+    "y": -702,
+    "definition": "blade.skullcrusher.3"
+  },
+  "blade.skullcrusher.4": {
+    "x": 359,
+    "y": -756,
+    "definition": "blade.skullcrusher.4"
+  },
+  "blade.skullcrusher.meteor_strike": {
+    "x": 325,
+    "y": -731,
+    "definition": "blade.skullcrusher.meteor_strike"
+  },
+  "blade.skullcrusher.in.1": {
+    "x": 203,
+    "y": -642,
+    "definition": "blade.skullcrusher.in.1"
+  },
+  "blade.skullcrusher.in.2": {
+    "x": 247,
+    "y": -674,
+    "definition": "blade.skullcrusher.in.2"
+  },
   "blade.signet.1": {
     "x": -29,
     "y": -693,
@@ -2804,6 +2839,36 @@
     "x": -597,
     "y": 68,
     "definition": "marksman.emberhide.join.1"
+  },
+  "marksman.hurler.1": {
+    "x": -698,
+    "y": 6,
+    "definition": "marksman.hurler.1"
+  },
+  "marksman.hurler.2": {
+    "x": -745,
+    "y": 36,
+    "definition": "marksman.hurler.2"
+  },
+  "marksman.hurler.3": {
+    "x": -735,
+    "y": -36,
+    "definition": "marksman.hurler.3"
+  },
+  "marksman.hurler.4": {
+    "x": -782,
+    "y": -6,
+    "definition": "marksman.hurler.4"
+  },
+  "marksman.hurler.javelineer": {
+    "x": -740,
+    "y": 0,
+    "definition": "marksman.hurler.javelineer"
+  },
+  "marksman.hurler.in.1": {
+    "x": -655,
+    "y": 12,
+    "definition": "marksman.hurler.in.1"
   },
   "marksman.longbow.1": {
     "x": -924,

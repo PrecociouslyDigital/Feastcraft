@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#minecraft:axes",
+    {"id": "#forge:tools/axes", "required": false},
+    "tconstruct:hand_axe",
+    "tconstruct:broad_axe"
+  ]
+}

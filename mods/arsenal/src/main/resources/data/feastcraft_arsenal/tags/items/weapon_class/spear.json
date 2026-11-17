@@ -1,0 +1,7 @@
+{
+  "values": [
+    "minecraft:trident",
+    "tconstruct:javelin",
+    {"id": "tinkers_katanas:naginata", "required": false}
+  ]
+}

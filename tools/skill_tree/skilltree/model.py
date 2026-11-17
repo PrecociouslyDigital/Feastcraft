@@ -17,7 +17,7 @@ def _number(amount: float) -> str:
 
 @dataclass(frozen=True)
 class Bonus:
-    """A stat, in the units its tooltip shows: `Bonus(SWORD_DAMAGE, 4)` is +4% Sword Damage."""
+    """A stat, in the units its tooltip shows: `Bonus(BLADE_DAMAGE, 4)` is +4% Blade Damage."""
 
     stat: Stat
     amount: float

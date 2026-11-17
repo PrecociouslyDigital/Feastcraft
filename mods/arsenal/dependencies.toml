@@ -1,0 +1,6 @@
+[[dependencies.feastcraft_arsenal]]
+    modId="tconstruct"
+    mandatory=true
+    versionRange="[3.12,)"
+    ordering="AFTER"
+    side="BOTH"

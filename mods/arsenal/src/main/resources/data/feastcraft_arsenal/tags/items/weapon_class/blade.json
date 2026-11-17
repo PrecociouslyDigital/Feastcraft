@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#minecraft:swords",
+    {"id": "#forge:tools/swords", "required": false},
+    "tconstruct:sword",
+    "tconstruct:dagger",
+    "tconstruct:cleaver",
+    {"id": "tinkers_katanas:katana", "required": false},
+    {"id": "tinkers_katanas:muramasa", "required": false}
+  ]
+}

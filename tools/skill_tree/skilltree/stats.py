@@ -40,6 +40,7 @@ class Mod(Enum):
     APOTHIC = "attributeslib"
     ADDITIONAL = "additionalentityattributes"
     TINKERS = "tconstruct"
+    ARSENAL = "feastcraft_arsenal"
 
 
 @dataclass(frozen=True)
@@ -58,7 +59,7 @@ def _s(mod: Mod, path: str, name: str, grant: Grant) -> StatInfo:
     return StatInfo(mod, path, name, grant)
 
 
-M, F, P, A, X, T = Mod.MINECRAFT, Mod.FORGE, Mod.PUFFERFISH, Mod.APOTHIC, Mod.ADDITIONAL, Mod.TINKERS
+M, F, P, A, X, T, W = Mod.MINECRAFT, Mod.FORGE, Mod.PUFFERFISH, Mod.APOTHIC, Mod.ADDITIONAL, Mod.TINKERS, Mod.ARSENAL
 FLAT, POINTS, SCALE, SECONDS = Grant.FLAT, Grant.POINTS, Grant.SCALE, Grant.SECONDS
 
 
@@ -82,9 +83,6 @@ class Stat(Enum):
     MELEE_DAMAGE = _s(P, "melee_damage", "Melee Damage", SCALE)
     RANGED_DAMAGE = _s(P, "ranged_damage", "Ranged Damage", SCALE)
     TAMED_DAMAGE = _s(P, "tamed_damage", "Tamed Animal Damage", SCALE)
-    SWORD_DAMAGE = _s(P, "sword_damage", "Sword Damage", SCALE)
-    AXE_DAMAGE = _s(P, "axe_damage", "Axe Damage", SCALE)
-    TRIDENT_DAMAGE = _s(P, "trident_damage", "Trident Damage", SCALE)
     FORTUNE = _s(P, "fortune", "Fortune", FLAT)
     HEALING = _s(P, "healing", "Healing", SCALE)
     JUMP = _s(P, "jump", "Jump Height", SCALE)
@@ -107,8 +105,6 @@ class Stat(Enum):
     DAMAGE_REFLECTION = _s(P, "damage_reflection", "Damage Reflected", SCALE)
     STEALTH = _s(P, "stealth", "Stealth", FLAT)
     FALL_REDUCTION = _s(P, "fall_reduction", "Fall Distance Ignored", FLAT)
-    BOW_PROJECTILE_SPEED = _s(P, "bow_projectile_speed", "Bow Projectile Speed", SCALE)
-    CROSSBOW_PROJECTILE_SPEED = _s(P, "crossbow_projectile_speed", "Crossbow Projectile Speed", SCALE)
 
     DRAW_SPEED = _s(A, "draw_speed", "Draw Speed", POINTS)
     CRIT_CHANCE = _s(A, "crit_chance", "Crit Chance", POINTS)
@@ -142,6 +138,14 @@ class Stat(Enum):
     SAFE_FALL_DISTANCE = _s(T, "generic.safe_fall_distance", "Safe Fall Distance", FLAT)
     GOOD_EFFECT_DURATION = _s(T, "generic.good_effect_duration_multiplier", "Good Effect Duration", POINTS)
     BAD_EFFECT_DURATION = _s(T, "generic.bad_effect_duration_multiplier", "Bad Effect Duration", POINTS)
+
+    BLADE_DAMAGE = _s(W, "blade_damage", "Blade Damage", SCALE)
+    AXE_DAMAGE = _s(W, "axe_damage", "Axe Damage", SCALE)
+    SPEAR_DAMAGE = _s(W, "spear_damage", "Spear Damage", SCALE)
+    MACE_DAMAGE = _s(W, "mace_damage", "Mace Damage", SCALE)
+    BOW_DAMAGE = _s(W, "bow_damage", "Bow Damage", SCALE)
+    CROSSBOW_DAMAGE = _s(W, "crossbow_damage", "Crossbow Damage", SCALE)
+    THROWN_DAMAGE = _s(W, "thrown_damage", "Thrown Weapon Damage", SCALE)
 
     @property
     def info(self) -> StatInfo:
