@@ -1,0 +1,9 @@
+# Aspects said outright. These beat every other step, so a bad result from a tag, a recipe or a
+# model is corrected here. An entry lists aspects, or names a parent of the same kind to copy.
+
+[item]
+"create:zinc_ingot" = { metallum = 3 }
+"create:raw_zinc" = { metallum = 2, terra = 1 }
+"create:zinc_nugget" = { metallum = 1 }
+
+[entity]
