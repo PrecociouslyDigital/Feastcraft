@@ -1,0 +1,117 @@
+# The market's single decree: which made things players hand in, and what they're paid with.
+# Worths come from prices.toml.
+
+name = "Market"
+
+# Ids the export doesn't have, because the instance it came from lacks the repo's mods.
+known_extras = ["feastcraft_expeditions:ember_charcoal"]
+
+# Each reward hands out about this much worth: few of a valuable item, many of a cheap one.
+reward_worth = [150, 1200]
+# A raw reward is uncommon from the first value, and rare from the second.
+rarer_from = [80, 250]
+
+# Ember Charcoal is about half of all rewards by weight. Each price is the worth of one charcoal,
+# so the common offer is the dearest.
+[ember]
+item = "feastcraft_expeditions:ember_charcoal"
+price = { COMMON = 600, UNCOMMON = 400, RARE = 250 }
+
+# Rewards are raw groups from prices.toml. An item goes in the first category that selects it, and
+# each category's weight is shared among its items.
+[rewards.other_dimensions]
+groups = ["other_dimensions"]
+weight = 1
+
+[rewards.farm]
+groups = ["seeds", "crops", "mushrooms", "eggs", "petals"]
+weight = 3
+
+[rewards.trees]
+groups = ["saplings", "logs"]
+deny = ["*stripped*", "*:*_wood", "*:*_hyphae"]
+weight = 1.5
+
+[rewards.fertilizer]
+groups = ["fertilizers", "raw_blocks"]
+weight = 1
+
+[rewards.animals]
+groups = ["mob_drops", "raw_fish", "raw_meat"]
+weight = 3
+
+[rewards.ores]
+groups = ["raw_materials", "raw_copper", "raw_precious"]
+deny = ["#forge:ores"]
+weight = 1.5
+
+# Objectives are what players hand in. An item goes in the first category that selects it, and
+# only if it has a price that isn't raw.
+[objectives.feasts]
+tags = ["farmersdelight:feasts"]
+ids = ["*:*_feast", "*:*_feast_block"]
+deny = ["cookbook_of_babel:*"]
+rarity = "RARE"
+most = 4
+weight = 0.5
+
+[objectives.preserves]
+tags = ["farmersdelight:drinks", "vintagedelight:sweet_jam_bottles", "vintagedelight:savory_jam_bottles"]
+ids = ["*:*_jam", "*:*jam_bottle", "*:*_jelly", "*:*_juice", "*:*wine*", "*:*_cider", "*:*_mead", "*:*_smoothie", "*:*_preserves", "*:*_marmalade", "*:*_tea"]
+deny = ["cookbook_of_babel:*", "*_block", "*_bucket", "*_bottle_empty"]
+rarity = "UNCOMMON"
+weight = 1.5
+
+[objectives.meals]
+# Cooked, smoked or crafted: any food a recipe makes.
+food = true
+ids = ["*"]
+deny = [
+    "cookbook_of_babel:*", "minecraft:golden_apple", "minecraft:enchanted_golden_apple", "*_slice", "*:*_seeds",
+    # Edible building blocks and fishing gear.
+    "*_stairs", "*_slab", "*_wall", "*_door", "*_trapdoor", "*_bricks", "*_brick", "*_bobber", "*lunchbox",
+]
+weight = 4
+
+[objectives.runes]
+ids = ["botania:rune_*"]
+rarity = "UNCOMMON"
+most = 16
+weight = 1
+
+[objectives.flowers]
+tags = ["botania:functional_special_flowers", "botania:generating_special_flowers"]
+deny = ["#botania:special_floating_flowers"]
+rarity = "UNCOMMON"
+most = 8
+weight = 1
+
+[objectives.mana]
+# Botania's mana-infused goods.
+ids = [
+    "botania:manasteel_ingot", "botania:mana_pearl", "botania:mana_diamond", "botania:mana_powder",
+    "botania:mana_string", "botania:manaweave_cloth", "botania:mana_glass", "botania:mana_quartz",
+    "botania:livingwood_twig", "botania:livingrock_bricks", "botania:livingwood_planks", "botania:mana_cookie",
+]
+weight = 1
+
+[objectives.thaumcraft]
+# Priced in prices.toml's [made].
+ids = [
+    "thaumcraft:item_resource/meta_0", "thaumcraft:item_resource/meta_1", "thaumcraft:item_resource/meta_2",
+    "thaumcraft:item_resource/meta_4", "thaumcraft:item_resource/meta_7", "thaumcraft:item_resource/meta_14",
+    "thaumcraft:item_resource/meta_16", "thaumcraft:item_shard/meta_6", "thaumcraft:item_bauble_blanks/meta_*",
+    "thaumcraft:block_candle/meta_0",
+]
+rarity = "UNCOMMON"
+most = 16
+weight = 1
+
+[objectives.hexerei]
+ids = ["hexerei:dried_*", "hexerei:*_blend", "hexerei:candle", "hexerei:seed_mixture"]
+weight = 1
+
+[objectives.theurgy]
+ids = ["theurgy:alchemical_sulfur_*", "theurgy:mercury_crystal", "theurgy:mercury_shard", "theurgy:purified_gold", "theurgy:alchemical_salt_*"]
+rarity = "UNCOMMON"
+weight = 1

@@ -30,6 +30,8 @@ class Food:
 @dataclass(frozen=True)
 class Recipe:
     id: str
+    # The recipe serializer, such as minecraft:smelting.
+    type: str
     result: str
     count: int
     # One entry per slot: each item that fits it, with how many it takes.
@@ -74,10 +76,10 @@ def _slot(text: str) -> tuple[tuple[str, int], ...]:
 
 
 def _recipes(path: Path) -> Iterator[Recipe]:
-    for id, _serializer, result, count, *rest in _rows(path):
+    for id, type, result, count, *rest in _rows(path):
         ingredients = rest[0] if rest else ""
         if result and ingredients:
-            yield Recipe(id, result, int(count), tuple(_slot(slot) for slot in ingredients.split(" ")))
+            yield Recipe(id, type, result, int(count), tuple(_slot(slot) for slot in ingredients.split(" ")))
 
 
 def _tags(data: Path, folder: str) -> dict[str, frozenset[str]]:
@@ -126,3 +128,20 @@ def load(export: Path) -> Export:
         item_tags=_tags(export / "data", "items"),
         entity_tags=_tags(export / "data", "entity_types"),
     )
+
+
+def _loot_items(node: object) -> Iterator[str]:
+    if isinstance(node, dict):
+        if node.get("type") in ("minecraft:item", "item") and "name" in node:
+            yield node["name"]
+        for value in node.values():
+            yield from _loot_items(value)
+    elif isinstance(node, list):
+        for value in node:
+            yield from _loot_items(value)
+
+
+def mob_drops(export: Path) -> frozenset[str]:
+    """Every item some entity's loot table can drop."""
+    tables = (export / "data").glob("*/loot_tables/entities/**/*.json")
+    return frozenset(item for table in tables for item in _loot_items(json.loads(table.read_text()))) - {"minecraft:air"}

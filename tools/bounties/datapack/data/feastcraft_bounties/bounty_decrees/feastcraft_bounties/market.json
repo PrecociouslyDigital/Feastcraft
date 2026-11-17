@@ -1,0 +1,9 @@
+{
+  "name": "Market",
+  "objectives": [
+    "feastcraft_objs"
+  ],
+  "rewards": [
+    "feastcraft_rews"
+  ]
+}

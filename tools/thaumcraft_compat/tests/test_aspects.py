@@ -16,7 +16,7 @@ VANILLA: dict[str, Aspects] = {
 
 
 def recipe(id: str, result: str, count: int, *slots: str) -> Recipe:
-    return Recipe(id, result, count, tuple(((item, 1),) for item in slots))
+    return Recipe(id, "minecraft:crafting_shapeless", result, count, tuple(((item, 1),) for item in slots))
 
 
 def make_export(items: list[str], recipes: list[Recipe] = [], tags: dict[str, frozenset[str]] = {},

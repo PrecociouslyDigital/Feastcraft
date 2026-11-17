@@ -51,6 +51,7 @@ case $command in
             --minecraft "$(property minecraft_version)" --forge "$(property forge_version)" \
             --datapack "feastcraft_skill_tree=$repo/tools/skill_tree/datapack" \
             --datapack "feastcraft_thaumcraft_compat=$repo/tools/thaumcraft_compat/datapack" \
+            --datapack "feastcraft_bounties=$repo/tools/bounties/datapack" \
             "${jars[@]}"
         ;;
     server)

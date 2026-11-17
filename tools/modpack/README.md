@@ -19,8 +19,9 @@ The pack's name and version are in `pack.toml`.
 - The instance's `config/` and the 1.7.10 Thaumcraft jars in `mods/1.7.10/`. `pack.toml` lists
   these folders and the files in them to leave out.
 - The mods under `mods/` in this repo, built fresh. A `feastcraft_*` jar in the instance is ignored.
-- The repo's datapacks, in Open Loader's folder: the skill tree from `tools/skill_tree/datapack`
-  and the Thaumcraft compatibility pack from `tools/thaumcraft_compat/datapack`.
+- The repo's datapacks, in Open Loader's folder: the skill tree from `tools/skill_tree/datapack`,
+  the Thaumcraft compatibility pack from `tools/thaumcraft_compat/datapack`, and the bounty
+  market from `tools/bounties/datapack`.
 
 `options.txt` is left out, so the pack doesn't replace a player's key bindings and video settings.
 
