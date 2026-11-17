@@ -6,7 +6,9 @@ import shutil
 from collections import Counter
 from pathlib import Path
 
-from . import biomes, budget, derive, emit, export, questions, raw, tables
+import packexport
+
+from . import biomes, budget, derive, emit, questions, raw, tables
 
 HERE = Path(__file__).resolve().parent.parent
 DATAPACK = HERE / "datapack"
@@ -18,7 +20,7 @@ INSTALLED_AS = Path("config/openloader/data/feastcraft_thaumcraft_compat")
 
 
 def aspects(export_dir: Path) -> None:
-    loaded = export.load(export_dir)
+    loaded = packexport.load(export_dir)
     hand = tables.hand(HERE / "aspects.toml", loaded)
     tag_parents = tables.tag_parents(HERE / "tags.toml", loaded)
     loaded = dataclasses.replace(loaded, known=loaded.known | tables.known(HERE / "aspects.toml", loaded))
@@ -46,14 +48,14 @@ def aspects(export_dir: Path) -> None:
         print("then run this again.")
 
 
-def ask(loaded: export.Export, subjects: list[export.Subject]) -> tuple[dict[export.Subject, derive.Asked], list[questions.Request], set[str]]:
+def ask(loaded: packexport.Export, subjects: list[packexport.Subject]) -> tuple[dict[packexport.Subject, derive.Asked], list[questions.Request], set[str]]:
     """Answers so far, from mammoth-1 where Jev was unsure, and the requests still to send."""
     answered = STORE.answered()
     waiting: list[questions.Request] = []
     referenced: set[str] = set()
 
-    def answers(model: questions.Model, of: list[export.Subject]) -> dict[export.Subject, dict[str, float]]:
-        out: dict[export.Subject, dict[str, float]] = {}
+    def answers(model: questions.Model, of: list[packexport.Subject]) -> dict[packexport.Subject, dict[str, float]]:
+        out: dict[packexport.Subject, dict[str, float]] = {}
         for request in questions.requests(loaded, model, of):
             referenced.add(request.key)
             if request.key in answered:

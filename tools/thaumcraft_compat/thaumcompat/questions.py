@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Any, Literal
 
 from .aspects import ASPECTS
-from .export import Aspects, Export, Subject
+from packexport import Aspects, Export, Subject
 
 Model = Literal["jev", "mammoth"]
 MODEL_IDS: dict[Model, str] = {"jev": "typesafe/jev-1.14", "mammoth": "baseten/mammoth-1"}

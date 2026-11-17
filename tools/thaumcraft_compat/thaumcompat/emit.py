@@ -11,7 +11,7 @@ from typing import Any
 
 from .budget import block_items
 from .derive import Asked, Crafted, Hand, Inherits, Listed, Resolution, Tag, Value, subjects, value
-from .export import Aspects, Export, Subject
+from packexport import Aspects, Export, Subject
 
 ENTRIES = Path("data/feastcraft_thaumcraft_compat/feastcraft_thaumcraft_aspects")
 

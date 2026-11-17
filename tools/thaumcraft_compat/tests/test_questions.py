@@ -3,7 +3,7 @@ import unittest
 
 from thaumcompat import questions
 from thaumcompat.aspects import ASPECTS
-from thaumcompat.export import Export, Food, Subject
+from packexport import Export, Food, Subject
 
 
 def subjects(n: int, seed: int = 0) -> list[Subject]:

@@ -3,7 +3,7 @@ from collections import Counter
 
 from thaumcompat import budget, derive, emit, raw
 from thaumcompat.derive import Crafted, Hand, Inherits, Listed, Tag
-from thaumcompat.export import Aspects, Export, Recipe, Subject
+from packexport import Aspects, Export, Recipe, Subject
 
 VANILLA: dict[str, Aspects] = {
     "minecraft:iron_ingot": {"metallum": 4},

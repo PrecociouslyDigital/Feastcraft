@@ -7,7 +7,7 @@ from collections import defaultdict
 from collections.abc import Iterable, Mapping
 from dataclasses import dataclass
 
-from .export import Aspects, Export, Recipe, Subject
+from packexport import Aspects, Export, Recipe, Subject
 
 # Namespaces whose aspects Thaumcraft already settles.
 SETTLED = ("minecraft", "thaumcraft")

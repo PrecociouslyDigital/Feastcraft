@@ -6,7 +6,7 @@ from collections import Counter
 from collections.abc import Iterable, Mapping
 
 from .derive import Crafted, Hand, Resolution, Tag
-from .export import Export, Subject
+from packexport import Export, Subject
 
 BLOCK_BUDGET = 1500
 # Shapes of a block that only repeat what the full block offers.

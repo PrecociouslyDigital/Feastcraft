@@ -8,7 +8,7 @@ from typing import Any
 
 from .aspects import ASPECTS
 from .derive import Inherits, Listed, Value
-from .export import Aspects, Export, Kind, Subject
+from packexport import Aspects, Export, Kind, Subject
 
 
 class TableError(Exception):

@@ -7,7 +7,7 @@ from collections import Counter, defaultdict
 from collections.abc import Iterable, Mapping
 
 from .derive import Resolution, subjects
-from .export import Export, Recipe, Subject
+from packexport import Export, Recipe, Subject
 
 # Items that should have no aspects at all.
 NO_ASPECTS = re.compile(r"_spawn_egg$")
