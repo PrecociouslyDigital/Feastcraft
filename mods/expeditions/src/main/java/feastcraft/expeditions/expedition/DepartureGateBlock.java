@@ -35,7 +35,7 @@ public final class DepartureGateBlock extends Block {
         }
         if (!BaseDimension.isBase(level)) {
             serverPlayer.displayClientMessage(Component.translatable("feastcraft_expeditions.gate.not_in_base"), true);
-        } else if (!Deployment.start(serverPlayer)) {
+        } else if (!Deployment.start(serverPlayer, pos)) {
             serverPlayer.displayClientMessage(Component.translatable("feastcraft_expeditions.deploy.busy"), true);
         }
         return InteractionResult.CONSUME;

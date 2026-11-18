@@ -9,6 +9,7 @@ public final class ExpeditionsConfig {
     public static final ForgeConfigSpec.IntValue DROP_MIN_DISTANCE;
     public static final ForgeConfigSpec.IntValue DROP_MAX_DISTANCE;
     public static final ForgeConfigSpec.IntValue EXFIL_COUNTDOWN_TICKS;
+    public static final ForgeConfigSpec.IntValue CO_DEPLOY_COUNTDOWN_TICKS;
 
     static {
         var builder = new ForgeConfigSpec.Builder();
@@ -26,6 +27,13 @@ public final class ExpeditionsConfig {
         EXFIL_COUNTDOWN_TICKS = builder
                 .comment("Ticks between calling a beacon and departure. Everyone in its zone when it ends goes home.")
                 .defineInRange("countdownTicks", 2_400, 1, 72_000);
+        builder.pop();
+
+        builder.push("coDeploy");
+        CO_DEPLOY_COUNTDOWN_TICKS = builder
+                .comment("Ticks between activating the departure gate and the group leaving. Everyone (and every mount)",
+                        "in the gate's zone at the end deploys to the same drop.")
+                .defineInRange("countdownTicks", 20 * 30, 1, 72_000);
         builder.pop();
 
         SPEC = builder.build();

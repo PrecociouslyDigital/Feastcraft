@@ -3,11 +3,17 @@ package feastcraft.expeditions.expedition;
 import feastcraft.expeditions.ExpeditionsRegistry;
 import feastcraft.expeditions.base.BaseDimension;
 import feastcraft.expeditions.exfil.ExfilCompassItem;
+import java.util.Objects;
+import java.util.function.Function;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.portal.PortalInfo;
 import net.minecraft.world.phys.Vec3;
+import net.minecraftforge.common.util.ITeleporter;
 
 /**
  * The raid lifecycle. Steps that change the ledger do so before teleporting, so the residency
@@ -56,6 +62,24 @@ public final class Expedition {
     public static void resume(ServerPlayer player) {
         RaidLedger.get(player.server).raidOf(player.getUUID())
                 .ifPresent(raid -> teleportToDrop(player, raid.drop()));
+    }
+
+    /** Sends a mount gathered at the gate to the party's drop point; callers teleport players first. */
+    public static void arriveAtDrop(Entity entity, BlockPos drop) {
+        ServerLevel overworld = Objects.requireNonNull(entity.getServer()).overworld();
+        Vec3 at = Vec3.atBottomCenterOf(drop);
+        if (entity.level() == overworld) {
+            entity.teleportTo(at.x, at.y, at.z);
+        } else {
+            entity.changeDimension(overworld, new ToDrop(at));
+        }
+    }
+
+    private record ToDrop(Vec3 at) implements ITeleporter {
+        @Override
+        public PortalInfo getPortalInfo(Entity entity, ServerLevel destWorld, Function<ServerLevel, PortalInfo> defaultPortalInfo) {
+            return new PortalInfo(at, Vec3.ZERO, entity.getYRot(), entity.getXRot());
+        }
     }
 
     private static void teleportToDrop(ServerPlayer player, BlockPos drop) {

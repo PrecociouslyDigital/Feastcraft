@@ -64,7 +64,8 @@ public final class ExpeditionsCommand {
     }
 
     private static int deploy(CommandContext<CommandSourceStack> context, ServerPlayer player) {
-        if (!Deployment.start(player)) {
+        // The command target is the initiator; the gather zone is wherever they stand.
+        if (!Deployment.start(player, player.blockPosition())) {
             context.getSource().sendFailure(Component.translatable("commands.feastcraft_expeditions.deploy.busy", player.getDisplayName()));
             return 0;
         }
