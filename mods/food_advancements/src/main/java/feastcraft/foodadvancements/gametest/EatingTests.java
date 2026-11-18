@@ -31,7 +31,7 @@ public final class EatingTests {
 
         helper.assertTrue(SOLCarrotAPI.getFoodCapability(player).hasEaten(Items.BREAD), "Carrot did not write the bread down");
         helper.assertTrue(earned(player, "root"), "eating bread did not earn the root advancement");
-        helper.assertFalse(earned(player, "eaten_10"), "one food earned the ten-food milestone");
+        helper.assertFalse(earned(player, "board_01"), "one food earned the five-food milestone");
         leave(helper, player);
     }
 

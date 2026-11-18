@@ -13,9 +13,9 @@ import net.puffish.skillsmod.api.Category;
 import net.puffish.skillsmod.api.SkillsAPI;
 
 /**
- * Against the rules in {@link GameTestPack}: story advancements pay 1 per task and 2 per goal,
- * story/root pays another 10, recipe unlocks would pay 100 if they counted, and the nether tab
- * pays 100 except for its root.
+ * Against the rules in {@link GameTestPack}: story advancements pay 1 per task and 2 per goal, but a
+ * story advancement whose only criterion is a vanilla item check pays 5; story/root pays another 10,
+ * recipe unlocks would pay 100 if they counted, and the nether tab pays 100 except for its root.
  */
 @GameTestHolder(AdvancementPoints.MOD_ID)
 @PrefixGameTestTemplate(false)
@@ -50,6 +50,18 @@ public final class PayoutTests {
         Payout.settle(player, false);
         Payout.settle(player, true);
         expectPoints(helper, category, player, 11, "after settling twice more");
+        player.getAdvancements().stopListening();
+        helper.succeed();
+    }
+
+    @GameTest(template = "empty")
+    public static void aSingleItemTaskPaysItemPoints(GameTestHelper helper) {
+        ServerPlayer player = TestPlayers.detached(helper);
+        Category category = SkillsAPI.getCategory(ResourceLocation.parse(GameTestPack.CATEGORY)).orElseThrow();
+        grant(player, "story/mine_stone");
+        expectPoints(helper, category, player, 5, "for the plain have-stone task, its item_points");
+        grant(player, "story/cure_zombie_villager");
+        expectPoints(helper, category, player, 7, "after a goal, which pays by frame");
         player.getAdvancements().stopListening();
         helper.succeed();
     }

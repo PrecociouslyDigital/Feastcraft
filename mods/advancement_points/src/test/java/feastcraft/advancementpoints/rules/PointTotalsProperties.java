@@ -24,17 +24,20 @@ class PointTotalsProperties {
 
     @Provide
     Arbitrary<Earned> earned() {
-        return Combinators.combine(Arbitraries.of(ADVANCEMENTS), Arbitraries.of(Frame.class)).as(Earned::new);
+        return Combinators.combine(Arbitraries.of(ADVANCEMENTS), Arbitraries.of(Frame.class), Arbitraries.of(true, false))
+                .as(Earned::new);
     }
 
     @Provide
     Arbitrary<PointRule> rule() {
         Arbitrary<Integer> points = Arbitraries.integers().between(0, 50);
+        Arbitrary<Integer> maybeItemPoints = Arbitraries.integers().between(0, 50).injectNull(0.3);
         return Combinators.combine(
                 Arbitraries.of("pack:gourmet", "pack:combat"),
                 patterns().list().ofMaxSize(3),
                 patterns().list().ofMaxSize(2),
-                Combinators.combine(points, points, points).as(FramePoints::new)
+                Combinators.combine(points, points, points).as(FramePoints::new),
+                maybeItemPoints
         ).as(PointRule::new);
     }
 
@@ -51,9 +54,11 @@ class PointTotalsProperties {
 
     @Property
     void withoutExceptionsARulePaysWhatItsPatternsMatch(@ForAll("rule") PointRule rule, @ForAll("earned") Earned earned) {
-        var unexcepted = new PointRule(rule.category(), rule.advancements(), List.of(), rule.points());
+        var unexcepted = new PointRule(rule.category(), rule.advancements(), List.of(), rule.points(), rule.itemPoints());
         boolean matched = rule.advancements().stream().anyMatch(pattern -> pattern.matches(earned.id()));
-        assertEquals(matched ? rule.points().of(earned.frame()) : 0, unexcepted.worth(earned));
+        int expected = matched ? (earned.singleItem() && rule.itemPoints() != null
+                ? rule.itemPoints() : rule.points().of(earned.frame())) : 0;
+        assertEquals(expected, unexcepted.worth(earned));
     }
 
     @Property

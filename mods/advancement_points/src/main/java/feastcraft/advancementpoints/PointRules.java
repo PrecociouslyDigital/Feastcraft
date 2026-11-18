@@ -75,13 +75,26 @@ public final class PointRules extends SimpleJsonResourceReloadListener {
             throw new JsonParseException("category is not a valid id");
         }
         return new PointRule(category.toString(), patterns(GsonHelper.getAsJsonArray(json, "advancements")),
-                patterns(GsonHelper.getAsJsonArray(json, "except", new JsonArray())), points(json.get("points")));
+                patterns(GsonHelper.getAsJsonArray(json, "except", new JsonArray())), points(json.get("points")),
+                itemPoints(json.get("item_points")));
     }
 
     private static List<AdvancementPattern> patterns(JsonArray json) {
         var patterns = new ArrayList<AdvancementPattern>();
         json.forEach(pattern -> patterns.add(new AdvancementPattern(GsonHelper.convertToString(pattern, "advancement pattern"))));
         return patterns;
+    }
+
+    /** Null when the rule has no item_points, which leaves the plain "have this item" tasks at their frame's worth. */
+    private static Integer itemPoints(JsonElement json) {
+        if (json == null) {
+            return null;
+        }
+        int points = GsonHelper.convertToInt(json, "item_points");
+        if (points < 0) {
+            throw new JsonParseException("item_points are never negative, got " + points);
+        }
+        return points;
     }
 
     private static FramePoints points(JsonElement json) {

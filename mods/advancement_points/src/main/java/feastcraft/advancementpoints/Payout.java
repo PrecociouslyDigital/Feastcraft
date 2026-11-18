@@ -4,7 +4,9 @@ import feastcraft.advancementpoints.rules.Earned;
 import feastcraft.advancementpoints.rules.Frame;
 import feastcraft.advancementpoints.rules.PointTotals;
 import java.util.List;
+import net.minecraft.advancements.Advancement;
 import net.minecraft.advancements.FrameType;
+import net.minecraft.advancements.critereon.AbstractCriterionTriggerInstance;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraftforge.event.OnDatapackSyncEvent;
@@ -32,7 +34,8 @@ public final class Payout {
     public static void settle(ServerPlayer player, boolean announce) {
         List<Earned> earned = player.server.getAdvancements().getAllAdvancements().stream()
                 .filter(advancement -> advancement.getDisplay() != null && player.getAdvancements().getOrStartProgress(advancement).isDone())
-                .map(advancement -> new Earned(advancement.getId().toString(), frame(advancement.getDisplay().getFrame())))
+                .map(advancement -> new Earned(advancement.getId().toString(), frame(advancement.getDisplay().getFrame()),
+                        singleItemCriterion(advancement)))
                 .toList();
         PointTotals.of(PointRules.rules(), earned).forEach((name, points) -> {
             ResourceLocation id = ResourceLocation.parse(name);
@@ -48,6 +51,17 @@ public final class Payout {
             }, () -> PointRules.reportMissing(id));
         });
     }
+
+    /** An advancement whose only criterion is a vanilla inventory check is a plain "have this item". */
+    private static boolean singleItemCriterion(Advancement advancement) {
+        var criteria = advancement.getCriteria().values();
+        return criteria.size() == 1 && criteria.stream().allMatch(criterion ->
+                criterion.getTrigger() instanceof AbstractCriterionTriggerInstance instance
+                        && instance.getCriterion().equals(INVENTORY_CHANGED));
+    }
+
+    private static final ResourceLocation INVENTORY_CHANGED =
+            ResourceLocation.withDefaultNamespace("inventory_changed");
 
     private static Frame frame(FrameType frame) {
         return switch (frame) {

@@ -1,0 +1,35 @@
+{
+  "parent": "feastcraft_food_advancements:root",
+  "criteria": {
+    "eaten": {
+      "conditions": {
+        "count": "all",
+        "foods": {
+          "tag": "feastcraft_food_advancements:menus/lava_angler"
+        }
+      },
+      "trigger": "feastcraft_food_advancements:foods_eaten"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Eat every catch from the Nether depths"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "netherdepthsupgrade:baked_blazefish_stew"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Lava Angler"
+    }
+  },
+  "requirements": [
+    [
+      "eaten"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

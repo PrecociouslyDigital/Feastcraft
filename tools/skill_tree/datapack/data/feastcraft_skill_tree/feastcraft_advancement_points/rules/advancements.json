@@ -4,7 +4,14 @@
     "*:*"
   ],
   "except": [
-    "minecraft:legacy_achievement/*"
+    "minecraft:legacy_achievement/*",
+    "twilightforest:advancements/progress_merge",
+    "naturalist:advancements/husbandry/ride_giraffe_with_map"
   ],
-  "points": 1
+  "points": {
+    "task": 5,
+    "goal": 10,
+    "challenge": 20
+  },
+  "item_points": 1
 }

@@ -54,6 +54,7 @@ case $command in
             --datapack "feastcraft_bounties=$repo/tools/bounties/datapack" \
             --datapack "feastcraft_recipes=$repo/tools/recipes/datapack" \
             --datapack "feastcraft_smithy=$repo/tools/smithy/datapack" \
+            --datapack "feastcraft_food_menus=$repo/tools/food_menus/datapack" \
             "${jars[@]}"
         ;;
     server)

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "farmersdelight:chicken_cuts",
+    "minecraft:chicken",
+    "minecraft:poisonous_potato",
+    "minecraft:pufferfish",
+    "minecraft:rotten_flesh",
+    "minecraft:spider_eye",
+    "netherdepthsupgrade:lava_pufferfish",
+    "netherdepthsupgrade:lava_pufferfish_roll",
+    "netherdepthsupgrade:lava_pufferfish_slice"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "feastcraft_food_advancements:root",
+  "criteria": {
+    "eaten": {
+      "conditions": {
+        "count": "all",
+        "foods": {
+          "tag": "feastcraft_food_advancements:menus/fruit_basket"
+        }
+      },
+      "trigger": "feastcraft_food_advancements:foods_eaten"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Eat every Fruit Delight treat"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "fruitsdelight:apple_jello"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Fruit Basket"
+    }
+  },
+  "requirements": [
+    [
+      "eaten"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

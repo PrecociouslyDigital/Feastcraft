@@ -27,6 +27,9 @@ Each rule is a JSON file at `data/<namespace>/feastcraft_advancement_points/rule
   nothing under this rule.
 - `points` is what each matching advancement pays: a number for every frame, or an object by frame
   (`task`, `goal`, `challenge`) where a missing frame pays nothing.
+- `item_points` is optional: an advancement whose only criterion is a vanilla inventory check, the
+  plain "have this item" tasks, pays it instead. Leave it out to pay those by their frame like
+  everything else. An `except` match still pays nothing.
 
 ## How points are counted
 

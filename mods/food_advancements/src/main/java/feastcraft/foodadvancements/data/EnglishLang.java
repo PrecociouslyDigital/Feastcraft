@@ -11,7 +11,7 @@ final class EnglishLang extends LanguageProvider {
 
     @Override
     protected void addTranslations() {
-        EatingAdvancements.ENTRIES.forEach(entry -> {
+        EatingAdvancements.entries().forEach(entry -> {
             add(entry.key("title"), entry.title());
             add(entry.key("description"), entry.description());
         });

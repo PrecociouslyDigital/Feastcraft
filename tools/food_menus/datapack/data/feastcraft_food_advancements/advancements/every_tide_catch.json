@@ -1,0 +1,35 @@
+{
+  "parent": "feastcraft_food_advancements:root",
+  "criteria": {
+    "eaten": {
+      "conditions": {
+        "count": "all",
+        "foods": {
+          "tag": "feastcraft_food_advancements:menus/tide_catch"
+        }
+      },
+      "trigger": "feastcraft_food_advancements:foods_eaten"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Eat every catch of the Tide"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "tide:abyss_angler"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Angler's Banquet"
+    }
+  },
+  "requirements": [
+    [
+      "eaten"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

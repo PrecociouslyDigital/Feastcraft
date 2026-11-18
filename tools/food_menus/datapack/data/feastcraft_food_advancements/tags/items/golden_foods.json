@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "atmospheric:golden_dragon_fruit",
+    "immersive_weathering:enchanted_golden_moss_clump",
+    "immersive_weathering:golden_moss_clump",
+    "minecraft:enchanted_golden_apple",
+    "minecraft:golden_apple",
+    "minecraft:golden_carrot",
+    "miners_delight:golden_nutritional_bar",
+    "tide:enchanted_golden_apple_bobber",
+    "tide:golden_apple_bobber"
+  ]
+}

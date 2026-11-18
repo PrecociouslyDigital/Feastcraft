@@ -32,6 +32,22 @@ def _frame(content: Content) -> tuple[str, float]:
             return "challenge", 1.6
 
 
+def _cost(content: Content) -> int:
+    """Points to buy the node. Points are integers, so the economy runs on tenths: everything
+    counts ten times, and a plain "have this item" advancement pays a tenth of a task."""
+    match content:
+        case Start():
+            return 0
+        case Travel():
+            return 10
+        case Small():
+            return 20
+        case Notable():
+            return 30
+        case Keystone() | Origin():
+            return 50
+
+
 def _resist_powers(skill: str, resist: Resist) -> Iterator[CustomPower]:
     for kind in resist.kinds:
         body: Json = {
@@ -155,6 +171,7 @@ def _definition(skill: str, content: Content) -> Json:
         "icon": {"type": "item", "data": {"item": content.icon}},
         "frame": {"type": "advancement", "data": {"frame": frame}},
         "size": size,
+        "cost": _cost(content),
         "rewards": [r for reward in _rewards_of(content) for r in _rewards(skill, reward)],
     }
     if extra is not None:
@@ -239,8 +256,15 @@ def files(tree: Tree, scale_to_pixels: float = 1.0) -> dict[str, Json]:
         f"{data}/feastcraft_advancement_points/rules/advancements.json": {
             "category": f"{NAMESPACE}:{CATEGORY}",
             "advancements": ["*:*"],
-            "except": ["minecraft:legacy_achievement/*"],
-            "points": 1,
+            # The legacy tab repeats vanilla's advancements on purpose (the 1.7.10 loader reads
+            # them), and a few hidden files are plumbing, so none of them pays.
+            "except": [
+                "minecraft:legacy_achievement/*",
+                "twilightforest:advancements/progress_merge",
+                "naturalist:advancements/husbandry/ride_giraffe_with_map",
+            ],
+            "points": {"task": 5, "goal": 10, "challenge": 20},
+            "item_points": 1,
         },
     }
     for slot in Slot:

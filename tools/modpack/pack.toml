@@ -3,7 +3,7 @@ version = "0.1.0"
 
 # What the pack takes from the instance besides the jars and zips directly in mods/,
 # resourcepacks/ and shaderpacks/.
-overrides = ["config", "mods/1.7.10"]
+overrides = ["config", "defaultconfigs", "mods/1.7.10"]
 
 exclude = [
     # The repo's datapacks, which come from tools/ instead.

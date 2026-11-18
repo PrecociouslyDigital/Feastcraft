@@ -23,6 +23,7 @@
       }
     },
     "size": 1.25,
+    "cost": 0,
     "rewards": []
   },
   "spoke.blade_bulwark.1": {
@@ -49,6 +50,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -84,6 +86,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -119,6 +122,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -154,6 +158,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -189,6 +194,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -224,6 +230,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -259,6 +266,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -294,6 +302,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -329,6 +338,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -364,6 +374,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -399,6 +410,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -434,6 +446,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -469,6 +482,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -504,6 +518,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -539,6 +554,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -574,6 +590,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -609,6 +626,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -644,6 +662,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -679,6 +698,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -714,6 +734,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -749,6 +770,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -784,6 +806,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -819,6 +842,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -854,6 +878,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -889,6 +914,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -924,6 +950,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -959,6 +986,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -994,6 +1022,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1029,6 +1058,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1064,6 +1094,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1099,6 +1130,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1134,6 +1166,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1169,6 +1202,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1204,6 +1238,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1239,6 +1274,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1274,6 +1310,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1309,6 +1346,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1344,6 +1382,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1379,6 +1418,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1414,6 +1454,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1449,6 +1490,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1484,6 +1526,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1519,6 +1562,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1554,6 +1598,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1589,6 +1634,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1624,6 +1670,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1659,6 +1706,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1694,6 +1742,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1729,6 +1778,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1764,6 +1814,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1799,6 +1850,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1834,6 +1886,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1869,6 +1922,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1904,6 +1958,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1939,6 +1994,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -1974,6 +2030,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2009,6 +2066,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2044,6 +2102,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2079,6 +2138,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2114,6 +2174,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2149,6 +2210,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2184,6 +2246,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2219,6 +2282,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2254,6 +2318,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2289,6 +2354,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2324,6 +2390,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2359,6 +2426,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2394,6 +2462,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2429,6 +2498,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2464,6 +2534,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2499,6 +2570,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2534,6 +2606,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2569,6 +2642,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2604,6 +2678,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2639,6 +2714,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2674,6 +2750,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2709,6 +2786,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2744,6 +2822,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2779,6 +2858,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2814,6 +2894,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2849,6 +2930,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2884,6 +2966,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2919,6 +3002,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2954,6 +3038,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -2989,6 +3074,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3024,6 +3110,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3059,6 +3146,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3094,6 +3182,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3129,6 +3218,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3164,6 +3254,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3199,6 +3290,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3234,6 +3326,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3269,6 +3362,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3304,6 +3398,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3339,6 +3434,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3378,6 +3474,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3421,6 +3518,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3456,6 +3554,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3495,6 +3594,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3538,6 +3638,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3573,6 +3674,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3608,6 +3710,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3643,6 +3746,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3678,6 +3782,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3713,6 +3818,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3748,6 +3854,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3783,6 +3890,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3818,6 +3926,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3853,6 +3962,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3888,6 +3998,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3927,6 +4038,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -3970,6 +4082,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4005,6 +4118,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4040,6 +4154,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4075,6 +4190,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4114,6 +4230,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4157,6 +4274,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4192,6 +4310,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4227,6 +4346,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4262,6 +4382,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4297,6 +4418,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4332,6 +4454,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4367,6 +4490,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4402,6 +4526,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4437,6 +4562,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4472,6 +4598,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4507,6 +4634,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4542,6 +4670,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4581,6 +4710,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4624,6 +4754,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4659,6 +4790,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4694,6 +4826,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4729,6 +4862,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4764,6 +4898,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4799,6 +4934,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4834,6 +4970,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:command",
@@ -4868,6 +5005,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4903,6 +5041,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4938,6 +5077,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -4973,6 +5113,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5008,6 +5149,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5043,6 +5185,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5078,6 +5221,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5113,6 +5257,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5148,6 +5293,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5183,6 +5329,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5224,6 +5371,7 @@
       }
     },
     "size": 1.6,
+    "cost": 50,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5278,6 +5426,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5324,6 +5473,7 @@
       }
     },
     "size": 1.6,
+    "cost": 50,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -5406,6 +5556,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5447,6 +5598,7 @@
       }
     },
     "size": 1.6,
+    "cost": 50,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5511,6 +5663,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5546,6 +5699,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5581,6 +5735,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5616,6 +5771,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5651,6 +5807,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5686,6 +5843,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5721,6 +5879,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5756,6 +5915,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5791,6 +5951,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5826,6 +5987,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5861,6 +6023,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5896,6 +6059,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5931,6 +6095,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -5966,6 +6131,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6001,6 +6167,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6036,6 +6203,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6071,6 +6239,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6106,6 +6275,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6141,6 +6311,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6176,6 +6347,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6211,6 +6383,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6250,6 +6423,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6293,6 +6467,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6328,6 +6503,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6363,6 +6539,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6398,6 +6575,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6433,6 +6611,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6468,6 +6647,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6503,6 +6683,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6538,6 +6719,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6573,6 +6755,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6608,6 +6791,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6643,6 +6827,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6678,6 +6863,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6713,6 +6899,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6748,6 +6935,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6787,6 +6975,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6830,6 +7019,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6865,6 +7055,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6900,6 +7091,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6935,6 +7127,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -6970,6 +7163,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -7005,6 +7199,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -7040,6 +7235,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -7075,6 +7271,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -7110,6 +7307,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -7145,6 +7343,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -7180,6 +7379,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -7215,6 +7415,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -7250,6 +7451,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -7285,6 +7487,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -7320,6 +7523,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -7355,6 +7559,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -7390,6 +7595,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -7425,6 +7631,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -7464,6 +7671,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -7507,6 +7715,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -7542,6 +7751,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -7577,6 +7787,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -7610,6 +7821,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -7645,6 +7857,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -7680,6 +7893,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -7719,6 +7933,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -7762,6 +7977,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -7797,6 +8013,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -7838,6 +8055,7 @@
       }
     },
     "size": 1.6,
+    "cost": 50,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -7936,6 +8154,7 @@
       }
     },
     "size": 1.6,
+    "cost": 50,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8013,6 +8232,7 @@
       }
     },
     "size": 1.6,
+    "cost": 50,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -8105,6 +8325,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8140,6 +8361,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8175,6 +8397,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8210,6 +8433,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8245,6 +8469,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8280,6 +8505,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8315,6 +8541,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8350,6 +8577,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8385,6 +8613,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8420,6 +8649,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8455,6 +8685,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8490,6 +8721,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8525,6 +8757,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8560,6 +8793,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8595,6 +8829,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8630,6 +8865,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8665,6 +8901,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8700,6 +8937,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8735,6 +8973,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8770,6 +9009,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8805,6 +9045,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8840,6 +9081,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8875,6 +9117,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8910,6 +9153,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8945,6 +9189,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -8980,6 +9225,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9015,6 +9261,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9050,6 +9297,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9085,6 +9333,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9120,6 +9369,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9155,6 +9405,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9190,6 +9441,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9225,6 +9477,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9260,6 +9513,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9295,6 +9549,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9330,6 +9585,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9365,6 +9621,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9400,6 +9657,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9435,6 +9693,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9470,6 +9729,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9505,6 +9765,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9540,6 +9801,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9575,6 +9837,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9610,6 +9873,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9645,6 +9909,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9680,6 +9945,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9715,6 +9981,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9750,6 +10017,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9785,6 +10053,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9820,6 +10089,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9855,6 +10125,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9890,6 +10161,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9925,6 +10197,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9960,6 +10233,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -9995,6 +10269,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -10028,6 +10303,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -10061,6 +10337,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -10094,6 +10371,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -10127,6 +10405,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -10160,6 +10439,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -10195,6 +10475,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -10230,6 +10511,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -10265,6 +10547,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -10300,6 +10583,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -10335,6 +10619,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -10370,6 +10655,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -10405,6 +10691,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -10440,6 +10727,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -10481,6 +10769,7 @@
       }
     },
     "size": 1.6,
+    "cost": 50,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -10543,6 +10832,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -10578,6 +10868,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -10613,6 +10904,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -10648,6 +10940,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -10683,6 +10976,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -10718,6 +11012,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -10753,6 +11048,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -10788,6 +11084,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -10823,6 +11120,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -10858,6 +11156,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -10893,6 +11192,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -10928,6 +11228,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -10963,6 +11264,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -10998,6 +11300,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11033,6 +11336,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11068,6 +11372,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11103,6 +11408,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11138,6 +11444,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11173,6 +11480,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11208,6 +11516,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11243,6 +11552,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11278,6 +11588,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11313,6 +11624,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11348,6 +11660,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11383,6 +11696,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11418,6 +11732,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11453,6 +11768,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11488,6 +11804,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11523,6 +11840,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11558,6 +11876,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11593,6 +11912,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11628,6 +11948,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11663,6 +11984,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11702,6 +12024,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11745,6 +12068,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11780,6 +12104,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11815,6 +12140,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11850,6 +12176,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11885,6 +12212,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11920,6 +12248,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11955,6 +12284,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -11990,6 +12320,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12025,6 +12356,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -12058,6 +12390,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12093,6 +12426,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12128,6 +12462,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12163,6 +12498,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -12196,6 +12532,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12231,6 +12568,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12266,6 +12604,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12301,6 +12640,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12336,6 +12676,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12371,6 +12712,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12406,6 +12748,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12441,6 +12784,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12476,6 +12820,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12511,6 +12856,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12546,6 +12892,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12581,6 +12928,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12616,6 +12964,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:command",
@@ -12650,6 +12999,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12685,6 +13035,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12720,6 +13071,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12755,6 +13107,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12790,6 +13143,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12825,6 +13179,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12860,6 +13215,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12895,6 +13251,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12930,6 +13287,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -12971,6 +13329,7 @@
       }
     },
     "size": 1.6,
+    "cost": 50,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -13034,6 +13393,7 @@
       }
     },
     "size": 1.6,
+    "cost": 50,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -13126,6 +13486,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13161,6 +13522,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13196,6 +13558,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13231,6 +13594,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13266,6 +13630,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13301,6 +13666,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13336,6 +13702,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13371,6 +13738,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13406,6 +13774,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13441,6 +13810,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13476,6 +13846,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13511,6 +13882,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13546,6 +13918,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13581,6 +13954,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13616,6 +13990,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13651,6 +14026,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13686,6 +14062,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13721,6 +14098,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13756,6 +14134,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13791,6 +14170,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13826,6 +14206,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13861,6 +14242,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13896,6 +14278,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13931,6 +14314,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -13966,6 +14350,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14001,6 +14386,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14036,6 +14422,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14071,6 +14458,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14106,6 +14494,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14141,6 +14530,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14176,6 +14566,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14211,6 +14602,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14246,6 +14638,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14281,6 +14674,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14316,6 +14710,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14351,6 +14746,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14386,6 +14782,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14421,6 +14818,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14456,6 +14854,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14491,6 +14890,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14526,6 +14926,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14561,6 +14962,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14596,6 +14998,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14631,6 +15034,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14666,6 +15070,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14701,6 +15106,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14736,6 +15142,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14771,6 +15178,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14806,6 +15214,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14845,6 +15254,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14888,6 +15298,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14923,6 +15334,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -14958,6 +15370,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -15001,6 +15414,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -15052,6 +15466,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -15087,6 +15502,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -15122,6 +15538,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -15157,6 +15574,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -15196,6 +15614,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -15235,6 +15654,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -15274,6 +15694,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -15313,6 +15734,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -15352,6 +15774,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -15387,6 +15810,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -15422,6 +15846,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -15457,6 +15882,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -15492,6 +15918,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "feastcraft_skill_rewards:mana_trickle",
@@ -15525,6 +15952,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -15560,6 +15988,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -15595,6 +16024,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -15634,6 +16064,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -15677,6 +16108,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -15712,6 +16144,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -15758,6 +16191,7 @@
       }
     },
     "size": 1.6,
+    "cost": 50,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -15870,6 +16304,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -15905,6 +16340,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -15940,6 +16376,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -15975,6 +16412,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16010,6 +16448,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16045,6 +16484,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16080,6 +16520,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16115,6 +16556,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16150,6 +16592,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16185,6 +16628,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16220,6 +16664,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16255,6 +16700,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16290,6 +16736,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16325,6 +16772,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16360,6 +16808,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16395,6 +16844,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16430,6 +16880,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16465,6 +16916,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16500,6 +16952,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16535,6 +16988,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16570,6 +17024,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16605,6 +17060,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16640,6 +17096,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16675,6 +17132,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16710,6 +17168,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16745,6 +17204,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16780,6 +17240,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16815,6 +17276,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16850,6 +17312,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16885,6 +17348,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16920,6 +17384,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16955,6 +17420,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -16990,6 +17456,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17025,6 +17492,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17060,6 +17528,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17095,6 +17564,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17130,6 +17600,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17165,6 +17636,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17200,6 +17672,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17235,6 +17708,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17270,6 +17744,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17305,6 +17780,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17340,6 +17816,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17375,6 +17852,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17414,6 +17892,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17457,6 +17936,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17492,6 +17972,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17527,6 +18008,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17562,6 +18044,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17597,6 +18080,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17632,6 +18116,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17667,6 +18152,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17702,6 +18188,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17737,6 +18224,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17772,6 +18260,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17807,6 +18296,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17842,6 +18332,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17877,6 +18368,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17912,6 +18404,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:command",
@@ -17946,6 +18439,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -17981,6 +18475,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -18016,6 +18511,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -18051,6 +18547,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -18086,6 +18583,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -18121,6 +18619,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -18156,6 +18655,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -18191,6 +18691,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -18226,6 +18727,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -18272,6 +18774,7 @@
       }
     },
     "size": 1.6,
+    "cost": 50,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -18380,6 +18883,7 @@
       }
     },
     "size": 1.6,
+    "cost": 50,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -18473,6 +18977,7 @@
       }
     },
     "size": 1.6,
+    "cost": 50,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -18565,6 +19070,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -18600,6 +19106,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -18635,6 +19142,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -18670,6 +19178,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -18705,6 +19214,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -18740,6 +19250,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -18775,6 +19286,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -18810,6 +19322,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -18845,6 +19358,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -18880,6 +19394,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -18915,6 +19430,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -18950,6 +19466,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -18985,6 +19502,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19020,6 +19538,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19055,6 +19574,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19090,6 +19610,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19125,6 +19646,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19160,6 +19682,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19195,6 +19718,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19230,6 +19754,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19265,6 +19790,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19300,6 +19826,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19335,6 +19862,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19370,6 +19898,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19405,6 +19934,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19440,6 +19970,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19475,6 +20006,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19510,6 +20042,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19545,6 +20078,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19580,6 +20114,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19615,6 +20150,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19650,6 +20186,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19685,6 +20222,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19720,6 +20258,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19755,6 +20294,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19790,6 +20330,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19825,6 +20366,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19860,6 +20402,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19895,6 +20438,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19930,6 +20474,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -19965,6 +20510,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20000,6 +20546,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20039,6 +20586,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20082,6 +20630,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20117,6 +20666,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20152,6 +20702,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20187,6 +20738,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20222,6 +20774,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20257,6 +20810,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20296,6 +20850,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20339,6 +20894,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20374,6 +20930,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20409,6 +20966,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20444,6 +21002,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20479,6 +21038,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20514,6 +21074,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20549,6 +21110,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -20582,6 +21144,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -20615,6 +21178,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -20648,6 +21212,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -20681,6 +21246,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -20714,6 +21280,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20749,6 +21316,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20784,6 +21352,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20819,6 +21388,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20854,6 +21424,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20889,6 +21460,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20924,6 +21496,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20959,6 +21532,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -20994,6 +21568,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -21029,6 +21604,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -21064,6 +21640,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -21099,6 +21676,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -21134,6 +21712,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -21169,6 +21748,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -21204,6 +21784,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -21239,6 +21820,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -21274,6 +21856,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -21315,6 +21898,7 @@
       }
     },
     "size": 1.6,
+    "cost": 50,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -21408,6 +21992,7 @@
       }
     },
     "size": 1.6,
+    "cost": 50,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -21520,6 +22105,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -21555,6 +22141,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -21590,6 +22177,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -21625,6 +22213,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -21660,6 +22249,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -21695,6 +22285,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -21730,6 +22321,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -21765,6 +22357,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -21800,6 +22393,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -21835,6 +22429,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -21870,6 +22465,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -21905,6 +22501,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -21940,6 +22537,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -21975,6 +22573,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22010,6 +22609,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22045,6 +22645,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22080,6 +22681,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22115,6 +22717,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22150,6 +22753,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22185,6 +22789,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22220,6 +22825,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22255,6 +22861,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22290,6 +22897,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22329,6 +22937,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22372,6 +22981,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22407,6 +23017,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22442,6 +23053,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22477,6 +23089,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22516,6 +23129,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22559,6 +23173,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22594,6 +23209,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22629,6 +23245,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22664,6 +23281,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22699,6 +23317,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:command",
@@ -22733,6 +23352,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22768,6 +23388,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22803,6 +23424,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22838,6 +23460,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:command",
@@ -22872,6 +23495,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22907,6 +23531,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22942,6 +23567,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -22977,6 +23603,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23012,6 +23639,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23047,6 +23675,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23082,6 +23711,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23117,6 +23747,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23152,6 +23783,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23187,6 +23819,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23222,6 +23855,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23257,6 +23891,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23292,6 +23927,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23327,6 +23963,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23362,6 +23999,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23397,6 +24035,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23432,6 +24071,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23467,6 +24107,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:command",
@@ -23501,6 +24142,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23536,6 +24178,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23571,6 +24214,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23606,6 +24250,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23641,6 +24286,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23676,6 +24322,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23711,6 +24358,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23746,6 +24394,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23781,6 +24430,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -23814,6 +24464,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23849,6 +24500,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23884,6 +24536,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23919,6 +24572,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -23952,6 +24606,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -23987,6 +24642,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -24028,6 +24684,7 @@
       }
     },
     "size": 1.6,
+    "cost": 50,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -24104,6 +24761,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -24150,6 +24808,7 @@
       }
     },
     "size": 1.6,
+    "cost": 50,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -24253,6 +24912,7 @@
       }
     },
     "size": 1.6,
+    "cost": 50,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -24355,6 +25015,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -24390,6 +25051,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -24429,6 +25091,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -24472,6 +25135,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -24507,6 +25171,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -24546,6 +25211,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -24589,6 +25255,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -24624,6 +25291,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -24659,6 +25327,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -24694,6 +25363,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -24729,6 +25399,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -24764,6 +25435,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -24799,6 +25471,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -24834,6 +25507,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -24873,6 +25547,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -24916,6 +25591,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -24951,6 +25627,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -24986,6 +25663,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -25021,6 +25699,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -25056,6 +25735,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -25091,6 +25771,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -25126,6 +25807,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -25161,6 +25843,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -25202,6 +25885,7 @@
       }
     },
     "size": 1.6,
+    "cost": 50,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -25284,6 +25968,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -25319,6 +26004,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -25360,6 +26046,7 @@
       }
     },
     "size": 1.6,
+    "cost": 50,
     "rewards": [
       {
         "type": "puffish_skills_origins:power",
@@ -25422,6 +26109,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -25457,6 +26145,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -25496,6 +26185,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -25539,6 +26229,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -25574,6 +26265,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -25609,6 +26301,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -25644,6 +26337,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -25679,6 +26373,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -25714,6 +26409,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -25749,6 +26445,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -25784,6 +26481,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -25823,6 +26521,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -25866,6 +26565,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -25901,6 +26601,7 @@
       }
     },
     "size": 1.0,
+    "cost": 20,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -25940,6 +26641,7 @@
       }
     },
     "size": 1.25,
+    "cost": 30,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -25983,6 +26685,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -26018,6 +26721,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -26053,6 +26757,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -26088,6 +26793,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -26123,6 +26829,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -26158,6 +26865,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -26193,6 +26901,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -26228,6 +26937,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -26263,6 +26973,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -26298,6 +27009,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -26333,6 +27045,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -26368,6 +27081,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -26403,6 +27117,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -26438,6 +27153,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -26473,6 +27189,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",
@@ -26508,6 +27225,7 @@
       }
     },
     "size": 0.75,
+    "cost": 10,
     "rewards": [
       {
         "type": "puffish_skills:attribute",

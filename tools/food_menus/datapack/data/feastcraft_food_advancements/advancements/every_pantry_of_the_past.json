@@ -1,0 +1,35 @@
+{
+  "parent": "feastcraft_food_advancements:root",
+  "criteria": {
+    "eaten": {
+      "conditions": {
+        "count": "all",
+        "foods": {
+          "tag": "feastcraft_food_advancements:menus/pantry_of_the_past"
+        }
+      },
+      "trigger": "feastcraft_food_advancements:foods_eaten"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Eat every Vintage Delight preserve"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "vintagedelight:apple_sauce_bottle"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Pantry of the Past"
+    }
+  },
+  "requirements": [
+    [
+      "eaten"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

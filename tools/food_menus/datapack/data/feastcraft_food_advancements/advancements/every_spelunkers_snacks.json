@@ -1,0 +1,35 @@
+{
+  "parent": "feastcraft_food_advancements:root",
+  "criteria": {
+    "eaten": {
+      "conditions": {
+        "count": "all",
+        "foods": {
+          "tag": "feastcraft_food_advancements:menus/spelunkers_snacks"
+        }
+      },
+      "trigger": "feastcraft_food_advancements:foods_eaten"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Eat every Miner's Delight morsel"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "miners_delight:arthropod"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Spelunker's Snacks"
+    }
+  },
+  "requirements": [
+    [
+      "eaten"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

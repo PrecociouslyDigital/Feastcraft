@@ -1,5 +1,5 @@
 {
-  "parent": "feastcraft_food_advancements:eaten_40",
+  "parent": "feastcraft_food_advancements:eaten_2500",
   "criteria": {
     "eaten": {
       "conditions": {

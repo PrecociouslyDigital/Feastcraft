@@ -1,0 +1,35 @@
+{
+  "parent": "feastcraft_food_advancements:root",
+  "criteria": {
+    "eaten": {
+      "conditions": {
+        "count": "all",
+        "foods": {
+          "tag": "feastcraft_food_advancements:menus/pams_pantry"
+        }
+      },
+      "trigger": "feastcraft_food_advancements:foods_eaten"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Eat everything in Pam's food core"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "pamhc2foodcore:appledonutitem"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Pam's Pantry"
+    }
+  },
+  "requirements": [
+    [
+      "eaten"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
