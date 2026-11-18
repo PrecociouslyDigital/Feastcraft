@@ -1,10 +1,14 @@
 package feastcraft.expeditions.mixin;
 
+import feastcraft.expeditions.base.BaseDimension;
+import feastcraft.expeditions.base.BaseLevelData;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.level.GameRules;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.Redirect;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(ServerLevel.class)
 abstract class ServerLevelMixin {
@@ -16,5 +20,13 @@ abstract class ServerLevelMixin {
             target = "Lnet/minecraft/world/level/GameRules;getInt(Lnet/minecraft/world/level/GameRules$Key;)I"))
     private int feastcraft$stopSleepSkippingTheNight(GameRules rules, GameRules.Key<GameRules.IntegerValue> rule) {
         return rule == GameRules.RULE_PLAYERS_SLEEPING_PERCENTAGE ? NIGHT_CANNOT_BE_SKIPPED : rules.getInt(rule);
+    }
+
+    @Inject(method = "<init>", at = @At("RETURN"))
+    private void feastcraft$markBaseLevelData(CallbackInfo ci) {
+        ServerLevel self = (ServerLevel) (Object) this;
+        if (BaseDimension.isBase(self)) {
+            ((BaseLevelData) self.getLevelData()).feastcraft$markAsBase();
+        }
     }
 }

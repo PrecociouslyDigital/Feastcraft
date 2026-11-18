@@ -9,6 +9,7 @@ public final class ExpeditionsConfig {
     public static final ForgeConfigSpec.IntValue DROP_MIN_DISTANCE;
     public static final ForgeConfigSpec.IntValue DROP_MAX_DISTANCE;
     public static final ForgeConfigSpec.IntValue EXFIL_COUNTDOWN_TICKS;
+    public static final ForgeConfigSpec.BooleanValue THREAT_ENABLED;
     public static final ForgeConfigSpec.IntValue CO_DEPLOY_COUNTDOWN_TICKS;
 
     static {
@@ -27,6 +28,13 @@ public final class ExpeditionsConfig {
         EXFIL_COUNTDOWN_TICKS = builder
                 .comment("Ticks between calling a beacon and departure. Everyone in its zone when it ends goes home.")
                 .defineInRange("countdownTicks", 2_400, 1, 72_000);
+        builder.pop();
+
+        builder.push("threat");
+        THREAT_ENABLED = builder
+                .comment("Master switch for the threat ramp: peaceful base, hard overworld, and hostile stats and hunger",
+                        "that scale with raid time. Off means vanilla difficulty.")
+                .define("enabled", true);
         builder.pop();
 
         builder.push("coDeploy");

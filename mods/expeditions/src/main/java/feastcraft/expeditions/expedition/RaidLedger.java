@@ -27,6 +27,15 @@ public final class RaidLedger extends SavedData {
         return raids.containsKey(player);
     }
 
+    /** The oldest active raid's elapsed ticks, in overworld game time; 0 when nobody is out. Drives the threat ramp. */
+    public long peakElapsedTicks(MinecraftServer server) {
+        long now = server.overworld().getGameTime();
+        return raids.values().stream()
+                .mapToLong(raid -> Math.max(0, now - raid.startedAt()))
+                .max()
+                .orElse(0);
+    }
+
     void begin(UUID player, Raid raid) {
         raids.put(player, raid);
         setDirty();
