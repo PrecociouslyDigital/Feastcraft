@@ -29,3 +29,6 @@ run-harness
 
 # pi agent session state
 .pi/
+
+# python
+__pycache__/
