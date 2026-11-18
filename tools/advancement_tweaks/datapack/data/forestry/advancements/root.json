@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "used_forestry": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {}
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/honeycomb_block.png",
+    "description": {
+      "translate": "advancements.forestry.root.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "forestry:bee_queen_ge"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.forestry.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "used_forestry"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

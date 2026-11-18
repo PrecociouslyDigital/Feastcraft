@@ -86,10 +86,13 @@ def find_on_modrinth(instance: Path, paths: list[str]) -> dict[str, Hosted]:
     return hosted
 
 
-def named_folder(argument: str) -> tuple[str, Path]:
+def named_datapack(argument: str) -> tuple[str, Path]:
     name, separator, folder = argument.partition("=")
     if not separator:
         raise argparse.ArgumentTypeError(f"expected NAME=DIR, got {argument}")
+    # Open Loader skips a folder without pack.mcmeta, so the pack would ship it doing nothing.
+    if not (Path(folder) / "pack.mcmeta").is_file():
+        raise argparse.ArgumentTypeError(f"{folder} has no pack.mcmeta")
     return name, Path(folder)
 
 
@@ -228,7 +231,7 @@ def main() -> None:
     build_command.add_argument("--out", type=Path, required=True)
     build_command.add_argument("--minecraft", required=True)
     build_command.add_argument("--forge", required=True)
-    build_command.add_argument("--datapack", type=named_folder, action="append", default=[], metavar="NAME=DIR")
+    build_command.add_argument("--datapack", type=named_datapack, action="append", default=[], metavar="NAME=DIR")
     build_command.add_argument("--jar", type=Path, action="append", default=[])
     build_command.set_defaults(run=build)
 
