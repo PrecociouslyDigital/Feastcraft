@@ -27,7 +27,8 @@ final class EnglishLang extends LanguageProvider {
         add("feastcraft_expeditions.hearth.disabled", "The hearth rests. (Ember charcoal is disabled in the config.)");
 
         add("feastcraft_expeditions.gate.not_in_base", "The gate only opens from the base.");
-        add("feastcraft_expeditions.deploy.searching", "Plotting a drop point...");
+        add("feastcraft_expeditions.deploy.searching", "Plotting a drop point... %s s");
+        add("feastcraft_expeditions.deploy.loading", "Opening the way... %s s");
         add("feastcraft_expeditions.deploy.busy", "A deployment is already underway.");
         add("feastcraft_expeditions.deploy.failed", "No safe drop point was found. Try the gate again.");
 
