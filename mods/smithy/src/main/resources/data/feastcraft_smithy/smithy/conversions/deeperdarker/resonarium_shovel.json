@@ -1,0 +1,9 @@
+{
+  "tool": "tconstruct:pickadze",
+  "materials": [
+    "feastcraft_smithy:resonarium",
+    "tconstruct:wood",
+    "feastcraft_smithy:resonarium"
+  ],
+  "modifiers": []
+}

@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:material",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "naturesaura"
+    }
+  ],
+  "ingredient": {
+    "item": "naturesaura:sky_ingot"
+  },
+  "material": "feastcraft_smithy:skies",
+  "needed": 1,
+  "value": 1
+}

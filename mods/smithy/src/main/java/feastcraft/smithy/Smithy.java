@@ -21,9 +21,10 @@ public final class Smithy {
 
     public Smithy(FMLJavaModLoadingContext context) {
         IEventBus modBus = context.getModEventBus();
-        Conversions.register(modBus);
         LootConversions.register(modBus);
         HideFromCreative.register(modBus);
+        // Conversions reloads with the datapacks, which is a game-bus event.
+        Conversions.register(MinecraftForge.EVENT_BUS);
         MinecraftForge.EVENT_BUS.addListener(JoinConversions::onItemJoinLevel);
         MinecraftForge.EVENT_BUS.addListener(JoinConversions::onMobJoinLevel);
         MinecraftForge.EVENT_BUS.addListener(InventorySweep::onServerTick);

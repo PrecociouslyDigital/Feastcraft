@@ -1,0 +1,7 @@
+{
+  "tool": "tconstruct:travelers_chestplate",
+  "materials": [
+    "tconstruct:chain"
+  ],
+  "modifiers": []
+}

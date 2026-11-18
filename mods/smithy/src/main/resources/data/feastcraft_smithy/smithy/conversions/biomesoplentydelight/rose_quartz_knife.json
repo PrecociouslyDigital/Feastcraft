@@ -1,0 +1,8 @@
+{
+  "tool": "tconstruct:dagger",
+  "materials": [
+    "tconstruct:quartz",
+    "tconstruct:wood"
+  ],
+  "modifiers": []
+}

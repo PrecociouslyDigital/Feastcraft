@@ -1,0 +1,9 @@
+{
+  "tool": "tconstruct:pickadze",
+  "materials": [
+    "feastcraft_smithy:depths",
+    "tconstruct:wood",
+    "feastcraft_smithy:depths"
+  ],
+  "modifiers": []
+}

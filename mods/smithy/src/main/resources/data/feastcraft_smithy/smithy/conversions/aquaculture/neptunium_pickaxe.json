@@ -1,0 +1,9 @@
+{
+  "tool": "tconstruct:pickaxe",
+  "materials": [
+    "tcintegrations:neptunium",
+    "tconstruct:wood",
+    "tconstruct:wood"
+  ],
+  "modifiers": []
+}

@@ -1,0 +1,10 @@
+{
+  "tool": "tconstruct:plate_leggings",
+  "materials": [
+    "tconstruct:iron",
+    "tconstruct:chain"
+  ],
+  "modifiers": [
+    "tconstruct:diamond"
+  ]
+}

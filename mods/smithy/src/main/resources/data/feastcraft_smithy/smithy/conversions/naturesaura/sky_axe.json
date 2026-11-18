@@ -1,0 +1,9 @@
+{
+  "tool": "tconstruct:hand_axe",
+  "materials": [
+    "feastcraft_smithy:skies",
+    "tconstruct:wood",
+    "tconstruct:wood"
+  ],
+  "modifiers": []
+}

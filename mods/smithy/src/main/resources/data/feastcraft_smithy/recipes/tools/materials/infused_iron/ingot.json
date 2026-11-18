@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:material",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "naturesaura"
+    }
+  ],
+  "ingredient": {
+    "item": "naturesaura:infused_iron"
+  },
+  "material": "feastcraft_smithy:infused_iron",
+  "needed": 1,
+  "value": 1
+}

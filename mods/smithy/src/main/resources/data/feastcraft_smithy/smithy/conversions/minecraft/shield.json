@@ -1,0 +1,7 @@
+{
+  "tool": "tconstruct:plate_shield",
+  "materials": [
+    "tconstruct:wood"
+  ],
+  "modifiers": []
+}

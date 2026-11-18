@@ -1,0 +1,9 @@
+{
+  "tool": "tconstruct:pickadze",
+  "materials": [
+    "tcintegrations:manasteel",
+    "tconstruct:wood",
+    "tcintegrations:manasteel"
+  ],
+  "modifiers": []
+}

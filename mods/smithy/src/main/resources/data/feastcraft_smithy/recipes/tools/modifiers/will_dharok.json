@@ -8,19 +8,7 @@
   ],
   "level": 1,
   "result": "feastcraft_smithy:will_dharok",
-  "slots": {},
   "tools": {
-    "type": "mantle:and",
-    "predicates": [
-      {
-        "item": "tconstruct:plate_helmet"
-      },
-      {
-        "type": "tconstruct:has_modifier",
-        "modifier": "tcintegrations:terrestrial",
-        "level": 1,
-        "check": "ALL"
-      }
-    ]
+    "item": "tconstruct:plate_helmet"
   }
 }

@@ -1,4 +1,23 @@
 {
   "level_display": "tconstruct:single_level",
-  "modules": []
+  "modules": [
+    {
+      "type": "tconstruct:requirements",
+      "display_modifiers": [
+        {
+          "level": 1,
+          "name": "tcintegrations:terrestrial"
+        }
+      ],
+      "requirement": {
+        "type": "tconstruct:has_modifier",
+        "check": "all",
+        "modifier": {
+          "type": "tconstruct:single",
+          "modifier": "tcintegrations:terrestrial"
+        }
+      },
+      "translation_key": "modifier.feastcraft_smithy.will_ahrim.requirements"
+    }
+  ]
 }

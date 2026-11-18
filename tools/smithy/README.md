@@ -46,10 +46,16 @@ committing: the keeps are curation, not generation.
 
 ## What the datapack does
 
-- `data/feastcraft_smithy/tags/items/disabled.json` lists every converted item.
-  The mod hides and converts it; the tag is the handoff between the two.
+- `data/feastcraft_smithy/tags/items/disabled.json` lists every converted item,
+  each entry `required: false`, so a mod absent from a run doesn't break the
+  tag. The mod hides and converts it; the tag is the handoff between the two.
 - `data/feastcraft_smithy/smithy/conversions/<ns>/<item>.json` holds one
   conversion each, read by the mod.
+
+  These two are written twice: the Open Loader datapack carries them at pack
+  priority in play, and the same files land in `mods/smithy`'s resources, whose
+  data is a datapack source everywhere — the harness and dev runs have no Open
+  Loader. The mod reads both through the reload listener.
 - A `forge:false` override for every live recipe whose result is disabled,
   including smithing upgrades, Forestry kits and Twilight Forest's fiery tools.
 - A rewrite of every live recipe that consumes a disabled item, with

@@ -1,0 +1,9 @@
+{
+  "tool": "tconstruct:hand_axe",
+  "materials": [
+    "tconstruct:quartz",
+    "tconstruct:wood",
+    "tconstruct:wood"
+  ],
+  "modifiers": []
+}

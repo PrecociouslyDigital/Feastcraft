@@ -1,0 +1,8 @@
+{
+  "tool": "tconstruct:plate_chestplate",
+  "materials": [
+    "tconstruct:iron",
+    "tconstruct:chain"
+  ],
+  "modifiers": []
+}

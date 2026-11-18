@@ -1,0 +1,9 @@
+{
+  "tool": "tconstruct:kama",
+  "materials": [
+    "feastcraft_smithy:depths",
+    "tconstruct:wood",
+    "tconstruct:wood"
+  ],
+  "modifiers": []
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "tconstruct:kama",
+  "materials": [
+    "feastcraft_smithy:warden_carapace",
+    "tconstruct:wood",
+    "tconstruct:wood"
+  ],
+  "modifiers": []
+}

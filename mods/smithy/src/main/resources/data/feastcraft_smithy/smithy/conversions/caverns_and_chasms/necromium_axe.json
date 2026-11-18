@@ -1,0 +1,9 @@
+{
+  "tool": "tconstruct:hand_axe",
+  "materials": [
+    "feastcraft_smithy:necromium",
+    "tconstruct:wood",
+    "tconstruct:wood"
+  ],
+  "modifiers": []
+}

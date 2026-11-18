@@ -1,0 +1,9 @@
+{
+  "tool": "tconstruct:kama",
+  "materials": [
+    "tcintegrations:manasteel",
+    "tconstruct:wood",
+    "tconstruct:wood"
+  ],
+  "modifiers": []
+}

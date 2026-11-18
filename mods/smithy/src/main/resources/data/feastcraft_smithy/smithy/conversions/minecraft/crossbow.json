@@ -1,0 +1,9 @@
+{
+  "tool": "tconstruct:crossbow",
+  "materials": [
+    "tconstruct:wood",
+    "tconstruct:wood",
+    "tconstruct:string"
+  ],
+  "modifiers": []
+}

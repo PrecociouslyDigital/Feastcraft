@@ -3,11 +3,13 @@ package feastcraft.smithy.mixin;
 import feastcraft.smithy.WillModifiers;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.Redirect;
+import com.llamalad7.mixinextras.injector.ModifyExpressionValue;
+import com.llamalad7.mixinextras.sugar.Local;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import vazkii.botania.api.item.AncientWillContainer.AncientWillType;
 import vazkii.botania.common.item.equipment.armor.terrasteel.TerrasteelHelmItem;
@@ -34,14 +36,22 @@ abstract class TerrasteelHelmItemMixin {
         }
     }
 
-    @Redirect(
+    /**
+     * Both static methods read the worn stack's item and check it against
+     * TerrasteelHelmItem. When the stack is a Tinkers helmet wearing a will,
+     * hand back Botania's own helm item, so the check passes and the will logic
+     * runs unchanged. Neither method uses the item afterwards.
+     */
+    @ModifyExpressionValue(
             method = {
                     "getCritDamageMult(Lnet/minecraft/world/entity/player/Player;)F",
                     "onEntityAttacked(Lnet/minecraft/world/damagesource/DamageSource;FLnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/damagesource/DamageSource;"
             },
-            at = @At(value = "INSTANCEOF", target = "Lvazkii/botania/common/item/equipment/armor/terrasteel/TerrasteelHelmItem;", remap = false),
-            require = 2, remap = false)
-    private static boolean feastcraft$terrestrialHelmCounts(Object stack) {
-        return stack instanceof ItemStack itemStack && WillModifiers.isWillHelmet(itemStack);
+            at = @At(value = "INVOKE", target = "Lnet/minecraft/world/item/ItemStack;getItem()Lnet/minecraft/world/item/Item;", remap = true),
+            remap = false)
+    private static Item feastcraft$terrestrialHelmCounts(Item original, @Local ItemStack stack) {
+        return WillModifiers.isWillHelmet(stack)
+                ? vazkii.botania.common.item.BotaniaItems.terrasteelHelm.asItem()
+                : original;
     }
 }

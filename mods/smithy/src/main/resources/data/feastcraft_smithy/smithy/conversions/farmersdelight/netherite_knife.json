@@ -1,0 +1,10 @@
+{
+  "tool": "tconstruct:dagger",
+  "materials": [
+    "tconstruct:iron",
+    "tconstruct:wood"
+  ],
+  "modifiers": [
+    "tconstruct:netherite"
+  ]
+}

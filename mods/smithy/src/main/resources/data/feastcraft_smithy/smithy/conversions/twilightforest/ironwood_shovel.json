@@ -1,0 +1,9 @@
+{
+  "tool": "tconstruct:pickadze",
+  "materials": [
+    "tconstruct:ironwood",
+    "tconstruct:wood",
+    "tconstruct:ironwood"
+  ],
+  "modifiers": []
+}

@@ -36,8 +36,10 @@ search.
 
 Thaumium, Void Metal, Infused Iron, Skies, Depths, Necromium, Resonarium and
 Warden carapace, in `tinkering/materials/`, for the metals that would otherwise
-be left without tools. Each definition is `craftable: true`, so the part
-builder takes the ingot and nothing needs a molten fluid. The traits echo the
+be left without tools. Each definition is `craftable: true`, and a
+`tconstruct:material` recipe points the part builder at the source ingot — the
+pack's own tags for Thaumcraft's meta items (`forge:ingots/thaumium` is meta_2,
+`forge:ingots/void` is meta_16) and direct items elsewhere. The traits echo the
 originals from Tinkers' own modifiers: Void Metal repairs itself (Preserved),
 Necromium leeches (Lifesteal), Resonarium swings on its vibration (Kinetic),
 Warden carapace ignores knockback. Warp isn't recreated.
@@ -54,7 +56,12 @@ station with that will's item, only to `plate_helmet`, and only with
 Terrestrial already on the tool. A mixin on Botania's `TerrasteelHelmItem`
 accepts a full Terrestrial Tinkers set as the terra armor set, accepts a
 Tinkers helmet wearing `will_<type>` where Botania checks its own helm, and
-leaves Botania's will effects to run unchanged.
+leaves Botania's will effects to run unchanged. The instanceof checks go
+through MixinExtras' `@ModifyExpressionValue` on the worn stack's `getItem`
+— Mixin 0.8.5 has no INSTANCEOF injection point — and the requirement to
+already carry Terrestrial lives in the modifier definition's
+`tconstruct:requirements` module, because a modifier recipe's `tools` field
+is a plain Forge ingredient.
 
 ## Tests
 

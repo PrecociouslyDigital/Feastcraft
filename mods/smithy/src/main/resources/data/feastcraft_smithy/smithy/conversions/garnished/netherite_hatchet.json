@@ -1,0 +1,11 @@
+{
+  "tool": "tconstruct:hand_axe",
+  "materials": [
+    "tconstruct:iron",
+    "tconstruct:wood",
+    "tconstruct:wood"
+  ],
+  "modifiers": [
+    "tconstruct:netherite"
+  ]
+}

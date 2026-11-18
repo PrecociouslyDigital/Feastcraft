@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:material",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:ingots/void"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/void"
+  },
+  "material": "feastcraft_smithy:void_metal",
+  "needed": 1,
+  "value": 1
+}

@@ -8,6 +8,9 @@ dependencies {
     modImplementation 'maven.modrinth:tinkers-construct:Fv0zTUuh'
     modImplementation 'maven.modrinth:mantle:WWRIIbP8'
     modImplementation 'maven.modrinth:botania:npY4sRWF'
+    // Botania's own runtime deps, which the harness run needs on the classpath.
+    modImplementation 'maven.modrinth:curios:IPQlZkz1'
+    modImplementation 'maven.modrinth:patchouli:94dtOLgZ'
     modCompileOnly 'maven.modrinth:jei:6E4ps2ER'
     modCompileOnly 'maven.modrinth:emi:Axuu9I9R'
 }
@@ -15,4 +18,11 @@ dependencies {
 // Unit tests read the datapack's tags and conversions with Gson, which Minecraft doesn't put on their classpath. 2.10 is the version 1.20.1 ships.
 dependencies {
     testImplementation 'com.google.code.gson:gson:2.10'
+}
+// The wills mixin turns Botania's instanceof check with MixinExtras, which the pack runs at 0.5.5.
+dependencies {
+    // The forge jar is a shim; the annotations live in common.
+    compileOnly 'io.github.llamalad7:mixinextras-common:0.5.5'
+    compileOnly 'io.github.llamalad7:mixinextras-forge:0.5.5'
+    annotationProcessor 'io.github.llamalad7:mixinextras-common:0.5.5'
 }

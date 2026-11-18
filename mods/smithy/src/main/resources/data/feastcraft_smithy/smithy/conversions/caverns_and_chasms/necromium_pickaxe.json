@@ -1,0 +1,9 @@
+{
+  "tool": "tconstruct:pickaxe",
+  "materials": [
+    "feastcraft_smithy:necromium",
+    "tconstruct:wood",
+    "tconstruct:wood"
+  ],
+  "modifiers": []
+}

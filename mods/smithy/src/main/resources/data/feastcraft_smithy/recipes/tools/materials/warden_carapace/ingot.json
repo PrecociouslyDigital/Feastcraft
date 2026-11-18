@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:material",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "deeperdarker"
+    }
+  ],
+  "ingredient": {
+    "item": "deeperdarker:warden_carapace"
+  },
+  "material": "feastcraft_smithy:warden_carapace",
+  "needed": 1,
+  "value": 1
+}

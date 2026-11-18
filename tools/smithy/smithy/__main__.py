@@ -20,6 +20,7 @@ from . import export, tiers
 
 HERE = Path(__file__).resolve().parent.parent
 DATAPACK = HERE / "datapack"
+MOD = HERE.parent.parent / "mods" / "smithy" / "src" / "main" / "resources"
 EXPORT = HERE.parent.parent / "build" / "datapack-export"
 CONFIG = HERE / "smithy.toml"
 INSTALLED_AS = Path("config/openloader/data/feastcraft_smithy")
@@ -105,7 +106,13 @@ def rewrite(recipe: Json, replacements: dict[str, str]) -> bool:
 
 
 def build(export_dir: Path) -> None:
-    """Write datapack/, failing when a tagged item is neither kept nor converted."""
+    """Write datapack/, failing when a tagged item is neither kept nor converted.
+
+    The disabled tag and the conversions are written twice: the Open Loader
+    datapack loads them at pack priority in play, and the mod's resources carry
+    the same files so the harness and dev runs — which have no Open Loader —
+    see them too. The mod reads both through the reload listener.
+    """
     pack = packexport.load(export_dir)
     tagged = export.tagged_items(pack)
     converts, keeps = curate()
@@ -122,15 +129,22 @@ def build(export_dir: Path) -> None:
 
     recipes_dir = DATAPACK / "data"
     shutil.rmtree(recipes_dir, ignore_errors=True)
-    conversions_dir = DATAPACK / "data" / "feastcraft_smithy" / "smithy" / "conversions"
-    for item, made in sorted(converts.items()):
-        namespace, _, name = item.partition(":")
-        target = conversions_dir / namespace / f"{name}.json"
-        target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(json.dumps(made, indent=2) + "\n")
-    disabled = DATAPACK / "data" / "feastcraft_smithy" / "tags" / "items" / "disabled.json"
-    disabled.parent.mkdir(parents=True, exist_ok=True)
-    disabled.write_text(json.dumps({"replace": False, "values": sorted(converts)}, indent=2) + "\n")
+    for base in (DATAPACK, MOD):
+        conversions_dir = base / "data" / "feastcraft_smithy" / "smithy" / "conversions"
+        shutil.rmtree(conversions_dir, ignore_errors=True)
+        for item, made in sorted(converts.items()):
+            namespace, _, name = item.partition(":")
+            target = conversions_dir / namespace / f"{name}.json"
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_text(json.dumps(made, indent=2) + "\n")
+    # required:false, so a mod added to the ledger but absent from a run doesn't
+    # break the tag; the ledger's conversions dict is the authority anyway.
+    disabled = {"replace": False,
+                "values": [{"id": item, "required": False} for item in sorted(converts)]}
+    for base in (DATAPACK, MOD):
+        tag_file = base / "data" / "feastcraft_smithy" / "tags" / "items" / "disabled.json"
+        tag_file.parent.mkdir(parents=True, exist_ok=True)
+        tag_file.write_text(json.dumps(disabled, indent=2) + "\n")
 
     replacements = {item: made["tool"] for item, made in converts.items()}
     # MFCL's legacy_crafting recipes are opaque: the JSON holds a hash, and the

@@ -1,0 +1,10 @@
+{
+  "tool": "tconstruct:plate_helmet",
+  "materials": [
+    "tcintegrations:manasteel",
+    "tconstruct:chain"
+  ],
+  "modifiers": [
+    "tcintegrations:terrestrial"
+  ]
+}

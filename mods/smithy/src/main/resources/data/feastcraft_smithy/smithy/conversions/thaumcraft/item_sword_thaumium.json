@@ -1,0 +1,9 @@
+{
+  "tool": "tconstruct:sword",
+  "materials": [
+    "feastcraft_smithy:thaumium",
+    "tconstruct:wood",
+    "tconstruct:wood"
+  ],
+  "modifiers": []
+}

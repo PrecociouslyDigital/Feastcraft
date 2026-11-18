@@ -84,13 +84,15 @@ public final class Conversions {
     /** One conversion: a tool id, the materials of each part, and the modifiers to add. */
     record Conversion(ResourceLocation source, ResourceLocation tool, List<MaterialId> materials, List<ModifierId> modifiers) {
         /**
-         * `smithy/conversions/<namespace>/<name>.json` names the item it converts:
-         * the datapack folder is the ledger, the file name the item.
+         * `smithy/conversions/<namespace>/<name>.json` names the item it
+         * converts: the path after the folder is the full item id, since item
+         * ids never hold a slash.
          */
         static ResourceLocation source(ResourceLocation conversionFile) {
             String path = conversionFile.getPath();
-            String name = path.substring("smithy/conversions/".length(), path.length() - ".json".length());
-            return ResourceLocation.fromNamespaceAndPath(conversionFile.getNamespace(), name);
+            String remainder = path.substring("smithy/conversions/".length(), path.length() - ".json".length());
+            int slash = remainder.indexOf('/');
+            return ResourceLocation.fromNamespaceAndPath(remainder.substring(0, slash), remainder.substring(slash + 1));
         }
 
         static Conversion read(ResourceLocation source, JsonObject json) {
@@ -115,10 +117,11 @@ public final class Conversions {
                 Smithy.LOGGER.error("Smithy conversion {} names {} which is not a Tinkers tool", source, tool);
                 return sourceStack;
             }
-            MaterialVariant[] variants = materials.stream()
-                    .map(MaterialVariant::of)
-                    .toArray(MaterialVariant[]::new);
-            ItemStack built = ToolBuildHandler.buildItemFromMaterials(modifiable, MaterialNBT.of(variants));
+            // add(MaterialVariantId) per id: List<MaterialId> is not a List<MaterialVariantId>.
+            MaterialNBT.Builder materialsBuilder = MaterialNBT.builder();
+            materials.forEach(materialsBuilder::add);
+            MaterialNBT materialNbt = materialsBuilder.build();
+            ItemStack built = ToolBuildHandler.buildItemFromMaterials(modifiable, materialNbt);
             ToolStack toolStack = ToolStack.from(built);
             for (ModifierId modifier : modifiers) {
                 toolStack.addModifier(modifier, 1);

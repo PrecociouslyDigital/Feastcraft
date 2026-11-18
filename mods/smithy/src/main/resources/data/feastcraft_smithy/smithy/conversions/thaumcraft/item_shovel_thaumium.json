@@ -1,0 +1,9 @@
+{
+  "tool": "tconstruct:pickadze",
+  "materials": [
+    "feastcraft_smithy:thaumium",
+    "tconstruct:wood",
+    "feastcraft_smithy:thaumium"
+  ],
+  "modifiers": []
+}

@@ -1,0 +1,10 @@
+{
+  "tool": "tconstruct:plate_leggings",
+  "materials": [
+    "tcintegrations:manasteel",
+    "tconstruct:chain"
+  ],
+  "modifiers": [
+    "tcintegrations:elemental"
+  ]
+}

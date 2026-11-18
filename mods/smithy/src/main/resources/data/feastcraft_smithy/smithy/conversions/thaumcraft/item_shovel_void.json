@@ -1,0 +1,9 @@
+{
+  "tool": "tconstruct:pickadze",
+  "materials": [
+    "feastcraft_smithy:void_metal",
+    "tconstruct:wood",
+    "feastcraft_smithy:void_metal"
+  ],
+  "modifiers": []
+}

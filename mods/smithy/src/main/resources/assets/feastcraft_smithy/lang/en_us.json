@@ -1,0 +1,22 @@
+{
+  "modifier.feastcraft_smithy.will_ahrim": "Will of Ahrim",
+  "modifier.feastcraft_smithy.will_dharok": "Will of Dharok",
+  "modifier.feastcraft_smithy.will_guthan": "Will of Guthan",
+  "modifier.feastcraft_smithy.will_karil": "Will of Karil",
+  "modifier.feastcraft_smithy.will_torag": "Will of Torag",
+  "modifier.feastcraft_smithy.will_verac": "Will of Verac",
+  "modifier.feastcraft_smithy.will_ahrim.requirements": "Requires a full Terrestrial set",
+  "modifier.feastcraft_smithy.will_dharok.requirements": "Requires a full Terrestrial set",
+  "modifier.feastcraft_smithy.will_guthan.requirements": "Requires a full Terrestrial set",
+  "modifier.feastcraft_smithy.will_karil.requirements": "Requires a full Terrestrial set",
+  "modifier.feastcraft_smithy.will_torag.requirements": "Requires a full Terrestrial set",
+  "modifier.feastcraft_smithy.will_verac.requirements": "Requires a full Terrestrial set",
+  "material.feastcraft_smithy.thaumium": "Thaumium",
+  "material.feastcraft_smithy.void_metal": "Void Metal",
+  "material.feastcraft_smithy.infused_iron": "Infused Iron",
+  "material.feastcraft_smithy.skies": "Ingot of the Skies",
+  "material.feastcraft_smithy.depths": "Ingot of the Depths",
+  "material.feastcraft_smithy.necromium": "Necromium",
+  "material.feastcraft_smithy.resonarium": "Resonarium",
+  "material.feastcraft_smithy.warden_carapace": "Warden Carapace"
+}

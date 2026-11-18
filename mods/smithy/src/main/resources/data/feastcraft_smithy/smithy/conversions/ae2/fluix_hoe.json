@@ -1,0 +1,9 @@
+{
+  "tool": "tconstruct:kama",
+  "materials": [
+    "tconstruct:amethyst",
+    "tconstruct:wood",
+    "tconstruct:wood"
+  ],
+  "modifiers": []
+}

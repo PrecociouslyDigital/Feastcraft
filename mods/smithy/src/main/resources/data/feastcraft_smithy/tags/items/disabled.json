@@ -1,0 +1,1533 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "abnormals_delight:necromium_knife",
+      "required": false
+    },
+    {
+      "id": "abnormals_delight:silver_knife",
+      "required": false
+    },
+    {
+      "id": "ae2:certus_quartz_axe",
+      "required": false
+    },
+    {
+      "id": "ae2:certus_quartz_hoe",
+      "required": false
+    },
+    {
+      "id": "ae2:certus_quartz_pickaxe",
+      "required": false
+    },
+    {
+      "id": "ae2:certus_quartz_shovel",
+      "required": false
+    },
+    {
+      "id": "ae2:certus_quartz_sword",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_axe",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_hoe",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_pickaxe",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_shovel",
+      "required": false
+    },
+    {
+      "id": "ae2:fluix_sword",
+      "required": false
+    },
+    {
+      "id": "ae2:nether_quartz_axe",
+      "required": false
+    },
+    {
+      "id": "ae2:nether_quartz_hoe",
+      "required": false
+    },
+    {
+      "id": "ae2:nether_quartz_pickaxe",
+      "required": false
+    },
+    {
+      "id": "ae2:nether_quartz_shovel",
+      "required": false
+    },
+    {
+      "id": "ae2:nether_quartz_sword",
+      "required": false
+    },
+    {
+      "id": "aquaculture:diamond_fillet_knife",
+      "required": false
+    },
+    {
+      "id": "aquaculture:gold_fillet_knife",
+      "required": false
+    },
+    {
+      "id": "aquaculture:iron_fillet_knife",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_axe",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_boots",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_chestplate",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_fillet_knife",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_helmet",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_hoe",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_leggings",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_pickaxe",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_shovel",
+      "required": false
+    },
+    {
+      "id": "aquaculture:neptunium_sword",
+      "required": false
+    },
+    {
+      "id": "aquaculture:stone_fillet_knife",
+      "required": false
+    },
+    {
+      "id": "aquaculture:wooden_fillet_knife",
+      "required": false
+    },
+    {
+      "id": "biomesoplentydelight:rose_quartz_knife",
+      "required": false
+    },
+    {
+      "id": "botania:elementium_axe",
+      "required": false
+    },
+    {
+      "id": "botania:elementium_boots",
+      "required": false
+    },
+    {
+      "id": "botania:elementium_chestplate",
+      "required": false
+    },
+    {
+      "id": "botania:elementium_helmet",
+      "required": false
+    },
+    {
+      "id": "botania:elementium_hoe",
+      "required": false
+    },
+    {
+      "id": "botania:elementium_leggings",
+      "required": false
+    },
+    {
+      "id": "botania:elementium_pickaxe",
+      "required": false
+    },
+    {
+      "id": "botania:elementium_shovel",
+      "required": false
+    },
+    {
+      "id": "botania:elementium_sword",
+      "required": false
+    },
+    {
+      "id": "botania:manasteel_axe",
+      "required": false
+    },
+    {
+      "id": "botania:manasteel_boots",
+      "required": false
+    },
+    {
+      "id": "botania:manasteel_chestplate",
+      "required": false
+    },
+    {
+      "id": "botania:manasteel_helmet",
+      "required": false
+    },
+    {
+      "id": "botania:manasteel_hoe",
+      "required": false
+    },
+    {
+      "id": "botania:manasteel_leggings",
+      "required": false
+    },
+    {
+      "id": "botania:manasteel_pick",
+      "required": false
+    },
+    {
+      "id": "botania:manasteel_shovel",
+      "required": false
+    },
+    {
+      "id": "botania:manasteel_sword",
+      "required": false
+    },
+    {
+      "id": "botania:manaweave_boots",
+      "required": false
+    },
+    {
+      "id": "botania:manaweave_chestplate",
+      "required": false
+    },
+    {
+      "id": "botania:manaweave_helmet",
+      "required": false
+    },
+    {
+      "id": "botania:manaweave_leggings",
+      "required": false
+    },
+    {
+      "id": "botania:terrasteel_boots",
+      "required": false
+    },
+    {
+      "id": "botania:terrasteel_chestplate",
+      "required": false
+    },
+    {
+      "id": "botania:terrasteel_helmet",
+      "required": false
+    },
+    {
+      "id": "botania:terrasteel_leggings",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:copper_axe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:copper_boots",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:copper_chestplate",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:copper_helmet",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:copper_hoe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:copper_leggings",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:copper_pickaxe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:copper_shovel",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:copper_sword",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:exposed_copper_axe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:exposed_copper_boots",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:exposed_copper_chestplate",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:exposed_copper_helmet",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:exposed_copper_hoe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:exposed_copper_leggings",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:exposed_copper_pickaxe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:exposed_copper_shovel",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:exposed_copper_sword",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:necromium_axe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:necromium_boots",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:necromium_chestplate",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:necromium_helmet",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:necromium_hoe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:necromium_leggings",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:necromium_pickaxe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:necromium_shovel",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:necromium_sword",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:oxidized_copper_axe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:oxidized_copper_boots",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:oxidized_copper_chestplate",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:oxidized_copper_helmet",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:oxidized_copper_hoe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:oxidized_copper_leggings",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:oxidized_copper_pickaxe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:oxidized_copper_shovel",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:oxidized_copper_sword",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:silver_axe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:silver_boots",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:silver_chestplate",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:silver_helmet",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:silver_hoe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:silver_leggings",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:silver_pickaxe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:silver_shovel",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:silver_sword",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_copper_axe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_copper_boots",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_copper_chestplate",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_copper_helmet",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_copper_hoe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_copper_leggings",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_copper_pickaxe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_copper_shovel",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_copper_sword",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_exposed_copper_axe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_exposed_copper_boots",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_exposed_copper_chestplate",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_exposed_copper_helmet",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_exposed_copper_hoe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_exposed_copper_leggings",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_exposed_copper_pickaxe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_exposed_copper_shovel",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_exposed_copper_sword",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_oxidized_copper_axe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_oxidized_copper_boots",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_oxidized_copper_chestplate",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_oxidized_copper_helmet",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_oxidized_copper_hoe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_oxidized_copper_leggings",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_oxidized_copper_pickaxe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_oxidized_copper_shovel",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_oxidized_copper_sword",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_weathered_copper_axe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_weathered_copper_boots",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_weathered_copper_chestplate",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_weathered_copper_helmet",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_weathered_copper_hoe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_weathered_copper_leggings",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_weathered_copper_pickaxe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_weathered_copper_shovel",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:waxed_weathered_copper_sword",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:weathered_copper_axe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:weathered_copper_boots",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:weathered_copper_chestplate",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:weathered_copper_helmet",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:weathered_copper_hoe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:weathered_copper_leggings",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:weathered_copper_pickaxe",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:weathered_copper_shovel",
+      "required": false
+    },
+    {
+      "id": "caverns_and_chasms:weathered_copper_sword",
+      "required": false
+    },
+    {
+      "id": "croptopia:knife",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_axe",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_boots",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_chestplate",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_helmet",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_hoe",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_leggings",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_pickaxe",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_shovel",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_sword",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_axe",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_boots",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_chestplate",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_helmet",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_hoe",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_leggings",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_pickaxe",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_shovel",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_sword",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:diamond_knife",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:flint_knife",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:golden_knife",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:iron_knife",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:netherite_knife",
+      "required": false
+    },
+    {
+      "id": "forestry:bronze_pickaxe",
+      "required": false
+    },
+    {
+      "id": "forestry:bronze_shovel",
+      "required": false
+    },
+    {
+      "id": "garnished:blazing_hatchet",
+      "required": false
+    },
+    {
+      "id": "garnished:brass_hatchet",
+      "required": false
+    },
+    {
+      "id": "garnished:certus_quartz_hatchet",
+      "required": false
+    },
+    {
+      "id": "garnished:copper_hatchet",
+      "required": false
+    },
+    {
+      "id": "garnished:diamond_hatchet",
+      "required": false
+    },
+    {
+      "id": "garnished:experience_hatchet",
+      "required": false
+    },
+    {
+      "id": "garnished:fluix_hatchet",
+      "required": false
+    },
+    {
+      "id": "garnished:gilded_netherite_hatchet",
+      "required": false
+    },
+    {
+      "id": "garnished:golden_hatchet",
+      "required": false
+    },
+    {
+      "id": "garnished:iron_hatchet",
+      "required": false
+    },
+    {
+      "id": "garnished:nether_quartz_hatchet",
+      "required": false
+    },
+    {
+      "id": "garnished:netherite_hatchet",
+      "required": false
+    },
+    {
+      "id": "garnished:rose_gold_hatchet",
+      "required": false
+    },
+    {
+      "id": "garnished:rose_quartz_hatchet",
+      "required": false
+    },
+    {
+      "id": "garnished:stone_hatchet",
+      "required": false
+    },
+    {
+      "id": "garnished:warden_hatchet",
+      "required": false
+    },
+    {
+      "id": "garnished:wooden_hatchet",
+      "required": false
+    },
+    {
+      "id": "garnished:zinc_hatchet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_bronze_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_bronze_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_bronze_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_bronze_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_copper_metal_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_copper_metal_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_copper_metal_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_copper_metal_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_silver_metal_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_silver_metal_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_silver_metal_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:armor_silver_metal_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:copper_axe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:copper_hoe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:copper_pickaxe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:copper_shovel",
+      "required": false
+    },
+    {
+      "id": "iceandfire:copper_sword",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonbone_axe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonbone_hoe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonbone_pickaxe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonbone_shovel",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonbone_sword",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_fire_axe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_fire_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_fire_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_fire_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_fire_hoe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_fire_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_fire_pickaxe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_fire_shovel",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_fire_sword",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_ice_axe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_ice_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_ice_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_ice_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_ice_hoe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_ice_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_ice_pickaxe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_ice_shovel",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_ice_sword",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_lightning_axe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_lightning_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_lightning_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_lightning_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_lightning_hoe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_lightning_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_lightning_pickaxe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_lightning_shovel",
+      "required": false
+    },
+    {
+      "id": "iceandfire:dragonsteel_lightning_sword",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_desert_axe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_desert_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_desert_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_desert_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_desert_hoe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_desert_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_desert_pickaxe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_desert_shovel",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_desert_sword",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_jungle_axe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_jungle_boots",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_jungle_chestplate",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_jungle_helmet",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_jungle_hoe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_jungle_leggings",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_jungle_pickaxe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_jungle_shovel",
+      "required": false
+    },
+    {
+      "id": "iceandfire:myrmex_jungle_sword",
+      "required": false
+    },
+    {
+      "id": "iceandfire:silver_axe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:silver_hoe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:silver_pickaxe",
+      "required": false
+    },
+    {
+      "id": "iceandfire:silver_shovel",
+      "required": false
+    },
+    {
+      "id": "iceandfire:silver_sword",
+      "required": false
+    },
+    {
+      "id": "minecraft:bow",
+      "required": false
+    },
+    {
+      "id": "minecraft:chainmail_boots",
+      "required": false
+    },
+    {
+      "id": "minecraft:chainmail_chestplate",
+      "required": false
+    },
+    {
+      "id": "minecraft:chainmail_helmet",
+      "required": false
+    },
+    {
+      "id": "minecraft:chainmail_leggings",
+      "required": false
+    },
+    {
+      "id": "minecraft:crossbow",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_axe",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_boots",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_chestplate",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_helmet",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_hoe",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_leggings",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_pickaxe",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_shovel",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_sword",
+      "required": false
+    },
+    {
+      "id": "minecraft:golden_axe",
+      "required": false
+    },
+    {
+      "id": "minecraft:golden_boots",
+      "required": false
+    },
+    {
+      "id": "minecraft:golden_chestplate",
+      "required": false
+    },
+    {
+      "id": "minecraft:golden_helmet",
+      "required": false
+    },
+    {
+      "id": "minecraft:golden_hoe",
+      "required": false
+    },
+    {
+      "id": "minecraft:golden_leggings",
+      "required": false
+    },
+    {
+      "id": "minecraft:golden_pickaxe",
+      "required": false
+    },
+    {
+      "id": "minecraft:golden_shovel",
+      "required": false
+    },
+    {
+      "id": "minecraft:golden_sword",
+      "required": false
+    },
+    {
+      "id": "minecraft:iron_axe",
+      "required": false
+    },
+    {
+      "id": "minecraft:iron_boots",
+      "required": false
+    },
+    {
+      "id": "minecraft:iron_chestplate",
+      "required": false
+    },
+    {
+      "id": "minecraft:iron_helmet",
+      "required": false
+    },
+    {
+      "id": "minecraft:iron_hoe",
+      "required": false
+    },
+    {
+      "id": "minecraft:iron_leggings",
+      "required": false
+    },
+    {
+      "id": "minecraft:iron_pickaxe",
+      "required": false
+    },
+    {
+      "id": "minecraft:iron_shovel",
+      "required": false
+    },
+    {
+      "id": "minecraft:iron_sword",
+      "required": false
+    },
+    {
+      "id": "minecraft:leather_boots",
+      "required": false
+    },
+    {
+      "id": "minecraft:leather_chestplate",
+      "required": false
+    },
+    {
+      "id": "minecraft:leather_helmet",
+      "required": false
+    },
+    {
+      "id": "minecraft:leather_leggings",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_axe",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_boots",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_chestplate",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_helmet",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_hoe",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_leggings",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_pickaxe",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_shovel",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_sword",
+      "required": false
+    },
+    {
+      "id": "minecraft:shield",
+      "required": false
+    },
+    {
+      "id": "minecraft:stone_axe",
+      "required": false
+    },
+    {
+      "id": "minecraft:stone_hoe",
+      "required": false
+    },
+    {
+      "id": "minecraft:stone_pickaxe",
+      "required": false
+    },
+    {
+      "id": "minecraft:stone_shovel",
+      "required": false
+    },
+    {
+      "id": "minecraft:stone_sword",
+      "required": false
+    },
+    {
+      "id": "minecraft:wooden_axe",
+      "required": false
+    },
+    {
+      "id": "minecraft:wooden_hoe",
+      "required": false
+    },
+    {
+      "id": "minecraft:wooden_pickaxe",
+      "required": false
+    },
+    {
+      "id": "minecraft:wooden_shovel",
+      "required": false
+    },
+    {
+      "id": "minecraft:wooden_sword",
+      "required": false
+    },
+    {
+      "id": "naturesaura:depth_axe",
+      "required": false
+    },
+    {
+      "id": "naturesaura:depth_hoe",
+      "required": false
+    },
+    {
+      "id": "naturesaura:depth_pickaxe",
+      "required": false
+    },
+    {
+      "id": "naturesaura:depth_shovel",
+      "required": false
+    },
+    {
+      "id": "naturesaura:depth_sword",
+      "required": false
+    },
+    {
+      "id": "naturesaura:infused_iron_axe",
+      "required": false
+    },
+    {
+      "id": "naturesaura:infused_iron_hoe",
+      "required": false
+    },
+    {
+      "id": "naturesaura:infused_iron_pickaxe",
+      "required": false
+    },
+    {
+      "id": "naturesaura:infused_iron_shovel",
+      "required": false
+    },
+    {
+      "id": "naturesaura:infused_iron_sword",
+      "required": false
+    },
+    {
+      "id": "naturesaura:sky_axe",
+      "required": false
+    },
+    {
+      "id": "naturesaura:sky_hoe",
+      "required": false
+    },
+    {
+      "id": "naturesaura:sky_pickaxe",
+      "required": false
+    },
+    {
+      "id": "naturesaura:sky_shovel",
+      "required": false
+    },
+    {
+      "id": "naturesaura:sky_sword",
+      "required": false
+    },
+    {
+      "id": "thaumcraft:item_axe_thaumium",
+      "required": false
+    },
+    {
+      "id": "thaumcraft:item_axe_void",
+      "required": false
+    },
+    {
+      "id": "thaumcraft:item_hoe_thaumium",
+      "required": false
+    },
+    {
+      "id": "thaumcraft:item_hoe_void",
+      "required": false
+    },
+    {
+      "id": "thaumcraft:item_pick_thaumium",
+      "required": false
+    },
+    {
+      "id": "thaumcraft:item_pick_void",
+      "required": false
+    },
+    {
+      "id": "thaumcraft:item_shovel_thaumium",
+      "required": false
+    },
+    {
+      "id": "thaumcraft:item_shovel_void",
+      "required": false
+    },
+    {
+      "id": "thaumcraft:item_sword_thaumium",
+      "required": false
+    },
+    {
+      "id": "thaumcraft:item_sword_void",
+      "required": false
+    },
+    {
+      "id": "twilightdelight:fiery_knife",
+      "required": false
+    },
+    {
+      "id": "twilightdelight:ironwood_knife",
+      "required": false
+    },
+    {
+      "id": "twilightdelight:knightmetal_knife",
+      "required": false
+    },
+    {
+      "id": "twilightdelight:steeleaf_knife",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fiery_boots",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fiery_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fiery_helmet",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fiery_leggings",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fiery_pickaxe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:fiery_sword",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_axe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_boots",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_helmet",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_hoe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_leggings",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_pickaxe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_shovel",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ironwood_sword",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_axe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_boots",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_helmet",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_leggings",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_pickaxe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knightmetal_sword",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_axe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_boots",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_chestplate",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_helmet",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_hoe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_leggings",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_pickaxe",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_shovel",
+      "required": false
+    },
+    {
+      "id": "twilightforest:steeleaf_sword",
+      "required": false
+    }
+  ]
+}

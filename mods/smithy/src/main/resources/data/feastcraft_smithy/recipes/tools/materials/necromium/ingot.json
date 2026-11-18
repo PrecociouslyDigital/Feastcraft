@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:material",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:ingots/necromium"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/necromium"
+  },
+  "material": "feastcraft_smithy:necromium",
+  "needed": 1,
+  "value": 1
+}

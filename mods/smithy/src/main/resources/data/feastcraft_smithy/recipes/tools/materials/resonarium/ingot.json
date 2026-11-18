@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:material",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "deeperdarker"
+    }
+  ],
+  "ingredient": {
+    "tag": "feastcraft_smithy:resonarium"
+  },
+  "material": "feastcraft_smithy:resonarium",
+  "needed": 1,
+  "value": 1
+}

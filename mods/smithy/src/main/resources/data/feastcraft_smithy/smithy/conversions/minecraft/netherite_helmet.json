@@ -1,0 +1,10 @@
+{
+  "tool": "tconstruct:plate_helmet",
+  "materials": [
+    "tconstruct:iron",
+    "tconstruct:chain"
+  ],
+  "modifiers": [
+    "tconstruct:netherite"
+  ]
+}

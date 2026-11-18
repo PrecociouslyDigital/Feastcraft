@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:material",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:ingots/thaumium"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/thaumium"
+  },
+  "material": "feastcraft_smithy:thaumium",
+  "needed": 1,
+  "value": 1
+}

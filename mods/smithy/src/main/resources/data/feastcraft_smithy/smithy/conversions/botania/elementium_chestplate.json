@@ -1,0 +1,10 @@
+{
+  "tool": "tconstruct:plate_chestplate",
+  "materials": [
+    "tcintegrations:manasteel",
+    "tconstruct:chain"
+  ],
+  "modifiers": [
+    "tcintegrations:elemental"
+  ]
+}
