@@ -13,5 +13,6 @@
     "goal": 10,
     "challenge": 20
   },
-  "item_points": 1
+  "item_points": 1,
+  "ignore_roots": true
 }

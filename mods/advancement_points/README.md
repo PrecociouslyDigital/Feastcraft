@@ -30,6 +30,8 @@ Each rule is a JSON file at `data/<namespace>/feastcraft_advancement_points/rule
 - `item_points` is optional: an advancement whose only criterion is a vanilla inventory check, the
   plain "have this item" tasks, pays it instead. Leave it out to pay those by their frame like
   everything else. An `except` match still pays nothing.
+- `ignore_roots` is optional: set it `true` and tab roots pay nothing, so a new player starts at 0
+  points.
 
 ## How points are counted
 

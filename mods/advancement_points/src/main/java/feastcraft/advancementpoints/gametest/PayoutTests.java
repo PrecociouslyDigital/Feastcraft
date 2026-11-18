@@ -15,7 +15,8 @@ import net.puffish.skillsmod.api.SkillsAPI;
 /**
  * Against the rules in {@link GameTestPack}: story advancements pay 1 per task and 2 per goal, but a
  * story advancement whose only criterion is a vanilla item check pays 5; story/root pays another 10,
- * recipe unlocks would pay 100 if they counted, and the nether tab pays 100 except for its root.
+ * recipe unlocks would pay 100 if they counted, and the nether tab pays 100 but no roots, so its
+ * root pays nothing without needing an exception.
  */
 @GameTestHolder(AdvancementPoints.MOD_ID)
 @PrefixGameTestTemplate(false)
@@ -71,9 +72,11 @@ public final class PayoutTests {
         ServerPlayer player = TestPlayers.detached(helper);
         Category category = SkillsAPI.getCategory(ResourceLocation.parse(GameTestPack.CATEGORY)).orElseThrow();
         grant(player, "nether/root");
-        expectPoints(helper, category, player, 0, "after the nether root, which is excepted");
+        expectPoints(helper, category, player, 0, "after the nether root, which roots ignore");
         grant(player, "nether/find_fortress");
         expectPoints(helper, category, player, 100, "after a nether task");
+        grant(player, "nether/create_full_beacon");
+        expectPoints(helper, category, player, 200, "after a nether challenge, which is no root");
         player.getAdvancements().stopListening();
         helper.succeed();
     }

@@ -35,7 +35,7 @@ public final class Payout {
         List<Earned> earned = player.server.getAdvancements().getAllAdvancements().stream()
                 .filter(advancement -> advancement.getDisplay() != null && player.getAdvancements().getOrStartProgress(advancement).isDone())
                 .map(advancement -> new Earned(advancement.getId().toString(), frame(advancement.getDisplay().getFrame()),
-                        singleItemCriterion(advancement)))
+                        singleItemCriterion(advancement), advancement.getParent() == null))
                 .toList();
         PointTotals.of(PointRules.rules(), earned).forEach((name, points) -> {
             ResourceLocation id = ResourceLocation.parse(name);

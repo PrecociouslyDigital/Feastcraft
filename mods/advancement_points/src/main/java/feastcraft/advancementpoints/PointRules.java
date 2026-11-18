@@ -76,7 +76,7 @@ public final class PointRules extends SimpleJsonResourceReloadListener {
         }
         return new PointRule(category.toString(), patterns(GsonHelper.getAsJsonArray(json, "advancements")),
                 patterns(GsonHelper.getAsJsonArray(json, "except", new JsonArray())), points(json.get("points")),
-                itemPoints(json.get("item_points")));
+                itemPoints(json.get("item_points")), GsonHelper.getAsBoolean(json, "ignore_roots", false));
     }
 
     private static List<AdvancementPattern> patterns(JsonArray json) {

@@ -265,6 +265,8 @@ def files(tree: Tree, scale_to_pixels: float = 1.0) -> dict[str, Json]:
             ],
             "points": {"task": 5, "goal": 10, "challenge": 20},
             "item_points": 1,
+            # Roots are granted on first login, so paying them would give every new player points.
+            "ignore_roots": True,
         },
     }
     for slot in Slot:
